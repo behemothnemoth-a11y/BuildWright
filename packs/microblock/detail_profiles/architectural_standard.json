@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "architectural_standard",
+  "name": "Architectural Standard",
+  "description": "Default for architecture: arches, columns, rails, wall transitions and roof details.",
+  "allowed_tiers": [
+    "TIER_1",
+    "TIER_2"
+  ],
+  "budget": {
+    "max_micro_hosts_per_100_source_blocks": 25,
+    "target_average_materials_per_host": 3,
+    "max_tier4_share_of_micro_hosts_percent": 0,
+    "max_one_cell_noise_share_percent": 2
+  },
+  "rules": [
+    "prefer_coarsest_sufficient_tier",
+    "preserve_negative_space",
+    "do_not_translate_functional_blocks_by_default",
+    "review_at_player_eye_level",
+    "review_with_microblocks_disabled_or_compared_to_vanilla_source"
+  ]
+}

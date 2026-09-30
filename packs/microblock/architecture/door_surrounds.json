@@ -1,0 +1,902 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.architecture.door_surrounds",
+  "name": "Door Surrounds",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "door_surrounds",
+  "description": "Reusable microblock Door Surrounds family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "doors_portals"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.architecture.door_surrounds.chamfered_jamb",
+      "name": "Chamfered Jamb",
+      "description": "Chamfered Jamb microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "chamfered",
+        "contour",
+        "door_surrounds",
+        "jamb",
+        "microblock"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "chamfered_jamb",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.pointed_portal",
+      "name": "Pointed Portal",
+      "description": "Pointed Portal microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "microblock",
+        "pointed",
+        "portal"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "pointed_portal",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.tudor_portal",
+      "name": "Tudor Portal",
+      "description": "Tudor Portal microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "microblock",
+        "portal",
+        "tudor"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "tudor_portal",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.carved_lintel",
+      "name": "Carved Lintel",
+      "description": "Carved Lintel microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "carved",
+        "contour",
+        "door_surrounds",
+        "lintel",
+        "microblock"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "carved_lintel",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.paneled_jamb",
+      "name": "Paneled Jamb",
+      "description": "Paneled Jamb microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "jamb",
+        "microblock",
+        "paneled"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "paneled_jamb",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.industrial_frame",
+      "name": "Industrial Frame",
+      "description": "Industrial Frame microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "frame",
+        "industrial",
+        "microblock"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "industrial_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.victorian_trim",
+      "name": "Victorian Trim",
+      "description": "Victorian Trim microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "microblock",
+        "trim",
+        "victorian"
+      ],
+      "styles": [
+        "general",
+        "haunted_mansion",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "victorian_trim",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds.fortress_reveal",
+      "name": "Fortress Reveal",
+      "description": "Fortress Reveal microblock refinement in the Door Surrounds family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "door_surrounds",
+        "fortress",
+        "microblock",
+        "reveal"
+      ],
+      "styles": [
+        "dark_fortress",
+        "dwarven_citadel",
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "fortress_reveal",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

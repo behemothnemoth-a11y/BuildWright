@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.lighting.chandelier_frames",
+  "name": "Chandelier Frames",
+  "stage": "microblock",
+  "category": "lighting",
+  "family": "chandelier_frames",
+  "description": "Reusable microblock Chandelier Frames family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "chandeliers"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.lighting.chandelier_frames.ring_frame",
+      "name": "Ring Frame",
+      "description": "Ring Frame microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "frame",
+        "lighting",
+        "microblock",
+        "ring"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ring_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.tiered_frame",
+      "name": "Tiered Frame",
+      "description": "Tiered Frame microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "frame",
+        "lighting",
+        "microblock",
+        "tiered"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "tiered_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.gothic_crown",
+      "name": "Gothic Crown",
+      "description": "Gothic Crown microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "crown",
+        "gothic",
+        "lighting",
+        "microblock"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "gothic_crown",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.victorian_arms",
+      "name": "Victorian Arms",
+      "description": "Victorian Arms microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arms",
+        "chandelier_frames",
+        "contour",
+        "lighting",
+        "microblock",
+        "victorian"
+      ],
+      "styles": [
+        "general",
+        "haunted_mansion",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "victorian_arms",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.industrial_ring",
+      "name": "Industrial Ring",
+      "description": "Industrial Ring microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "industrial",
+        "lighting",
+        "microblock",
+        "ring"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "industrial_ring",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.minimal_cross",
+      "name": "Minimal Cross",
+      "description": "Minimal Cross microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "cross",
+        "lighting",
+        "microblock",
+        "minimal"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "minimal_cross",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.hero_multi_tier",
+      "name": "Hero Multi Tier",
+      "description": "Hero Multi Tier microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chandelier_frames",
+        "contour",
+        "hero",
+        "lighting",
+        "microblock",
+        "multi",
+        "tier"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_4",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "hero_multi_tier",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 6,
+        "max_disconnected_components_per_host": 10,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames.ruin_chain_frame",
+      "name": "Ruin Chain Frame",
+      "description": "Ruin Chain Frame microblock refinement in the Chandelier Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chain",
+        "chandelier_frames",
+        "contour",
+        "frame",
+        "lighting",
+        "microblock",
+        "ruin"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "round_approx",
+        "socket",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ruin_chain_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "round_approx",
+          "socket",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

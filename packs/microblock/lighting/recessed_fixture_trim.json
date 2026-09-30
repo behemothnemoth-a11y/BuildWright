@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.lighting.recessed_fixture_trim",
+  "name": "Recessed Fixture Trim",
+  "stage": "microblock",
+  "category": "lighting",
+  "family": "recessed_fixture_trim",
+  "description": "Reusable microblock Recessed Fixture Trim family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "hidden_ambient",
+    "table_floor_lamps"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.round_bezel",
+      "name": "Round Bezel",
+      "description": "Round Bezel microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "bezel",
+        "contour",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "round"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "round_bezel",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.square_bezel",
+      "name": "Square Bezel",
+      "description": "Square Bezel microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "bezel",
+        "contour",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "square"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "square_bezel",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.slot_light",
+      "name": "Slot Light",
+      "description": "Slot Light microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "light",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "slot"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "slot_light",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.step_light",
+      "name": "Step Light",
+      "description": "Step Light microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "light",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "step"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "step_light",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.floor_uplight",
+      "name": "Floor Uplight",
+      "description": "Floor Uplight microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "floor",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "uplight"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "floor_uplight",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.wall_wash_trim",
+      "name": "Wall Wash Trim",
+      "description": "Wall Wash Trim microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "trim",
+        "wall",
+        "wash"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "wall_wash_trim",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.cabinet_light_trim",
+      "name": "Cabinet Light Trim",
+      "description": "Cabinet Light Trim microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "cabinet",
+        "contour",
+        "light",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "trim"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "cabinet_light_trim",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim.ceiling_spot_trim",
+      "name": "Ceiling Spot Trim",
+      "description": "Ceiling Spot Trim microblock refinement in the Recessed Fixture Trim family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "ceiling",
+        "contour",
+        "lighting",
+        "microblock",
+        "recessed_fixture_trim",
+        "spot",
+        "trim"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "lighting"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "frame",
+        "emitter_surround",
+        "accent",
+        "support"
+      ],
+      "recommended_primitives": [
+        "thin_shell",
+        "openwork",
+        "bevel",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ceiling_spot_trim",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_shell",
+          "openwork",
+          "bevel",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

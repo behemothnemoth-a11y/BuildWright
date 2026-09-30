@@ -1,0 +1,866 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.furniture.storage",
+  "name": "Storage",
+  "stage": "microblock",
+  "category": "furniture",
+  "family": "storage",
+  "description": "Reusable microblock Storage family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "storage"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.furniture.storage.wardrobe",
+      "name": "Wardrobe",
+      "description": "Wardrobe microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "furniture",
+        "microblock",
+        "storage",
+        "wardrobe"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "wardrobe",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.dresser",
+      "name": "Dresser",
+      "description": "Dresser microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "dresser",
+        "furniture",
+        "microblock",
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "dresser",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.chest",
+      "name": "Chest",
+      "description": "Chest microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "chest",
+        "contour",
+        "furniture",
+        "microblock",
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "chest",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.trunk",
+      "name": "Trunk",
+      "description": "Trunk microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "furniture",
+        "microblock",
+        "storage",
+        "trunk"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "trunk",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.sideboard",
+      "name": "Sideboard",
+      "description": "Sideboard microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "furniture",
+        "microblock",
+        "sideboard",
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "sideboard",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.filing_cabinet",
+      "name": "Filing Cabinet",
+      "description": "Filing Cabinet microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "cabinet",
+        "contour",
+        "filing",
+        "furniture",
+        "microblock",
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "filing_cabinet",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.tool_cabinet",
+      "name": "Tool Cabinet",
+      "description": "Tool Cabinet microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "cabinet",
+        "contour",
+        "furniture",
+        "microblock",
+        "storage",
+        "tool"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "tool_cabinet",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage.locker",
+      "name": "Locker",
+      "description": "Locker microblock refinement in the Storage family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "furniture",
+        "locker",
+        "microblock",
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "surface"
+      ],
+      "recommended_primitives": [
+        "edge_round",
+        "bevel",
+        "panel_recess",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "locker",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "edge_round",
+          "bevel",
+          "panel_recess",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

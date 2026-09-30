@@ -1,0 +1,889 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.decor.occult_ornament",
+  "name": "Occult Ornament",
+  "stage": "microblock",
+  "category": "decor",
+  "family": "occult_ornament",
+  "description": "Reusable microblock Occult Ornament family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "occult_fantasy"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.decor.occult_ornament.rune_band",
+      "name": "Rune Band",
+      "description": "Rune Band microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "band",
+        "contour",
+        "decor",
+        "microblock",
+        "occult_ornament",
+        "rune"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "rune_band",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.ritual_ring",
+      "name": "Ritual Ring",
+      "description": "Ritual Ring microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "decor",
+        "microblock",
+        "occult_ornament",
+        "ring",
+        "ritual"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ritual_ring",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.altar_inlay",
+      "name": "Altar Inlay",
+      "description": "Altar Inlay microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "altar",
+        "contour",
+        "decor",
+        "inlay",
+        "microblock",
+        "occult_ornament"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "altar_inlay",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.sigil_panel",
+      "name": "Sigil Panel",
+      "description": "Sigil Panel microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "decor",
+        "microblock",
+        "occult_ornament",
+        "panel",
+        "sigil"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "sigil_panel",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.arcane_frame",
+      "name": "Arcane Frame",
+      "description": "Arcane Frame microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arcane",
+        "contour",
+        "decor",
+        "frame",
+        "microblock",
+        "occult_ornament"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "arcane_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.reliquary_cage",
+      "name": "Reliquary Cage",
+      "description": "Reliquary Cage microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "cage",
+        "contour",
+        "decor",
+        "microblock",
+        "occult_ornament",
+        "reliquary"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "reliquary_cage",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.mystic_lattice",
+      "name": "Mystic Lattice",
+      "description": "Mystic Lattice microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "decor",
+        "lattice",
+        "microblock",
+        "mystic",
+        "occult_ornament"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "mystic_lattice",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament.sealed_door_glyph",
+      "name": "Sealed Door Glyph",
+      "description": "Sealed Door Glyph microblock refinement in the Occult Ornament family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "contour",
+        "decor",
+        "door",
+        "glyph",
+        "microblock",
+        "occult_ornament",
+        "sealed"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "focal"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3",
+          "TIER_4"
+        ],
+        "default_tier": "TIER_3",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "body",
+        "accent",
+        "shadow",
+        "highlight"
+      ],
+      "recommended_primitives": [
+        "bevel",
+        "inset",
+        "material_inlay",
+        "openwork"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "sealed_door_glyph",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "bevel",
+          "inset",
+          "material_inlay",
+          "openwork"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 6
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 1,
+        "max_materials_per_host": 4,
+        "max_disconnected_components_per_host": 6,
+        "negative_space_required": true,
+        "detail_density": "localized"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,883 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.architecture.mullions_frames",
+  "name": "Mullions Frames",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "mullions_frames",
+  "description": "Reusable microblock Mullions Frames family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "windows"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.architecture.mullions_frames.thin_mullion",
+      "name": "Thin Mullion",
+      "description": "Thin Mullion microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "microblock",
+        "mullion",
+        "mullions_frames",
+        "thin"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "thin_mullion",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.heavy_mullion",
+      "name": "Heavy Mullion",
+      "description": "Heavy Mullion microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "heavy",
+        "microblock",
+        "mullion",
+        "mullions_frames"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "heavy_mullion",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.leaded_grid",
+      "name": "Leaded Grid",
+      "description": "Leaded Grid microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "grid",
+        "leaded",
+        "microblock",
+        "mullions_frames"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "leaded_grid",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.diamond_lead",
+      "name": "Diamond Lead",
+      "description": "Diamond Lead microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "diamond",
+        "lead",
+        "microblock",
+        "mullions_frames"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "diamond_lead",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.transom_frame",
+      "name": "Transom Frame",
+      "description": "Transom Frame microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "frame",
+        "microblock",
+        "mullions_frames",
+        "transom"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "transom_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.lancet_separator",
+      "name": "Lancet Separator",
+      "description": "Lancet Separator microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "lancet",
+        "microblock",
+        "mullions_frames",
+        "separator"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "lancet_separator",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.industrial_grid",
+      "name": "Industrial Grid",
+      "description": "Industrial Grid microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "grid",
+        "industrial",
+        "microblock",
+        "mullions_frames"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "industrial_grid",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames.art_deco_grid",
+      "name": "Art Deco Grid",
+      "description": "Art Deco Grid microblock refinement in the Mullions Frames family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "art",
+        "contour",
+        "deco",
+        "grid",
+        "microblock",
+        "mullions_frames"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "thin_mullion",
+        "lattice",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "art_deco_grid",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "thin_mullion",
+          "lattice",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "monumental_landmark",
+  "name": "Monumental Landmark",
+  "description": "Large landmark architecture with T4 reserved for sparse focal elements.",
+  "allowed_tiers": [
+    "TIER_1",
+    "TIER_2",
+    "TIER_3",
+    "TIER_4"
+  ],
+  "budget": {
+    "max_micro_hosts_per_100_source_blocks": 30,
+    "target_average_materials_per_host": 5,
+    "max_tier4_share_of_micro_hosts_percent": 5,
+    "max_one_cell_noise_share_percent": 2
+  },
+  "rules": [
+    "prefer_coarsest_sufficient_tier",
+    "preserve_negative_space",
+    "do_not_translate_functional_blocks_by_default",
+    "review_at_player_eye_level",
+    "review_with_microblocks_disabled_or_compared_to_vanilla_source"
+  ]
+}

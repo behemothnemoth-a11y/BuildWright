@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.architecture.columns_shafts",
+  "name": "Columns Shafts",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "columns_shafts",
+  "description": "Reusable microblock Columns Shafts family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "columns_piers"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.architecture.columns_shafts.octagonal_shaft",
+      "name": "Octagonal Shaft",
+      "description": "Octagonal Shaft microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "columns_shafts",
+        "contour",
+        "microblock",
+        "octagonal",
+        "shaft"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "octagonal_shaft",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.clustered_four_lobe",
+      "name": "Clustered Four Lobe",
+      "description": "Clustered Four Lobe microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "clustered",
+        "columns_shafts",
+        "contour",
+        "four",
+        "lobe",
+        "microblock"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "clustered_four_lobe",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.clustered_eight_lobe",
+      "name": "Clustered Eight Lobe",
+      "description": "Clustered Eight Lobe microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "clustered",
+        "columns_shafts",
+        "contour",
+        "eight",
+        "lobe",
+        "microblock"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "clustered_eight_lobe",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.fluted_round_approx",
+      "name": "Fluted Round Approx",
+      "description": "Fluted Round Approx microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "approx",
+        "architecture",
+        "columns_shafts",
+        "contour",
+        "fluted",
+        "microblock",
+        "round"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "fluted_round_approx",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.chamfered_square",
+      "name": "Chamfered Square",
+      "description": "Chamfered Square microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "chamfered",
+        "columns_shafts",
+        "contour",
+        "microblock",
+        "square"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "chamfered_square",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.engaged_half_column",
+      "name": "Engaged Half Column",
+      "description": "Engaged Half Column microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "column",
+        "columns_shafts",
+        "contour",
+        "engaged",
+        "half",
+        "microblock"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "engaged_half_column",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.bundled_pier",
+      "name": "Bundled Pier",
+      "description": "Bundled Pier microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "bundled",
+        "columns_shafts",
+        "contour",
+        "microblock",
+        "pier"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "bundled_pier",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts.tapered_shaft",
+      "name": "Tapered Shaft",
+      "description": "Tapered Shaft microblock refinement in the Columns Shafts family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "columns_shafts",
+        "contour",
+        "microblock",
+        "shaft",
+        "tapered"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "octagonalize",
+        "round_approx",
+        "fluting",
+        "taper"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "tapered_shaft",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "octagonalize",
+          "round_approx",
+          "fluting",
+          "taper"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

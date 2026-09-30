@@ -1,0 +1,40 @@
+{
+  "id": "astra_microblocks_0_4_0",
+  "name": "Astra Microblocks",
+  "provider_type": "fabric_mod",
+  "minecraft": "26.2",
+  "mod_version": "0.4.0",
+  "grid": {
+    "cells_per_axis": 16,
+    "cells_per_host": 4096,
+    "cell_fraction": 0.0625
+  },
+  "capabilities": {
+    "multi_material_cells": true,
+    "rotation_xyz": true,
+    "mirror_xyz": true,
+    "reusable_sculptures": true,
+    "litematica_transform_aware": true,
+    "undo_redo": true,
+    "material_sampling": true
+  },
+  "material_library_snapshot": {
+    "vanilla_blocks": 235,
+    "block_states": 325,
+    "note": "Snapshot from Astra Microblocks 0.4.0 README; BuildWright must validate actual provider support at compile time rather than assume counts remain fixed."
+  },
+  "behavior_limits": [
+    "transparent_blocks_outside_current_provider_scope",
+    "animated_or_tinted_blocks_outside_current_provider_scope",
+    "fluids_outside_current_provider_scope",
+    "functional_vanilla_block_behavior_not_preserved_by_host",
+    "survival_material_costs_not_modeled"
+  ],
+  "authoring_rules": [
+    "keep_functional_blocks_vanilla",
+    "prefer_microblocks_for_contour_trim_carving_lattice_and_hero_detail",
+    "do_not_translate_entire_builds_blindly",
+    "respect_provider_material_library",
+    "preserve_transform_semantics_on_rotation_and_mirror"
+  ]
+}

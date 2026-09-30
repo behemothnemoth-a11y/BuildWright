@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "grid_cells_per_axis": 16,
+  "tiers": [
+    {
+      "id": "TIER_0",
+      "name": "Vanilla Only",
+      "preferred_step_cells": 16,
+      "purpose": "No microblock conversion. Preserve vanilla block behavior and strong large forms.",
+      "max_materials_per_host": 1,
+      "max_disconnected_components_per_host": 1,
+      "use_for": [
+        "structure",
+        "functional_blocks",
+        "large_quiet_surfaces"
+      ]
+    },
+    {
+      "id": "TIER_1",
+      "name": "Coarse Trim",
+      "preferred_step_cells": 4,
+      "purpose": "Quarter-block-scale trim, chamfers, broad bevels and major contour repair.",
+      "max_materials_per_host": 2,
+      "max_disconnected_components_per_host": 2,
+      "use_for": [
+        "facade_trim",
+        "large_arches",
+        "plinths",
+        "roof_edges"
+      ]
+    },
+    {
+      "id": "TIER_2",
+      "name": "Architectural Contour",
+      "preferred_step_cells": 2,
+      "purpose": "Eighth-block-scale profiles, rails, molding, capitals, brackets and furniture contour.",
+      "max_materials_per_host": 3,
+      "max_disconnected_components_per_host": 4,
+      "use_for": [
+        "arches",
+        "columns",
+        "trusses",
+        "railings",
+        "furniture"
+      ]
+    },
+    {
+      "id": "TIER_3",
+      "name": "Fine Detail",
+      "preferred_step_cells": 1,
+      "purpose": "Single-cell detail where player eye-level benefit is clear.",
+      "max_materials_per_host": 4,
+      "max_disconnected_components_per_host": 6,
+      "use_for": [
+        "tracery",
+        "hero_furniture",
+        "frames",
+        "mechanical_detail"
+      ]
+    },
+    {
+      "id": "TIER_4",
+      "name": "Hero Sculptural",
+      "preferred_step_cells": 1,
+      "purpose": "Localized focal sculpture/ornament. Never default coverage.",
+      "max_materials_per_host": 6,
+      "max_disconnected_components_per_host": 10,
+      "use_for": [
+        "crests",
+        "statues",
+        "gargoyles",
+        "hero_chandeliers"
+      ]
+    }
+  ]
+}

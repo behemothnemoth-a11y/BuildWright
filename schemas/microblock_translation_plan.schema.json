@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildWright Microblock Translation Plan",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "provider",
+    "detail_profile",
+    "items"
+  ],
+  "properties": {
+    "provider": {
+      "type": "string"
+    },
+    "detail_profile": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "candidate_class",
+          "targets"
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}

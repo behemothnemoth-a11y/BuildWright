@@ -1,0 +1,897 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.architecture.roof_ribs_purlins",
+  "name": "Roof Ribs Purlins",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "roof_ribs_purlins",
+  "description": "Reusable microblock Roof Ribs Purlins family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "roofs"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.ridge_cap",
+      "name": "Ridge Cap",
+      "description": "Ridge Cap microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "cap",
+        "contour",
+        "microblock",
+        "ridge",
+        "roof_ribs_purlins"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ridge_cap",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.valley_rib",
+      "name": "Valley Rib",
+      "description": "Valley Rib microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "microblock",
+        "rib",
+        "roof_ribs_purlins",
+        "valley"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "valley_rib",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.hip_rib",
+      "name": "Hip Rib",
+      "description": "Hip Rib microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "hip",
+        "microblock",
+        "rib",
+        "roof_ribs_purlins"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "hip_rib",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.purlin_trim",
+      "name": "Purlin Trim",
+      "description": "Purlin Trim microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "microblock",
+        "purlin",
+        "roof_ribs_purlins",
+        "trim"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "purlin_trim",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.rafter_end",
+      "name": "Rafter End",
+      "description": "Rafter End microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "end",
+        "microblock",
+        "rafter",
+        "roof_ribs_purlins"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "rafter_end",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.verge_board",
+      "name": "Verge Board",
+      "description": "Verge Board microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "board",
+        "contour",
+        "microblock",
+        "roof_ribs_purlins",
+        "verge"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "verge_board",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.roof_lantern_frame",
+      "name": "Roof Lantern Frame",
+      "description": "Roof Lantern Frame microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "frame",
+        "lantern",
+        "microblock",
+        "roof",
+        "roof_ribs_purlins"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "roof_lantern_frame",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins.copper_seam",
+      "name": "Copper Seam",
+      "description": "Copper Seam microblock refinement in the Roof Ribs Purlins family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "architecture",
+        "contour",
+        "copper",
+        "microblock",
+        "roof_ribs_purlins",
+        "seam"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "chamfer",
+        "bevel",
+        "inset",
+        "stepped_profile"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "copper_seam",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "chamfer",
+          "bevel",
+          "inset",
+          "stepped_profile"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

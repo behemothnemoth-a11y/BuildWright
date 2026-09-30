@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildWright Microblock Provider",
+  "type": "object",
+  "required": [
+    "id",
+    "provider_type",
+    "minecraft",
+    "mod_version",
+    "grid",
+    "capabilities",
+    "behavior_limits"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "grid": {
+      "type": "object"
+    },
+    "capabilities": {
+      "type": "object"
+    },
+    "behavior_limits": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

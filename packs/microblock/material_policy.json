@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "rules": [
+    {
+      "id": "behavior_first",
+      "rule": "If vanilla behavior matters, keep the functional vanilla block and microblock adjacent trim instead."
+    },
+    {
+      "id": "material_support_gate",
+      "rule": "Every cell material must be validated against the active provider material library before compile/export."
+    },
+    {
+      "id": "palette_restraint",
+      "rule": "Use the fewest cell materials needed to preserve the vanilla palette story; microblocks are shape tools first."
+    },
+    {
+      "id": "directional_state_preservation",
+      "rule": "Preserve directional material states such as log/pillar axes through transforms where the provider supports them."
+    },
+    {
+      "id": "transparent_fallback",
+      "rule": "Keep glass, fluids, animated/tinted and unsupported functional materials vanilla unless provider capability explicitly changes."
+    },
+    {
+      "id": "no_behavior_claim",
+      "rule": "A microblock host may preserve appearance/material cells but must not be assumed to preserve the source block functional behavior."
+    }
+  ]
+}

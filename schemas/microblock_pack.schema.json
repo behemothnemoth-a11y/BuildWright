@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildwright.local/schemas/microblock_pack.schema.json",
+  "title": "BuildWright Microblock Pack",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "pack_id",
+    "stage",
+    "category",
+    "family",
+    "provider_profile",
+    "assets"
+  ],
+  "properties": {
+    "pack_id": {
+      "type": "string",
+      "pattern": "^microblock\\."
+    },
+    "stage": {
+      "const": "microblock"
+    },
+    "category": {
+      "enum": [
+        "architecture",
+        "furniture",
+        "decor",
+        "vegetation",
+        "mechanical",
+        "lighting"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "microblock_asset.schema.json"
+      }
+    }
+  },
+  "additionalProperties": true
+}

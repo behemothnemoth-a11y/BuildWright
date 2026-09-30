@@ -36,3 +36,7 @@ Every asset declares:
 ## Selection
 
 Use `tools/select_assets.py` with a room brief. A selector result is a starting palette of families, never a command to place every returned asset.
+
+
+## Stage B — Microblock catalog
+DROP 0003 adds `75` microblock families / `606` variants under `packs/microblock/`. This is a separate registry so Stage A vanilla validation remains independent.

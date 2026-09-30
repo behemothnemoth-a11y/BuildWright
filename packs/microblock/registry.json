@@ -1,0 +1,1361 @@
+{
+  "schema_version": 1,
+  "drop": "0003",
+  "provider_profiles": [
+    {
+      "id": "astra_microblocks_0_4_0",
+      "path": "packs/microblock/providers/astra_microblocks_0_4_0.json"
+    }
+  ],
+  "primitives": "packs/microblock/primitives.json",
+  "resolution_tiers": "packs/microblock/resolution_tiers.json",
+  "material_policy": "packs/microblock/material_policy.json",
+  "translation_map": "packs/microblock/translation_map.json",
+  "detail_profiles": [
+    {
+      "id": "microblock_minimal",
+      "path": "packs/microblock/detail_profiles/microblock_minimal.json"
+    },
+    {
+      "id": "performance_guarded",
+      "path": "packs/microblock/detail_profiles/performance_guarded.json"
+    },
+    {
+      "id": "architectural_standard",
+      "path": "packs/microblock/detail_profiles/architectural_standard.json"
+    },
+    {
+      "id": "architectural_rich",
+      "path": "packs/microblock/detail_profiles/architectural_rich.json"
+    },
+    {
+      "id": "furniture_rich",
+      "path": "packs/microblock/detail_profiles/furniture_rich.json"
+    },
+    {
+      "id": "hero_ornament",
+      "path": "packs/microblock/detail_profiles/hero_ornament.json"
+    },
+    {
+      "id": "sculptural",
+      "path": "packs/microblock/detail_profiles/sculptural.json"
+    },
+    {
+      "id": "industrial_technical",
+      "path": "packs/microblock/detail_profiles/industrial_technical.json"
+    },
+    {
+      "id": "vegetation_accent",
+      "path": "packs/microblock/detail_profiles/vegetation_accent.json"
+    },
+    {
+      "id": "monumental_landmark",
+      "path": "packs/microblock/detail_profiles/monumental_landmark.json"
+    }
+  ],
+  "catalog": [
+    {
+      "id": "microblock.architecture.arches_refinement",
+      "path": "packs/microblock/architecture/arches_refinement.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "asset_count": 10,
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.columns_shafts",
+      "path": "packs/microblock/architecture/columns_shafts.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "columns_shafts",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.capitals_bases",
+      "path": "packs/microblock/architecture/capitals_bases.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "capitals_bases",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "columns_piers"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.tracery",
+      "path": "packs/microblock/architecture/tracery.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "tracery",
+      "asset_count": 10,
+      "source_vanilla_families": [
+        "windows",
+        "arches"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.mullions_frames",
+      "path": "packs/microblock/architecture/mullions_frames.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "mullions_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "windows"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ]
+    },
+    {
+      "id": "microblock.architecture.cornices_moldings",
+      "path": "packs/microblock/architecture/cornices_moldings.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "cornices_moldings",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "exterior_trim",
+        "walls_bays"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.corbels_brackets",
+      "path": "packs/microblock/architecture/corbels_brackets.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "corbels_brackets",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "exterior_trim",
+        "balconies_galleries",
+        "roofs"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.buttress_refinement",
+      "path": "packs/microblock/architecture/buttress_refinement.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "buttress_refinement",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "buttresses"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.door_surrounds",
+      "path": "packs/microblock/architecture/door_surrounds.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "dwarven_citadel",
+        "general",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.portal_carving",
+      "path": "packs/microblock/architecture/portal_carving.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "portal_carving",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "doors_portals"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.wall_paneling",
+      "path": "packs/microblock/architecture/wall_paneling.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "wall_paneling",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "walls_bays"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.wainscot_trim",
+      "path": "packs/microblock/architecture/wainscot_trim.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "wainscot_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "walls_bays",
+        "exterior_trim"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "modern_luxury",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.stair_trim",
+      "path": "packs/microblock/architecture/stair_trim.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "stair_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "stairs"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.banisters_balusters",
+      "path": "packs/microblock/architecture/banisters_balusters.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "banisters_balusters",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "railings",
+        "stairs"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.balcony_detail",
+      "path": "packs/microblock/architecture/balcony_detail.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "balcony_detail",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "balconies_galleries",
+        "railings"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.hammerbeam_details",
+      "path": "packs/microblock/architecture/hammerbeam_details.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "hammerbeam_details",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "roofs",
+        "ceilings"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.roof_ribs_purlins",
+      "path": "packs/microblock/architecture/roof_ribs_purlins.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "roof_ribs_purlins",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.gable_tracery",
+      "path": "packs/microblock/architecture/gable_tracery.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "gable_tracery",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "roof_dormers_gables"
+      ],
+      "styles": [
+        "dark_fortress",
+        "dwarven_citadel",
+        "general",
+        "haunted_mansion",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.dormer_trim",
+      "path": "packs/microblock/architecture/dormer_trim.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "dormer_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "roof_dormers_gables"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.vault_ribs",
+      "path": "packs/microblock/architecture/vault_ribs.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "vault_ribs",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "ceilings"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.fireplace_carving",
+      "path": "packs/microblock/architecture/fireplace_carving.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "fireplace_carving",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "fireplaces"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.chimney_caps",
+      "path": "packs/microblock/architecture/chimney_caps.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "chimney_caps",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "chimneys"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "dark_fortress",
+        "dwarven_citadel",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.architecture.facade_relief",
+      "path": "packs/microblock/architecture/facade_relief.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "facade_relief",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "facades",
+        "exterior_trim"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.plinth_foundation_trim",
+      "path": "packs/microblock/architecture/plinth_foundation_trim.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "plinth_foundation_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "foundations_plinths"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ]
+    },
+    {
+      "id": "microblock.architecture.bridge_railing_detail",
+      "path": "packs/microblock/architecture/bridge_railing_detail.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "bridge_railing_detail",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "bridges_walkways",
+        "railings"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.tower_window_detail",
+      "path": "packs/microblock/architecture/tower_window_detail.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "tower_window_detail",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "towers_turrets",
+        "windows"
+      ],
+      "styles": [
+        "dark_fortress",
+        "dwarven_citadel",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.architecture.cave_tech_transitions",
+      "path": "packs/microblock/architecture/cave_tech_transitions.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "cave_tech_transitions",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "walls_bays",
+        "foundations_plinths"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.architecture.industrial_grilles_frames",
+      "path": "packs/microblock/architecture/industrial_grilles_frames.json",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "industrial_grilles_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "facades",
+        "windows",
+        "railings"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.furniture.seating_contours",
+      "path": "packs/microblock/furniture/seating_contours.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "seating_contours",
+      "asset_count": 9,
+      "source_vanilla_families": [
+        "seating"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.furniture.tables_desks",
+      "path": "packs/microblock/furniture/tables_desks.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "tables_desks",
+      "asset_count": 9,
+      "source_vanilla_families": [
+        "tables"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.shelving_cases",
+      "path": "packs/microblock/furniture/shelving_cases.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "shelving_cases",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "storage",
+        "library_study"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ]
+    },
+    {
+      "id": "microblock.furniture.beds",
+      "path": "packs/microblock/furniture/beds.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "beds",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "beds",
+        "bedroom"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.furniture.storage",
+      "path": "packs/microblock/furniture/storage.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "storage",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "storage"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.kitchen_furniture",
+      "path": "packs/microblock/furniture/kitchen_furniture.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "kitchen_furniture",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "kitchen"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.dining_furniture",
+      "path": "packs/microblock/furniture/dining_furniture.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "dining_furniture",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "dining"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.library_study",
+      "path": "packs/microblock/furniture/library_study.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "library_study",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "library_study"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.workshop_furniture",
+      "path": "packs/microblock/furniture/workshop_furniture.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "workshop_furniture",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "workshop"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.laboratory_furniture",
+      "path": "packs/microblock/furniture/laboratory_furniture.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "laboratory_furniture",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.office_admin",
+      "path": "packs/microblock/furniture/office_admin.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "office_admin",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "office_admin"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.furniture.exterior_garden",
+      "path": "packs/microblock/furniture/exterior_garden.json",
+      "stage": "microblock",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "exterior_garden"
+      ],
+      "styles": [
+        "garden_estate",
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.chandeliers",
+      "path": "packs/microblock/decor/chandeliers.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "chandeliers",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.decor.sconces_lamps",
+      "path": "packs/microblock/decor/sconces_lamps.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "sconces_lamps",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "candles_lanterns"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.decor.picture_frames",
+      "path": "packs/microblock/decor/picture_frames.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "picture_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "paintings_frames"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.decor.crests_heraldry",
+      "path": "packs/microblock/decor/crests_heraldry.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "crests_heraldry",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "banners_rugs",
+        "statues_sculpture"
+      ],
+      "styles": [
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.decor.statues_busts",
+      "path": "packs/microblock/decor/statues_busts.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "statues_busts",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "statues_sculpture"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.gargoyles",
+      "path": "packs/microblock/decor/gargoyles.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "gargoyles",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "statues_sculpture"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.decor.armor_mounts",
+      "path": "packs/microblock/decor/armor_mounts.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "armor_mounts",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "armor_trophies"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.trophy_frames",
+      "path": "packs/microblock/decor/trophy_frames.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "trophy_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "armor_trophies"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.candles_holders",
+      "path": "packs/microblock/decor/candles_holders.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "candles_holders",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "candles_lanterns"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.books_paper_detail",
+      "path": "packs/microblock/decor/books_paper_detail.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "books_paper_detail",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "books_papers"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.pottery_trim",
+      "path": "packs/microblock/decor/pottery_trim.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "pottery_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "pottery_vessels"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.clocks_instruments",
+      "path": "packs/microblock/decor/clocks_instruments.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "clocks_instruments"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.wayfinding_signage",
+      "path": "packs/microblock/decor/wayfinding_signage.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "wayfinding_signage",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "wayfinding_signage"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ]
+    },
+    {
+      "id": "microblock.decor.occult_ornament",
+      "path": "packs/microblock/decor/occult_ornament.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "occult_ornament",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "occult_fantasy"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.decor.display_cases",
+      "path": "packs/microblock/decor/display_cases.json",
+      "stage": "microblock",
+      "category": "decor",
+      "family": "display_cases",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "shelves_clutter",
+        "armor_trophies"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.branch_twig_refinement",
+      "path": "packs/microblock/vegetation/branch_twig_refinement.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "branch_twig_refinement",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "deciduous_trees",
+        "ornamental_trees"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.roots",
+      "path": "packs/microblock/vegetation/roots.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "roots",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "roots_overgrowth"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.topiary_edges",
+      "path": "packs/microblock/vegetation/topiary_edges.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "topiary_edges",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "topiary",
+        "shrubs_hedges"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.planter_details",
+      "path": "packs/microblock/vegetation/planter_details.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "planter_details",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "indoor_plants",
+        "flower_beds"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils",
+      "path": "packs/microblock/vegetation/vines_tendrils.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.dead_branch_silhouettes",
+      "path": "packs/microblock/vegetation/dead_branch_silhouettes.json",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "dead_branch_silhouettes",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "dead_twisted_trees"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.pipes_ducts",
+      "path": "packs/microblock/mechanical/pipes_ducts.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "pipes_ducts",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial",
+        "workshop"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.consoles",
+      "path": "packs/microblock/mechanical/consoles.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "consoles",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial",
+        "office_admin"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.machinery_frames",
+      "path": "packs/microblock/mechanical/machinery_frames.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "machinery_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial",
+        "workshop"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.vents_grilles",
+      "path": "packs/microblock/mechanical/vents_grilles.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "vents_grilles",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.catwalk_details",
+      "path": "packs/microblock/mechanical/catwalk_details.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "catwalk_details",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial",
+        "exterior_garden"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.cables_conduits",
+      "path": "packs/microblock/mechanical/cables_conduits.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "cables_conduits",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.lab_equipment",
+      "path": "packs/microblock/mechanical/lab_equipment.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "lab_equipment",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "laboratory_industrial"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.mechanical.vehicle_detail",
+      "path": "packs/microblock/mechanical/vehicle_detail.json",
+      "stage": "microblock",
+      "category": "mechanical",
+      "family": "vehicle_detail",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "workshop"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.lighting.chandelier_frames",
+      "path": "packs/microblock/lighting/chandelier_frames.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "chandelier_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "chandeliers"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.lighting.sconce_arms",
+      "path": "packs/microblock/lighting/sconce_arms.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "sconce_arms",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "wall_sconces"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor",
+        "modern_luxury",
+        "victorian_estate"
+      ]
+    },
+    {
+      "id": "microblock.lighting.lantern_cages",
+      "path": "packs/microblock/lighting/lantern_cages.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "lantern_cages",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "exterior_path",
+        "wall_sconces"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "dark_fortress",
+        "general",
+        "gothic",
+        "haunted_mansion",
+        "industrial_steampunk",
+        "massive_gothic_manor"
+      ]
+    },
+    {
+      "id": "microblock.lighting.recessed_fixture_trim",
+      "path": "packs/microblock/lighting/recessed_fixture_trim.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "recessed_fixture_trim",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "hidden_ambient",
+        "table_floor_lamps"
+      ],
+      "styles": [
+        "general"
+      ]
+    },
+    {
+      "id": "microblock.lighting.industrial_cages",
+      "path": "packs/microblock/lighting/industrial_cages.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "industrial_cages",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "industrial"
+      ],
+      "styles": [
+        "cave_megastructure",
+        "general",
+        "industrial_steampunk",
+        "modern_luxury"
+      ]
+    },
+    {
+      "id": "microblock.lighting.fantasy_light_frames",
+      "path": "packs/microblock/lighting/fantasy_light_frames.json",
+      "stage": "microblock",
+      "category": "lighting",
+      "family": "fantasy_light_frames",
+      "asset_count": 8,
+      "source_vanilla_families": [
+        "magical_fantasy"
+      ],
+      "styles": [
+        "fantasy_elven",
+        "general"
+      ]
+    }
+  ],
+  "totals": {
+    "pack_files": 75,
+    "assets": 606,
+    "detail_profiles": 10,
+    "primitives": 40,
+    "translation_rules": 102
+  }
+}

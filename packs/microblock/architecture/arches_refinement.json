@@ -1,0 +1,1157 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.architecture.arches_refinement",
+  "name": "Arches Refinement",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "arches_refinement",
+  "description": "Reusable microblock Arches Refinement family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "arches"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.architecture.arches_refinement.lancet_edge",
+      "name": "Lancet Edge",
+      "description": "Lancet Edge microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "edge",
+        "lancet",
+        "microblock"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "lancet_edge",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.tudor_four_center",
+      "name": "Tudor Four Center",
+      "description": "Tudor Four Center microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "center",
+        "contour",
+        "four",
+        "microblock",
+        "tudor"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "tudor_four_center",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.rounded_roman",
+      "name": "Rounded Roman",
+      "description": "Rounded Roman microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "microblock",
+        "roman",
+        "rounded"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "rounded_roman",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.segmental_low",
+      "name": "Segmental Low",
+      "description": "Segmental Low microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "low",
+        "microblock",
+        "segmental"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "segmental_low",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.ogee_profile",
+      "name": "Ogee Profile",
+      "description": "Ogee Profile microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "microblock",
+        "ogee",
+        "profile"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ogee_profile",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.trefoil_arch",
+      "name": "Trefoil Arch",
+      "description": "Trefoil Arch microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arch",
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "microblock",
+        "trefoil"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "trefoil_arch",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.quatrefoil_arch",
+      "name": "Quatrefoil Arch",
+      "description": "Quatrefoil Arch microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arch",
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "microblock",
+        "quatrefoil"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "quatrefoil_arch",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.double_step_pointed",
+      "name": "Double Step Pointed",
+      "description": "Double Step Pointed microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "double",
+        "microblock",
+        "pointed",
+        "step"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "double_step_pointed",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.archivolt_multi_band",
+      "name": "Archivolt Multi Band",
+      "description": "Archivolt Multi Band microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "archivolt",
+        "band",
+        "contour",
+        "microblock",
+        "multi"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "archivolt_multi_band",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.architecture.arches_refinement.recessed_lancet",
+      "name": "Recessed Lancet",
+      "description": "Recessed Lancet microblock refinement in the Arches Refinement family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "architecture",
+      "family": "arches_refinement",
+      "source_vanilla_families": [
+        "arches"
+      ],
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "tags": [
+        "arches_refinement",
+        "architecture",
+        "contour",
+        "lancet",
+        "microblock",
+        "recessed"
+      ],
+      "styles": [
+        "general",
+        "massive_gothic_manor",
+        "victorian_estate"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_1",
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "recommended_primitives": [
+        "lancet_curve",
+        "segmental_curve",
+        "tudor_curve",
+        "chamfer",
+        "bevel"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "recessed_lancet",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "lancet_curve",
+          "segmental_curve",
+          "tudor_curve",
+          "chamfer",
+          "bevel"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": true,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

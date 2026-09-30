@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildWright Microblock Detail Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "allowed_tiers",
+    "budget",
+    "rules"
+  ],
+  "properties": {
+    "allowed_tiers": {
+      "type": "array"
+    },
+    "budget": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "industrial_technical",
+  "style": "industrial_steampunk",
+  "items": [
+    {
+      "source": "vanilla.furniture.laboratory_industrial",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.furniture.laboratory_furniture"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.lighting.industrial",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.lighting.industrial_cages"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "furniture_rich",
+  "style": "massive_gothic_manor",
+  "items": [
+    {
+      "source": "vanilla.architecture.walls_bays",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.cornices_moldings",
+        "microblock.architecture.wall_paneling",
+        "microblock.architecture.wainscot_trim",
+        "microblock.architecture.cave_tech_transitions"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.furniture.library_study",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.furniture.shelving_cases",
+        "microblock.furniture.library_study"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.furniture.seating",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.furniture.seating_contours"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.decor.books_papers",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.decor.books_paper_detail"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    }
+  ]
+}

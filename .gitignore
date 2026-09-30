@@ -15,3 +15,6 @@ __pycache__/
 *.pyc
 
 # Intentional Minecraft artifacts under project/release folders remain trackable.
+
+.buildwright/generated/
+microblock-plan-*.json

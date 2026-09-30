@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "source_family": "vanilla.architecture.arches",
+      "target_family": "microblock.architecture.arches_refinement",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.columns_piers",
+      "target_family": "microblock.architecture.columns_shafts",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.columns_piers",
+      "target_family": "microblock.architecture.capitals_bases",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.windows",
+      "target_family": "microblock.architecture.tracery",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.arches",
+      "target_family": "microblock.architecture.tracery",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.windows",
+      "target_family": "microblock.architecture.mullions_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.exterior_trim",
+      "target_family": "microblock.architecture.cornices_moldings",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.walls_bays",
+      "target_family": "microblock.architecture.cornices_moldings",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.exterior_trim",
+      "target_family": "microblock.architecture.corbels_brackets",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.balconies_galleries",
+      "target_family": "microblock.architecture.corbels_brackets",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.roofs",
+      "target_family": "microblock.architecture.corbels_brackets",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.buttresses",
+      "target_family": "microblock.architecture.buttress_refinement",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.doors_portals",
+      "target_family": "microblock.architecture.door_surrounds",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.doors_portals",
+      "target_family": "microblock.architecture.portal_carving",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.walls_bays",
+      "target_family": "microblock.architecture.wall_paneling",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.walls_bays",
+      "target_family": "microblock.architecture.wainscot_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.exterior_trim",
+      "target_family": "microblock.architecture.wainscot_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.stairs",
+      "target_family": "microblock.architecture.stair_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.railings",
+      "target_family": "microblock.architecture.banisters_balusters",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.stairs",
+      "target_family": "microblock.architecture.banisters_balusters",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.balconies_galleries",
+      "target_family": "microblock.architecture.balcony_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.railings",
+      "target_family": "microblock.architecture.balcony_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.roofs",
+      "target_family": "microblock.architecture.hammerbeam_details",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.ceilings",
+      "target_family": "microblock.architecture.hammerbeam_details",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.roofs",
+      "target_family": "microblock.architecture.roof_ribs_purlins",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.roof_dormers_gables",
+      "target_family": "microblock.architecture.gable_tracery",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.roof_dormers_gables",
+      "target_family": "microblock.architecture.dormer_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.ceilings",
+      "target_family": "microblock.architecture.vault_ribs",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.fireplaces",
+      "target_family": "microblock.architecture.fireplace_carving",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.chimneys",
+      "target_family": "microblock.architecture.chimney_caps",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.facades",
+      "target_family": "microblock.architecture.facade_relief",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.exterior_trim",
+      "target_family": "microblock.architecture.facade_relief",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.foundations_plinths",
+      "target_family": "microblock.architecture.plinth_foundation_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.bridges_walkways",
+      "target_family": "microblock.architecture.bridge_railing_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.railings",
+      "target_family": "microblock.architecture.bridge_railing_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.towers_turrets",
+      "target_family": "microblock.architecture.tower_window_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.windows",
+      "target_family": "microblock.architecture.tower_window_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.walls_bays",
+      "target_family": "microblock.architecture.cave_tech_transitions",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.foundations_plinths",
+      "target_family": "microblock.architecture.cave_tech_transitions",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.facades",
+      "target_family": "microblock.architecture.industrial_grilles_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.windows",
+      "target_family": "microblock.architecture.industrial_grilles_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.architecture.railings",
+      "target_family": "microblock.architecture.industrial_grilles_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.seating",
+      "target_family": "microblock.furniture.seating_contours",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.tables",
+      "target_family": "microblock.furniture.tables_desks",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.storage",
+      "target_family": "microblock.furniture.shelving_cases",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.library_study",
+      "target_family": "microblock.furniture.shelving_cases",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.beds",
+      "target_family": "microblock.furniture.beds",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.bedroom",
+      "target_family": "microblock.furniture.beds",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.storage",
+      "target_family": "microblock.furniture.storage",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.kitchen",
+      "target_family": "microblock.furniture.kitchen_furniture",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.dining",
+      "target_family": "microblock.furniture.dining_furniture",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.library_study",
+      "target_family": "microblock.furniture.library_study",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.workshop",
+      "target_family": "microblock.furniture.workshop_furniture",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.laboratory_industrial",
+      "target_family": "microblock.furniture.laboratory_furniture",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.office_admin",
+      "target_family": "microblock.furniture.office_admin",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.furniture.exterior_garden",
+      "target_family": "microblock.furniture.exterior_garden",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.lighting.chandeliers",
+      "target_family": "microblock.decor.chandeliers",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.candles_lanterns",
+      "target_family": "microblock.decor.sconces_lamps",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.paintings_frames",
+      "target_family": "microblock.decor.picture_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.banners_rugs",
+      "target_family": "microblock.decor.crests_heraldry",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.statues_sculpture",
+      "target_family": "microblock.decor.crests_heraldry",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.statues_sculpture",
+      "target_family": "microblock.decor.statues_busts",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.statues_sculpture",
+      "target_family": "microblock.decor.gargoyles",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.armor_trophies",
+      "target_family": "microblock.decor.armor_mounts",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.armor_trophies",
+      "target_family": "microblock.decor.trophy_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.candles_lanterns",
+      "target_family": "microblock.decor.candles_holders",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.books_papers",
+      "target_family": "microblock.decor.books_paper_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.pottery_vessels",
+      "target_family": "microblock.decor.pottery_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.clocks_instruments",
+      "target_family": "microblock.decor.clocks_instruments",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.wayfinding_signage",
+      "target_family": "microblock.decor.wayfinding_signage",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.occult_fantasy",
+      "target_family": "microblock.decor.occult_ornament",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.shelves_clutter",
+      "target_family": "microblock.decor.display_cases",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.decor.armor_trophies",
+      "target_family": "microblock.decor.display_cases",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.vegetation.deciduous_trees",
+      "target_family": "microblock.vegetation.branch_twig_refinement",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.ornamental_trees",
+      "target_family": "microblock.vegetation.branch_twig_refinement",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.roots_overgrowth",
+      "target_family": "microblock.vegetation.roots",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.topiary",
+      "target_family": "microblock.vegetation.topiary_edges",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.shrubs_hedges",
+      "target_family": "microblock.vegetation.topiary_edges",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.indoor_plants",
+      "target_family": "microblock.vegetation.planter_details",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.flower_beds",
+      "target_family": "microblock.vegetation.planter_details",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.vines_ivy",
+      "target_family": "microblock.vegetation.vines_tendrils",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.vegetation.dead_twisted_trees",
+      "target_family": "microblock.vegetation.dead_branch_silhouettes",
+      "default_classification": "OPTIONAL_MICROBLOCK",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.pipes_ducts",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.workshop",
+      "target_family": "microblock.mechanical.pipes_ducts",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.consoles",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.office_admin",
+      "target_family": "microblock.mechanical.consoles",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.machinery_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.workshop",
+      "target_family": "microblock.mechanical.machinery_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.vents_grilles",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.catwalk_details",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.exterior_garden",
+      "target_family": "microblock.mechanical.catwalk_details",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.cables_conduits",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.laboratory_industrial",
+      "target_family": "microblock.mechanical.lab_equipment",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.mechanical.workshop",
+      "target_family": "microblock.mechanical.vehicle_detail",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_2"
+    },
+    {
+      "source_family": "vanilla.lighting.chandeliers",
+      "target_family": "microblock.lighting.chandelier_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.wall_sconces",
+      "target_family": "microblock.lighting.sconce_arms",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.exterior_path",
+      "target_family": "microblock.lighting.lantern_cages",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.wall_sconces",
+      "target_family": "microblock.lighting.lantern_cages",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.hidden_ambient",
+      "target_family": "microblock.lighting.recessed_fixture_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.table_floor_lamps",
+      "target_family": "microblock.lighting.recessed_fixture_trim",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.industrial",
+      "target_family": "microblock.lighting.industrial_cages",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    },
+    {
+      "source_family": "vanilla.lighting.magical_fantasy",
+      "target_family": "microblock.lighting.fantasy_light_frames",
+      "default_classification": "GOOD_MICROBLOCK_TARGET",
+      "default_tier": "TIER_3"
+    }
+  ],
+  "global_keep_vanilla": [
+    "functional_blocks",
+    "fluid_blocks",
+    "transparent_or_tinted_provider_unsupported_blocks",
+    "large_quiet_wall_fields",
+    "primary_floor_mass",
+    "primary_structural_mass_unless_contour_benefit_is_explicit"
+  ],
+  "decision_order": [
+    "DO_NOT_CONVERT",
+    "KEEP_VANILLA",
+    "GOOD_MICROBLOCK_TARGET",
+    "OPTIONAL_MICROBLOCK"
+  ]
+}

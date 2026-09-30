@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "architectural_standard",
+  "style": "modern_luxury",
+  "items": [
+    {
+      "source": "vanilla.architecture.windows",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.tracery",
+        "microblock.architecture.mullions_frames",
+        "microblock.architecture.tower_window_detail",
+        "microblock.architecture.industrial_grilles_frames"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.architecture.stairs",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.stair_trim",
+        "microblock.architecture.banisters_balusters"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.furniture.tables",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.furniture.tables_desks"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.lighting.hidden_ambient",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.lighting.recessed_fixture_trim"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    }
+  ]
+}

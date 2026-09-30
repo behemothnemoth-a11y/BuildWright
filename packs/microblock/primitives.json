@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "grid": 16,
+  "primitives": [
+    {
+      "id": "inset",
+      "name": "Inset",
+      "description": "Remove a bounded inner layer to create a recess while retaining a structural border.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "raise_panel",
+      "name": "Raise Panel",
+      "description": "Build a shallow relief panel within an existing host face.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "chamfer",
+      "name": "Chamfer",
+      "description": "Cut square corners into diagonal stepped profiles.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "bevel",
+      "name": "Bevel",
+      "description": "Create a shallow transition between two planes.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "cove",
+      "name": "Cove",
+      "description": "Concave molding profile approximated on the 16-cell grid.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "ogee",
+      "name": "Ogee",
+      "description": "S-curve molding profile using stepped convex/concave transitions.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "bead",
+      "name": "Bead",
+      "description": "Narrow rounded raised strip for trim.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "fillet",
+      "name": "Fillet",
+      "description": "Small transition strip between perpendicular surfaces.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "groove",
+      "name": "Groove",
+      "description": "Carve a continuous narrow channel.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "rabbet",
+      "name": "Rabbet",
+      "description": "Carve a square shoulder/rebate along an edge.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "taper",
+      "name": "Taper",
+      "description": "Reduce section width progressively along an axis.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "description": "Expand section width progressively near an endpoint.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "stepped_profile",
+      "name": "Stepped Profile",
+      "description": "Build a deliberate multi-depth silhouette.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "octagonalize",
+      "name": "Octagonalize",
+      "description": "Convert a square cross-section toward an octagonal silhouette.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "round_approx",
+      "name": "Round Approx",
+      "description": "Approximate a circular/turned section with 16-grid stepped curvature.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "lancet_curve",
+      "name": "Lancet Curve",
+      "description": "Generate a pointed arch profile from mirrored rising curves.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "segmental_curve",
+      "name": "Segmental Curve",
+      "description": "Generate a shallow segmental arch profile.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "tudor_curve",
+      "name": "Tudor Curve",
+      "description": "Generate a four-centered Tudor-style arch approximation.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "trefoil_cut",
+      "name": "Trefoil Cut",
+      "description": "Three-lobed perforation or relief profile.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "quatrefoil_cut",
+      "name": "Quatrefoil Cut",
+      "description": "Four-lobed perforation or relief profile.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "cinquefoil_cut",
+      "name": "Cinquefoil Cut",
+      "description": "Five-lobed perforation or relief profile.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "rosette",
+      "name": "Rosette",
+      "description": "Radial flower/rosette boss or perforation.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "radial_spokes",
+      "name": "Radial Spokes",
+      "description": "Radial bars around a center hub.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "thin_mullion",
+      "name": "Thin Mullion",
+      "description": "Generate thin continuous window/frame bars.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "lattice",
+      "name": "Lattice",
+      "description": "Generate repeated crossed or orthogonal thin members.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "fluting",
+      "name": "Fluting",
+      "description": "Carve repeated vertical grooves with controlled spacing.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "dentil",
+      "name": "Dentil",
+      "description": "Generate restrained repeating block-tooth trim.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "corbel_curve",
+      "name": "Corbel Curve",
+      "description": "Stepped or tapered support transition under a projection.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "bracket_taper",
+      "name": "Bracket Taper",
+      "description": "Diagonal brace that narrows toward its free end.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "boss",
+      "name": "Boss",
+      "description": "Compact focal joint ornament at a rib/truss intersection.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "panel_recess",
+      "name": "Panel Recess",
+      "description": "Recess rectangular or shaped wall/furniture panel.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "perforate",
+      "name": "Perforate",
+      "description": "Remove interior cells to create openwork while preserving frame strength.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "openwork",
+      "name": "Openwork",
+      "description": "Patterned negative-space carving for rails/tracery.",
+      "hero_only": false,
+      "negative_space_primitive": true
+    },
+    {
+      "id": "twist_approx",
+      "name": "Twist Approx",
+      "description": "Stepped pseudo-twist for ornamental shafts; hero use only.",
+      "hero_only": true,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "weather_chip",
+      "name": "Weather Chip",
+      "description": "Localized silhouette damage; never randomized uniformly.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "root_taper",
+      "name": "Root Taper",
+      "description": "Organic branch/root taper across adjacent hosts.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "thin_shell",
+      "name": "Thin Shell",
+      "description": "Reduce bulky vanilla mass to a skin/frame where behavior is not required.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "socket",
+      "name": "Socket",
+      "description": "Reserve clean attachment points for connected micro-assets.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "material_inlay",
+      "name": "Material Inlay",
+      "description": "Replace selected occupied cells with a secondary material without changing contour.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    },
+    {
+      "id": "edge_round",
+      "name": "Edge Round",
+      "description": "Soften a sharp exposed edge using stepped cell removal.",
+      "hero_only": false,
+      "negative_space_primitive": false
+    }
+  ]
+}

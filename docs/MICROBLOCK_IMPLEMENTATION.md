@@ -1,152 +1,57 @@
 # Microblock Implementation
 
-This is Buildwright Pass B. It starts only from an approved or explicitly designated vanilla master.
+BuildWright Stage B begins only after the vanilla master is structurally strong and has passed its vanilla review gate.
 
-## Core rule
+DROP 0003 provides **75 reusable microblock families / 606 variants**, a 16-grid shape grammar, provider profile, translation map, detail profiles, planners and validators.
 
-> Full blocks establish architecture. Microblocks refine contour and fine detail.
+## Core law
 
-Microblocks are not permission to replace sound massing, circulation or structural hierarchy.
+**Microblocks refine a strong vanilla build. They do not replace architectural thinking.**
 
-## 1. Pipeline
+Use full vanilla blocks for primary massing, circulation, major floors, structural volumes and behavior-sensitive blocks. Use microblocks for contour, trim, carving, lattice, molding, thin members, sculptural transitions, furniture refinement and localized hero detail.
 
-```text
-APPROVED VANILLA MASTER
-        ↓
-CANDIDATE ANALYSIS
-        ↓
-TARGET CLASSIFICATION
-        ↓
-MICROBLOCK CONVERSION
-        ↓
-DETAIL / CONTOUR PASS
-        ↓
-PERFORMANCE + NAVIGATION QA
-        ↓
-HYBRID REVIEW CANDIDATE
-        ↓
-APPROVED MICROBLOCK EDITION
-```
-
-## 2. Responsibility split
-
-### Keep primarily full-block
-
-- room mass;
-- circulation;
-- floors;
-- primary walls;
-- main stair treads;
-- major roof planes;
-- structural cave mass;
-- primary load-bearing-looking forms;
-- large furniture bodies where full blocks already work.
-
-### Strong microblock targets
-
-- Gothic tracery and mullions;
-- clustered pier profiles;
-- capitals and bases;
-- arch contouring;
-- cornices and molding;
-- corbels and hammerbeam brackets;
-- balusters and thin rails;
-- window lattice;
-- fireplace carving;
-- wall panel molding;
-- picture/portrait frames;
-- chandelier frames;
-- furniture legs, arms, edges and handles;
-- crests and heraldic relief;
-- gargoyles and small sculpture;
-- machinery contour where it materially improves readability.
-
-## 3. Candidate classification
-
-Every potential conversion is assigned one of:
-
-- `KEEP_VANILLA`
-- `GOOD_MICROBLOCK_TARGET`
-- `OPTIONAL_MICROBLOCK`
-- `DO_NOT_CONVERT`
-
-Example:
-
-| Feature | Class |
-|---|---|
-| Stone floor field | KEEP_VANILLA |
-| Main staircase treads | KEEP_VANILLA |
-| Gothic window tracery | GOOD_MICROBLOCK_TARGET |
-| Wall molding | GOOD_MICROBLOCK_TARGET |
-| Bookshelf body | KEEP_VANILLA |
-| Bookshelf trim | OPTIONAL_MICROBLOCK |
-| Structural cave wall | DO_NOT_CONVERT |
-
-## 4. Detail tiers
-
-- **Tier 0 — Vanilla only:** no conversion.
-- **Tier 1 — Large trim:** simple depth/edge improvement.
-- **Tier 2 — Architectural contour:** arches, piers, rails, roof brackets.
-- **Tier 3 — Furniture/decor:** refined furniture and ornament.
-- **Tier 4 — Hero detail:** crests, statues, focal carvings, showcase machinery.
-
-Tier 4 should be rare.
-
-## 5. Performance discipline
-
-Do not maximize subdivision everywhere.
-
-Prefer:
-
-- the coarsest resolution that achieves the intended silhouette;
-- repeated microblock geometry only where its repetition is visible and worthwhile;
-- full-block hidden/backing volumes behind microblock faces;
-- explicit budgets for large modules;
-- hero detail around focal areas and player-eye zones rather than inaccessible surfaces.
-
-## 6. Conversion recipes
-
-Buildwright will eventually store reusable conversion recipes. Initial intended families:
-
-### Clustered Gothic pier
-
-Vanilla: full-block core + stairs/walls  
-Microblock: central shaft + attached shafts + stepped base + recessed channels + capital transition.
-
-### Gothic window
-
-Vanilla: blocky pointed arch + panes  
-Microblock: thin surround + lancet contour + mullions + tracery + recessed glass plane.
-
-### Hammerbeam roof
-
-Vanilla: logs/stairs/slabs define the structural bay  
-Microblock: tapered braces + carved shoulder + thin decorative edges + refined joint transitions.
-
-### Furniture
-
-Vanilla: strong body and usable scale  
-Microblock: legs, arms, trim, handles, carved edges, thin shelves, upholstery contour.
-
-## 7. Preservation contract
-
-Microblock translation must preserve, unless explicitly changed:
-
-- module footprint;
-- connector coordinates;
-- stair destinations;
-- door/corridor clearances;
-- major sightlines;
-- approved room purpose;
-- vanilla master artifact.
-
-## 8. Output separation
-
-Projects keep independent release lines:
+## Required pipeline
 
 ```text
-releases/vanilla/
-releases/microblock/
+approved vanilla candidate
+→ candidate classification
+→ provider/material capability gate
+→ detail-profile budget
+→ translation plan
+→ coarse-to-fine microblock pass
+→ transform/material validation
+→ player-eye QA
+→ hybrid candidate
 ```
 
-The microblock edition never silently replaces the vanilla recovery/reference artifact.
+## Candidate classes
+
+- `KEEP_VANILLA` — already reads well or behavior/quiet surface should remain vanilla.
+- `GOOD_MICROBLOCK_TARGET` — contour/depth clearly benefits.
+- `OPTIONAL_MICROBLOCK` — use only if focal composition or style requires it.
+- `DO_NOT_CONVERT` — functional/provider-incompatible/performance-critical geometry.
+
+## Resolution tiers
+
+- **TIER 0** — vanilla only.
+- **TIER 1** — coarse quarter-block trim and contour.
+- **TIER 2** — architectural eighth-block contour.
+- **TIER 3** — fine 1/16 detail, localized.
+- **TIER 4** — hero sculptural detail, sparse.
+
+Always prefer the coarsest tier that reads correctly from the intended viewing distance.
+
+## Noise-control rule
+
+Microblocks make it easy to produce technically impressive but visually noisy work. The build hierarchy remains:
+
+```text
+primary mass
+→ secondary architecture
+→ tertiary trim/furniture
+→ micro detail
+```
+
+If microblocks obscure that hierarchy, simplify.
+
+See `docs/MICROBLOCK_TRANSLATION_PIPELINE.md` and `packs/microblock/registry.json`.

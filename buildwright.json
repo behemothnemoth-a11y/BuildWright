@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -10,6 +10,8 @@
     "vanilla_pack_selection",
     "vanilla_review_gate",
     "microblock_candidate_analysis",
+    "microblock_detail_profile",
+    "microblock_translation_plan",
     "microblock_implementation",
     "hybrid_review_gate"
   ],
@@ -20,7 +22,12 @@
     "assets": 567,
     "techniques": 22,
     "palettes": 16,
-    "style_profiles": 16
+    "style_profiles": 16,
+    "microblock_registry": "packs/microblock/registry.json",
+    "microblock_families": 75,
+    "microblock_assets": 606,
+    "microblock_primitives": 40,
+    "microblock_detail_profiles": 10
   },
   "maturity_states": [
     "CONCEPT",

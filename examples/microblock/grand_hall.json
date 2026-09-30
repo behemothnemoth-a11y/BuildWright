@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "architectural_rich",
+  "style": "massive_gothic_manor",
+  "items": [
+    {
+      "source": "vanilla.architecture.arches",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.arches_refinement",
+        "microblock.architecture.tracery"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.architecture.columns_piers",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.columns_shafts",
+        "microblock.architecture.capitals_bases"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.architecture.stairs",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.stair_trim",
+        "microblock.architecture.banisters_balusters"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.architecture.ceilings",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.hammerbeam_details",
+        "microblock.architecture.vault_ribs"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.lighting.chandeliers",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.decor.chandeliers",
+        "microblock.lighting.chandelier_frames"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    }
+  ]
+}

@@ -1,0 +1,897 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.vegetation.vines_tendrils",
+  "name": "Vines Tendrils",
+  "stage": "microblock",
+  "category": "vegetation",
+  "family": "vines_tendrils",
+  "description": "Reusable microblock Vines Tendrils family. These recipes refine approved vanilla geometry on a 16\u00d716\u00d716 cell grid and must remain subordinate to the vanilla source design.",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "vines_ivy"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "preserve_declared_connectors": true,
+    "coarsest_sufficient_tier": true,
+    "functional_blocks_default_keep_vanilla": true
+  },
+  "assets": [
+    {
+      "id": "microblock.vegetation.vines_tendrils.single_tendril",
+      "name": "Single Tendril",
+      "description": "Single Tendril microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "contour",
+        "microblock",
+        "single",
+        "tendril",
+        "vegetation",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "single_tendril",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.forked_tendril",
+      "name": "Forked Tendril",
+      "description": "Forked Tendril microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "contour",
+        "forked",
+        "microblock",
+        "tendril",
+        "vegetation",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "forked_tendril",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.window_crawl",
+      "name": "Window Crawl",
+      "description": "Window Crawl microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "contour",
+        "crawl",
+        "microblock",
+        "vegetation",
+        "vines_tendrils",
+        "window"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "window_crawl",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.column_wrap",
+      "name": "Column Wrap",
+      "description": "Column Wrap microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "column",
+        "contour",
+        "microblock",
+        "vegetation",
+        "vines_tendrils",
+        "wrap"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "column_wrap",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.ceiling_hang",
+      "name": "Ceiling Hang",
+      "description": "Ceiling Hang microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "ceiling",
+        "contour",
+        "hang",
+        "microblock",
+        "vegetation",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ceiling_hang",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.ruin_cascade",
+      "name": "Ruin Cascade",
+      "description": "Ruin Cascade microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "cascade",
+        "contour",
+        "microblock",
+        "ruin",
+        "vegetation",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "ruin_cascade",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.trellis_vine",
+      "name": "Trellis Vine",
+      "description": "Trellis Vine microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "contour",
+        "microblock",
+        "trellis",
+        "vegetation",
+        "vine",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "trellis_vine",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    },
+    {
+      "id": "microblock.vegetation.vines_tendrils.sparse_ivy_edge",
+      "name": "Sparse Ivy Edge",
+      "description": "Sparse Ivy Edge microblock refinement in the Vines Tendrils family. Designed to refine an already-approved vanilla form without replacing its architectural logic.",
+      "stage": "microblock",
+      "category": "vegetation",
+      "family": "vines_tendrils",
+      "source_vanilla_families": [
+        "vines_ivy"
+      ],
+      "candidate_class": "OPTIONAL_MICROBLOCK",
+      "tags": [
+        "contour",
+        "edge",
+        "ivy",
+        "microblock",
+        "sparse",
+        "vegetation",
+        "vines_tendrils"
+      ],
+      "styles": [
+        "ancient_ruin",
+        "garden_estate",
+        "general",
+        "haunted_mansion"
+      ],
+      "scale_classes": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "garden",
+        "ruin"
+      ],
+      "resolution": {
+        "allowed_tiers": [
+          "TIER_2",
+          "TIER_3"
+        ],
+        "default_tier": "TIER_2",
+        "grid_cells_per_axis": 16,
+        "prefer_coarsest_sufficient_tier": true
+      },
+      "material_roles": [
+        "wood",
+        "leaf",
+        "shadow",
+        "accent"
+      ],
+      "recommended_primitives": [
+        "root_taper",
+        "taper",
+        "socket"
+      ],
+      "translation": {
+        "grammar": "microblock_translation_v1",
+        "profile": "sparse_ivy_edge",
+        "intent": "refine_not_replace",
+        "preserve_vanilla_anchor": true,
+        "host_expansion": "adjacent_only_when_explicit",
+        "operations": [
+          "root_taper",
+          "taper",
+          "socket"
+        ],
+        "source_selection": "surface_and_silhouette_features",
+        "preserve_connectors": true,
+        "preserve_player_clearance": true,
+        "preserve_functional_blocks": true,
+        "max_silhouette_delta_cells": 4
+      },
+      "complexity": {
+        "preferred_min_feature_cells": 2,
+        "max_materials_per_host": 3,
+        "max_disconnected_components_per_host": 4,
+        "negative_space_required": false,
+        "detail_density": "structural"
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "material_swap_allowed": true,
+        "parameters": [
+          "profile_depth",
+          "edge_softness",
+          "wear",
+          "ornament_density",
+          "material_inlay",
+          "asymmetry"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_microblock_every_source_block",
+        "do_not_replace_primary_massing_with_cell_noise",
+        "do_not_reduce_player_clearance",
+        "do_not_exceed_provider_material_support",
+        "do_not_use_one_cell_noise_as_texture",
+        "do_not_destroy_vanilla_readability"
+      ],
+      "qa": [
+        "vanilla_source_still_reads",
+        "micro_detail_improves_silhouette_or_depth",
+        "player_eye_level_benefit_present",
+        "rotation_and_mirror_preserve_intent",
+        "complexity_budget_respected",
+        "functional_behavior_not_accidentally_removed"
+      ]
+    }
+  ]
+}

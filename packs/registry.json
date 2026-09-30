@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "drop": "0002",
+  "drop": "0003",
   "packs": {
     "vanilla": {
       "architecture": [
@@ -84,22 +84,91 @@
     },
     "microblock": {
       "architecture": [
-        "gothic_arch_refinement",
-        "clustered_columns",
+        "arches_refinement",
+        "columns_shafts",
+        "capitals_bases",
         "tracery",
-        "cornices",
-        "corbels",
-        "hammerbeam_details"
+        "mullions_frames",
+        "cornices_moldings",
+        "corbels_brackets",
+        "buttress_refinement",
+        "door_surrounds",
+        "portal_carving",
+        "wall_paneling",
+        "wainscot_trim",
+        "stair_trim",
+        "banisters_balusters",
+        "balcony_detail",
+        "hammerbeam_details",
+        "roof_ribs_purlins",
+        "gable_tracery",
+        "dormer_trim",
+        "vault_ribs",
+        "fireplace_carving",
+        "chimney_caps",
+        "facade_relief",
+        "plinth_foundation_trim",
+        "bridge_railing_detail",
+        "tower_window_detail",
+        "cave_tech_transitions",
+        "industrial_grilles_frames"
       ],
       "furniture": [
-        "furniture_contour_kit"
+        "seating_contours",
+        "tables_desks",
+        "shelving_cases",
+        "beds",
+        "storage",
+        "kitchen_furniture",
+        "dining_furniture",
+        "library_study",
+        "workshop_furniture",
+        "laboratory_furniture",
+        "office_admin",
+        "exterior_garden"
       ],
       "decor": [
         "chandeliers",
+        "sconces_lamps",
         "picture_frames",
-        "crests",
-        "statues",
-        "armor_mounts"
+        "crests_heraldry",
+        "statues_busts",
+        "gargoyles",
+        "armor_mounts",
+        "trophy_frames",
+        "candles_holders",
+        "books_paper_detail",
+        "pottery_trim",
+        "clocks_instruments",
+        "wayfinding_signage",
+        "occult_ornament",
+        "display_cases"
+      ],
+      "vegetation": [
+        "branch_twig_refinement",
+        "roots",
+        "topiary_edges",
+        "planter_details",
+        "vines_tendrils",
+        "dead_branch_silhouettes"
+      ],
+      "mechanical": [
+        "pipes_ducts",
+        "consoles",
+        "machinery_frames",
+        "vents_grilles",
+        "catwalk_details",
+        "cables_conduits",
+        "lab_equipment",
+        "vehicle_detail"
+      ],
+      "lighting": [
+        "chandelier_frames",
+        "sconce_arms",
+        "lantern_cages",
+        "recessed_fixture_trim",
+        "industrial_cages",
+        "fantasy_light_frames"
       ]
     }
   },
@@ -1479,5 +1548,13 @@
     "techniques": 22,
     "palettes": 16,
     "style_profiles": 16
+  },
+  "microblock_catalog_ref": "packs/microblock/registry.json",
+  "microblock_totals": {
+    "pack_files": 75,
+    "assets": 606,
+    "detail_profiles": 10,
+    "primitives": 40,
+    "translation_rules": 102
   }
 }

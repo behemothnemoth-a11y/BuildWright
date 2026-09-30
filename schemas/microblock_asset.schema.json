@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildwright.local/schemas/microblock_asset.schema.json",
+  "title": "BuildWright Microblock Asset",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "stage",
+    "category",
+    "family",
+    "source_vanilla_families",
+    "candidate_class",
+    "resolution",
+    "recommended_primitives",
+    "translation",
+    "complexity",
+    "variation",
+    "qa"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^microblock\\."
+    },
+    "stage": {
+      "const": "microblock"
+    },
+    "category": {
+      "enum": [
+        "architecture",
+        "furniture",
+        "decor",
+        "vegetation",
+        "mechanical",
+        "lighting"
+      ]
+    },
+    "family": {
+      "type": "string"
+    },
+    "candidate_class": {
+      "enum": [
+        "KEEP_VANILLA",
+        "GOOD_MICROBLOCK_TARGET",
+        "OPTIONAL_MICROBLOCK",
+        "DO_NOT_CONVERT"
+      ]
+    },
+    "source_vanilla_families": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resolution": {
+      "type": "object"
+    },
+    "recommended_primitives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "translation": {
+      "type": "object"
+    },
+    "complexity": {
+      "type": "object"
+    },
+    "variation": {
+      "type": "object"
+    },
+    "qa": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

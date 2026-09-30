@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "architectural_standard",
+  "project": "PROJECT",
+  "module": "MODULE",
+  "items": [
+    {
+      "source": "vanilla.architecture.arches.pointed",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.arches_refinement.lancet_edge"
+      ],
+      "tier": "TIER_2",
+      "notes": "Refine contour only; preserve opening and clearance."
+    }
+  ]
+}

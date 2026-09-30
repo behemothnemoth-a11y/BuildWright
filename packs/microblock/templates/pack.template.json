@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "pack_id": "microblock.CATEGORY.FAMILY",
+  "name": "Family",
+  "stage": "microblock",
+  "category": "architecture",
+  "family": "family",
+  "provider_profile": "astra_microblocks_0_4_0",
+  "source_vanilla_families": [
+    "family"
+  ],
+  "authoring_contract": {
+    "vanilla_master_required": true,
+    "coarsest_sufficient_tier": true
+  },
+  "assets": []
+}

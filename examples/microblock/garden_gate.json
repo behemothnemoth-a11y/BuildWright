@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks_0_4_0",
+  "detail_profile": "vegetation_accent",
+  "style": "garden_estate",
+  "items": [
+    {
+      "source": "vanilla.architecture.doors_portals",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.architecture.door_surrounds",
+        "microblock.architecture.portal_carving"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.vegetation.vines_ivy",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.vegetation.vines_tendrils"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    },
+    {
+      "source": "vanilla.vegetation.shrubs_hedges",
+      "candidate_class": "GOOD_MICROBLOCK_TARGET",
+      "targets": [
+        "microblock.vegetation.topiary_edges"
+      ],
+      "notes": "Review in context; mapping is a candidate set, not mandatory conversion."
+    }
+  ]
+}

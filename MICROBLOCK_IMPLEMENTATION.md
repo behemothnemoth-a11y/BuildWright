@@ -1,145 +1,57 @@
 # Microblock Implementation
 
-This file defines BuildWright Stage B.
+BuildWright Stage B begins only after the vanilla master is structurally strong and has passed its vanilla review gate.
 
-Stage B begins only after a strong vanilla master exists.
+DROP 0003 provides **75 reusable microblock families / 606 variants**, a 16-grid shape grammar, provider profile, translation map, detail profiles, planners and validators.
 
-## Pipeline
+## Core law
 
-```text
-VALIDATED VANILLA MASTER
-→ MICROBLOCK CANDIDATE ANALYSIS
-→ TARGET CLASSIFICATION
-→ RESOLUTION / DETAIL TIER
-→ MICROBLOCK CONVERSION
-→ MICROBLOCK DETAIL PASS
-→ PERFORMANCE + CIRCULATION QA
-→ FINAL HYBRID BUILD
-```
+**Microblocks refine a strong vanilla build. They do not replace architectural thinking.**
 
-## Core rule
+Use full vanilla blocks for primary massing, circulation, major floors, structural volumes and behavior-sensitive blocks. Use microblocks for contour, trim, carving, lattice, molding, thin members, sculptural transitions, furniture refinement and localized hero detail.
 
-Full blocks define mass, circulation, room scale, primary structure, floors, major stairs, and large wall/roof planes.
-
-Microblocks refine:
-
-- contour
-- trim
-- carving
-- lattice
-- molding
-- thin structural elements
-- window tracery
-- sculptural transitions
-- furniture detail
-- ornamental depth
-
-## Candidate classification
-
-Every possible conversion must be labeled:
-
-- **KEEP_VANILLA** — full block form is already correct or performance-sensitive.
-- **GOOD_MICROBLOCK_TARGET** — clear geometric benefit.
-- **OPTIONAL_MICROBLOCK** — improvement exists but is not essential.
-- **DO_NOT_CONVERT** — conversion would add cost/noise without meaningful form improvement.
-
-## Suggested detail tiers
-
-- **TIER 0** — vanilla only
-- **TIER 1** — large microblock trim
-- **TIER 2** — architectural contour
-- **TIER 3** — furniture / decorative detail
-- **TIER 4** — hero detail only
-
-Do not make everything Tier 4.
-
-## Typical targets
-
-### Architecture
-
-- clustered Gothic columns
-- carved capitals / bases
-- lancet and pointed arch refinement
-- mullions and tracery
-- cornices and molding
-- corbels
-- hammerbeam brackets
-- balusters and railings
-- fireplace surrounds
-- door surrounds
-
-### Furniture
-
-- chair arms / legs
-- desks and cabinets
-- bed framing
-- shelf edges
-- display cases
-
-### Decor
-
-- chandeliers
-- picture frames
-- crests
-- statues
-- armor mounts
-- candle holders
-
-## Example conversions
-
-### Clustered pier
+## Required pipeline
 
 ```text
-VANILLA
-full blocks + stairs + walls
-
-MICROBLOCK
-central shaft
-+ attached smaller shafts
-+ stepped base
-+ recessed channels
-+ carved capital transition
+approved vanilla candidate
+→ candidate classification
+→ provider/material capability gate
+→ detail-profile budget
+→ translation plan
+→ coarse-to-fine microblock pass
+→ transform/material validation
+→ player-eye QA
+→ hybrid candidate
 ```
 
-### Gothic window
+## Candidate classes
+
+- `KEEP_VANILLA` — already reads well or behavior/quiet surface should remain vanilla.
+- `GOOD_MICROBLOCK_TARGET` — contour/depth clearly benefits.
+- `OPTIONAL_MICROBLOCK` — use only if focal composition or style requires it.
+- `DO_NOT_CONVERT` — functional/provider-incompatible/performance-critical geometry.
+
+## Resolution tiers
+
+- **TIER 0** — vanilla only.
+- **TIER 1** — coarse quarter-block trim and contour.
+- **TIER 2** — architectural eighth-block contour.
+- **TIER 3** — fine 1/16 detail, localized.
+- **TIER 4** — hero sculptural detail, sparse.
+
+Always prefer the coarsest tier that reads correctly from the intended viewing distance.
+
+## Noise-control rule
+
+Microblocks make it easy to produce technically impressive but visually noisy work. The build hierarchy remains:
 
 ```text
-VANILLA
-full-block pointed arch + glass panes
-
-MICROBLOCK
-thin surround
-+ smoother lancet curvature
-+ narrow mullions
-+ tracery
-+ recessed glass plane
+primary mass
+→ secondary architecture
+→ tertiary trim/furniture
+→ micro detail
 ```
 
-### Hammerbeam roof
+If microblocks obscure that hierarchy, simplify.
 
-```text
-VANILLA
-logs / stairs / slabs establish structure
-
-MICROBLOCK
-preserve primary beam mass
-+ taper braces
-+ carved shoulders
-+ thin decorative edges
-+ refined bosses / joints
-```
-
-## Performance discipline
-
-Do not microblock large invisible masses, cave walls, broad floors, simple backing walls, or other geometry where vanilla blocks are already visually sufficient.
-
-## Release discipline
-
-Preserve both editions:
-
-```text
-releases/vanilla/
-releases/microblock/
-```
-
-The microblock edition must never erase the vanilla master.
+See `docs/MICROBLOCK_TRANSLATION_PIPELINE.md` and `packs/microblock/registry.json`.

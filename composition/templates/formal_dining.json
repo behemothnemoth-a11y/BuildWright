@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "formal_dining",
+  "name": "Formal Dining",
+  "style_profile": "style.victorian_estate",
+  "palette": "composition.victorian_estate",
+  "density": 0.85,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "slots": [
+    {
+      "id": "fireplace",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "fireplaces"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "manor_fireplace",
+        "gothic_fireplace"
+      ],
+      "placement_mode": "carve_and_place",
+      "required": true,
+      "max_repeats": 1
+    },
+    {
+      "id": "table_a",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "tables"
+        ]
+      },
+      "target": {
+        "x": "35%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "library_table"
+      ],
+      "required": true
+    },
+    {
+      "id": "table_b",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "tables"
+        ]
+      },
+      "target": {
+        "x": "65%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "library_table"
+      ],
+      "required": true
+    },
+    {
+      "id": "bench_w",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "17%",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "rotation": 1,
+      "probability": 0.7
+    },
+    {
+      "id": "bench_e",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "83%",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "rotation": 3,
+      "probability": 0.7
+    },
+    {
+      "id": "armor_w",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "min+3",
+        "y": 1,
+        "z": "25%"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "rotation": 1,
+      "probability": 0.6
+    },
+    {
+      "id": "armor_e",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "max-3",
+        "y": 1,
+        "z": "25%"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "rotation": 3,
+      "probability": 0.6
+    },
+    {
+      "id": "chandelier",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "lighting"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": "ceiling-11",
+        "z": "center"
+      },
+      "preferred_ids": [
+        "grand_chandelier"
+      ],
+      "required": true,
+      "max_repeats": 1
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "workshop",
+  "name": "Workshop",
+  "style_profile": "style.industrial_steampunk",
+  "palette": "composition.industrial_steampunk",
+  "density": 0.78,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "slots": [
+    {
+      "id": "bench_a",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "30%",
+        "y": 1,
+        "z": "35%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "required": true
+    },
+    {
+      "id": "bench_b",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "70%",
+        "y": 1,
+        "z": "35%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "probability": 0.8
+    },
+    {
+      "id": "console",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "consoles"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "console_bank"
+      ],
+      "probability": 0.8,
+      "placement_mode": "carve_and_place"
+    },
+    {
+      "id": "pipe",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "pipes"
+        ]
+      },
+      "target": {
+        "x": "min+3",
+        "y": 1,
+        "z": "65%"
+      },
+      "preferred_ids": [
+        "industrial_pipe_rack"
+      ],
+      "rotation": 1,
+      "probability": 0.9
+    },
+    {
+      "id": "desk",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "desks"
+        ]
+      },
+      "target": {
+        "x": "75%",
+        "y": 1,
+        "z": "72%"
+      },
+      "preferred_ids": [
+        "writing_desk"
+      ],
+      "probability": 0.65
+    }
+  ]
+}

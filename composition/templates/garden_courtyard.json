@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "garden_courtyard",
+  "name": "Garden Courtyard",
+  "style_profile": "style.garden_estate",
+  "palette": "composition.garden_estate",
+  "density": 0.9,
+  "shell": {
+    "floor": true,
+    "floor_state": "minecraft:grass_block",
+    "walls": false,
+    "ceiling": false
+  },
+  "connectors": [
+    {
+      "id": "gate_s",
+      "side": "south",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    },
+    {
+      "id": "gate_n",
+      "side": "north",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    }
+  ],
+  "slots": [
+    {
+      "id": "tree_nw",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "trees"
+        ]
+      },
+      "target": {
+        "x": "22%",
+        "y": 1,
+        "z": "22%"
+      },
+      "preferred_ids": [
+        "manor_oak_small"
+      ],
+      "required": true,
+      "max_repeats": 3
+    },
+    {
+      "id": "tree_ne",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "trees"
+        ]
+      },
+      "target": {
+        "x": "78%",
+        "y": 1,
+        "z": "22%"
+      },
+      "preferred_ids": [
+        "cypress_tree",
+        "manor_oak_small"
+      ],
+      "required": true,
+      "max_repeats": 3
+    },
+    {
+      "id": "tree_sw",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "trees"
+        ]
+      },
+      "target": {
+        "x": "22%",
+        "y": 1,
+        "z": "78%"
+      },
+      "preferred_ids": [
+        "cypress_tree",
+        "manor_oak_small"
+      ],
+      "probability": 0.8,
+      "max_repeats": 3
+    },
+    {
+      "id": "tree_se",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "trees"
+        ]
+      },
+      "target": {
+        "x": "78%",
+        "y": 1,
+        "z": "78%"
+      },
+      "preferred_ids": [
+        "manor_oak_small"
+      ],
+      "probability": 0.8,
+      "max_repeats": 3
+    },
+    {
+      "id": "hedge_nw",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "hedges"
+        ]
+      },
+      "target": {
+        "x": "18%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "formal_hedge_corner"
+      ],
+      "probability": 0.75,
+      "max_repeats": 4
+    },
+    {
+      "id": "hedge_ne",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "hedges"
+        ]
+      },
+      "target": {
+        "x": "82%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "formal_hedge_corner"
+      ],
+      "rotation": 1,
+      "probability": 0.75,
+      "max_repeats": 4
+    },
+    {
+      "id": "topiary_w",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "topiary"
+        ]
+      },
+      "target": {
+        "x": "38%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "topiary_urn"
+      ],
+      "required": true
+    },
+    {
+      "id": "topiary_e",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "topiary"
+        ]
+      },
+      "target": {
+        "x": "62%",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "topiary_urn"
+      ],
+      "required": true
+    }
+  ]
+}

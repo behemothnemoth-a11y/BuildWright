@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/composition_manifest.schema.json",
+  "title": "BuildWright Composition Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "brief_id",
+    "template",
+    "room_size",
+    "placements",
+    "block_count",
+    "litematic_sha256",
+    "maturity",
+    "live_game_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "brief_id": {
+      "type": "string"
+    },
+    "template": {
+      "type": "string"
+    },
+    "room_size": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "placements": {
+      "type": "array"
+    },
+    "connectors": {
+      "type": "array"
+    },
+    "block_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "microblock_hosts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "litematic_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "maturity": {
+      "enum": [
+        "OFFLINE_COMPILED",
+        "LIVE_GAME_TESTED",
+        "APPROVED"
+      ]
+    },
+    "live_game_status": {
+      "enum": [
+        "PENDING",
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

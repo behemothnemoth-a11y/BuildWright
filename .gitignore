@@ -14,7 +14,9 @@ Thumbs.db
 __pycache__/
 *.pyc
 
-# Intentional Minecraft artifacts under project/release folders remain trackable.
-
+# BuildWright local generation workspace
 .buildwright/generated/
 microblock-plan-*.json
+composition/compiled_modules/
+
+# Intentional fixtures, compiled examples, project schematics and release artifacts remain trackable.

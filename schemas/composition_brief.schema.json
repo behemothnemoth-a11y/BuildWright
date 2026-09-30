@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/composition_brief.schema.json",
+  "title": "BuildWright Composition Brief",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "id",
+    "size",
+    "template"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string"
+    },
+    "stage": {
+      "enum": [
+        "vanilla",
+        "hybrid"
+      ]
+    },
+    "template": {
+      "type": "string"
+    },
+    "size": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "integer",
+          "minimum": 5
+        },
+        {
+          "type": "integer",
+          "minimum": 5
+        },
+        {
+          "type": "integer",
+          "minimum": 5
+        }
+      ],
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "style_profile": {
+      "type": "string"
+    },
+    "palette": {
+      "type": "string"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "fixture_policy": {
+      "type": "object",
+      "properties": {
+        "density": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "max_repeats": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "allow": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclude": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "connectors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/connector"
+      }
+    },
+    "keepouts": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        },
+        "minItems": 6,
+        "maxItems": 6
+      }
+    },
+    "slots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slot"
+      }
+    }
+  },
+  "$defs": {
+    "connector": {
+      "type": "object",
+      "required": [
+        "id",
+        "side"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "side": {
+          "enum": [
+            "north",
+            "south",
+            "east",
+            "west"
+          ]
+        },
+        "center": {},
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "depth": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "clearance": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "target": {
+          "type": "string"
+        }
+      }
+    },
+    "slot": {
+      "type": "object",
+      "required": [
+        "id",
+        "selector"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "selector": {
+          "type": "object"
+        },
+        "target": {
+          "type": "object"
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "rotation": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "mirror": {
+          "enum": [
+            "none",
+            "x",
+            "z"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "probability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "placement_mode": {
+          "enum": [
+            "overlay",
+            "carve_and_place",
+            "add"
+          ]
+        }
+      }
+    }
+  }
+}

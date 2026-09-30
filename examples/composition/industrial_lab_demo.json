@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "industrial_lab_demo",
+  "name": "Industrial Lab Demo",
+  "stage": "vanilla",
+  "template": "industrial_lab",
+  "size": [
+    49,
+    14,
+    31
+  ],
+  "style_profile": "style.industrial_steampunk",
+  "palette": "composition.industrial_steampunk",
+  "seed": 5004,
+  "fixture_policy": {
+    "density": 0.95,
+    "max_repeats": 4
+  }
+}

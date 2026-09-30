@@ -1,0 +1,19 @@
+{
+  "id": "composition.modern_neutral",
+  "name": "Modern Neutral",
+  "shell": {
+    "floor": "minecraft:smooth_quartz",
+    "wall": "minecraft:white_concrete",
+    "ceiling": "minecraft:smooth_quartz"
+  },
+  "stone_families": {
+    "stone_bricks": "quartz",
+    "polished_blackstone_bricks": "quartz"
+  },
+  "wood_species": {
+    "oak": "birch",
+    "spruce": "birch",
+    "dark_oak": "birch"
+  },
+  "exact": {}
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "freeform",
+  "name": "Freeform Module",
+  "palette": "composition.massive_gothic_manor",
+  "density": 1.0,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": false
+  },
+  "connectors": [],
+  "slots": []
+}

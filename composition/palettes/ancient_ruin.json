@@ -1,0 +1,20 @@
+{
+  "id": "composition.ancient_ruin",
+  "name": "Ancient Ruin",
+  "shell": {
+    "floor": "minecraft:mossy_stone_bricks",
+    "wall": "minecraft:stone_bricks",
+    "ceiling": "minecraft:stone_bricks"
+  },
+  "stone_families": {
+    "polished_blackstone_bricks": "stone_bricks"
+  },
+  "wood_species": {
+    "oak": "spruce",
+    "dark_oak": "spruce"
+  },
+  "exact": {
+    "minecraft:stone_bricks": "minecraft:mossy_stone_bricks",
+    "minecraft:dark_oak_planks": "minecraft:spruce_planks"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "composition.industrial_steampunk",
+  "name": "Industrial Steampunk",
+  "shell": {
+    "floor": "minecraft:polished_andesite",
+    "wall": "minecraft:bricks",
+    "ceiling": "minecraft:deepslate_tiles"
+  },
+  "stone_families": {
+    "stone_bricks": "stone_bricks",
+    "polished_blackstone_bricks": "deepslate_tiles"
+  },
+  "wood_species": {
+    "oak": "spruce",
+    "dark_oak": "spruce"
+  },
+  "exact": {
+    "minecraft:iron_block": "minecraft:cut_copper",
+    "minecraft:chain": "minecraft:chain"
+  }
+}

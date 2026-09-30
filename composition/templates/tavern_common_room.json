@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "tavern_common_room",
+  "name": "Tavern Common Room",
+  "style_profile": "style.rustic_tavern",
+  "palette": "composition.rustic_tavern",
+  "density": 0.85,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "slots": [
+    {
+      "id": "fireplace",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "fireplaces"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "manor_fireplace"
+      ],
+      "required": true,
+      "placement_mode": "carve_and_place"
+    },
+    {
+      "id": "table_l",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "tables"
+        ]
+      },
+      "target": {
+        "x": "32%",
+        "y": 1,
+        "z": "52%"
+      },
+      "preferred_ids": [
+        "library_table"
+      ],
+      "required": true
+    },
+    {
+      "id": "table_r",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "tables"
+        ]
+      },
+      "target": {
+        "x": "68%",
+        "y": 1,
+        "z": "52%"
+      },
+      "preferred_ids": [
+        "library_table"
+      ],
+      "required": true
+    },
+    {
+      "id": "bench_l",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "25%",
+        "y": 1,
+        "z": "77%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "probability": 0.75
+    },
+    {
+      "id": "bench_r",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "75%",
+        "y": 1,
+        "z": "77%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "probability": 0.75
+    },
+    {
+      "id": "chandelier",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "lighting"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": "ceiling-11",
+        "z": "center"
+      },
+      "preferred_ids": [
+        "grand_chandelier"
+      ],
+      "probability": 0.9
+    }
+  ]
+}

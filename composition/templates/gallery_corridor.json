@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "gallery_corridor",
+  "name": "Gallery Corridor",
+  "style_profile": "style.massive_gothic_manor",
+  "palette": "composition.massive_gothic_manor",
+  "density": 0.82,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "west",
+      "side": "west",
+      "center": "center",
+      "width": 5,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    },
+    {
+      "id": "east",
+      "side": "east",
+      "center": "center",
+      "width": 5,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "slots": [
+    {
+      "id": "armor_n1",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "25%",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "probability": 0.9,
+      "max_repeats": 5
+    },
+    {
+      "id": "armor_n2",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "50%",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "probability": 0.9,
+      "max_repeats": 5
+    },
+    {
+      "id": "armor_n3",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "75%",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "probability": 0.9,
+      "max_repeats": 5
+    },
+    {
+      "id": "bench_s1",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "33%",
+        "y": 1,
+        "z": "max-3"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "rotation": 2,
+      "probability": 0.6
+    },
+    {
+      "id": "bench_s2",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "67%",
+        "y": 1,
+        "z": "max-3"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "rotation": 2,
+      "probability": 0.6
+    }
+  ]
+}

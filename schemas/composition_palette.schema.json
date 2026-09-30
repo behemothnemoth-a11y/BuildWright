@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/composition_palette.schema.json",
+  "title": "BuildWright Composition Palette",
+  "type": "object",
+  "required": [
+    "id",
+    "shell"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "shell": {
+      "type": "object",
+      "required": [
+        "floor",
+        "wall",
+        "ceiling"
+      ]
+    },
+    "stone_families": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "wood_species": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "exact": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "bedroom_suite",
+  "name": "Bedroom Suite",
+  "style_profile": "style.victorian_estate",
+  "palette": "composition.victorian_estate",
+  "density": 0.82,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "25%",
+      "width": 3,
+      "height": 4,
+      "depth": 2,
+      "clearance": 3
+    }
+  ],
+  "slots": [
+    {
+      "id": "bed",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "beds"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "30%"
+      },
+      "preferred_ids": [
+        "canopy_bed"
+      ],
+      "required": true,
+      "max_repeats": 1
+    },
+    {
+      "id": "desk",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "desks"
+        ]
+      },
+      "target": {
+        "x": "75%",
+        "y": 1,
+        "z": "72%"
+      },
+      "preferred_ids": [
+        "writing_desk"
+      ],
+      "probability": 0.9
+    },
+    {
+      "id": "chair",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "24%",
+        "y": 1,
+        "z": "73%"
+      },
+      "preferred_ids": [
+        "gothic_armchair"
+      ],
+      "probability": 0.85
+    },
+    {
+      "id": "bookcase",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "storage"
+        ]
+      },
+      "target": {
+        "x": "min+2",
+        "y": 1,
+        "z": "35%"
+      },
+      "preferred_ids": [
+        "bookcase_wall"
+      ],
+      "rotation": 1,
+      "placement_mode": "carve_and_place",
+      "probability": 0.65
+    },
+    {
+      "id": "fireplace",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "fireplaces"
+        ]
+      },
+      "target": {
+        "x": "max-3",
+        "y": 1,
+        "z": "center"
+      },
+      "preferred_ids": [
+        "manor_fireplace"
+      ],
+      "rotation": 3,
+      "placement_mode": "carve_and_place",
+      "probability": 0.65,
+      "max_repeats": 1
+    },
+    {
+      "id": "planter",
+      "selector": {
+        "category": "vegetation",
+        "families": [
+          "planters"
+        ]
+      },
+      "target": {
+        "x": "82%",
+        "y": 1,
+        "z": "18%"
+      },
+      "preferred_ids": [
+        "indoor_planter"
+      ],
+      "probability": 0.4
+    }
+  ]
+}

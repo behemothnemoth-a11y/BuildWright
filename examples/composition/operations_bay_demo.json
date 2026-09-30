@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "operations_bay_demo",
+  "name": "Operations Bay Demo",
+  "stage": "vanilla",
+  "template": "operations_bay",
+  "size": [
+    55,
+    16,
+    35
+  ],
+  "style_profile": "style.cave_megastructure",
+  "palette": "composition.dark_fortress",
+  "seed": 5006,
+  "fixture_policy": {
+    "density": 0.95,
+    "max_repeats": 4
+  }
+}

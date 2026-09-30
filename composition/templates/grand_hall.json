@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "id": "grand_hall",
+  "name": "Grand Hall",
+  "style_profile": "style.massive_gothic_manor",
+  "palette": "composition.massive_gothic_manor",
+  "density": 0.9,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": false,
+    "wall_height": 18
+  },
+  "connectors": [
+    {
+      "id": "main_entry",
+      "side": "north",
+      "center": "center",
+      "width": 7,
+      "height": 6,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "slots": [
+    {
+      "id": "grand_stair",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "stairs"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "max-11"
+      },
+      "preferred_ids": [
+        "grand_split_stair_connector"
+      ],
+      "required": true,
+      "placement_mode": "overlay",
+      "max_repeats": 1
+    },
+    {
+      "id": "pier_front_left",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "columns_piers"
+        ]
+      },
+      "target": {
+        "x": "25%",
+        "y": 1,
+        "z": "28%"
+      },
+      "preferred_ids": [
+        "clustered_pier_monumental",
+        "clustered_pier_compact"
+      ],
+      "required": true
+    },
+    {
+      "id": "pier_front_right",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "columns_piers"
+        ]
+      },
+      "target": {
+        "x": "75%",
+        "y": 1,
+        "z": "28%"
+      },
+      "preferred_ids": [
+        "clustered_pier_monumental",
+        "clustered_pier_compact"
+      ],
+      "required": true
+    },
+    {
+      "id": "pier_mid_left",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "columns_piers"
+        ]
+      },
+      "target": {
+        "x": "18%",
+        "y": 1,
+        "z": "55%"
+      },
+      "preferred_ids": [
+        "clustered_pier_compact"
+      ],
+      "required": false,
+      "probability": 0.9
+    },
+    {
+      "id": "pier_mid_right",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "columns_piers"
+        ]
+      },
+      "target": {
+        "x": "82%",
+        "y": 1,
+        "z": "55%"
+      },
+      "preferred_ids": [
+        "clustered_pier_compact"
+      ],
+      "required": false,
+      "probability": 0.9
+    },
+    {
+      "id": "fireplace_west",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "fireplaces"
+        ]
+      },
+      "target": {
+        "x": "min+3",
+        "y": 1,
+        "z": "42%"
+      },
+      "preferred_ids": [
+        "gothic_fireplace"
+      ],
+      "rotation": 1,
+      "placement_mode": "carve_and_place",
+      "probability": 0.75,
+      "max_repeats": 1
+    },
+    {
+      "id": "fireplace_east",
+      "selector": {
+        "category": "architecture",
+        "families": [
+          "fireplaces"
+        ]
+      },
+      "target": {
+        "x": "max-3",
+        "y": 1,
+        "z": "42%"
+      },
+      "preferred_ids": [
+        "gothic_fireplace"
+      ],
+      "rotation": 3,
+      "placement_mode": "carve_and_place",
+      "probability": 0.45,
+      "max_repeats": 2
+    },
+    {
+      "id": "armor_left",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "13%",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "probability": 0.9
+    },
+    {
+      "id": "armor_right",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "displays"
+        ]
+      },
+      "target": {
+        "x": "87%",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "armor_niche"
+      ],
+      "probability": 0.9
+    },
+    {
+      "id": "chandelier",
+      "selector": {
+        "category": "decor",
+        "families": [
+          "lighting"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": "ceiling-11",
+        "z": "42%"
+      },
+      "preferred_ids": [
+        "grand_chandelier"
+      ],
+      "required": true,
+      "max_repeats": 1
+    },
+    {
+      "id": "bench_left",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "22%",
+        "y": 1,
+        "z": "18%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "probability": 0.65
+    },
+    {
+      "id": "bench_right",
+      "selector": {
+        "category": "furniture",
+        "families": [
+          "seating"
+        ]
+      },
+      "target": {
+        "x": "78%",
+        "y": 1,
+        "z": "18%"
+      },
+      "preferred_ids": [
+        "highback_bench"
+      ],
+      "probability": 0.65
+    }
+  ]
+}

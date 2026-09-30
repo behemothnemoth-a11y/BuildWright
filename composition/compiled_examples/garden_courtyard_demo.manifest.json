@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "brief_id": "garden_courtyard_demo",
+  "template": "garden_courtyard",
+  "room_size": [
+    61,
+    22,
+    61
+  ],
+  "style_profile": "style.garden_estate",
+  "palette": "composition.garden_estate",
+  "seed": 5005,
+  "placements": [
+    {
+      "slot_id": "tree_nw",
+      "fixture_id": "manor_oak_small",
+      "stage": "vanilla",
+      "target": [
+        13,
+        1,
+        13
+      ],
+      "origin": [
+        5,
+        1,
+        5
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        17,
+        17,
+        17
+      ],
+      "box": {
+        "min_x": 8,
+        "min_y": 1,
+        "min_z": 8,
+        "max_x": 18,
+        "max_y": 17,
+        "max_z": 18
+      },
+      "declared_box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 5,
+        "max_x": 21,
+        "max_y": 17,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "tree_ne",
+      "fixture_id": "cypress_tree",
+      "stage": "vanilla",
+      "target": [
+        47,
+        1,
+        13
+      ],
+      "origin": [
+        44,
+        1,
+        10
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        18,
+        7
+      ],
+      "box": {
+        "min_x": 44,
+        "min_y": 1,
+        "min_z": 10,
+        "max_x": 50,
+        "max_y": 17,
+        "max_z": 16
+      },
+      "declared_box": {
+        "min_x": 44,
+        "min_y": 1,
+        "min_z": 10,
+        "max_x": 50,
+        "max_y": 18,
+        "max_z": 16
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "tree_sw",
+      "fixture_id": "cypress_tree",
+      "stage": "vanilla",
+      "target": [
+        13,
+        1,
+        47
+      ],
+      "origin": [
+        10,
+        1,
+        44
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        18,
+        7
+      ],
+      "box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 44,
+        "max_x": 16,
+        "max_y": 17,
+        "max_z": 50
+      },
+      "declared_box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 44,
+        "max_x": 16,
+        "max_y": 18,
+        "max_z": 50
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "tree_se",
+      "fixture_id": "manor_oak_small",
+      "stage": "vanilla",
+      "target": [
+        47,
+        1,
+        47
+      ],
+      "origin": [
+        39,
+        1,
+        39
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        17,
+        17,
+        17
+      ],
+      "box": {
+        "min_x": 42,
+        "min_y": 1,
+        "min_z": 42,
+        "max_x": 52,
+        "max_y": 17,
+        "max_z": 52
+      },
+      "declared_box": {
+        "min_x": 39,
+        "min_y": 1,
+        "min_z": 39,
+        "max_x": 55,
+        "max_y": 17,
+        "max_z": 55
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "hedge_nw",
+      "fixture_id": "formal_hedge_corner",
+      "stage": "vanilla",
+      "target": [
+        11,
+        1,
+        30
+      ],
+      "origin": [
+        6,
+        1,
+        25
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        11
+      ],
+      "box": {
+        "min_x": 6,
+        "min_y": 1,
+        "min_z": 25,
+        "max_x": 16,
+        "max_y": 5,
+        "max_z": 35
+      },
+      "declared_box": {
+        "min_x": 6,
+        "min_y": 1,
+        "min_z": 25,
+        "max_x": 16,
+        "max_y": 5,
+        "max_z": 35
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "hedge_ne",
+      "fixture_id": "formal_hedge_corner",
+      "stage": "vanilla",
+      "target": [
+        49,
+        1,
+        30
+      ],
+      "origin": [
+        44,
+        1,
+        25
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        11
+      ],
+      "box": {
+        "min_x": 44,
+        "min_y": 1,
+        "min_z": 25,
+        "max_x": 54,
+        "max_y": 5,
+        "max_z": 35
+      },
+      "declared_box": {
+        "min_x": 44,
+        "min_y": 1,
+        "min_z": 25,
+        "max_x": 54,
+        "max_y": 5,
+        "max_z": 35
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "topiary_w",
+      "fixture_id": "topiary_urn",
+      "stage": "vanilla",
+      "target": [
+        23,
+        1,
+        30
+      ],
+      "origin": [
+        20,
+        1,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "box": {
+        "min_x": 21,
+        "min_y": 1,
+        "min_z": 28,
+        "max_x": 25,
+        "max_y": 10,
+        "max_z": 32
+      },
+      "declared_box": {
+        "min_x": 20,
+        "min_y": 1,
+        "min_z": 27,
+        "max_x": 26,
+        "max_y": 10,
+        "max_z": 33
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "topiary_e",
+      "fixture_id": "topiary_urn",
+      "stage": "vanilla",
+      "target": [
+        37,
+        1,
+        30
+      ],
+      "origin": [
+        34,
+        1,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "box": {
+        "min_x": 35,
+        "min_y": 1,
+        "min_z": 28,
+        "max_x": 39,
+        "max_y": 10,
+        "max_z": 32
+      },
+      "declared_box": {
+        "min_x": 34,
+        "min_y": 1,
+        "min_z": 27,
+        "max_x": 40,
+        "max_y": 10,
+        "max_z": 33
+      },
+      "placement_mode": "overlay",
+      "required": true
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gate_s",
+      "side": "south",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    },
+    {
+      "id": "gate_n",
+      "side": "north",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    }
+  ],
+  "block_count": 6477,
+  "microblock_hosts": 0,
+  "source": "garden_courtyard_demo.source.json",
+  "litematic": "garden_courtyard_demo.litematic",
+  "litematic_sha256": "cc5000688fd4252ff6d93f27beb2d146d9e1863d53eeac286da72fab9d707404",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "garden_courtyard_demo.plan.svg",
+  "readback": {
+    "regions": 1,
+    "nonair": 6477,
+    "volume": 81862,
+    "palette": 6
+  }
+}

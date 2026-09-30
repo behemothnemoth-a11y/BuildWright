@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "brief_id": "victorian_bedroom_demo",
+  "template": "bedroom_suite",
+  "room_size": [
+    31,
+    13,
+    27
+  ],
+  "style_profile": "style.victorian_estate",
+  "palette": "composition.victorian_estate",
+  "seed": 5003,
+  "placements": [
+    {
+      "slot_id": "bed",
+      "fixture_id": "canopy_bed",
+      "stage": "vanilla",
+      "target": [
+        15,
+        1,
+        8
+      ],
+      "origin": [
+        11,
+        1,
+        2
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        7,
+        13
+      ],
+      "box": {
+        "min_x": 11,
+        "min_y": 1,
+        "min_z": 2,
+        "max_x": 19,
+        "max_y": 7,
+        "max_z": 14
+      },
+      "declared_box": {
+        "min_x": 11,
+        "min_y": 1,
+        "min_z": 2,
+        "max_x": 19,
+        "max_y": 7,
+        "max_z": 14
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "desk",
+      "fixture_id": "writing_desk",
+      "stage": "vanilla",
+      "target": [
+        22,
+        1,
+        19
+      ],
+      "origin": [
+        18,
+        1,
+        17
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        5,
+        5
+      ],
+      "box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 26,
+        "max_y": 5,
+        "max_z": 21
+      },
+      "declared_box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 26,
+        "max_y": 5,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chair",
+      "fixture_id": "gothic_armchair",
+      "stage": "vanilla",
+      "target": [
+        7,
+        1,
+        19
+      ],
+      "origin": [
+        5,
+        1,
+        17
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        7,
+        5
+      ],
+      "box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 18,
+        "max_x": 9,
+        "max_y": 7,
+        "max_z": 20
+      },
+      "declared_box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 9,
+        "max_y": 7,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "bookcase",
+      "fixture_id": "bookcase_wall",
+      "stage": "vanilla",
+      "target": [
+        2,
+        1,
+        9
+      ],
+      "origin": [
+        1,
+        1,
+        2
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        3,
+        9,
+        15
+      ],
+      "box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 2,
+        "max_x": 3,
+        "max_y": 9,
+        "max_z": 16
+      },
+      "declared_box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 2,
+        "max_x": 3,
+        "max_y": 9,
+        "max_z": 16
+      },
+      "placement_mode": "carve_and_place",
+      "required": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "25%",
+      "width": 3,
+      "height": 4,
+      "depth": 2,
+      "clearance": 3
+    }
+  ],
+  "block_count": 3713,
+  "microblock_hosts": 0,
+  "source": "victorian_bedroom_demo.source.json",
+  "litematic": "victorian_bedroom_demo.litematic",
+  "litematic_sha256": "f1b315cab4935a525b5e25b97d9e4027bd4b18fb680d3b503de22bfe3d4986ae",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "victorian_bedroom_demo.plan.svg",
+  "readback": {
+    "regions": 1,
+    "nonair": 3713,
+    "volume": 10881,
+    "palette": 6
+  }
+}

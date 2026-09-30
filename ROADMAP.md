@@ -10,26 +10,56 @@ Complete.
 Complete.
 
 ## DROP 0004 — Compiled Asset Fixtures
-Complete in this drop:
-- canonical fixture source format;
-- real vanilla and Astra-host Litematica artifacts;
-- deterministic previews;
-- independent readback validation;
-- rotation/mirror corpus;
-- fixture registry/index and tooling.
+Complete.
 
 ## DROP 0005 — Composition Compiler
-Planned:
-- room/module briefs → pack + fixture selection;
-- connector-aware placement graph;
-- collision/clearance masks;
+Complete in this drop:
+
+- room/module brief contract;
+- 11 reusable spatial templates;
+- 8 shape-preserving composition palettes;
+- deterministic fixture selection and repeat penalties;
+- style-profile weighting;
+- connector and keepout protection;
+- collision-safe placement;
+- shell construction and connector re-carve;
+- vanilla + Astra microblock fixture assembly;
 - palette remapping;
-- deterministic variation seeds;
-- assembled module export;
-- composition-level preview and QA reports.
+- canonical composed-module source;
+- composition manifest/provenance;
+- top-down SVG plans;
+- Litematic compile + independent readback;
+- 7 committed example modules;
+- deterministic example recompilation gate;
+- composition schemas, tools and tests.
+
+
+## DROP 0005B — Composition Compiler Reproducibility Hotfix
+Complete in this hotfix:
+- canonical UTF-8/LF generated JSON and SVG outputs;
+- Git LF attributes for committed composition examples;
+- regression test for cross-platform line endings;
+- byte-for-byte validation remains strict.
+
+## DROP 0006 — Multi-Module Project Graph
+Planned:
+
+- module-to-module connector matching;
+- room graph / floor graph;
+- shared-wall reconciliation;
+- stair/elevator vertical alignment;
+- exterior envelope constraints;
+- corridor routing;
+- whole-building origin management;
+- terrain/landscape attachment points;
+- project-wide collision and circulation QA;
+- merge multiple compiled modules into a master schematic.
 
 ## Later
-- Fabric-side automated fixture smoke tests;
-- Build Studio adapter;
+
+- reference/image → structured room brief assistance;
+- Fabric-side automated fixture/module smoke tests;
 - Axiom-assisted placement workflows;
-- project-level vanilla→microblock diff planner.
+- Build Studio adapter;
+- registry-aware palette/material resolver;
+- project-level vanilla → microblock diff planner.

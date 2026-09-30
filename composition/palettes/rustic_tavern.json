@@ -1,0 +1,15 @@
+{
+  "id": "composition.rustic_tavern",
+  "name": "Rustic Tavern",
+  "shell": {
+    "floor": "minecraft:spruce_planks",
+    "wall": "minecraft:stone_bricks",
+    "ceiling": "minecraft:spruce_planks"
+  },
+  "stone_families": {},
+  "wood_species": {
+    "oak": "spruce",
+    "dark_oak": "spruce"
+  },
+  "exact": {}
+}

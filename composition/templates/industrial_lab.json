@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "industrial_lab",
+  "name": "Industrial Lab",
+  "style_profile": "style.industrial_steampunk",
+  "palette": "composition.industrial_steampunk",
+  "density": 0.92,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "slots": [
+    {
+      "id": "lab_left",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "28%",
+        "y": 1,
+        "z": "38%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "required": true
+    },
+    {
+      "id": "lab_right",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "72%",
+        "y": 1,
+        "z": "38%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "required": true
+    },
+    {
+      "id": "console_back",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "consoles"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "console_bank"
+      ],
+      "required": true,
+      "placement_mode": "carve_and_place"
+    },
+    {
+      "id": "pipe_w",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "pipes"
+        ]
+      },
+      "target": {
+        "x": "min+3",
+        "y": 1,
+        "z": "65%"
+      },
+      "preferred_ids": [
+        "industrial_pipe_rack"
+      ],
+      "rotation": 1,
+      "required": true
+    },
+    {
+      "id": "pipe_e",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "pipes"
+        ]
+      },
+      "target": {
+        "x": "max-3",
+        "y": 1,
+        "z": "65%"
+      },
+      "preferred_ids": [
+        "industrial_pipe_rack"
+      ],
+      "rotation": 3,
+      "probability": 0.75
+    },
+    {
+      "id": "cable_a",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "cables"
+        ]
+      },
+      "target": {
+        "x": "33%",
+        "y": "ceiling-3",
+        "z": "center"
+      },
+      "preferred_ids": [
+        "hanging_cable_tray"
+      ],
+      "required": true
+    },
+    {
+      "id": "cable_b",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "cables"
+        ]
+      },
+      "target": {
+        "x": "67%",
+        "y": "ceiling-3",
+        "z": "center"
+      },
+      "preferred_ids": [
+        "hanging_cable_tray"
+      ],
+      "probability": 0.7
+    }
+  ]
+}

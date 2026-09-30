@@ -1,19 +1,24 @@
 {
   "name": "BuildWright",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
   },
   "pipeline": [
+    "reference_or_project_brief",
+    "composition_brief",
+    "composition_plan",
     "vanilla_build_language",
     "vanilla_pack_selection",
     "vanilla_fixture_selection",
+    "module_compile",
     "vanilla_review_gate",
     "microblock_candidate_analysis",
     "microblock_detail_profile",
     "microblock_translation_plan",
     "microblock_fixture_selection",
+    "hybrid_module_compile",
     "microblock_implementation",
     "hybrid_review_gate"
   ],
@@ -40,11 +45,24 @@
     "source_of_truth": "fixtures/sources",
     "compiled_artifacts": "fixtures/compiled"
   },
+  "composition_system": {
+    "index": "composition/index.json",
+    "brief_schema": "schemas/composition_brief.schema.json",
+    "templates": 11,
+    "palettes": 8,
+    "example_modules": 7,
+    "canonical_module_source": true,
+    "connector_keepouts": true,
+    "deterministic_seeds": true,
+    "hybrid_astra_hosts": true,
+    "cross_platform_deterministic_text": true
+  },
   "maturity_states": [
     "CONCEPT",
     "BLOCKOUT",
     "ARCHITECTURE",
     "DETAILING",
+    "OFFLINE_COMPILED",
     "SERIALIZATION_VALIDATED",
     "LIVE_GAME_PENDING",
     "REVIEW_CANDIDATE",

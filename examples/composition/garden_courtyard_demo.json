@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "garden_courtyard_demo",
+  "name": "Garden Courtyard Demo",
+  "stage": "vanilla",
+  "template": "garden_courtyard",
+  "size": [
+    61,
+    22,
+    61
+  ],
+  "style_profile": "style.garden_estate",
+  "palette": "composition.garden_estate",
+  "seed": 5005,
+  "fixture_policy": {
+    "density": 0.95,
+    "max_repeats": 4
+  }
+}

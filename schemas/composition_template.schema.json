@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/composition_template.schema.json",
+  "title": "BuildWright Composition Template",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "slots"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "style_profile": {
+      "type": "string"
+    },
+    "palette": {
+      "type": "string"
+    },
+    "density": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "shell": {
+      "type": "object"
+    },
+    "connectors": {
+      "type": "array"
+    },
+    "slots": {
+      "type": "array"
+    }
+  }
+}

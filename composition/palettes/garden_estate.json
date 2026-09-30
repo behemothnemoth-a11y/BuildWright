@@ -1,0 +1,15 @@
+{
+  "id": "composition.garden_estate",
+  "name": "Garden Estate",
+  "shell": {
+    "floor": "minecraft:stone_bricks",
+    "wall": "minecraft:stone_bricks",
+    "ceiling": "minecraft:oak_planks"
+  },
+  "stone_families": {},
+  "wood_species": {
+    "spruce": "oak",
+    "dark_oak": "oak"
+  },
+  "exact": {}
+}

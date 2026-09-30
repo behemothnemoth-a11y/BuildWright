@@ -1,0 +1,17 @@
+{
+  "id": "composition.victorian_estate",
+  "name": "Victorian Estate",
+  "shell": {
+    "floor": "minecraft:dark_oak_planks",
+    "wall": "minecraft:stone_bricks",
+    "ceiling": "minecraft:spruce_planks"
+  },
+  "stone_families": {
+    "polished_blackstone_bricks": "stone_bricks"
+  },
+  "wood_species": {
+    "oak": "spruce",
+    "dark_oak": "spruce"
+  },
+  "exact": {}
+}

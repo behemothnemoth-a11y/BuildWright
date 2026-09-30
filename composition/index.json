@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "buildwright_version": "0.5.0",
+  "counts": {
+    "templates": 11,
+    "palettes": 8,
+    "examples": 7
+  },
+  "templates": [
+    {
+      "id": "bedroom_suite",
+      "name": "Bedroom Suite",
+      "file": "composition/templates/bedroom_suite.json",
+      "slots": 6,
+      "style_profile": "style.victorian_estate",
+      "palette": "composition.victorian_estate"
+    },
+    {
+      "id": "formal_dining",
+      "name": "Formal Dining",
+      "file": "composition/templates/formal_dining.json",
+      "slots": 8,
+      "style_profile": "style.victorian_estate",
+      "palette": "composition.victorian_estate"
+    },
+    {
+      "id": "freeform",
+      "name": "Freeform Module",
+      "file": "composition/templates/freeform.json",
+      "slots": 0,
+      "style_profile": null,
+      "palette": "composition.massive_gothic_manor"
+    },
+    {
+      "id": "gallery_corridor",
+      "name": "Gallery Corridor",
+      "file": "composition/templates/gallery_corridor.json",
+      "slots": 5,
+      "style_profile": "style.massive_gothic_manor",
+      "palette": "composition.massive_gothic_manor"
+    },
+    {
+      "id": "garden_courtyard",
+      "name": "Garden Courtyard",
+      "file": "composition/templates/garden_courtyard.json",
+      "slots": 8,
+      "style_profile": "style.garden_estate",
+      "palette": "composition.garden_estate"
+    },
+    {
+      "id": "grand_hall",
+      "name": "Grand Hall",
+      "file": "composition/templates/grand_hall.json",
+      "slots": 12,
+      "style_profile": "style.massive_gothic_manor",
+      "palette": "composition.massive_gothic_manor"
+    },
+    {
+      "id": "industrial_lab",
+      "name": "Industrial Lab",
+      "file": "composition/templates/industrial_lab.json",
+      "slots": 7,
+      "style_profile": "style.industrial_steampunk",
+      "palette": "composition.industrial_steampunk"
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "file": "composition/templates/library.json",
+      "slots": 11,
+      "style_profile": "style.massive_gothic_manor",
+      "palette": "composition.massive_gothic_manor"
+    },
+    {
+      "id": "operations_bay",
+      "name": "Operations Bay",
+      "file": "composition/templates/operations_bay.json",
+      "slots": 6,
+      "style_profile": "style.cave_megastructure",
+      "palette": "composition.dark_fortress"
+    },
+    {
+      "id": "tavern_common_room",
+      "name": "Tavern Common Room",
+      "file": "composition/templates/tavern_common_room.json",
+      "slots": 6,
+      "style_profile": "style.rustic_tavern",
+      "palette": "composition.rustic_tavern"
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "file": "composition/templates/workshop.json",
+      "slots": 5,
+      "style_profile": "style.industrial_steampunk",
+      "palette": "composition.industrial_steampunk"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "composition.ancient_ruin",
+      "name": "Ancient Ruin",
+      "file": "composition/palettes/ancient_ruin.json"
+    },
+    {
+      "id": "composition.dark_fortress",
+      "name": "Dark Fortress",
+      "file": "composition/palettes/dark_fortress.json"
+    },
+    {
+      "id": "composition.garden_estate",
+      "name": "Garden Estate",
+      "file": "composition/palettes/garden_estate.json"
+    },
+    {
+      "id": "composition.industrial_steampunk",
+      "name": "Industrial Steampunk",
+      "file": "composition/palettes/industrial_steampunk.json"
+    },
+    {
+      "id": "composition.massive_gothic_manor",
+      "name": "Massive Gothic Manor",
+      "file": "composition/palettes/massive_gothic_manor.json"
+    },
+    {
+      "id": "composition.modern_neutral",
+      "name": "Modern Neutral",
+      "file": "composition/palettes/modern_neutral.json"
+    },
+    {
+      "id": "composition.rustic_tavern",
+      "name": "Rustic Tavern",
+      "file": "composition/palettes/rustic_tavern.json"
+    },
+    {
+      "id": "composition.victorian_estate",
+      "name": "Victorian Estate",
+      "file": "composition/palettes/victorian_estate.json"
+    }
+  ],
+  "examples": [
+    {
+      "id": "garden_courtyard_demo",
+      "template": "garden_courtyard",
+      "brief": "examples/composition/garden_courtyard_demo.json",
+      "compiled": "composition/compiled_examples/garden_courtyard_demo.litematic",
+      "sha256": "cc5000688fd4252ff6d93f27beb2d146d9e1863d53eeac286da72fab9d707404"
+    },
+    {
+      "id": "gothic_grand_hall_demo",
+      "template": "grand_hall",
+      "brief": "examples/composition/gothic_grand_hall_demo.json",
+      "compiled": "composition/compiled_examples/gothic_grand_hall_demo.litematic",
+      "sha256": "5d9a50940f49e9a8a93b13d1b67d0b274c691be8b93f6d2e342b9feb1a8908a8"
+    },
+    {
+      "id": "gothic_library_demo",
+      "template": "library",
+      "brief": "examples/composition/gothic_library_demo.json",
+      "compiled": "composition/compiled_examples/gothic_library_demo.litematic",
+      "sha256": "f4fc56235ad083700f8f229ef4b70406c6d68d9723e16c892a92653131421aec"
+    },
+    {
+      "id": "hybrid_gothic_detail_demo",
+      "template": "library",
+      "brief": "examples/composition/hybrid_gothic_detail_demo.json",
+      "compiled": "composition/compiled_examples/hybrid_gothic_detail_demo.litematic",
+      "sha256": "a760e0cd8ed6716066832cf9a5ebda8560e40f7121aa95ef35c1e44a296ec9d7"
+    },
+    {
+      "id": "industrial_lab_demo",
+      "template": "industrial_lab",
+      "brief": "examples/composition/industrial_lab_demo.json",
+      "compiled": "composition/compiled_examples/industrial_lab_demo.litematic",
+      "sha256": "8fc8996c742a308fac851fa091f0432dda8b0622e27de39e87733350ba1dfef9"
+    },
+    {
+      "id": "operations_bay_demo",
+      "template": "operations_bay",
+      "brief": "examples/composition/operations_bay_demo.json",
+      "compiled": "composition/compiled_examples/operations_bay_demo.litematic",
+      "sha256": "b48bb67e6d8f9b91c62e72dba48d640041d595a88293c5b75f62ccc98baf5537"
+    },
+    {
+      "id": "victorian_bedroom_demo",
+      "template": "bedroom_suite",
+      "brief": "examples/composition/victorian_bedroom_demo.json",
+      "compiled": "composition/compiled_examples/victorian_bedroom_demo.litematic",
+      "sha256": "f1b315cab4935a525b5e25b97d9e4027bd4b18fb680d3b503de22bfe3d4986ae"
+    }
+  ]
+}

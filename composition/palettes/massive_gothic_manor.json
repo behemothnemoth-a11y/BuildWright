@@ -1,0 +1,21 @@
+{
+  "id": "composition.massive_gothic_manor",
+  "name": "Massive Gothic Manor",
+  "shell": {
+    "floor": "minecraft:polished_deepslate",
+    "wall": "minecraft:tuff_bricks",
+    "ceiling": "minecraft:dark_oak_planks"
+  },
+  "stone_families": {
+    "stone_bricks": "tuff_bricks",
+    "polished_blackstone_bricks": "deepslate_tiles"
+  },
+  "wood_species": {
+    "oak": "dark_oak",
+    "spruce": "dark_oak"
+  },
+  "exact": {
+    "minecraft:andesite": "minecraft:polished_andesite",
+    "minecraft:cobblestone": "minecraft:cobbled_deepslate"
+  }
+}

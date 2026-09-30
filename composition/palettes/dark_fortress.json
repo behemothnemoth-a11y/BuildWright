@@ -1,0 +1,19 @@
+{
+  "id": "composition.dark_fortress",
+  "name": "Dark Fortress",
+  "shell": {
+    "floor": "minecraft:deepslate_tiles",
+    "wall": "minecraft:deepslate_bricks",
+    "ceiling": "minecraft:polished_blackstone_bricks"
+  },
+  "stone_families": {
+    "stone_bricks": "deepslate_bricks",
+    "polished_blackstone_bricks": "deepslate_tiles",
+    "tuff_bricks": "deepslate_bricks"
+  },
+  "wood_species": {
+    "oak": "dark_oak",
+    "spruce": "dark_oak"
+  },
+  "exact": {}
+}

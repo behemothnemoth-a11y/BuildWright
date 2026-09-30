@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "brief_id": "operations_bay_demo",
+  "template": "operations_bay",
+  "room_size": [
+    55,
+    16,
+    35
+  ],
+  "style_profile": "style.cave_megastructure",
+  "palette": "composition.dark_fortress",
+  "seed": 5006,
+  "placements": [
+    {
+      "slot_id": "console_n",
+      "fixture_id": "console_bank",
+      "stage": "vanilla",
+      "target": [
+        27,
+        1,
+        3
+      ],
+      "origin": [
+        21,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        13,
+        6,
+        5
+      ],
+      "box": {
+        "min_x": 21,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 33,
+        "max_y": 6,
+        "max_z": 5
+      },
+      "declared_box": {
+        "min_x": 21,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 33,
+        "max_y": 6,
+        "max_z": 5
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "lab_w",
+      "fixture_id": "lab_workstation",
+      "stage": "vanilla",
+      "target": [
+        15,
+        1,
+        15
+      ],
+      "origin": [
+        9,
+        1,
+        12
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        13,
+        7,
+        7
+      ],
+      "box": {
+        "min_x": 9,
+        "min_y": 1,
+        "min_z": 12,
+        "max_x": 21,
+        "max_y": 7,
+        "max_z": 18
+      },
+      "declared_box": {
+        "min_x": 9,
+        "min_y": 1,
+        "min_z": 12,
+        "max_x": 21,
+        "max_y": 7,
+        "max_z": 18
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "lab_e",
+      "fixture_id": "lab_workstation",
+      "stage": "vanilla",
+      "target": [
+        39,
+        1,
+        15
+      ],
+      "origin": [
+        33,
+        1,
+        12
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        13,
+        7,
+        7
+      ],
+      "box": {
+        "min_x": 33,
+        "min_y": 1,
+        "min_z": 12,
+        "max_x": 45,
+        "max_y": 7,
+        "max_z": 18
+      },
+      "declared_box": {
+        "min_x": 33,
+        "min_y": 1,
+        "min_z": 12,
+        "max_x": 45,
+        "max_y": 7,
+        "max_z": 18
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "pipe_w",
+      "fixture_id": "industrial_pipe_rack",
+      "stage": "vanilla",
+      "target": [
+        3,
+        1,
+        24
+      ],
+      "origin": [
+        1,
+        1,
+        17
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        5,
+        9,
+        15
+      ],
+      "box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 5,
+        "max_y": 9,
+        "max_z": 31
+      },
+      "declared_box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 5,
+        "max_y": 9,
+        "max_z": 31
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "pipe_e",
+      "fixture_id": "industrial_pipe_rack",
+      "stage": "vanilla",
+      "target": [
+        51,
+        1,
+        24
+      ],
+      "origin": [
+        49,
+        1,
+        17
+      ],
+      "rotation": 3,
+      "mirror": "none",
+      "size": [
+        5,
+        9,
+        15
+      ],
+      "box": {
+        "min_x": 49,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 53,
+        "max_y": 9,
+        "max_z": 31
+      },
+      "declared_box": {
+        "min_x": 49,
+        "min_y": 1,
+        "min_z": 17,
+        "max_x": 53,
+        "max_y": 9,
+        "max_z": 31
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "cable",
+      "fixture_id": "hanging_cable_tray",
+      "stage": "vanilla",
+      "target": [
+        27,
+        12,
+        17
+      ],
+      "origin": [
+        19,
+        12,
+        15
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        17,
+        4,
+        5
+      ],
+      "box": {
+        "min_x": 19,
+        "min_y": 12,
+        "min_z": 15,
+        "max_x": 35,
+        "max_y": 15,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 19,
+        "min_y": 12,
+        "min_z": 15,
+        "max_x": 35,
+        "max_y": 15,
+        "max_z": 19
+      },
+      "placement_mode": "overlay",
+      "required": true
+    }
+  ],
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "block_count": 7640,
+  "microblock_hosts": 0,
+  "source": "operations_bay_demo.source.json",
+  "litematic": "operations_bay_demo.litematic",
+  "litematic_sha256": "b48bb67e6d8f9b91c62e72dba48d640041d595a88293c5b75f62ccc98baf5537",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "operations_bay_demo.plan.svg",
+  "readback": {
+    "regions": 1,
+    "nonair": 7640,
+    "volume": 30800,
+    "palette": 15
+  }
+}

@@ -1,9 +1,6 @@
-*.litematic binary
-*.schem binary
-*.nbt binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.mp4 binary
-*.zip binary
-* text=auto
+
+# Deterministic generated composition text artifacts
+composition/compiled_examples/*.source.json text eol=lf
+composition/compiled_examples/*.manifest.json text eol=lf
+composition/compiled_examples/*.plan.svg text eol=lf
+

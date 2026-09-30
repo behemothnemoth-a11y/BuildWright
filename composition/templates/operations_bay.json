@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "operations_bay",
+  "name": "Operations Bay",
+  "style_profile": "style.cave_megastructure",
+  "palette": "composition.dark_fortress",
+  "density": 0.9,
+  "shell": {
+    "floor": true,
+    "walls": true,
+    "ceiling": true
+  },
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "slots": [
+    {
+      "id": "console_n",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "consoles"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": 1,
+        "z": "min+3"
+      },
+      "preferred_ids": [
+        "console_bank"
+      ],
+      "required": true,
+      "placement_mode": "carve_and_place"
+    },
+    {
+      "id": "lab_w",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "28%",
+        "y": 1,
+        "z": "45%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "required": true
+    },
+    {
+      "id": "lab_e",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "lab"
+        ]
+      },
+      "target": {
+        "x": "72%",
+        "y": 1,
+        "z": "45%"
+      },
+      "preferred_ids": [
+        "lab_workstation"
+      ],
+      "required": true
+    },
+    {
+      "id": "pipe_w",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "pipes"
+        ]
+      },
+      "target": {
+        "x": "min+3",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "industrial_pipe_rack"
+      ],
+      "rotation": 1,
+      "required": true
+    },
+    {
+      "id": "pipe_e",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "pipes"
+        ]
+      },
+      "target": {
+        "x": "max-3",
+        "y": 1,
+        "z": "70%"
+      },
+      "preferred_ids": [
+        "industrial_pipe_rack"
+      ],
+      "rotation": 3,
+      "required": true
+    },
+    {
+      "id": "cable",
+      "selector": {
+        "category": "mechanical",
+        "families": [
+          "cables"
+        ]
+      },
+      "target": {
+        "x": "center",
+        "y": "ceiling-3",
+        "z": "center"
+      },
+      "preferred_ids": [
+        "hanging_cable_tray"
+      ],
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "victorian_bedroom_demo",
+  "name": "Victorian Bedroom Demo",
+  "stage": "vanilla",
+  "template": "bedroom_suite",
+  "size": [
+    31,
+    13,
+    27
+  ],
+  "style_profile": "style.victorian_estate",
+  "palette": "composition.victorian_estate",
+  "seed": 5003,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 3
+  }
+}

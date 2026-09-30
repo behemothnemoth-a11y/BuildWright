@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local drop safety backups
+.drop-backups/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Keep intentional Minecraft artifacts committed when placed under project/release folders.

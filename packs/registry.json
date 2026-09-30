@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "packs": {
+    "vanilla": {
+      "architecture": [
+        "gothic_arches",
+        "clustered_piers",
+        "hammerbeam_roofs",
+        "grand_staircases",
+        "wall_paneling"
+      ],
+      "vegetation": [
+        "manor_oaks",
+        "formal_hedges",
+        "ivy",
+        "indoor_planters"
+      ],
+      "furniture": [
+        "gothic_manor",
+        "victorian_library",
+        "formal_dining",
+        "bedroom"
+      ],
+      "decor": [
+        "portraits",
+        "armor_displays",
+        "candles",
+        "chandeliers",
+        "books",
+        "desk_clutter"
+      ]
+    },
+    "microblock": {
+      "architecture": [
+        "gothic_arch_refinement",
+        "clustered_columns",
+        "tracery",
+        "cornices",
+        "corbels",
+        "hammerbeam_details"
+      ],
+      "furniture": [
+        "furniture_contour_kit"
+      ],
+      "decor": [
+        "chandeliers",
+        "picture_frames",
+        "crests",
+        "statues",
+        "armor_mounts"
+      ]
+    }
+  }
+}

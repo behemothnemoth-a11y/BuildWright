@@ -1,0 +1,6 @@
+{
+  "drop": "DROP_0001_REPO_FOUNDATION",
+  "repository_version": "0.1.0",
+  "status": "APPLIED_BY_PAYLOAD",
+  "note": "This record is installed by the bootstrap drop and becomes authoritative when committed."
+}

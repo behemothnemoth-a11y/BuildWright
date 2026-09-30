@@ -1,0 +1,36 @@
+{
+  "project": "wayne-manor",
+  "minecraft_target": "26.2",
+  "modules": [
+    {
+      "id": "GH-ARCH",
+      "name": "Grand Hall Architecture",
+      "state": "DETAILING"
+    },
+    {
+      "id": "GH-STAIR",
+      "name": "Grand Hall Stair + Connectors",
+      "state": "ARCHITECTURE",
+      "locked_rules": [
+        "upper flights must continue to future rooms/corridors",
+        "do not convert circulation into decorative dead ends"
+      ]
+    },
+    {
+      "id": "GH-CEIL",
+      "name": "Grand Hall Ceiling / Roof",
+      "state": "DETAILING",
+      "working_artifact": "schematics/working/Wayne_Manor_Grand_Hall_CALM_CEILING_v7.litematic"
+    },
+    {
+      "id": "MANOR-ROOMS",
+      "name": "Remaining Manor Rooms",
+      "state": "BLOCKOUT"
+    },
+    {
+      "id": "BATCAVE",
+      "name": "Batcave",
+      "state": "BLOCKOUT"
+    }
+  ]
+}

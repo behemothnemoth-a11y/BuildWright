@@ -1,0 +1,23 @@
+{
+  "id": "replace-me",
+  "name": "Replace Me",
+  "stage": "vanilla",
+  "category": "architecture",
+  "status": "DRAFT",
+  "minecraft_targets": ["26.2"],
+  "purpose": "",
+  "scale": {
+    "min_width": 0,
+    "max_width": 0,
+    "min_height": 0,
+    "max_height": 0
+  },
+  "variants": [],
+  "placement_rules": [],
+  "clearance_rules": [],
+  "palette_assumptions": [],
+  "validation": {
+    "file_readback": false,
+    "player_eye_review": false
+  }
+}

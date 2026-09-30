@@ -1,0 +1,24 @@
+{
+  "name": "Buildwright",
+  "version": "0.1.0",
+  "minecraft": {
+    "primary_target": "26.2",
+    "wayne_manor_data_version": 4903
+  },
+  "pipeline": [
+    "vanilla_build_language",
+    "vanilla_review_gate",
+    "microblock_candidate_analysis",
+    "microblock_implementation",
+    "hybrid_review_gate"
+  ],
+  "maturity_states": [
+    "CONCEPT",
+    "BLOCKOUT",
+    "ARCHITECTURE",
+    "DETAILING",
+    "REVIEW_CANDIDATE",
+    "APPROVED",
+    "MERGED"
+  ]
+}

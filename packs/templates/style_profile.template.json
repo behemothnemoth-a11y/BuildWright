@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "style.example",
+  "name": "Example",
+  "tags": [],
+  "preferred_palettes": [],
+  "preferred_architecture_families": [],
+  "detail_policy": {
+    "primary_form_priority": 1.0,
+    "secondary_structure_density": 0.6,
+    "tertiary_detail_density": 0.5,
+    "micro_clutter_density": 0.25,
+    "negative_space_target": 0.35,
+    "eye_level_detail_bias": 0.7,
+    "repetition_variation": 0.65
+  },
+  "selection_tags": []
+}

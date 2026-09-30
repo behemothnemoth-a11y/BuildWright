@@ -1,0 +1,904 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.decor.occult_fantasy",
+  "name": "Occult Fantasy",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "occult_fantasy",
+  "description": "Reusable Occult Fantasy family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.decor.occult_fantasy.ritual_candles",
+      "name": "Ritual Candles",
+      "description": "Ritual Candles variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "candles",
+        "decor",
+        "fantasy",
+        "gothic",
+        "occult_fantasy",
+        "ritual",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "ritual_candles",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.relic_pedestal",
+      "name": "Relic Pedestal",
+      "description": "Relic Pedestal variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "decor",
+        "fantasy",
+        "gothic",
+        "occult_fantasy",
+        "pedestal",
+        "relic",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "relic_pedestal",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.rune_floor_hint",
+      "name": "Rune Floor Hint",
+      "description": "Rune Floor Hint variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "decor",
+        "fantasy",
+        "floor",
+        "gothic",
+        "hint",
+        "occult_fantasy",
+        "rune",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "rune_floor_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.crystal_display",
+      "name": "Crystal Display",
+      "description": "Crystal Display variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "crystal",
+        "decor",
+        "display",
+        "fantasy",
+        "gothic",
+        "occult_fantasy",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "crystal_display",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.alchemy_cluster",
+      "name": "Alchemy Cluster",
+      "description": "Alchemy Cluster variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "alchemy",
+        "cluster",
+        "decor",
+        "fantasy",
+        "gothic",
+        "occult_fantasy",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "alchemy_cluster",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.warding_marks_hint",
+      "name": "Warding Marks Hint",
+      "description": "Warding Marks Hint variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "decor",
+        "fantasy",
+        "gothic",
+        "hint",
+        "marks",
+        "occult_fantasy",
+        "rustic",
+        "victorian",
+        "warding"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "warding_marks_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.altar_small",
+      "name": "Altar Small",
+      "description": "Altar Small variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "altar",
+        "decor",
+        "fantasy",
+        "gothic",
+        "occult_fantasy",
+        "rustic",
+        "small",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "altar_small",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy.mystic_archive",
+      "name": "Mystic Archive",
+      "description": "Mystic Archive variant in the Occult Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "tags": [
+        "archive",
+        "decor",
+        "fantasy",
+        "gothic",
+        "mystic",
+        "occult_fantasy",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "mystic_archive",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

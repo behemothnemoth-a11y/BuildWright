@@ -1,0 +1,942 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.architecture.fireplaces",
+  "name": "Fireplaces",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "fireplaces",
+  "description": "Reusable Fireplaces family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.architecture.fireplaces.small_study",
+      "name": "Small Study",
+      "description": "Small Study variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "general",
+        "small",
+        "study"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "small_study",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.grand_manor",
+      "name": "Grand Manor",
+      "description": "Grand Manor variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "gothic",
+        "grand",
+        "haunted",
+        "manor",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "victorian"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "grand_manor",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.gothic_arched",
+      "name": "Gothic Arched",
+      "description": "Gothic Arched variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "arched",
+        "architecture",
+        "fireplaces",
+        "gothic",
+        "haunted",
+        "urban"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "urban"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "gothic_arched",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.rustic_hearth",
+      "name": "Rustic Hearth",
+      "description": "Rustic Hearth variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "hearth",
+        "medieval",
+        "rustic"
+      ],
+      "styles": [
+        "medieval",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "rustic_hearth",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.kitchen_inglenook",
+      "name": "Kitchen Inglenook",
+      "description": "Kitchen Inglenook variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "general",
+        "inglenook",
+        "kitchen"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "kitchen_inglenook",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.modern_linear",
+      "name": "Modern Linear",
+      "description": "Modern Linear variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "linear",
+        "modern"
+      ],
+      "styles": [
+        "modern"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "modern_linear",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.industrial_furnace",
+      "name": "Industrial Furnace",
+      "description": "Industrial Furnace variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "fireplaces",
+        "furnace",
+        "industrial"
+      ],
+      "styles": [
+        "industrial"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "industrial_furnace",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces.ruin_cold",
+      "name": "Ruin Cold",
+      "description": "Ruin Cold variant in the Fireplaces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "tags": [
+        "architecture",
+        "cold",
+        "fireplaces",
+        "haunted",
+        "ruin"
+      ],
+      "styles": [
+        "haunted",
+        "ruin"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "ruin_cold",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

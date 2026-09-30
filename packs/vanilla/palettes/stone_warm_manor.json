@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.stone_warm_manor",
+  "name": "Stone Warm Manor",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "manor",
+    "victorian",
+    "historic"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:tuff_bricks",
+      "minecraft:stone_bricks"
+    ],
+    "stone_primary": [
+      "minecraft:stone_bricks",
+      "minecraft:andesite"
+    ],
+    "stone_highlight": [
+      "minecraft:polished_andesite",
+      "minecraft:calcite"
+    ],
+    "weathering": [
+      "minecraft:cracked_stone_bricks",
+      "minecraft:mossy_cobblestone"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

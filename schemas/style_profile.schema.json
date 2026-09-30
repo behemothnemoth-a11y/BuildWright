@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildwright.local/schemas/style_profile.schema.json",
+  "title": "BuildWright Style Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "tags",
+    "preferred_palettes",
+    "detail_policy"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^style\\."
+    },
+    "tags": {
+      "type": "array"
+    },
+    "preferred_palettes": {
+      "type": "array"
+    },
+    "detail_policy": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

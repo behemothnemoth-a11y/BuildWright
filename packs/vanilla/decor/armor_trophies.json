@@ -1,0 +1,888 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.decor.armor_trophies",
+  "name": "Armor Trophies",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "armor_trophies",
+  "description": "Reusable Armor Trophies family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.decor.armor_trophies.armor_stand_single",
+      "name": "Armor Stand Single",
+      "description": "Armor Stand Single variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor",
+        "armor_trophies",
+        "decor",
+        "gothic",
+        "rustic",
+        "single",
+        "stand",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "armor_stand_single",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.armor_pair",
+      "name": "Armor Pair",
+      "description": "Armor Pair variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor",
+        "armor_trophies",
+        "decor",
+        "gothic",
+        "pair",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "armor_pair",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.weapon_rack",
+      "name": "Weapon Rack",
+      "description": "Weapon Rack variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "decor",
+        "gothic",
+        "rack",
+        "rustic",
+        "victorian",
+        "weapon"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "weapon_rack",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.shield_display",
+      "name": "Shield Display",
+      "description": "Shield Display variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "decor",
+        "display",
+        "gothic",
+        "rustic",
+        "shield",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "shield_display",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.trophy_pedestal",
+      "name": "Trophy Pedestal",
+      "description": "Trophy Pedestal variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "decor",
+        "gothic",
+        "pedestal",
+        "rustic",
+        "trophy",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "trophy_pedestal",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.hunt_trophy_hint",
+      "name": "Hunt Trophy Hint",
+      "description": "Hunt Trophy Hint variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "decor",
+        "gothic",
+        "hint",
+        "hunt",
+        "rustic",
+        "trophy",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "hunt_trophy_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.banner_trophy",
+      "name": "Banner Trophy",
+      "description": "Banner Trophy variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "banner",
+        "decor",
+        "gothic",
+        "rustic",
+        "trophy",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "banner_trophy",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies.relic_case",
+      "name": "Relic Case",
+      "description": "Relic Case variant in the Armor Trophies family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "tags": [
+        "armor_trophies",
+        "case",
+        "decor",
+        "gothic",
+        "relic",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "relic_case",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

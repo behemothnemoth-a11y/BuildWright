@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.wood_warm_spruce",
+  "name": "Wood Warm Spruce",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "rustic",
+    "medieval",
+    "warm"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "wood_shadow": [
+      "minecraft:spruce_log",
+      "minecraft:dark_oak_log"
+    ],
+    "wood_primary": [
+      "minecraft:spruce_planks"
+    ],
+    "wood_highlight": [
+      "minecraft:stripped_spruce_log",
+      "minecraft:oak_planks"
+    ],
+    "wood_trim": [
+      "minecraft:spruce_stairs",
+      "minecraft:spruce_slab",
+      "minecraft:spruce_trapdoor"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

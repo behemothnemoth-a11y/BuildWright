@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.CATEGORY.FAMILY",
+  "name": "Family Name",
+  "stage": "vanilla",
+  "category": "CATEGORY",
+  "family": "FAMILY",
+  "description": "",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "variation_required_when_repeated": true
+  },
+  "assets": []
+}

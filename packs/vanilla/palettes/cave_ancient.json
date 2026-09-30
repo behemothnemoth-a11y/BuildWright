@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.cave_ancient",
+  "name": "Cave Ancient",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "cave",
+    "ancient",
+    "ruin"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "rock_shadow": [
+      "minecraft:deepslate",
+      "minecraft:tuff"
+    ],
+    "rock_primary": [
+      "minecraft:stone",
+      "minecraft:tuff",
+      "minecraft:andesite"
+    ],
+    "rock_highlight": [
+      "minecraft:calcite",
+      "minecraft:dripstone_block"
+    ],
+    "growth": [
+      "minecraft:moss_block",
+      "minecraft:glow_lichen",
+      "minecraft:vine"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

@@ -1,0 +1,1012 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.furniture.exterior_garden",
+  "name": "Exterior Garden",
+  "stage": "vanilla",
+  "category": "furniture",
+  "family": "exterior_garden",
+  "description": "Reusable Exterior Garden family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.furniture.exterior_garden.garden_bench",
+      "name": "Garden Bench",
+      "description": "Garden Bench variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "bench",
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "garden_bench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.picnic_table",
+      "name": "Picnic Table",
+      "description": "Picnic Table variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "picnic",
+        "rustic",
+        "table",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "picnic_table",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.potting_bench",
+      "name": "Potting Bench",
+      "description": "Potting Bench variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "bench",
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "potting",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "potting_bench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.pergola_seating",
+      "name": "Pergola Seating",
+      "description": "Pergola Seating variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "pergola",
+        "rustic",
+        "seating",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "pergola_seating",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.terrace_table",
+      "name": "Terrace Table",
+      "description": "Terrace Table variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "table",
+        "terrace",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "terrace_table",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.gazebo_furniture",
+      "name": "Gazebo Furniture",
+      "description": "Gazebo Furniture variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gazebo",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "gazebo_furniture",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.planter_bench",
+      "name": "Planter Bench",
+      "description": "Planter Bench variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "bench",
+        "coastal",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "planter",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "planter_bench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden.courtyard_seating",
+      "name": "Courtyard Seating",
+      "description": "Courtyard Seating variant in the Exterior Garden family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "tags": [
+        "coastal",
+        "courtyard",
+        "exterior_garden",
+        "furniture",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "seating",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "courtyard_seating",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

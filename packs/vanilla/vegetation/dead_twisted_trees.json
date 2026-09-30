@@ -1,0 +1,911 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.vegetation.dead_twisted_trees",
+  "name": "Dead Twisted Trees",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "dead_twisted_trees",
+  "description": "Reusable Dead Twisted Trees family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.lightning_struck",
+      "name": "Lightning Struck",
+      "description": "Lightning Struck variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "lightning",
+        "rustic",
+        "struck",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "lightning_struck",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.skeletal_tree",
+      "name": "Skeletal Tree",
+      "description": "Skeletal Tree variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "skeletal",
+        "tree",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "skeletal_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.windswept_dead",
+      "name": "Windswept Dead",
+      "description": "Windswept Dead variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead",
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "vegetation",
+        "windswept"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "windswept_dead",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.stump_large",
+      "name": "Stump Large",
+      "description": "Stump Large variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "large",
+        "rustic",
+        "stump",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "stump_large",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.snag_tall",
+      "name": "Snag Tall",
+      "description": "Snag Tall variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "snag",
+        "tall",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "snag_tall",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.root_mass",
+      "name": "Root Mass",
+      "description": "Root Mass variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "mass",
+        "root",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "root_mass",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.dead_grove_cluster",
+      "name": "Dead Grove Cluster",
+      "description": "Dead Grove Cluster variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "cluster",
+        "dead",
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "grove",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "dead_grove_cluster",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees.swamp_dead",
+      "name": "Swamp Dead",
+      "description": "Swamp Dead variant in the Dead Twisted Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "tags": [
+        "dead",
+        "dead_twisted_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "swamp",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "swamp_dead",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

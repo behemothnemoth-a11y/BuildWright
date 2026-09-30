@@ -1,0 +1,1405 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.architecture.roofs",
+  "name": "Roofs",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "roofs",
+  "description": "Reusable Roofs family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.architecture.roofs.gable_basic",
+      "name": "Gable Basic",
+      "description": "Gable Basic variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "basic",
+        "gable",
+        "general",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "gable_basic",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.steep_gothic",
+      "name": "Steep Gothic",
+      "description": "Steep Gothic variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "gothic",
+        "haunted",
+        "roofs",
+        "steep",
+        "urban"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "urban"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "steep_gothic",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.hammerbeam_hall",
+      "name": "Hammerbeam Hall",
+      "description": "Hammerbeam Hall variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "hall",
+        "hammerbeam",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "hammerbeam_hall",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.king_post",
+      "name": "King Post",
+      "description": "King Post variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "king",
+        "post",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "king_post",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.queen_post",
+      "name": "Queen Post",
+      "description": "Queen Post variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "post",
+        "queen",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "queen_post",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.hipped",
+      "name": "Hipped",
+      "description": "Hipped variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "hipped",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "hipped",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.mansard",
+      "name": "Mansard",
+      "description": "Mansard variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "mansard",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "mansard",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.gambrel",
+      "name": "Gambrel",
+      "description": "Gambrel variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "gambrel",
+        "general",
+        "roofs"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "gambrel",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.shed",
+      "name": "Shed",
+      "description": "Shed variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "general",
+        "roofs",
+        "shed"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "shed",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.sawtooth_industrial",
+      "name": "Sawtooth Industrial",
+      "description": "Sawtooth Industrial variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "industrial",
+        "roofs",
+        "sawtooth"
+      ],
+      "styles": [
+        "industrial"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "sawtooth_industrial",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.dormered_manor",
+      "name": "Dormered Manor",
+      "description": "Dormered Manor variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "dormered",
+        "gothic",
+        "haunted",
+        "manor",
+        "roofs",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "victorian"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "dormered_manor",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs.cave_ribbed",
+      "name": "Cave Ribbed",
+      "description": "Cave Ribbed variant in the Roofs family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "tags": [
+        "architecture",
+        "cave",
+        "dwarven",
+        "ribbed",
+        "roofs"
+      ],
+      "styles": [
+        "cave",
+        "dwarven"
+      ],
+      "scale_classes": [
+        "medium",
+        "large",
+        "monumental"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          7,
+          31
+        ],
+        "height": [
+          5,
+          19
+        ],
+        "depth": [
+          3,
+          25
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "cave_ribbed",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

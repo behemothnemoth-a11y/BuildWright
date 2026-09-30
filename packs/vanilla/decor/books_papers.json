@@ -1,0 +1,889 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.decor.books_papers",
+  "name": "Books Papers",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "books_papers",
+  "description": "Reusable Books Papers family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.decor.books_papers.book_stack_small",
+      "name": "Book Stack Small",
+      "description": "Book Stack Small variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "book",
+        "books_papers",
+        "decor",
+        "gothic",
+        "rustic",
+        "small",
+        "stack",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "book_stack_small",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.book_stack_messy",
+      "name": "Book Stack Messy",
+      "description": "Book Stack Messy variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "book",
+        "books_papers",
+        "decor",
+        "gothic",
+        "messy",
+        "rustic",
+        "stack",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "book_stack_messy",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.open_book_hint",
+      "name": "Open Book Hint",
+      "description": "Open Book Hint variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "book",
+        "books_papers",
+        "decor",
+        "gothic",
+        "hint",
+        "open",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "open_book_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.paper_stack",
+      "name": "Paper Stack",
+      "description": "Paper Stack variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "books_papers",
+        "decor",
+        "gothic",
+        "paper",
+        "rustic",
+        "stack",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "paper_stack",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.map_spread",
+      "name": "Map Spread",
+      "description": "Map Spread variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "books_papers",
+        "decor",
+        "gothic",
+        "map",
+        "rustic",
+        "spread",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "map_spread",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.scroll_rack",
+      "name": "Scroll Rack",
+      "description": "Scroll Rack variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "books_papers",
+        "decor",
+        "gothic",
+        "rack",
+        "rustic",
+        "scroll",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "scroll_rack",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.ledger_cluster",
+      "name": "Ledger Cluster",
+      "description": "Ledger Cluster variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "books_papers",
+        "cluster",
+        "decor",
+        "gothic",
+        "ledger",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "ledger_cluster",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers.archive_box",
+      "name": "Archive Box",
+      "description": "Archive Box variant in the Books Papers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "tags": [
+        "archive",
+        "books_papers",
+        "box",
+        "decor",
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "archive_box",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,913 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.vegetation.conifers",
+  "name": "Conifers",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "conifers",
+  "description": "Reusable Conifers family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.vegetation.conifers.pine_tall",
+      "name": "Pine Tall",
+      "description": "Pine Tall variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "conifers",
+        "fantasy",
+        "garden",
+        "pine",
+        "rustic",
+        "tall",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "pine_tall",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.spruce_dense",
+      "name": "Spruce Dense",
+      "description": "Spruce Dense variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "conifers",
+        "dense",
+        "fantasy",
+        "garden",
+        "rustic",
+        "spruce",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "spruce_dense",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.cedar_layered",
+      "name": "Cedar Layered",
+      "description": "Cedar Layered variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "cedar",
+        "conifers",
+        "fantasy",
+        "garden",
+        "layered",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "cedar_layered",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.fir_classic",
+      "name": "Fir Classic",
+      "description": "Fir Classic variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "classic",
+        "conifers",
+        "fantasy",
+        "fir",
+        "garden",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "fir_classic",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.alpine_sparse",
+      "name": "Alpine Sparse",
+      "description": "Alpine Sparse variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "alpine",
+        "conifers",
+        "fantasy",
+        "garden",
+        "rustic",
+        "sparse",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "alpine_sparse",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.dead_top_conifer",
+      "name": "Dead Top Conifer",
+      "description": "Dead Top Conifer variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "conifer",
+        "conifers",
+        "dead",
+        "fantasy",
+        "garden",
+        "rustic",
+        "top",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "dead_top_conifer",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.grove_cluster",
+      "name": "Grove Cluster",
+      "description": "Grove Cluster variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "cluster",
+        "conifers",
+        "fantasy",
+        "garden",
+        "grove",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "grove_cluster",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers.ornamental_conifer",
+      "name": "Ornamental Conifer",
+      "description": "Ornamental Conifer variant in the Conifers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "tags": [
+        "conifer",
+        "conifers",
+        "fantasy",
+        "garden",
+        "ornamental",
+        "rustic",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "ornamental_conifer",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

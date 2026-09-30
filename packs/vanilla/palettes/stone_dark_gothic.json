@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.stone_dark_gothic",
+  "name": "Stone Dark Gothic",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "gothic",
+    "fortress",
+    "dark"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:deepslate_tiles",
+      "minecraft:polished_deepslate",
+      "minecraft:deepslate_bricks"
+    ],
+    "stone_primary": [
+      "minecraft:tuff_bricks",
+      "minecraft:stone_bricks",
+      "minecraft:polished_tuff"
+    ],
+    "stone_highlight": [
+      "minecraft:andesite",
+      "minecraft:polished_andesite",
+      "minecraft:calcite"
+    ],
+    "weathering": [
+      "minecraft:cracked_stone_bricks",
+      "minecraft:mossy_stone_bricks",
+      "minecraft:cobbled_deepslate"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

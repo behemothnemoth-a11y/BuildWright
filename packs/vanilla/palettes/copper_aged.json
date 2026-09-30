@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.copper_aged",
+  "name": "Copper Aged",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "industrial",
+    "steampunk",
+    "weathered"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "metal_dark": [
+      "minecraft:oxidized_copper",
+      "minecraft:weathered_copper"
+    ],
+    "metal_primary": [
+      "minecraft:weathered_copper",
+      "minecraft:exposed_copper"
+    ],
+    "metal_highlight": [
+      "minecraft:copper_block",
+      "minecraft:cut_copper"
+    ],
+    "metal_trim": [
+      "minecraft:cut_copper_stairs",
+      "minecraft:cut_copper_slab"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

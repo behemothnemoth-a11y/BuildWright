@@ -1,56 +1,38 @@
 # Pack System
 
-Reusable detail should be authored once, tested, then reused with variation.
+DROP 0002 turns the pack skeleton into a reusable catalog with **567 vanilla variants across 68 family packs**.
 
-## Pack families
+## Principle: family, not prefab
 
-### Vanilla
+A pack describes a family of related compositions. Repeated use should vary rotation, mirror state, dimensions, palette, wear, clutter and local context.
+
+## Asset anatomy
+
+Every asset declares:
+
+- category and family;
+- compatible style tags;
+- scale classes and dimension hints;
+- material roles instead of project-specific blocks;
+- recommended builder techniques;
+- placement and clearance rules;
+- variation knobs;
+- a parameterized recipe grammar;
+- anti-patterns and QA checks.
+
+`packs/registry.json` lists families. `packs/index.json` flattens all assets for search/selection.
+
+## Categories
 
 - architecture
 - vegetation
 - furniture
 - decor
 - lighting
+- techniques
+- palettes
+- style profiles
 
-### Microblocks
+## Selection
 
-- architecture
-- furniture
-- decor
-
-## A pack is not a single prefab
-
-Each pack should define:
-
-- purpose;
-- compatible Minecraft/profile;
-- scale range;
-- variants;
-- rotation/mirroring rules;
-- placement constraints;
-- palette assumptions;
-- player-clearance requirements;
-- optional story/weathering variants;
-- microblock tier where applicable.
-
-## Examples
-
-### Vegetation
-
-`manor_oak` should eventually include multiple trunk/canopy forms, rotations, age variants and placement spacing rules.
-
-### Furniture
-
-`gothic_armchair` should include standard, ornate, worn and compact variants rather than one chair copied everywhere.
-
-### Architecture
-
-`hammerbeam_roof` should include small, medium, monumental, narrow-hall and asymmetrical-old-manor families with clear span and height constraints.
-
-## Registry
-
-`packs/registry.json` is the machine-readable index. Individual pack folders may later contain their own `pack.json`, schematics, reference previews, placement masks and validation fixtures.
-
-## Authoring rule
-
-Pack geometry must not assume a project-specific story fact unless the pack is explicitly project-scoped.
+Use `tools/select_assets.py` with a room brief. A selector result is a starting palette of families, never a command to place every returned asset.

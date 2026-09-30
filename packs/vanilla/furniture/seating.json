@@ -1,0 +1,1204 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.furniture.seating",
+  "name": "Seating",
+  "stage": "vanilla",
+  "category": "furniture",
+  "family": "seating",
+  "description": "Reusable Seating family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.furniture.seating.dining_chair",
+      "name": "Dining Chair",
+      "description": "Dining Chair variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "chair",
+        "dining",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seating",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "dining_chair",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.armchair",
+      "name": "Armchair",
+      "description": "Armchair variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "armchair",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seating",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "armchair",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.gothic_armchair",
+      "name": "Gothic Armchair",
+      "description": "Gothic Armchair variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "armchair",
+        "furniture",
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "seating",
+        "urban",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "gothic_armchair",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.sofa_compact",
+      "name": "Sofa Compact",
+      "description": "Sofa Compact variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "compact",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seating",
+        "sofa",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "sofa_compact",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.sofa_grand",
+      "name": "Sofa Grand",
+      "description": "Sofa Grand variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "furniture",
+        "gothic",
+        "grand",
+        "modern",
+        "rustic",
+        "seating",
+        "sofa",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "sofa_grand",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.bench_simple",
+      "name": "Bench Simple",
+      "description": "Bench Simple variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "bench",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seating",
+        "simple",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "bench_simple",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.bench_highback",
+      "name": "Bench Highback",
+      "description": "Bench Highback variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "bench",
+        "furniture",
+        "gothic",
+        "highback",
+        "modern",
+        "rustic",
+        "seating",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "bench_highback",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.stool",
+      "name": "Stool",
+      "description": "Stool variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seating",
+        "stool",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "stool",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.window_seat",
+      "name": "Window Seat",
+      "description": "Window Seat variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "seat",
+        "seating",
+        "victorian",
+        "window"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "window_seat",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating.throne_like_chair",
+      "name": "Throne Like Chair",
+      "description": "Throne Like Chair variant in the Seating family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "tags": [
+        "chair",
+        "furniture",
+        "gothic",
+        "like",
+        "modern",
+        "rustic",
+        "seating",
+        "throne",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "throne_like_chair",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

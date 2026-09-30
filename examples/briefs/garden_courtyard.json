@@ -1,0 +1,29 @@
+{
+  "name": "Garden Courtyard",
+  "style_profile": "style.garden_estate",
+  "tags": [
+    "garden",
+    "formal"
+  ],
+  "categories": [
+    "vegetation",
+    "furniture",
+    "decor",
+    "lighting"
+  ],
+  "families": [
+    "ornamental_trees",
+    "shrubs_hedges",
+    "flower_beds",
+    "exterior_garden"
+  ],
+  "scale_classes": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "contexts": [
+    "exterior",
+    "landscape"
+  ]
+}

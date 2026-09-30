@@ -1,0 +1,682 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.lighting.exterior_path",
+  "name": "Exterior Path",
+  "stage": "vanilla",
+  "category": "lighting",
+  "family": "exterior_path",
+  "description": "Reusable Exterior Path family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.lighting.exterior_path.path_lantern",
+      "name": "Path Lantern",
+      "description": "Path Lantern variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "exterior_path",
+        "gothic",
+        "lantern",
+        "lighting",
+        "modern",
+        "path",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "path_lantern",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path.wall_lantern",
+      "name": "Wall Lantern",
+      "description": "Wall Lantern variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "exterior_path",
+        "gothic",
+        "lantern",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian",
+        "wall"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "wall_lantern",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path.gate_lantern",
+      "name": "Gate Lantern",
+      "description": "Gate Lantern variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "exterior_path",
+        "gate",
+        "gothic",
+        "lantern",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "gate_lantern",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path.bollard_hint",
+      "name": "Bollard Hint",
+      "description": "Bollard Hint variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "bollard",
+        "exterior_path",
+        "gothic",
+        "hint",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "bollard_hint",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path.tree_uplight",
+      "name": "Tree Uplight",
+      "description": "Tree Uplight variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "exterior_path",
+        "gothic",
+        "lighting",
+        "modern",
+        "rustic",
+        "tree",
+        "uplight",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "tree_uplight",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path.garden_string_hint",
+      "name": "Garden String Hint",
+      "description": "Garden String Hint variant in the Exterior Path family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "tags": [
+        "coastal",
+        "exterior_path",
+        "garden",
+        "gothic",
+        "hint",
+        "japanese",
+        "lighting",
+        "modern",
+        "rustic",
+        "string",
+        "victorian"
+      ],
+      "styles": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "garden_string_hint",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

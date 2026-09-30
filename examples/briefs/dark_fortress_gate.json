@@ -1,0 +1,26 @@
+{
+  "name": "Fortress Gate",
+  "style_profile": "style.dark_fortress",
+  "tags": [
+    "fortress",
+    "military",
+    "dark"
+  ],
+  "categories": [
+    "architecture",
+    "lighting"
+  ],
+  "families": [
+    "doors_portals",
+    "buttresses",
+    "towers_turrets"
+  ],
+  "scale_classes": [
+    "large",
+    "monumental"
+  ],
+  "contexts": [
+    "exterior",
+    "structural"
+  ]
+}

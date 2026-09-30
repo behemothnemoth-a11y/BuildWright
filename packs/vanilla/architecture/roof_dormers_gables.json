@@ -1,0 +1,939 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.architecture.roof_dormers_gables",
+  "name": "Roof Dormers Gables",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "roof_dormers_gables",
+  "description": "Reusable Roof Dormers Gables family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.simple_dormer",
+      "name": "Simple Dormer",
+      "description": "Simple Dormer variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "dormer",
+        "general",
+        "roof_dormers_gables",
+        "simple"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "simple_dormer",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.gothic_dormer",
+      "name": "Gothic Dormer",
+      "description": "Gothic Dormer variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "dormer",
+        "gothic",
+        "haunted",
+        "roof_dormers_gables",
+        "urban"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "urban"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "gothic_dormer",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.eyebrow_dormer",
+      "name": "Eyebrow Dormer",
+      "description": "Eyebrow Dormer variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "dormer",
+        "eyebrow",
+        "general",
+        "roof_dormers_gables"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "eyebrow_dormer",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.shed_dormer",
+      "name": "Shed Dormer",
+      "description": "Shed Dormer variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "dormer",
+        "general",
+        "roof_dormers_gables",
+        "shed"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "shed_dormer",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.cross_gable",
+      "name": "Cross Gable",
+      "description": "Cross Gable variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "cross",
+        "gable",
+        "general",
+        "roof_dormers_gables"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "cross_gable",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.stepped_gable",
+      "name": "Stepped Gable",
+      "description": "Stepped Gable variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "gable",
+        "general",
+        "roof_dormers_gables",
+        "stepped"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "stepped_gable",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.dutch_gable",
+      "name": "Dutch Gable",
+      "description": "Dutch Gable variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "dutch",
+        "gable",
+        "general",
+        "roof_dormers_gables"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "dutch_gable",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables.ruined_gable",
+      "name": "Ruined Gable",
+      "description": "Ruined Gable variant in the Roof Dormers Gables family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "tags": [
+        "architecture",
+        "gable",
+        "haunted",
+        "roof_dormers_gables",
+        "ruin",
+        "ruined"
+      ],
+      "styles": [
+        "haunted",
+        "ruin"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "ruined_gable",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

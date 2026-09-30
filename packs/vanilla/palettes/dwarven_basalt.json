@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.dwarven_basalt",
+  "name": "Dwarven Basalt",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "dwarven",
+    "monumental",
+    "stone"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:blackstone",
+      "minecraft:basalt"
+    ],
+    "stone_primary": [
+      "minecraft:polished_basalt",
+      "minecraft:deepslate_bricks"
+    ],
+    "stone_highlight": [
+      "minecraft:tuff_bricks",
+      "minecraft:polished_tuff"
+    ],
+    "metal": [
+      "minecraft:copper_block",
+      "minecraft:iron_block"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

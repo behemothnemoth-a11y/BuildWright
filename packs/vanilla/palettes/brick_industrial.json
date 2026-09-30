@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.brick_industrial",
+  "name": "Brick Industrial",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "industrial",
+    "urban"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "masonry_shadow": [
+      "minecraft:deepslate_bricks",
+      "minecraft:mud_bricks"
+    ],
+    "masonry_primary": [
+      "minecraft:bricks",
+      "minecraft:mud_bricks"
+    ],
+    "masonry_highlight": [
+      "minecraft:terracotta",
+      "minecraft:granite"
+    ],
+    "metal": [
+      "minecraft:iron_bars",
+      "minecraft:iron_block",
+      "minecraft:chain"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

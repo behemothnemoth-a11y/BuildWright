@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.modern_neutral",
+  "name": "Modern Neutral",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "modern",
+    "clean"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "wall_shadow": [
+      "minecraft:gray_concrete",
+      "minecraft:polished_deepslate"
+    ],
+    "wall_primary": [
+      "minecraft:white_concrete",
+      "minecraft:smooth_quartz"
+    ],
+    "wall_highlight": [
+      "minecraft:quartz_block",
+      "minecraft:calcite"
+    ],
+    "accent": [
+      "minecraft:black_concrete",
+      "minecraft:tinted_glass"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

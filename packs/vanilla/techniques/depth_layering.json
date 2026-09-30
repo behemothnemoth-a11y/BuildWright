@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.technique.depth_layering",
+  "name": "Depth Layering",
+  "stage": "vanilla",
+  "category": "technique",
+  "description": "Turn flat surfaces into readable foreground / face / recess / backing layers.",
+  "triggers": [
+    "use_when_it_improves_readability_or_plausibility"
+  ],
+  "steps": [
+    "identify_primary_form",
+    "apply_technique_at_secondary_scale",
+    "check_player_eye_level",
+    "remove_excess_detail",
+    "verify_negative_space"
+  ],
+  "anti_patterns": [
+    "complexity_for_its_own_sake",
+    "uniform_application_to_every_surface",
+    "circulation_obstruction"
+  ],
+  "qa": [
+    "technique_has_clear_visual_purpose",
+    "does_not_compete_with_primary_focal_point",
+    "works_at_player_scale"
+  ]
+}

@@ -1,0 +1,946 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.architecture.railings",
+  "name": "Railings",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "railings",
+  "description": "Reusable Railings family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.architecture.railings.timber_baluster",
+      "name": "Timber Baluster",
+      "description": "Timber Baluster variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "baluster",
+        "japanese",
+        "medieval",
+        "railings",
+        "rustic",
+        "timber"
+      ],
+      "styles": [
+        "japanese",
+        "medieval",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "timber_baluster",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.stone_parapet",
+      "name": "Stone Parapet",
+      "description": "Stone Parapet variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "dwarven",
+        "fortress",
+        "gothic",
+        "parapet",
+        "railings",
+        "ruin",
+        "stone"
+      ],
+      "styles": [
+        "dwarven",
+        "fortress",
+        "gothic",
+        "ruin"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "stone_parapet",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.iron_bar",
+      "name": "Iron Bar",
+      "description": "Iron Bar variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "bar",
+        "general",
+        "iron",
+        "railings"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "iron_bar",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.gothic_tracery",
+      "name": "Gothic Tracery",
+      "description": "Gothic Tracery variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "gothic",
+        "haunted",
+        "railings",
+        "tracery",
+        "urban"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "urban"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "gothic_tracery",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.industrial_pipe",
+      "name": "Industrial Pipe",
+      "description": "Industrial Pipe variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "industrial",
+        "pipe",
+        "railings"
+      ],
+      "styles": [
+        "industrial"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "industrial_pipe",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.modern_glass",
+      "name": "Modern Glass",
+      "description": "Modern Glass variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "glass",
+        "modern",
+        "railings"
+      ],
+      "styles": [
+        "modern"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "modern_glass",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.rustic_fence",
+      "name": "Rustic Fence",
+      "description": "Rustic Fence variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "fence",
+        "medieval",
+        "railings",
+        "rustic"
+      ],
+      "styles": [
+        "medieval",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "rustic_fence",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings.chain_guard",
+      "name": "Chain Guard",
+      "description": "Chain Guard variant in the Railings family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "tags": [
+        "architecture",
+        "chain",
+        "general",
+        "guard",
+        "railings"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "chain_guard",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

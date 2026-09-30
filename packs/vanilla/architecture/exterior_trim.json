@@ -1,0 +1,946 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.architecture.exterior_trim",
+  "name": "Exterior Trim",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "exterior_trim",
+  "description": "Reusable Exterior Trim family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.architecture.exterior_trim.cornice_heavy",
+      "name": "Cornice Heavy",
+      "description": "Cornice Heavy variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "cornice",
+        "exterior_trim",
+        "general",
+        "heavy"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "cornice_heavy",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.stringcourse",
+      "name": "Stringcourse",
+      "description": "Stringcourse variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "exterior_trim",
+        "general",
+        "stringcourse"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "stringcourse",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.plinth_band",
+      "name": "Plinth Band",
+      "description": "Plinth Band variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "band",
+        "exterior_trim",
+        "general",
+        "plinth"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "plinth_band",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.quoins",
+      "name": "Quoins",
+      "description": "Quoins variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "exterior_trim",
+        "general",
+        "quoins"
+      ],
+      "styles": [
+        "general"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "quoins",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.dripstone",
+      "name": "Dripstone",
+      "description": "Dripstone variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "dripstone",
+        "dwarven",
+        "exterior_trim",
+        "fortress",
+        "gothic",
+        "ruin"
+      ],
+      "styles": [
+        "dwarven",
+        "fortress",
+        "gothic",
+        "ruin"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "dripstone",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.timber_bracket",
+      "name": "Timber Bracket",
+      "description": "Timber Bracket variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "bracket",
+        "exterior_trim",
+        "japanese",
+        "medieval",
+        "rustic",
+        "timber"
+      ],
+      "styles": [
+        "japanese",
+        "medieval",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "timber_bracket",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.stone_cap",
+      "name": "Stone Cap",
+      "description": "Stone Cap variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "cap",
+        "dwarven",
+        "exterior_trim",
+        "fortress",
+        "gothic",
+        "ruin",
+        "stone"
+      ],
+      "styles": [
+        "dwarven",
+        "fortress",
+        "gothic",
+        "ruin"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "stone_cap",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim.modern_reveal",
+      "name": "Modern Reveal",
+      "description": "Modern Reveal variant in the Exterior Trim family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "tags": [
+        "architecture",
+        "exterior_trim",
+        "modern",
+        "reveal"
+      ],
+      "styles": [
+        "modern"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior",
+        "structural"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          13
+        ],
+        "height": [
+          3,
+          17
+        ],
+        "depth": [
+          1,
+          7
+        ]
+      },
+      "recommended_techniques": [
+        "structural_hierarchy",
+        "depth_layering",
+        "support_logic",
+        "transition_detail",
+        "negative_space"
+      ],
+      "material_roles": [
+        "primary",
+        "shadow",
+        "highlight",
+        "trim"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "parametric_architecture_v1",
+        "profile": "modern_reveal",
+        "layers": [
+          "primary_mass",
+          "secondary_shape",
+          "trim",
+          "recess_or_shadow"
+        ],
+        "parameters": {
+          "depth_steps": [
+            1,
+            3
+          ],
+          "detail_band": "eye_level_plus_landmark",
+          "mirror_safe": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "primary",
+          "shadow",
+          "highlight",
+          "trim"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

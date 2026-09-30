@@ -1,0 +1,926 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.vegetation.ornamental_trees",
+  "name": "Ornamental Trees",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "ornamental_trees",
+  "description": "Reusable Ornamental Trees family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.vegetation.ornamental_trees.courtyard_tree",
+      "name": "Courtyard Tree",
+      "description": "Courtyard Tree variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "courtyard",
+        "fantasy",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "tree",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "courtyard_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.maple_ornamental",
+      "name": "Maple Ornamental",
+      "description": "Maple Ornamental variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "fantasy",
+        "garden",
+        "maple",
+        "ornamental",
+        "ornamental_trees",
+        "rustic",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "maple_ornamental",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.topiary_tree",
+      "name": "Topiary Tree",
+      "description": "Topiary Tree variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "fantasy",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "topiary",
+        "tree",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "topiary_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.flowering_tree",
+      "name": "Flowering Tree",
+      "description": "Flowering Tree variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "fantasy",
+        "flowering",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "tree",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "flowering_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.espalier_wall",
+      "name": "Espalier Wall",
+      "description": "Espalier Wall variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "espalier",
+        "fantasy",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "vegetation",
+        "victorian",
+        "wall"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "espalier_wall",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.patio_tree",
+      "name": "Patio Tree",
+      "description": "Patio Tree variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "fantasy",
+        "garden",
+        "ornamental_trees",
+        "patio",
+        "rustic",
+        "tree",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "patio_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.avenue_tree",
+      "name": "Avenue Tree",
+      "description": "Avenue Tree variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "avenue",
+        "fantasy",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "tree",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "avenue_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees.bonsai_feature",
+      "name": "Bonsai Feature",
+      "description": "Bonsai Feature variant in the Ornamental Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "tags": [
+        "bonsai",
+        "fantasy",
+        "feature",
+        "garden",
+        "ornamental_trees",
+        "rustic",
+        "vegetation",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "bonsai_feature",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

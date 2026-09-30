@@ -1,0 +1,684 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.lighting.industrial",
+  "name": "Industrial",
+  "stage": "vanilla",
+  "category": "lighting",
+  "family": "industrial",
+  "description": "Reusable Industrial family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.lighting.industrial.hanging_fixture",
+      "name": "Hanging Fixture",
+      "description": "Hanging Fixture variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "fixture",
+        "gothic",
+        "hanging",
+        "industrial",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "hanging_fixture",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial.strip_light_hint",
+      "name": "Strip Light Hint",
+      "description": "Strip Light Hint variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "gothic",
+        "hint",
+        "industrial",
+        "light",
+        "lighting",
+        "modern",
+        "rustic",
+        "strip",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "strip_light_hint",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial.machine_indicator",
+      "name": "Machine Indicator",
+      "description": "Machine Indicator variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "gothic",
+        "indicator",
+        "industrial",
+        "lighting",
+        "machine",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "machine_indicator",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial.cage_lamp",
+      "name": "Cage Lamp",
+      "description": "Cage Lamp variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "cage",
+        "gothic",
+        "industrial",
+        "lamp",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "cage_lamp",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial.work_light",
+      "name": "Work Light",
+      "description": "Work Light variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "gothic",
+        "industrial",
+        "light",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian",
+        "work"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "work_light",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial.emergency_light_hint",
+      "name": "Emergency Light Hint",
+      "description": "Emergency Light Hint variant in the Industrial family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "tags": [
+        "emergency",
+        "gothic",
+        "hint",
+        "industrial",
+        "light",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "emergency_light_hint",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

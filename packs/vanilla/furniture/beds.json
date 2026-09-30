@@ -1,0 +1,972 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.furniture.beds",
+  "name": "Beds",
+  "stage": "vanilla",
+  "category": "furniture",
+  "family": "beds",
+  "description": "Reusable Beds family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.furniture.beds.single_bed_frame",
+      "name": "Single Bed Frame",
+      "description": "Single Bed Frame variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "frame",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "single",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "single_bed_frame",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.double_bed_frame",
+      "name": "Double Bed Frame",
+      "description": "Double Bed Frame variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "double",
+        "frame",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "double_bed_frame",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.four_poster",
+      "name": "Four Poster",
+      "description": "Four Poster variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "beds",
+        "four",
+        "furniture",
+        "gothic",
+        "modern",
+        "poster",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "four_poster",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.canopy_bed",
+      "name": "Canopy Bed",
+      "description": "Canopy Bed variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "canopy",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "canopy_bed",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.servant_bed",
+      "name": "Servant Bed",
+      "description": "Servant Bed variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "servant",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "servant_bed",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.bunk_bed",
+      "name": "Bunk Bed",
+      "description": "Bunk Bed variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "bunk",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "bunk_bed",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.luxury_bed",
+      "name": "Luxury Bed",
+      "description": "Luxury Bed variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "furniture",
+        "gothic",
+        "luxury",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "luxury_bed",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds.ruined_bed",
+      "name": "Ruined Bed",
+      "description": "Ruined Bed variant in the Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "tags": [
+        "bed",
+        "beds",
+        "furniture",
+        "gothic",
+        "haunted",
+        "modern",
+        "ruin",
+        "ruined",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "modern",
+        "ruin",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "ruined_bed",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

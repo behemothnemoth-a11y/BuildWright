@@ -1,0 +1,26 @@
+{
+  "name": "Tavern",
+  "style_profile": "style.rustic_tavern",
+  "tags": [
+    "rustic",
+    "warm",
+    "lived_in"
+  ],
+  "categories": [
+    "architecture",
+    "furniture",
+    "decor",
+    "lighting"
+  ],
+  "families": [
+    "tavern_restaurant",
+    "ceilings",
+    "fireplaces"
+  ],
+  "scale_classes": [
+    "medium"
+  ],
+  "contexts": [
+    "interior"
+  ]
+}

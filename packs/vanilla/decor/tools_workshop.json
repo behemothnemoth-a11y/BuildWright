@@ -1,0 +1,885 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.decor.tools_workshop",
+  "name": "Tools Workshop",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "tools_workshop",
+  "description": "Reusable Tools Workshop family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.decor.tools_workshop.hand_tools",
+      "name": "Hand Tools",
+      "description": "Hand Tools variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "hand",
+        "rustic",
+        "tools",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "hand_tools",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.hanging_tools",
+      "name": "Hanging Tools",
+      "description": "Hanging Tools variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "hanging",
+        "rustic",
+        "tools",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "hanging_tools",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.toolbox",
+      "name": "Toolbox",
+      "description": "Toolbox variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "rustic",
+        "toolbox",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "toolbox",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.parts_tray",
+      "name": "Parts Tray",
+      "description": "Parts Tray variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "parts",
+        "rustic",
+        "tools_workshop",
+        "tray",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "parts_tray",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.chain_bundle",
+      "name": "Chain Bundle",
+      "description": "Chain Bundle variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "bundle",
+        "chain",
+        "decor",
+        "gothic",
+        "rustic",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "chain_bundle",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.rope_coil",
+      "name": "Rope Coil",
+      "description": "Rope Coil variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "coil",
+        "decor",
+        "gothic",
+        "rope",
+        "rustic",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "rope_coil",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.metal_stock",
+      "name": "Metal Stock",
+      "description": "Metal Stock variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "metal",
+        "rustic",
+        "stock",
+        "tools_workshop",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "metal_stock",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop.wood_offcuts",
+      "name": "Wood Offcuts",
+      "description": "Wood Offcuts variant in the Tools Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "tags": [
+        "decor",
+        "gothic",
+        "offcuts",
+        "rustic",
+        "tools_workshop",
+        "victorian",
+        "wood"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "wood_offcuts",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

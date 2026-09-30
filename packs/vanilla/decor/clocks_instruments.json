@@ -1,0 +1,887 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.decor.clocks_instruments",
+  "name": "Clocks Instruments",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "clocks_instruments",
+  "description": "Reusable Clocks Instruments family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.decor.clocks_instruments.grandfather_clock",
+      "name": "Grandfather Clock",
+      "description": "Grandfather Clock variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clock",
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "grandfather",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "grandfather_clock",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.mantel_clock",
+      "name": "Mantel Clock",
+      "description": "Mantel Clock variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clock",
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "mantel",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "mantel_clock",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.wall_clock_hint",
+      "name": "Wall Clock Hint",
+      "description": "Wall Clock Hint variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clock",
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "hint",
+        "rustic",
+        "victorian",
+        "wall"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "wall_clock_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.piano_hint",
+      "name": "Piano Hint",
+      "description": "Piano Hint variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "hint",
+        "piano",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "piano_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.harpsichord_hint",
+      "name": "Harpsichord Hint",
+      "description": "Harpsichord Hint variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "harpsichord",
+        "hint",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "harpsichord_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.music_stand",
+      "name": "Music Stand",
+      "description": "Music Stand variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "music",
+        "rustic",
+        "stand",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "music_stand",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.instrument_case",
+      "name": "Instrument Case",
+      "description": "Instrument Case variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "case",
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "instrument",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "instrument_case",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments.metronome_hint",
+      "name": "Metronome Hint",
+      "description": "Metronome Hint variant in the Clocks Instruments family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "tags": [
+        "clocks_instruments",
+        "decor",
+        "gothic",
+        "hint",
+        "metronome",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          7
+        ],
+        "height": [
+          1,
+          8
+        ],
+        "depth": [
+          1,
+          4
+        ]
+      },
+      "recommended_techniques": [
+        "clutter_storytelling",
+        "focal_composition",
+        "negative_space",
+        "asymmetry"
+      ],
+      "material_roles": [
+        "primary",
+        "accent",
+        "mount_or_base"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "decor_cluster_v1",
+        "profile": "metronome_hint",
+        "parameters": {
+          "cluster_size": [
+            1,
+            7
+          ],
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "empty_space_required": true
+        },
+        "material_roles": [
+          "primary",
+          "accent",
+          "mount_or_base"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

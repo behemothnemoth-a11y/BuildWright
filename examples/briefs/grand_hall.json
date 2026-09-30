@@ -1,0 +1,28 @@
+{
+  "name": "Grand Hall",
+  "style_profile": "style.massive_gothic_manor",
+  "tags": [
+    "grand",
+    "gothic",
+    "historic"
+  ],
+  "categories": [
+    "architecture",
+    "furniture",
+    "decor",
+    "lighting"
+  ],
+  "families": [
+    "roofs",
+    "stairs",
+    "columns_piers",
+    "balconies_galleries"
+  ],
+  "scale_classes": [
+    "large",
+    "monumental"
+  ],
+  "contexts": [
+    "interior"
+  ]
+}

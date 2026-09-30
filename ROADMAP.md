@@ -1,58 +1,27 @@
 # BuildWright Roadmap
 
-## DROP 0001B — Repository Foundation
-
-- corrected bootstrap/apply workflow
-- vanilla build language
-- microblock implementation language
-- pack system skeleton
-- validation framework
-- Wayne Manor project seed
+## DROP 0001C — Repository Foundation
+Complete.
 
 ## DROP 0002 — Vanilla Pack Foundations
+This drop establishes the general-purpose vanilla catalog:
 
-Planned initial reusable families:
-
-- Gothic arches
-- clustered piers
-- buttresses
-- hammerbeam roofs
-- coffered ceilings
-- fireplaces
-- window surrounds
-- grand staircases
-- balconies and railings
-- wall paneling
-- stone gradients
-- timber gradients
-- manor furniture
-- library furniture
-- portraits / armor / books / candles
-- chandeliers
-- manor trees
-- formal hedges
-- ivy
-- indoor plants
+- 68 pack families / 567 variants
+- 22 reusable builder techniques
+- 16 material-role palettes
+- 16 cross-project style profiles
+- schemas, validators, selector, index builder, coverage report, examples and tests
 
 ## DROP 0003 — Microblock Pack Foundations
-
-- Gothic arch refinement
-- clustered column recipes
-- tracery
-- cornices
-- corbels
-- railings / balusters
-- furniture contour kit
-- chandeliers
-- picture frames
-- crests / statues
-
-## Later
-
-- pack variation metadata
-- placement constraints
-- pack previews
-- automatic pack selection hints
 - vanilla → microblock candidate analyzer
+- contour and transition recipes
+- Gothic and general micro-architecture kits
+- furniture contour kit
+- window tracery / railings / carvings / hero ornament
+
+## DROP 0004+
+- compiled vanilla schematic asset library
+- preview generation / pack thumbnails
+- project-specific pack overlays
 - Build Studio integration
-- in-game tooling integration
+- in-game BuildWright/Axiom tooling

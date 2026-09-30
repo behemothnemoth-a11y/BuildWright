@@ -1,0 +1,788 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.lighting.wall_sconces",
+  "name": "Wall Sconces",
+  "stage": "vanilla",
+  "category": "lighting",
+  "family": "wall_sconces",
+  "description": "Reusable Wall Sconces family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.lighting.wall_sconces.single_sconce",
+      "name": "Single Sconce",
+      "description": "Single Sconce variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "gothic",
+        "lighting",
+        "modern",
+        "rustic",
+        "sconce",
+        "single",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "single_sconce",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.paired_sconce",
+      "name": "Paired Sconce",
+      "description": "Paired Sconce variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "gothic",
+        "lighting",
+        "modern",
+        "paired",
+        "rustic",
+        "sconce",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "paired_sconce",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.gothic_sconce",
+      "name": "Gothic Sconce",
+      "description": "Gothic Sconce variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "gothic",
+        "haunted",
+        "lighting",
+        "modern",
+        "rustic",
+        "sconce",
+        "urban",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "gothic_sconce",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.candle_sconce",
+      "name": "Candle Sconce",
+      "description": "Candle Sconce variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "candle",
+        "gothic",
+        "lighting",
+        "modern",
+        "rustic",
+        "sconce",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "candle_sconce",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.industrial_sconce",
+      "name": "Industrial Sconce",
+      "description": "Industrial Sconce variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "gothic",
+        "industrial",
+        "lighting",
+        "modern",
+        "rustic",
+        "sconce",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "industrial_sconce",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.modern_recessed",
+      "name": "Modern Recessed",
+      "description": "Modern Recessed variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "gothic",
+        "lighting",
+        "modern",
+        "recessed",
+        "rustic",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "modern_recessed",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces.torch_bracket",
+      "name": "Torch Bracket",
+      "description": "Torch Bracket variant in the Wall Sconces family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "tags": [
+        "bracket",
+        "gothic",
+        "lighting",
+        "modern",
+        "rustic",
+        "torch",
+        "victorian",
+        "wall_sconces"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "torch_bracket",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,963 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.furniture.bedroom",
+  "name": "Bedroom",
+  "stage": "vanilla",
+  "category": "furniture",
+  "family": "bedroom",
+  "description": "Reusable Bedroom family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.furniture.bedroom.nightstand",
+      "name": "Nightstand",
+      "description": "Nightstand variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "furniture",
+        "gothic",
+        "modern",
+        "nightstand",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "nightstand",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.vanity",
+      "name": "Vanity",
+      "description": "Vanity variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "vanity",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "vanity",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.dressing_table",
+      "name": "Dressing Table",
+      "description": "Dressing Table variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "dressing",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "table",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "dressing_table",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.luggage_bench",
+      "name": "Luggage Bench",
+      "description": "Luggage Bench variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "bench",
+        "furniture",
+        "gothic",
+        "luggage",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "luggage_bench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.wardrobe_suite",
+      "name": "Wardrobe Suite",
+      "description": "Wardrobe Suite variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "suite",
+        "victorian",
+        "wardrobe"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "wardrobe_suite",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.chaise",
+      "name": "Chaise",
+      "description": "Chaise variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "chaise",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "chaise",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.screen_divider",
+      "name": "Screen Divider",
+      "description": "Screen Divider variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "divider",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "screen",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "screen_divider",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom.bedroom_fireplace_set",
+      "name": "Bedroom Fireplace Set",
+      "description": "Bedroom Fireplace Set variant in the Bedroom family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "tags": [
+        "bedroom",
+        "fireplace",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "set",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "bedroom_fireplace_set",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

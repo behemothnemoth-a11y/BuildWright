@@ -1,0 +1,1201 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.furniture.workshop",
+  "name": "Workshop",
+  "stage": "vanilla",
+  "category": "furniture",
+  "family": "workshop",
+  "description": "Reusable Workshop family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.furniture.workshop.workbench",
+      "name": "Workbench",
+      "description": "Workbench variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian",
+        "workbench",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "workbench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.tool_wall",
+      "name": "Tool Wall",
+      "description": "Tool Wall variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "tool",
+        "victorian",
+        "wall",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "tool_wall",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.anvil_station",
+      "name": "Anvil Station",
+      "description": "Anvil Station variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "anvil",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "station",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "anvil_station",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.material_rack",
+      "name": "Material Rack",
+      "description": "Material Rack variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "furniture",
+        "gothic",
+        "material",
+        "modern",
+        "rack",
+        "rustic",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "material_rack",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.assembly_table",
+      "name": "Assembly Table",
+      "description": "Assembly Table variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "assembly",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "table",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "assembly_table",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.sawbench_hint",
+      "name": "Sawbench Hint",
+      "description": "Sawbench Hint variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "furniture",
+        "gothic",
+        "hint",
+        "modern",
+        "rustic",
+        "sawbench",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "sawbench_hint",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.forge_station",
+      "name": "Forge Station",
+      "description": "Forge Station variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "forge",
+        "furniture",
+        "gothic",
+        "modern",
+        "rustic",
+        "station",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "forge_station",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.repair_bench",
+      "name": "Repair Bench",
+      "description": "Repair Bench variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "bench",
+        "furniture",
+        "gothic",
+        "modern",
+        "repair",
+        "rustic",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "repair_bench",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.parts_bins",
+      "name": "Parts Bins",
+      "description": "Parts Bins variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "bins",
+        "furniture",
+        "gothic",
+        "modern",
+        "parts",
+        "rustic",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "parts_bins",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop.project_table",
+      "name": "Project Table",
+      "description": "Project Table variant in the Workshop family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "tags": [
+        "furniture",
+        "gothic",
+        "modern",
+        "project",
+        "rustic",
+        "table",
+        "victorian",
+        "workshop"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "occupied_space"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          6
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "player_scale",
+        "clutter_storytelling",
+        "repetition_breaking",
+        "sightline_control"
+      ],
+      "material_roles": [
+        "body",
+        "support",
+        "accent",
+        "soft_or_surface"
+      ],
+      "placement": {
+        "preserve_player_clearance": true,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "player_scale_furniture_v1",
+        "profile": "project_table",
+        "parts": [
+          "body",
+          "supports",
+          "surface",
+          "accent"
+        ],
+        "parameters": {
+          "clearance_front": 1,
+          "rotation_step": 90,
+          "mirror_safe": true,
+          "clutter_socket_count": [
+            0,
+            4
+          ]
+        },
+        "material_roles": [
+          "body",
+          "support",
+          "accent",
+          "soft_or_surface"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

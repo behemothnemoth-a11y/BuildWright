@@ -1,0 +1,914 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.vegetation.flower_beds",
+  "name": "Flower Beds",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "flower_beds",
+  "description": "Reusable Flower Beds family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.vegetation.flower_beds.formal_border",
+      "name": "Formal Border",
+      "description": "Formal Border variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "border",
+        "fantasy",
+        "flower_beds",
+        "formal",
+        "garden",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "formal_border",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.wildflower_patch",
+      "name": "Wildflower Patch",
+      "description": "Wildflower Patch variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "patch",
+        "rustic",
+        "vegetation",
+        "wildflower"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "wildflower_patch",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.rose_like_bed",
+      "name": "Rose Like Bed",
+      "description": "Rose Like Bed variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "bed",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "like",
+        "rose",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "rose_like_bed",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.herb_garden",
+      "name": "Herb Garden",
+      "description": "Herb Garden variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "coastal",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "herb",
+        "japanese",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "coastal",
+        "fantasy",
+        "garden",
+        "japanese",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "herb_garden",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.shade_bed",
+      "name": "Shade Bed",
+      "description": "Shade Bed variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "bed",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "rustic",
+        "shade",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "shade_bed",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.courtyard_bed",
+      "name": "Courtyard Bed",
+      "description": "Courtyard Bed variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "bed",
+        "courtyard",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "courtyard_bed",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.cemetery_bed",
+      "name": "Cemetery Bed",
+      "description": "Cemetery Bed variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "bed",
+        "cemetery",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "cemetery_bed",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds.color_mass",
+      "name": "Color Mass",
+      "description": "Color Mass variant in the Flower Beds family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "tags": [
+        "color",
+        "fantasy",
+        "flower_beds",
+        "garden",
+        "mass",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "color_mass",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.vegetation.deciduous_trees",
+  "name": "Deciduous Trees",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "deciduous_trees",
+  "description": "Reusable Deciduous Trees family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.vegetation.deciduous_trees.young_oak",
+      "name": "Young Oak",
+      "description": "Young Oak variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "oak",
+        "rustic",
+        "vegetation",
+        "young"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "young_oak",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.mature_oak",
+      "name": "Mature Oak",
+      "description": "Mature Oak variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "mature",
+        "oak",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "mature_oak",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.ancient_oak",
+      "name": "Ancient Oak",
+      "description": "Ancient Oak variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "ancient",
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "oak",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "medium",
+        "large"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "ancient_oak",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.beech_round",
+      "name": "Beech Round",
+      "description": "Beech Round variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "beech",
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "round",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "beech_round",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.maple_spread",
+      "name": "Maple Spread",
+      "description": "Maple Spread variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "maple",
+        "rustic",
+        "spread",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "maple_spread",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.birch_cluster",
+      "name": "Birch Cluster",
+      "description": "Birch Cluster variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "birch",
+        "cluster",
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "birch_cluster",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.orchard_tree",
+      "name": "Orchard Tree",
+      "description": "Orchard Tree variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "orchard",
+        "rustic",
+        "tree",
+        "vegetation"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "orchard_tree",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees.windswept_deciduous",
+      "name": "Windswept Deciduous",
+      "description": "Windswept Deciduous variant in the Deciduous Trees family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "tags": [
+        "deciduous",
+        "deciduous_trees",
+        "fantasy",
+        "garden",
+        "rustic",
+        "vegetation",
+        "windswept"
+      ],
+      "styles": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "exterior",
+        "landscape",
+        "interior_optional"
+      ],
+      "dimension_hint": {
+        "width": [
+          3,
+          17
+        ],
+        "height": [
+          2,
+          24
+        ],
+        "depth": [
+          3,
+          17
+        ]
+      },
+      "recommended_techniques": [
+        "asymmetry",
+        "repetition_breaking",
+        "material_story",
+        "negative_space"
+      ],
+      "material_roles": [
+        "trunk_or_stem",
+        "primary_foliage",
+        "secondary_foliage",
+        "grounding"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": true,
+        "requires_grounding": true,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": false,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "organic_vegetation_v1",
+        "profile": "windswept_deciduous",
+        "parameters": {
+          "seed_required": true,
+          "rotation_jitter": true,
+          "mirror_safe": false,
+          "density_variation": [
+            0.7,
+            1.25
+          ]
+        },
+        "material_roles": [
+          "trunk_or_stem",
+          "primary_foliage",
+          "secondary_foliage",
+          "grounding"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

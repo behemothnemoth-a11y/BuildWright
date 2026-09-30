@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.coastal_light",
+  "name": "Coastal Light",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "coastal",
+    "mediterranean",
+    "light"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "wall_shadow": [
+      "minecraft:sandstone",
+      "minecraft:smooth_sandstone"
+    ],
+    "wall_primary": [
+      "minecraft:cut_sandstone",
+      "minecraft:white_terracotta"
+    ],
+    "wall_highlight": [
+      "minecraft:quartz_block",
+      "minecraft:calcite"
+    ],
+    "wood": [
+      "minecraft:oak_planks",
+      "minecraft:stripped_oak_log"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

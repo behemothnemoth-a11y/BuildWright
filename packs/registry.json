@@ -1,33 +1,85 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "drop": "0002",
   "packs": {
     "vanilla": {
       "architecture": [
-        "gothic_arches",
-        "clustered_piers",
-        "hammerbeam_roofs",
-        "grand_staircases",
-        "wall_paneling"
+        "arches",
+        "columns_piers",
+        "buttresses",
+        "walls_bays",
+        "facades",
+        "roofs",
+        "ceilings",
+        "stairs",
+        "windows",
+        "doors_portals",
+        "balconies_galleries",
+        "railings",
+        "fireplaces",
+        "chimneys",
+        "towers_turrets",
+        "bridges_walkways",
+        "floors",
+        "exterior_trim",
+        "foundations_plinths",
+        "roof_dormers_gables"
       ],
       "vegetation": [
-        "manor_oaks",
-        "formal_hedges",
-        "ivy",
-        "indoor_planters"
+        "deciduous_trees",
+        "conifers",
+        "dead_twisted_trees",
+        "ornamental_trees",
+        "shrubs_hedges",
+        "vines_ivy",
+        "flower_beds",
+        "ground_cover",
+        "indoor_plants",
+        "wetland_riparian",
+        "topiary",
+        "roots_overgrowth"
       ],
       "furniture": [
-        "gothic_manor",
-        "victorian_library",
-        "formal_dining",
-        "bedroom"
+        "seating",
+        "tables",
+        "beds",
+        "storage",
+        "library_study",
+        "dining",
+        "kitchen",
+        "bedroom",
+        "bathroom",
+        "workshop",
+        "tavern_restaurant",
+        "laboratory_industrial",
+        "office_admin",
+        "exterior_garden"
       ],
       "decor": [
-        "portraits",
-        "armor_displays",
-        "candles",
+        "books_papers",
+        "candles_lanterns",
+        "paintings_frames",
+        "armor_trophies",
+        "banners_rugs",
+        "pottery_vessels",
+        "clocks_instruments",
+        "food_tabletop",
+        "tools_workshop",
+        "shelves_clutter",
+        "statues_sculpture",
+        "plants_small",
+        "wayfinding_signage",
+        "occult_fantasy",
+        "curtains_drapery"
+      ],
+      "lighting": [
         "chandeliers",
-        "books",
-        "desk_clutter"
+        "wall_sconces",
+        "table_floor_lamps",
+        "hidden_ambient",
+        "exterior_path",
+        "industrial",
+        "magical_fantasy"
       ]
     },
     "microblock": {
@@ -50,5 +102,1382 @@
         "armor_mounts"
       ]
     }
+  },
+  "catalog": [
+    {
+      "id": "vanilla.architecture.arches",
+      "path": "packs/vanilla/architecture/arches.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "arches",
+      "asset_count": 10,
+      "tags": [
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.columns_piers",
+      "path": "packs/vanilla/architecture/columns_piers.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "columns_piers",
+      "asset_count": 10,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.buttresses",
+      "path": "packs/vanilla/architecture/buttresses.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "buttresses",
+      "asset_count": 8,
+      "tags": [
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "ruin",
+        "rustic",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.walls_bays",
+      "path": "packs/vanilla/architecture/walls_bays.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "walls_bays",
+      "asset_count": 10,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.facades",
+      "path": "packs/vanilla/architecture/facades.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "facades",
+      "asset_count": 10,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roofs",
+      "path": "packs/vanilla/architecture/roofs.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "asset_count": 12,
+      "tags": [
+        "cave",
+        "dwarven",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.ceilings",
+      "path": "packs/vanilla/architecture/ceilings.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "ceilings",
+      "asset_count": 9,
+      "tags": [
+        "cave",
+        "dwarven",
+        "general",
+        "gothic",
+        "haunted",
+        "japanese",
+        "medieval",
+        "modern",
+        "rustic",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.stairs",
+      "path": "packs/vanilla/architecture/stairs.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "stairs",
+      "asset_count": 10,
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.windows",
+      "path": "packs/vanilla/architecture/windows.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "windows",
+      "asset_count": 10,
+      "tags": [
+        "general",
+        "industrial",
+        "modern"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.doors_portals",
+      "path": "packs/vanilla/architecture/doors_portals.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "doors_portals",
+      "asset_count": 10,
+      "tags": [
+        "cave",
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "ruin",
+        "rustic",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.balconies_galleries",
+      "path": "packs/vanilla/architecture/balconies_galleries.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "balconies_galleries",
+      "asset_count": 8,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.railings",
+      "path": "packs/vanilla/architecture/railings.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "asset_count": 8,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.fireplaces",
+      "path": "packs/vanilla/architecture/fireplaces.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "asset_count": 8,
+      "tags": [
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.chimneys",
+      "path": "packs/vanilla/architecture/chimneys.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "chimneys",
+      "asset_count": 8,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "ruin",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.towers_turrets",
+      "path": "packs/vanilla/architecture/towers_turrets.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "towers_turrets",
+      "asset_count": 8,
+      "tags": [
+        "general",
+        "modern"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.bridges_walkways",
+      "path": "packs/vanilla/architecture/bridges_walkways.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "bridges_walkways",
+      "asset_count": 8,
+      "tags": [
+        "cave",
+        "coastal",
+        "dwarven",
+        "fortress",
+        "garden",
+        "general",
+        "gothic",
+        "industrial",
+        "japanese",
+        "medieval",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.floors",
+      "path": "packs/vanilla/architecture/floors.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "floors",
+      "asset_count": 10,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "industrial",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.exterior_trim",
+      "path": "packs/vanilla/architecture/exterior_trim.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "exterior_trim",
+      "asset_count": 8,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "japanese",
+        "medieval",
+        "modern",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.foundations_plinths",
+      "path": "packs/vanilla/architecture/foundations_plinths.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "foundations_plinths",
+      "asset_count": 8,
+      "tags": [
+        "dwarven",
+        "fortress",
+        "general",
+        "gothic",
+        "haunted",
+        "industrial",
+        "japanese",
+        "medieval",
+        "ruin",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.architecture.roof_dormers_gables",
+      "path": "packs/vanilla/architecture/roof_dormers_gables.json",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roof_dormers_gables",
+      "asset_count": 8,
+      "tags": [
+        "general",
+        "gothic",
+        "haunted",
+        "ruin",
+        "urban"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.deciduous_trees",
+      "path": "packs/vanilla/vegetation/deciduous_trees.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "deciduous_trees",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.conifers",
+      "path": "packs/vanilla/vegetation/conifers.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "conifers",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.dead_twisted_trees",
+      "path": "packs/vanilla/vegetation/dead_twisted_trees.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "dead_twisted_trees",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ornamental_trees",
+      "path": "packs/vanilla/vegetation/ornamental_trees.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ornamental_trees",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.shrubs_hedges",
+      "path": "packs/vanilla/vegetation/shrubs_hedges.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "shrubs_hedges",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.vines_ivy",
+      "path": "packs/vanilla/vegetation/vines_ivy.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "vines_ivy",
+      "asset_count": 8,
+      "tags": [
+        "cave",
+        "dwarven",
+        "fantasy",
+        "garden",
+        "haunted",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.flower_beds",
+      "path": "packs/vanilla/vegetation/flower_beds.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "asset_count": 8,
+      "tags": [
+        "coastal",
+        "fantasy",
+        "garden",
+        "japanese",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.ground_cover",
+      "path": "packs/vanilla/vegetation/ground_cover.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ground_cover",
+      "asset_count": 8,
+      "tags": [
+        "coastal",
+        "fantasy",
+        "garden",
+        "japanese",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.indoor_plants",
+      "path": "packs/vanilla/vegetation/indoor_plants.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "indoor_plants",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.wetland_riparian",
+      "path": "packs/vanilla/vegetation/wetland_riparian.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "wetland_riparian",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.topiary",
+      "path": "packs/vanilla/vegetation/topiary.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "topiary",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "garden",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.vegetation.roots_overgrowth",
+      "path": "packs/vanilla/vegetation/roots_overgrowth.json",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "roots_overgrowth",
+      "asset_count": 8,
+      "tags": [
+        "cave",
+        "dwarven",
+        "fantasy",
+        "garden",
+        "haunted",
+        "ruin",
+        "rustic"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.seating",
+      "path": "packs/vanilla/furniture/seating.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.tables",
+      "path": "packs/vanilla/furniture/tables.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.beds",
+      "path": "packs/vanilla/furniture/beds.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "haunted",
+        "modern",
+        "ruin",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.storage",
+      "path": "packs/vanilla/furniture/storage.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.library_study",
+      "path": "packs/vanilla/furniture/library_study.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "library_study",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.dining",
+      "path": "packs/vanilla/furniture/dining.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "dining",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.kitchen",
+      "path": "packs/vanilla/furniture/kitchen.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "kitchen",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bedroom",
+      "path": "packs/vanilla/furniture/bedroom.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.bathroom",
+      "path": "packs/vanilla/furniture/bathroom.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bathroom",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.workshop",
+      "path": "packs/vanilla/furniture/workshop.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.tavern_restaurant",
+      "path": "packs/vanilla/furniture/tavern_restaurant.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tavern_restaurant",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.laboratory_industrial",
+      "path": "packs/vanilla/furniture/laboratory_industrial.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "laboratory_industrial",
+      "asset_count": 10,
+      "tags": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.office_admin",
+      "path": "packs/vanilla/furniture/office_admin.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "office_admin",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.furniture.exterior_garden",
+      "path": "packs/vanilla/furniture/exterior_garden.json",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "exterior_garden",
+      "asset_count": 8,
+      "tags": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.books_papers",
+      "path": "packs/vanilla/decor/books_papers.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books_papers",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.candles_lanterns",
+      "path": "packs/vanilla/decor/candles_lanterns.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "candles_lanterns",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.paintings_frames",
+      "path": "packs/vanilla/decor/paintings_frames.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "paintings_frames",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.armor_trophies",
+      "path": "packs/vanilla/decor/armor_trophies.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "armor_trophies",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.banners_rugs",
+      "path": "packs/vanilla/decor/banners_rugs.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "banners_rugs",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.pottery_vessels",
+      "path": "packs/vanilla/decor/pottery_vessels.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "pottery_vessels",
+      "asset_count": 8,
+      "tags": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.clocks_instruments",
+      "path": "packs/vanilla/decor/clocks_instruments.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "clocks_instruments",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.food_tabletop",
+      "path": "packs/vanilla/decor/food_tabletop.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "food_tabletop",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.tools_workshop",
+      "path": "packs/vanilla/decor/tools_workshop.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "tools_workshop",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.shelves_clutter",
+      "path": "packs/vanilla/decor/shelves_clutter.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "shelves_clutter",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.statues_sculpture",
+      "path": "packs/vanilla/decor/statues_sculpture.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "statues_sculpture",
+      "asset_count": 8,
+      "tags": [
+        "coastal",
+        "garden",
+        "gothic",
+        "haunted",
+        "japanese",
+        "modern",
+        "ruin",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.plants_small",
+      "path": "packs/vanilla/decor/plants_small.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "plants_small",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.wayfinding_signage",
+      "path": "packs/vanilla/decor/wayfinding_signage.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "wayfinding_signage",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "industrial",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.occult_fantasy",
+      "path": "packs/vanilla/decor/occult_fantasy.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "occult_fantasy",
+      "asset_count": 8,
+      "tags": [
+        "fantasy",
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.decor.curtains_drapery",
+      "path": "packs/vanilla/decor/curtains_drapery.json",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "curtains_drapery",
+      "asset_count": 8,
+      "tags": [
+        "gothic",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers",
+      "path": "packs/vanilla/lighting/chandeliers.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "asset_count": 7,
+      "tags": [
+        "fantasy",
+        "gothic",
+        "haunted",
+        "industrial",
+        "medieval",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.wall_sconces",
+      "path": "packs/vanilla/lighting/wall_sconces.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "wall_sconces",
+      "asset_count": 7,
+      "tags": [
+        "gothic",
+        "haunted",
+        "industrial",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.table_floor_lamps",
+      "path": "packs/vanilla/lighting/table_floor_lamps.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "table_floor_lamps",
+      "asset_count": 6,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.hidden_ambient",
+      "path": "packs/vanilla/lighting/hidden_ambient.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "hidden_ambient",
+      "asset_count": 6,
+      "tags": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.exterior_path",
+      "path": "packs/vanilla/lighting/exterior_path.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "exterior_path",
+      "asset_count": 6,
+      "tags": [
+        "coastal",
+        "garden",
+        "gothic",
+        "japanese",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.industrial",
+      "path": "packs/vanilla/lighting/industrial.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "industrial",
+      "asset_count": 6,
+      "tags": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy",
+      "path": "packs/vanilla/lighting/magical_fantasy.json",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "asset_count": 6,
+      "tags": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ]
+    }
+  ],
+  "techniques": [
+    {
+      "id": "vanilla.technique.depth_layering",
+      "path": "packs/vanilla/techniques/depth_layering.json"
+    },
+    {
+      "id": "vanilla.technique.structural_hierarchy",
+      "path": "packs/vanilla/techniques/structural_hierarchy.json"
+    },
+    {
+      "id": "vanilla.technique.controlled_gradients",
+      "path": "packs/vanilla/techniques/controlled_gradients.json"
+    },
+    {
+      "id": "vanilla.technique.negative_space",
+      "path": "packs/vanilla/techniques/negative_space.json"
+    },
+    {
+      "id": "vanilla.technique.asymmetry",
+      "path": "packs/vanilla/techniques/asymmetry.json"
+    },
+    {
+      "id": "vanilla.technique.player_scale",
+      "path": "packs/vanilla/techniques/player_scale.json"
+    },
+    {
+      "id": "vanilla.technique.curves_diagonals",
+      "path": "packs/vanilla/techniques/curves_diagonals.json"
+    },
+    {
+      "id": "vanilla.technique.roof_hierarchy",
+      "path": "packs/vanilla/techniques/roof_hierarchy.json"
+    },
+    {
+      "id": "vanilla.technique.wall_bays",
+      "path": "packs/vanilla/techniques/wall_bays.json"
+    },
+    {
+      "id": "vanilla.technique.clutter_storytelling",
+      "path": "packs/vanilla/techniques/clutter_storytelling.json"
+    },
+    {
+      "id": "vanilla.technique.lighting_hierarchy",
+      "path": "packs/vanilla/techniques/lighting_hierarchy.json"
+    },
+    {
+      "id": "vanilla.technique.transition_detail",
+      "path": "packs/vanilla/techniques/transition_detail.json"
+    },
+    {
+      "id": "vanilla.technique.focal_composition",
+      "path": "packs/vanilla/techniques/focal_composition.json"
+    },
+    {
+      "id": "vanilla.technique.facade_depth",
+      "path": "packs/vanilla/techniques/facade_depth.json"
+    },
+    {
+      "id": "vanilla.technique.support_logic",
+      "path": "packs/vanilla/techniques/support_logic.json"
+    },
+    {
+      "id": "vanilla.technique.palette_temperature",
+      "path": "packs/vanilla/techniques/palette_temperature.json"
+    },
+    {
+      "id": "vanilla.technique.repetition_breaking",
+      "path": "packs/vanilla/techniques/repetition_breaking.json"
+    },
+    {
+      "id": "vanilla.technique.sightline_control",
+      "path": "packs/vanilla/techniques/sightline_control.json"
+    },
+    {
+      "id": "vanilla.technique.path_wear",
+      "path": "packs/vanilla/techniques/path_wear.json"
+    },
+    {
+      "id": "vanilla.technique.vertical_zoning",
+      "path": "packs/vanilla/techniques/vertical_zoning.json"
+    },
+    {
+      "id": "vanilla.technique.edge_softening",
+      "path": "packs/vanilla/techniques/edge_softening.json"
+    },
+    {
+      "id": "vanilla.technique.material_story",
+      "path": "packs/vanilla/techniques/material_story.json"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "vanilla.palette.stone_dark_gothic",
+      "path": "packs/vanilla/palettes/stone_dark_gothic.json"
+    },
+    {
+      "id": "vanilla.palette.stone_warm_manor",
+      "path": "packs/vanilla/palettes/stone_warm_manor.json"
+    },
+    {
+      "id": "vanilla.palette.stone_weathered_medieval",
+      "path": "packs/vanilla/palettes/stone_weathered_medieval.json"
+    },
+    {
+      "id": "vanilla.palette.wood_dark_oak_manor",
+      "path": "packs/vanilla/palettes/wood_dark_oak_manor.json"
+    },
+    {
+      "id": "vanilla.palette.wood_warm_spruce",
+      "path": "packs/vanilla/palettes/wood_warm_spruce.json"
+    },
+    {
+      "id": "vanilla.palette.brick_industrial",
+      "path": "packs/vanilla/palettes/brick_industrial.json"
+    },
+    {
+      "id": "vanilla.palette.copper_aged",
+      "path": "packs/vanilla/palettes/copper_aged.json"
+    },
+    {
+      "id": "vanilla.palette.plaster_timber",
+      "path": "packs/vanilla/palettes/plaster_timber.json"
+    },
+    {
+      "id": "vanilla.palette.modern_neutral",
+      "path": "packs/vanilla/palettes/modern_neutral.json"
+    },
+    {
+      "id": "vanilla.palette.coastal_light",
+      "path": "packs/vanilla/palettes/coastal_light.json"
+    },
+    {
+      "id": "vanilla.palette.fantasy_luminous",
+      "path": "packs/vanilla/palettes/fantasy_luminous.json"
+    },
+    {
+      "id": "vanilla.palette.cave_ancient",
+      "path": "packs/vanilla/palettes/cave_ancient.json"
+    },
+    {
+      "id": "vanilla.palette.japanese_timber",
+      "path": "packs/vanilla/palettes/japanese_timber.json"
+    },
+    {
+      "id": "vanilla.palette.dwarven_basalt",
+      "path": "packs/vanilla/palettes/dwarven_basalt.json"
+    },
+    {
+      "id": "vanilla.palette.ruin_overgrown",
+      "path": "packs/vanilla/palettes/ruin_overgrown.json"
+    },
+    {
+      "id": "vanilla.palette.fortress_charcoal",
+      "path": "packs/vanilla/palettes/fortress_charcoal.json"
+    }
+  ],
+  "style_profiles": [
+    {
+      "id": "style.massive_gothic_manor",
+      "path": "packs/style_profiles/massive_gothic_manor.json",
+      "tags": [
+        "gothic",
+        "victorian",
+        "dark",
+        "ornate"
+      ]
+    },
+    {
+      "id": "style.victorian_estate",
+      "path": "packs/style_profiles/victorian_estate.json",
+      "tags": [
+        "victorian",
+        "manor",
+        "historic"
+      ]
+    },
+    {
+      "id": "style.medieval_village",
+      "path": "packs/style_profiles/medieval_village.json",
+      "tags": [
+        "medieval",
+        "rustic",
+        "village"
+      ]
+    },
+    {
+      "id": "style.dark_fortress",
+      "path": "packs/style_profiles/dark_fortress.json",
+      "tags": [
+        "fortress",
+        "dark",
+        "military"
+      ]
+    },
+    {
+      "id": "style.fantasy_elven",
+      "path": "packs/style_profiles/fantasy_elven.json",
+      "tags": [
+        "fantasy",
+        "organic",
+        "luminous"
+      ]
+    },
+    {
+      "id": "style.dwarven_citadel",
+      "path": "packs/style_profiles/dwarven_citadel.json",
+      "tags": [
+        "dwarven",
+        "monumental",
+        "stone"
+      ]
+    },
+    {
+      "id": "style.rustic_tavern",
+      "path": "packs/style_profiles/rustic_tavern.json",
+      "tags": [
+        "rustic",
+        "warm",
+        "lived_in"
+      ]
+    },
+    {
+      "id": "style.industrial_steampunk",
+      "path": "packs/style_profiles/industrial_steampunk.json",
+      "tags": [
+        "industrial",
+        "metal",
+        "functional"
+      ]
+    },
+    {
+      "id": "style.modern_luxury",
+      "path": "packs/style_profiles/modern_luxury.json",
+      "tags": [
+        "modern",
+        "clean",
+        "luxury"
+      ]
+    },
+    {
+      "id": "style.coastal_mediterranean",
+      "path": "packs/style_profiles/coastal_mediterranean.json",
+      "tags": [
+        "coastal",
+        "light",
+        "warm"
+      ]
+    },
+    {
+      "id": "style.japanese_traditional",
+      "path": "packs/style_profiles/japanese_traditional.json",
+      "tags": [
+        "japanese",
+        "timber",
+        "restrained"
+      ]
+    },
+    {
+      "id": "style.ancient_ruin",
+      "path": "packs/style_profiles/ancient_ruin.json",
+      "tags": [
+        "ruin",
+        "weathered",
+        "historic"
+      ]
+    },
+    {
+      "id": "style.cave_megastructure",
+      "path": "packs/style_profiles/cave_megastructure.json",
+      "tags": [
+        "cave",
+        "monumental",
+        "subterranean"
+      ]
+    },
+    {
+      "id": "style.urban_gothic",
+      "path": "packs/style_profiles/urban_gothic.json",
+      "tags": [
+        "urban",
+        "gothic",
+        "dense"
+      ]
+    },
+    {
+      "id": "style.haunted_mansion",
+      "path": "packs/style_profiles/haunted_mansion.json",
+      "tags": [
+        "haunted",
+        "gothic",
+        "weathered"
+      ]
+    },
+    {
+      "id": "style.garden_estate",
+      "path": "packs/style_profiles/garden_estate.json",
+      "tags": [
+        "garden",
+        "organic",
+        "formal"
+      ]
+    }
+  ],
+  "totals": {
+    "pack_files": 68,
+    "assets": 567,
+    "techniques": 22,
+    "palettes": 16,
+    "style_profiles": 16
   }
 }

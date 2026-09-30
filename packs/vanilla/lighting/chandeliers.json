@@ -1,0 +1,792 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.lighting.chandeliers",
+  "name": "Chandeliers",
+  "stage": "vanilla",
+  "category": "lighting",
+  "family": "chandeliers",
+  "description": "Reusable Chandeliers family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.lighting.chandeliers.small_ring",
+      "name": "Small Ring",
+      "description": "Small Ring variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "gothic",
+        "lighting",
+        "modern",
+        "ring",
+        "rustic",
+        "small",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "small_ring",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.manor_tiered",
+      "name": "Manor Tiered",
+      "description": "Manor Tiered variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "gothic",
+        "haunted",
+        "lighting",
+        "manor",
+        "modern",
+        "rustic",
+        "tiered",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "manor_tiered",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.gothic_drop",
+      "name": "Gothic Drop",
+      "description": "Gothic Drop variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "drop",
+        "gothic",
+        "haunted",
+        "lighting",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "haunted",
+        "modern",
+        "rustic",
+        "urban",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "gothic_drop",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.rustic_wheel",
+      "name": "Rustic Wheel",
+      "description": "Rustic Wheel variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "gothic",
+        "lighting",
+        "medieval",
+        "modern",
+        "rustic",
+        "victorian",
+        "wheel"
+      ],
+      "styles": [
+        "gothic",
+        "medieval",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "rustic_wheel",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.modern_linear",
+      "name": "Modern Linear",
+      "description": "Modern Linear variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "gothic",
+        "lighting",
+        "linear",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "modern_linear",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.industrial_chain",
+      "name": "Industrial Chain",
+      "description": "Industrial Chain variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chain",
+        "chandeliers",
+        "gothic",
+        "industrial",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "gothic",
+        "industrial",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "industrial_chain",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.chandeliers.fantasy_crystal",
+      "name": "Fantasy Crystal",
+      "description": "Fantasy Crystal variant in the Chandeliers family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "chandeliers",
+      "tags": [
+        "chandeliers",
+        "crystal",
+        "fantasy",
+        "gothic",
+        "lighting",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "fantasy_crystal",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

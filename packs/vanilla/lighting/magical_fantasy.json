@@ -1,0 +1,689 @@
+{
+  "schema_version": 2,
+  "pack_id": "vanilla.lighting.magical_fantasy",
+  "name": "Magical Fantasy",
+  "stage": "vanilla",
+  "category": "lighting",
+  "family": "magical_fantasy",
+  "description": "Reusable Magical Fantasy family for cross-project vanilla builds. Variants are intended to be adapted, rotated, mirrored and palette-swapped rather than stamped identically.",
+  "minecraft": {
+    "target": "26.2",
+    "vanilla_only": true
+  },
+  "authoring_contract": {
+    "family_not_prefab": true,
+    "player_scale_required": true,
+    "negative_space_required": true,
+    "variation_required_when_repeated": true,
+    "preserve_declared_connectors": true
+  },
+  "assets": [
+    {
+      "id": "vanilla.lighting.magical_fantasy.crystal_glow",
+      "name": "Crystal Glow",
+      "description": "Crystal Glow variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "crystal",
+        "fantasy",
+        "glow",
+        "gothic",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "crystal_glow",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy.hidden_froglight",
+      "name": "Hidden Froglight",
+      "description": "Hidden Froglight variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "fantasy",
+        "froglight",
+        "gothic",
+        "hidden",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "hidden_froglight",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy.amethyst_glow",
+      "name": "Amethyst Glow",
+      "description": "Amethyst Glow variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "amethyst",
+        "fantasy",
+        "glow",
+        "gothic",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "amethyst_glow",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy.soul_light_cluster",
+      "name": "Soul Light Cluster",
+      "description": "Soul Light Cluster variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "cluster",
+        "fantasy",
+        "gothic",
+        "light",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "rustic",
+        "soul",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "soul_light_cluster",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy.mushroom_glow",
+      "name": "Mushroom Glow",
+      "description": "Mushroom Glow variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "fantasy",
+        "glow",
+        "gothic",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "mushroom",
+        "rustic",
+        "victorian"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "mushroom_glow",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    },
+    {
+      "id": "vanilla.lighting.magical_fantasy.water_glow",
+      "name": "Water Glow",
+      "description": "Water Glow variant in the Magical Fantasy family, authored as a reusable vanilla composition rather than a project-specific prefab.",
+      "stage": "vanilla",
+      "category": "lighting",
+      "family": "magical_fantasy",
+      "tags": [
+        "fantasy",
+        "glow",
+        "gothic",
+        "lighting",
+        "magical_fantasy",
+        "modern",
+        "rustic",
+        "victorian",
+        "water"
+      ],
+      "styles": [
+        "fantasy",
+        "gothic",
+        "modern",
+        "rustic",
+        "victorian"
+      ],
+      "scale_classes": [
+        "small",
+        "medium"
+      ],
+      "contexts": [
+        "interior",
+        "exterior"
+      ],
+      "dimension_hint": {
+        "width": [
+          1,
+          9
+        ],
+        "height": [
+          1,
+          12
+        ],
+        "depth": [
+          1,
+          9
+        ]
+      },
+      "recommended_techniques": [
+        "lighting_hierarchy",
+        "focal_composition",
+        "sightline_control",
+        "negative_space"
+      ],
+      "material_roles": [
+        "fixture",
+        "light_source",
+        "support"
+      ],
+      "placement": {
+        "preserve_player_clearance": false,
+        "avoid_primary_sightline_blocking": false,
+        "requires_grounding": false,
+        "allowed_rotation_degrees": [
+          0,
+          90,
+          180,
+          270
+        ]
+      },
+      "variation": {
+        "mirror_allowed": true,
+        "rotation_allowed": true,
+        "palette_swap_allowed": true,
+        "parameters": [
+          "width_or_span",
+          "height",
+          "depth",
+          "wear",
+          "asymmetry",
+          "detail_density"
+        ]
+      },
+      "recipe": {
+        "grammar": "lighting_fixture_v1",
+        "profile": "water_glow",
+        "parameters": {
+          "light_layers": [
+            "ambient",
+            "task_or_focal"
+          ],
+          "conceal_source_optional": true,
+          "rotation_step": 90
+        },
+        "material_roles": [
+          "fixture",
+          "light_source",
+          "support"
+        ]
+      },
+      "anti_patterns": [
+        "do_not_stamp_identical_variants_in_a_grid",
+        "do_not_add_detail_that_blocks_declared_circulation",
+        "do_not_randomize_palette_without_gradient_logic"
+      ],
+      "qa": [
+        "readable_from_player_eye_level",
+        "primary_shape_reads_before_micro_detail",
+        "fits_declared_clearance",
+        "variation_does_not_break_family_identity"
+      ]
+    }
+  ]
+}

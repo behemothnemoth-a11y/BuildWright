@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.fortress_charcoal",
+  "name": "Fortress Charcoal",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "fortress",
+    "dark",
+    "military"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:blackstone",
+      "minecraft:deepslate_tiles"
+    ],
+    "stone_primary": [
+      "minecraft:deepslate_bricks",
+      "minecraft:polished_deepslate"
+    ],
+    "stone_highlight": [
+      "minecraft:tuff_bricks",
+      "minecraft:stone_bricks"
+    ],
+    "metal": [
+      "minecraft:iron_bars",
+      "minecraft:chain"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

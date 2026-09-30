@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "style.fantasy_elven",
+  "name": "Fantasy Elven",
+  "tags": [
+    "fantasy",
+    "organic",
+    "luminous"
+  ],
+  "preferred_palettes": [
+    "vanilla.palette.fantasy_luminous",
+    "vanilla.palette.coastal_light"
+  ],
+  "preferred_architecture_families": [
+    "arches",
+    "columns_piers",
+    "windows",
+    "bridges_walkways",
+    "ceilings"
+  ],
+  "detail_policy": {
+    "primary_form_priority": 1.0,
+    "secondary_structure_density": 0.72,
+    "tertiary_detail_density": 0.58,
+    "micro_clutter_density": 0.34,
+    "negative_space_target": 0.32,
+    "eye_level_detail_bias": 0.72,
+    "repetition_variation": 0.68
+  },
+  "vegetation_policy": {
+    "use_variants": true,
+    "avoid_regular_grid": true,
+    "cluster_bias": 0.55
+  },
+  "selection_tags": [
+    "fantasy",
+    "organic",
+    "luminous"
+  ],
+  "notes": "Profile is a weighting preset, not a hard style lock. Adapt to project function and reference."
+}

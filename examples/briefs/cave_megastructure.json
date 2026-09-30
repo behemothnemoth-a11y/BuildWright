@@ -1,0 +1,28 @@
+{
+  "name": "Cave Megastructure",
+  "style_profile": "style.cave_megastructure",
+  "tags": [
+    "cave",
+    "monumental",
+    "ancient"
+  ],
+  "categories": [
+    "architecture",
+    "vegetation",
+    "lighting"
+  ],
+  "families": [
+    "bridges_walkways",
+    "columns_piers",
+    "ceilings",
+    "roots_overgrowth"
+  ],
+  "scale_classes": [
+    "large",
+    "monumental"
+  ],
+  "contexts": [
+    "structural",
+    "exterior"
+  ]
+}

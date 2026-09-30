@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildwright.local/schemas/asset.schema.json",
+  "title": "BuildWright Asset",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "stage",
+    "category",
+    "family",
+    "tags",
+    "styles",
+    "scale_classes",
+    "dimension_hint",
+    "recommended_techniques",
+    "placement",
+    "variation",
+    "recipe",
+    "qa"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^vanilla\\."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "const": "vanilla"
+    },
+    "category": {
+      "enum": [
+        "architecture",
+        "vegetation",
+        "furniture",
+        "decor",
+        "lighting"
+      ]
+    },
+    "family": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "styles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scale_classes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "small",
+          "medium",
+          "large",
+          "monumental"
+        ]
+      }
+    },
+    "dimension_hint": {
+      "type": "object"
+    },
+    "recommended_techniques": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "placement": {
+      "type": "object"
+    },
+    "variation": {
+      "type": "object"
+    },
+    "recipe": {
+      "type": "object"
+    },
+    "qa": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

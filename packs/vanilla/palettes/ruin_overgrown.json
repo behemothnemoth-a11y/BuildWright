@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.ruin_overgrown",
+  "name": "Ruin Overgrown",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "ruin",
+    "overgrown",
+    "weathered"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:cobblestone",
+      "minecraft:mossy_cobblestone"
+    ],
+    "stone_primary": [
+      "minecraft:stone_bricks",
+      "minecraft:mossy_stone_bricks"
+    ],
+    "stone_highlight": [
+      "minecraft:andesite",
+      "minecraft:calcite"
+    ],
+    "growth": [
+      "minecraft:moss_block",
+      "minecraft:vine",
+      "minecraft:azalea_leaves"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

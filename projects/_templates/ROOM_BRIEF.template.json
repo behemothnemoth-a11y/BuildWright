@@ -1,0 +1,16 @@
+{
+  "name": "",
+  "style_profile": "style.example",
+  "tags": [],
+  "categories": [],
+  "families": [],
+  "scale_classes": [
+    "medium"
+  ],
+  "contexts": [
+    "interior"
+  ],
+  "functional_requirements": [],
+  "connectors": [],
+  "do_not_change": []
+}

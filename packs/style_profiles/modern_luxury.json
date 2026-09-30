@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "style.modern_luxury",
+  "name": "Modern Luxury",
+  "tags": [
+    "modern",
+    "clean",
+    "luxury"
+  ],
+  "preferred_palettes": [
+    "vanilla.palette.modern_neutral"
+  ],
+  "preferred_architecture_families": [
+    "facades",
+    "windows",
+    "stairs",
+    "railings",
+    "ceilings"
+  ],
+  "detail_policy": {
+    "primary_form_priority": 1.0,
+    "secondary_structure_density": 0.72,
+    "tertiary_detail_density": 0.58,
+    "micro_clutter_density": 0.34,
+    "negative_space_target": 0.32,
+    "eye_level_detail_bias": 0.72,
+    "repetition_variation": 0.68
+  },
+  "vegetation_policy": {
+    "use_variants": true,
+    "avoid_regular_grid": true,
+    "cluster_bias": 0.55
+  },
+  "selection_tags": [
+    "modern",
+    "clean",
+    "luxury"
+  ],
+  "notes": "Profile is a weighting preset, not a hard style lock. Adapt to project function and reference."
+}

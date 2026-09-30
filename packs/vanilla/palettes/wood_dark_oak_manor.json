@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.wood_dark_oak_manor",
+  "name": "Wood Dark Oak Manor",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "gothic",
+    "manor",
+    "victorian"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "wood_shadow": [
+      "minecraft:dark_oak_log",
+      "minecraft:dark_oak_wood"
+    ],
+    "wood_primary": [
+      "minecraft:dark_oak_planks",
+      "minecraft:spruce_planks"
+    ],
+    "wood_highlight": [
+      "minecraft:stripped_dark_oak_log",
+      "minecraft:stripped_spruce_log"
+    ],
+    "wood_trim": [
+      "minecraft:dark_oak_stairs",
+      "minecraft:dark_oak_slab",
+      "minecraft:dark_oak_trapdoor"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

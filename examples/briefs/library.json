@@ -1,0 +1,27 @@
+{
+  "name": "Library",
+  "style_profile": "style.victorian_estate",
+  "tags": [
+    "library",
+    "historic",
+    "warm"
+  ],
+  "categories": [
+    "architecture",
+    "furniture",
+    "decor",
+    "lighting"
+  ],
+  "families": [
+    "walls_bays",
+    "library_study",
+    "shelves_clutter"
+  ],
+  "scale_classes": [
+    "medium",
+    "large"
+  ],
+  "contexts": [
+    "interior"
+  ]
+}

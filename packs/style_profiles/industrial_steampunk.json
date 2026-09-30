@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "style.industrial_steampunk",
+  "name": "Industrial Steampunk",
+  "tags": [
+    "industrial",
+    "metal",
+    "functional"
+  ],
+  "preferred_palettes": [
+    "vanilla.palette.brick_industrial",
+    "vanilla.palette.copper_aged"
+  ],
+  "preferred_architecture_families": [
+    "facades",
+    "windows",
+    "bridges_walkways",
+    "railings",
+    "chimneys"
+  ],
+  "detail_policy": {
+    "primary_form_priority": 1.0,
+    "secondary_structure_density": 0.72,
+    "tertiary_detail_density": 0.58,
+    "micro_clutter_density": 0.34,
+    "negative_space_target": 0.32,
+    "eye_level_detail_bias": 0.72,
+    "repetition_variation": 0.68
+  },
+  "vegetation_policy": {
+    "use_variants": true,
+    "avoid_regular_grid": true,
+    "cluster_bias": 0.55
+  },
+  "selection_tags": [
+    "industrial",
+    "metal",
+    "functional"
+  ],
+  "notes": "Profile is a weighting preset, not a hard style lock. Adapt to project function and reference."
+}

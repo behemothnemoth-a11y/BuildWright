@@ -4,11 +4,14 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Local drop safety backups
+# Local drop safety backups (never commit)
 .drop-backups/
+.buildwright_drop_backups/
 
-# Temporary files
+# Temporary/generated local files
 *.tmp
 *.bak
+__pycache__/
+*.pyc
 
-# Keep intentional Minecraft artifacts committed when placed under project/release folders.
+# Intentional Minecraft artifacts under project/release folders remain trackable.

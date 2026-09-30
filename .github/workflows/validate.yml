@@ -5,10 +5,16 @@ on:
   pull_request:
 
 jobs:
-  structure:
-    runs-on: windows-latest
+  vanilla-pack-foundation:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate repository foundation
-        shell: powershell
-        run: ./tools/validate_repo.ps1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate repository and pack catalog
+        run: python tools/validate_repo.py
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Coverage report
+        run: python tools/report_pack_coverage.py

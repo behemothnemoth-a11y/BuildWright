@@ -1,0 +1,26 @@
+{
+  "name": "Modern House",
+  "style_profile": "style.modern_luxury",
+  "tags": [
+    "modern",
+    "clean"
+  ],
+  "categories": [
+    "architecture",
+    "furniture",
+    "lighting"
+  ],
+  "families": [
+    "facades",
+    "windows",
+    "stairs"
+  ],
+  "scale_classes": [
+    "medium",
+    "large"
+  ],
+  "contexts": [
+    "interior",
+    "exterior"
+  ]
+}

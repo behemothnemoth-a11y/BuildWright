@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.plaster_timber",
+  "name": "Plaster Timber",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "medieval",
+    "rustic",
+    "village"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "plaster_shadow": [
+      "minecraft:mud_bricks",
+      "minecraft:packed_mud"
+    ],
+    "plaster_primary": [
+      "minecraft:white_terracotta",
+      "minecraft:calcite"
+    ],
+    "timber": [
+      "minecraft:spruce_log",
+      "minecraft:dark_oak_log",
+      "minecraft:spruce_planks"
+    ],
+    "trim": [
+      "minecraft:spruce_stairs",
+      "minecraft:dark_oak_trapdoor"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

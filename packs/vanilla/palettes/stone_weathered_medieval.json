@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.stone_weathered_medieval",
+  "name": "Stone Weathered Medieval",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "medieval",
+    "ruin",
+    "rustic"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:cobbled_deepslate",
+      "minecraft:cobblestone"
+    ],
+    "stone_primary": [
+      "minecraft:stone",
+      "minecraft:stone_bricks",
+      "minecraft:cobblestone"
+    ],
+    "stone_highlight": [
+      "minecraft:andesite",
+      "minecraft:mossy_cobblestone"
+    ],
+    "weathering": [
+      "minecraft:mossy_stone_bricks",
+      "minecraft:cracked_stone_bricks"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

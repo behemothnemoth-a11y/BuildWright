@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "vanilla.palette.fantasy_luminous",
+  "name": "Fantasy Luminous",
+  "stage": "vanilla",
+  "category": "palette",
+  "tags": [
+    "fantasy",
+    "elven",
+    "luminous"
+  ],
+  "rules": [
+    "use_role_bands_not_random_noise",
+    "increase_shadow_materials_in_recesses",
+    "reserve_highlights_for_exposed_edges_or_focal_detail"
+  ],
+  "roles": {
+    "stone_shadow": [
+      "minecraft:prismarine_bricks",
+      "minecraft:dark_prismarine"
+    ],
+    "stone_primary": [
+      "minecraft:calcite",
+      "minecraft:quartz_block"
+    ],
+    "accent": [
+      "minecraft:amethyst_block",
+      "minecraft:sea_lantern",
+      "minecraft:pearlescent_froglight"
+    ],
+    "wood": [
+      "minecraft:warped_planks",
+      "minecraft:cherry_planks"
+    ]
+  },
+  "weathering_density_default": 0.08,
+  "notes": "Block lists are suggestions; preserve role relationships when substituting."
+}

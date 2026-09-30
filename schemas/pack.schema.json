@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildwright.local/schemas/pack.schema.json",
+  "title": "BuildWright Pack",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "pack_id",
+    "stage",
+    "category",
+    "family",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pack_id": {
+      "type": "string",
+      "pattern": "^vanilla\\."
+    },
+    "name": {
+      "type": "string"
+    },
+    "stage": {
+      "const": "vanilla"
+    },
+    "category": {
+      "enum": [
+        "architecture",
+        "vegetation",
+        "furniture",
+        "decor",
+        "lighting"
+      ]
+    },
+    "family": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "asset.schema.json"
+      }
+    }
+  },
+  "additionalProperties": true
+}

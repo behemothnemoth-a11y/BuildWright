@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "id": "indoor_planter",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "planters",
+  "size": [
+    7,
+    10,
+    7
+  ],
+  "anchor": [
+    3,
+    0,
+    3
+  ],
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        1
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        2
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        3
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        4
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        5
+      ],
+      "state": "minecraft:brick"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        2
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        3
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        4
+      ],
+      "state": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        2
+      ],
+      "state": "minecraft:fern"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        2
+      ],
+      "state": "minecraft:fern"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        3
+      ],
+      "state": "minecraft:fern"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        4
+      ],
+      "state": "minecraft:fern"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        4
+      ],
+      "state": "minecraft:fern"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/indoor_planter.litematic",
+  "preview": "fixtures/previews/vanilla/indoor_planter.png",
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildWright Fixture Registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "counts",
+    "fixtures"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "fixtures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "stage",
+          "file",
+          "sha256"
+        ]
+      }
+    }
+  }
+}

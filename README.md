@@ -2,12 +2,11 @@
 
 BuildWright is a reusable Minecraft architecture system for building, refining, validating and releasing high-detail projects.
 
-The pipeline is deliberately two-stage:
+The system now has three concrete layers:
 
-1. **Vanilla Build Language** — strong player-scale vanilla architecture, palettes, furniture, vegetation, lighting and builder technique packs.
-2. **Microblock Implementation** — selective high-resolution refinement after the vanilla master is already good.
-
-DROP 0002 established **68 vanilla families / 567 variants**. DROP 0003 adds **75 microblock families / 606 variants**, 40 reusable shape primitives, 10 detail profiles and a provider-aware vanilla→microblock planning layer.
+1. **Vanilla Build Language** — 68 reusable families / 567 variants plus techniques, palettes and style profiles.
+2. **Microblock Implementation** — 75 families / 606 variants, 40 cell primitives, detail tiers and Astra-aware translation planning.
+3. **Compiled Fixture Library** — 40 real vanilla `.litematic` fixtures, 24 real Astra-host `.litematic` fixtures and 32 transform-corpus files with editable source JSON, previews and offline readback validation.
 
 ## Core rules
 - Strong architecture before ornament.
@@ -17,6 +16,7 @@ DROP 0002 established **68 vanilla families / 567 variants**. DROP 0003 adds **7
 - Prefer the coarsest microblock tier that reads correctly.
 - Functional behavior beats geometric cleverness.
 - Negative space is part of detail.
-- Every significant result needs in-game player-eye review.
+- Source JSON is canonical; compiled `.litematic` files are derived artifacts.
+- Serialization validation is not the same as an in-game test.
 
-See `VANILLA_BUILD_LANGUAGE.md`, `MICROBLOCK_IMPLEMENTATION.md`, and `docs/BUILD_PIPELINE.md`.
+See `VANILLA_BUILD_LANGUAGE.md`, `MICROBLOCK_IMPLEMENTATION.md`, `docs/FIXTURE_SYSTEM.md`, and `docs/BUILD_PIPELINE.md`.

@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "provider": "astra_microblocks",
+  "cases": [
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 0,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_0.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "71e24b574af0cc16a3a20a21a8cccbe0192a4e8e95a482b4571271daa97ba1a5",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 1,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_1.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "61be9b4119e9b8086e3428c3e0589632a6067a70fcc52d66dee92b56dd9cd6d3",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 2,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_2.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "5606996d6de6cc90ff8fcf6d8e64af532ce8bf2d0404f48b756051b01986d908",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 3,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_3.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "d64a3b24f0b6ee5966ad1177fc3f847fac898f82c11e258d68c41eb0ab179dda",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 4,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_4.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "71e24b574af0cc16a3a20a21a8cccbe0192a4e8e95a482b4571271daa97ba1a5",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 5,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_5.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "61be9b4119e9b8086e3428c3e0589632a6067a70fcc52d66dee92b56dd9cd6d3",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 6,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_6.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "5606996d6de6cc90ff8fcf6d8e64af532ce8bf2d0404f48b756051b01986d908",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "corbel_bracket",
+      "orientation": 7,
+      "file": "fixtures/corpus/transforms/corbel_bracket_orientation_7.litematic",
+      "expected_cells": 1008,
+      "expected_occupancy_sha256": "d64a3b24f0b6ee5966ad1177fc3f847fac898f82c11e258d68c41eb0ab179dda",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 0,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_0.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "7c103c87d4828b45e2521bda77b4b3aee8d9b2de45de159be63cb80049fede74",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 1,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_1.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "8287ddfbe5875411749d9151eb04f1f02bd8d68d6917eca1b7a07db8c302745b",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 2,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_2.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "eb1a732ad723fb00244a315624358db27b5cec0e18e11faf008fa9e1b2b0e778",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 3,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_3.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "8ca0ee999f6df572473cd4cbbcb4299b7f0cab45b0a416611988d856959b25b7",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 4,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_4.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "eb1a732ad723fb00244a315624358db27b5cec0e18e11faf008fa9e1b2b0e778",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 5,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_5.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "8ca0ee999f6df572473cd4cbbcb4299b7f0cab45b0a416611988d856959b25b7",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 6,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_6.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "7c103c87d4828b45e2521bda77b4b3aee8d9b2de45de159be63cb80049fede74",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "furniture_armrest",
+      "orientation": 7,
+      "file": "fixtures/corpus/transforms/furniture_armrest_orientation_7.litematic",
+      "expected_cells": 566,
+      "expected_occupancy_sha256": "8287ddfbe5875411749d9151eb04f1f02bd8d68d6917eca1b7a07db8c302745b",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 0,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_0.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "c09514d597c532fe1e47a5b63b12da6bf846d74118ca4fae41d61461461a3b53",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 1,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_1.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "99a1e70b5d9f19d35dbb0ab4168a3c6d62bd9b20b7023927c0837b89c46e428b",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 2,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_2.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "221eef99b575907d8e83b96f2833410d4b761c128e18025184cf83f136f444e3",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 3,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_3.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "5b13c5f97dd567bd097835429689051fd7554c6f8ee75a482a14ebfcf1a8cd95",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 4,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_4.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "92adaf0913a03ebb78c8cbe417d74c6e1bf2663b8bfb685afccc500979496831",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 5,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_5.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "8fdea164d623e012b1ab7da8fcf246ef81e70fad3c026ea558cc6cce1198c7e0",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 6,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_6.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "3716801787e0433772f96313e063b044d1bcebcf02724420d0de384d50874b20",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "pipe_elbow",
+      "orientation": 7,
+      "file": "fixtures/corpus/transforms/pipe_elbow_orientation_7.litematic",
+      "expected_cells": 555,
+      "expected_occupancy_sha256": "3cff8f7fb0502dd1cea73066c9fdedfcb54c623521186184d9ca8733485ac69c",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 0,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_0.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "ea9d17e645a161a703045b0d21d450ad69650d56fc1a65284634a956c95e4748",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 1,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_1.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "2ccf02df529755a8ac7152683cc88ea05f6e1f88b2c42bc47577a7dc20c87ef6",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 2,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_2.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "8d6725fb5f590772982d3c0ae0a3a77ffab4c57b1625effb8c71b42a77903a18",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 3,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_3.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "67df35402b4199547845c09bf97f3875a0316000931ce9d9d9d0a0c88837b932",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 4,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_4.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "86e4ae9c8c0dfbb736f5eaf3003bcfca0791a608ee751d68015fa19908a988f8",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 5,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_5.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "6d77902051d27b1e1899523d7049b55f332907e045d06dcf8b5dd3549be47a31",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 6,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_6.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "dae7d3561df34ce51e32bb8c8c7e52c2bbaeaa7e60844d9f971927406b9dd4b8",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    },
+    {
+      "fixture": "gargoyle_head_abstract",
+      "orientation": 7,
+      "file": "fixtures/corpus/transforms/gargoyle_head_abstract_orientation_7.litematic",
+      "expected_cells": 828,
+      "expected_occupancy_sha256": "2ffbc9a345635851281957ed8feaf2b083d145cc19c7b8fffeac5f5279ddff67",
+      "meaning": "orientation encodes horizontal rotation/mirror; Astra loadAdditional applies delta from saved astra_orientation=0"
+    }
+  ]
+}

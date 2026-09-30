@@ -1,0 +1,989 @@
+{
+  "schema_version": 1,
+  "fixtures": [
+    {
+      "id": "gothic_lancet_arch_small",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "arches",
+      "size": [
+        9,
+        11,
+        3
+      ],
+      "blocks": 120,
+      "file": "fixtures/compiled/vanilla/gothic_lancet_arch_small.litematic",
+      "source": "fixtures/sources/vanilla/gothic_lancet_arch_small.json",
+      "preview": "fixtures/previews/vanilla/gothic_lancet_arch_small.png"
+    },
+    {
+      "id": "gothic_lancet_arch_large",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "arches",
+      "size": [
+        13,
+        17,
+        4
+      ],
+      "blocks": 240,
+      "file": "fixtures/compiled/vanilla/gothic_lancet_arch_large.litematic",
+      "source": "fixtures/sources/vanilla/gothic_lancet_arch_large.json",
+      "preview": "fixtures/previews/vanilla/gothic_lancet_arch_large.png"
+    },
+    {
+      "id": "gothic_tudor_arch",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "arches",
+      "size": [
+        13,
+        10,
+        3
+      ],
+      "blocks": 138,
+      "file": "fixtures/compiled/vanilla/gothic_tudor_arch.litematic",
+      "source": "fixtures/sources/vanilla/gothic_tudor_arch.json",
+      "preview": "fixtures/previews/vanilla/gothic_tudor_arch.png"
+    },
+    {
+      "id": "gothic_portal_deep",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "portals",
+      "size": [
+        11,
+        14,
+        7
+      ],
+      "blocks": 364,
+      "file": "fixtures/compiled/vanilla/gothic_portal_deep.litematic",
+      "source": "fixtures/sources/vanilla/gothic_portal_deep.json",
+      "preview": "fixtures/previews/vanilla/gothic_portal_deep.png"
+    },
+    {
+      "id": "clustered_pier_compact",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "columns_piers",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "blocks": 154,
+      "file": "fixtures/compiled/vanilla/clustered_pier_compact.litematic",
+      "source": "fixtures/sources/vanilla/clustered_pier_compact.json",
+      "preview": "fixtures/previews/vanilla/clustered_pier_compact.png"
+    },
+    {
+      "id": "clustered_pier_monumental",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "columns_piers",
+      "size": [
+        7,
+        16,
+        7
+      ],
+      "blocks": 232,
+      "file": "fixtures/compiled/vanilla/clustered_pier_monumental.litematic",
+      "source": "fixtures/sources/vanilla/clustered_pier_monumental.json",
+      "preview": "fixtures/previews/vanilla/clustered_pier_monumental.png"
+    },
+    {
+      "id": "stepped_buttress",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "buttresses",
+      "size": [
+        7,
+        14,
+        9
+      ],
+      "blocks": 163,
+      "file": "fixtures/compiled/vanilla/stepped_buttress.litematic",
+      "source": "fixtures/sources/vanilla/stepped_buttress.json",
+      "preview": "fixtures/previews/vanilla/stepped_buttress.png"
+    },
+    {
+      "id": "gothic_wall_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "wall_bays",
+      "size": [
+        15,
+        14,
+        5
+      ],
+      "blocks": 668,
+      "file": "fixtures/compiled/vanilla/gothic_wall_bay.litematic",
+      "source": "fixtures/sources/vanilla/gothic_wall_bay.json",
+      "preview": "fixtures/previews/vanilla/gothic_wall_bay.png"
+    },
+    {
+      "id": "hammerbeam_truss_small",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "size": [
+        17,
+        11,
+        3
+      ],
+      "blocks": 202,
+      "file": "fixtures/compiled/vanilla/hammerbeam_truss_small.litematic",
+      "source": "fixtures/sources/vanilla/hammerbeam_truss_small.json",
+      "preview": "fixtures/previews/vanilla/hammerbeam_truss_small.png"
+    },
+    {
+      "id": "hammerbeam_truss_large",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "roofs",
+      "size": [
+        25,
+        15,
+        3
+      ],
+      "blocks": 272,
+      "file": "fixtures/compiled/vanilla/hammerbeam_truss_large.litematic",
+      "source": "fixtures/sources/vanilla/hammerbeam_truss_large.json",
+      "preview": "fixtures/previews/vanilla/hammerbeam_truss_large.png"
+    },
+    {
+      "id": "coffered_ceiling_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "ceilings",
+      "size": [
+        13,
+        4,
+        13
+      ],
+      "blocks": 354,
+      "file": "fixtures/compiled/vanilla/coffered_ceiling_bay.litematic",
+      "source": "fixtures/sources/vanilla/coffered_ceiling_bay.json",
+      "preview": "fixtures/previews/vanilla/coffered_ceiling_bay.png"
+    },
+    {
+      "id": "grand_split_stair_connector",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "stairs",
+      "size": [
+        25,
+        12,
+        21
+      ],
+      "blocks": 175,
+      "file": "fixtures/compiled/vanilla/grand_split_stair_connector.litematic",
+      "source": "fixtures/sources/vanilla/grand_split_stair_connector.json",
+      "preview": "fixtures/previews/vanilla/grand_split_stair_connector.png"
+    },
+    {
+      "id": "gothic_gallery_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "galleries",
+      "size": [
+        17,
+        12,
+        7
+      ],
+      "blocks": 452,
+      "file": "fixtures/compiled/vanilla/gothic_gallery_bay.litematic",
+      "source": "fixtures/sources/vanilla/gothic_gallery_bay.json",
+      "preview": "fixtures/previews/vanilla/gothic_gallery_bay.png"
+    },
+    {
+      "id": "gothic_railing",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "size": [
+        15,
+        5,
+        2
+      ],
+      "blocks": 84,
+      "file": "fixtures/compiled/vanilla/gothic_railing.litematic",
+      "source": "fixtures/sources/vanilla/gothic_railing.json",
+      "preview": "fixtures/previews/vanilla/gothic_railing.png"
+    },
+    {
+      "id": "manor_railing",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "railings",
+      "size": [
+        15,
+        5,
+        2
+      ],
+      "blocks": 84,
+      "file": "fixtures/compiled/vanilla/manor_railing.litematic",
+      "source": "fixtures/sources/vanilla/manor_railing.json",
+      "preview": "fixtures/previews/vanilla/manor_railing.png"
+    },
+    {
+      "id": "lancet_window_single",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "windows",
+      "size": [
+        7,
+        11,
+        3
+      ],
+      "blocks": 151,
+      "file": "fixtures/compiled/vanilla/lancet_window_single.litematic",
+      "source": "fixtures/sources/vanilla/lancet_window_single.json",
+      "preview": "fixtures/previews/vanilla/lancet_window_single.png"
+    },
+    {
+      "id": "lancet_window_pair",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "windows",
+      "size": [
+        13,
+        12,
+        3
+      ],
+      "blocks": 288,
+      "file": "fixtures/compiled/vanilla/lancet_window_pair.litematic",
+      "source": "fixtures/sources/vanilla/lancet_window_pair.json",
+      "preview": "fixtures/previews/vanilla/lancet_window_pair.png"
+    },
+    {
+      "id": "rose_window_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "windows",
+      "size": [
+        15,
+        15,
+        3
+      ],
+      "blocks": 297,
+      "file": "fixtures/compiled/vanilla/rose_window_bay.litematic",
+      "source": "fixtures/sources/vanilla/rose_window_bay.json",
+      "preview": "fixtures/previews/vanilla/rose_window_bay.png"
+    },
+    {
+      "id": "gothic_fireplace",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "size": [
+        11,
+        10,
+        5
+      ],
+      "blocks": 403,
+      "file": "fixtures/compiled/vanilla/gothic_fireplace.litematic",
+      "source": "fixtures/sources/vanilla/gothic_fireplace.json",
+      "preview": "fixtures/previews/vanilla/gothic_fireplace.png"
+    },
+    {
+      "id": "manor_fireplace",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "fireplaces",
+      "size": [
+        9,
+        8,
+        5
+      ],
+      "blocks": 285,
+      "file": "fixtures/compiled/vanilla/manor_fireplace.litematic",
+      "source": "fixtures/sources/vanilla/manor_fireplace.json",
+      "preview": "fixtures/previews/vanilla/manor_fireplace.png"
+    },
+    {
+      "id": "gothic_dormer",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "dormers",
+      "size": [
+        11,
+        10,
+        9
+      ],
+      "blocks": 547,
+      "file": "fixtures/compiled/vanilla/gothic_dormer.litematic",
+      "source": "fixtures/sources/vanilla/gothic_dormer.json",
+      "preview": "fixtures/previews/vanilla/gothic_dormer.png"
+    },
+    {
+      "id": "stepped_gable",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "gables",
+      "size": [
+        17,
+        12,
+        5
+      ],
+      "blocks": 660,
+      "file": "fixtures/compiled/vanilla/stepped_gable.litematic",
+      "source": "fixtures/sources/vanilla/stepped_gable.json",
+      "preview": "fixtures/previews/vanilla/stepped_gable.png"
+    },
+    {
+      "id": "gothic_armchair",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        5,
+        7,
+        5
+      ],
+      "blocks": 37,
+      "file": "fixtures/compiled/vanilla/gothic_armchair.litematic",
+      "source": "fixtures/sources/vanilla/gothic_armchair.json",
+      "preview": "fixtures/previews/vanilla/gothic_armchair.png"
+    },
+    {
+      "id": "highback_bench",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        9,
+        6,
+        4
+      ],
+      "blocks": 57,
+      "file": "fixtures/compiled/vanilla/highback_bench.litematic",
+      "source": "fixtures/sources/vanilla/highback_bench.json",
+      "preview": "fixtures/previews/vanilla/highback_bench.png"
+    },
+    {
+      "id": "writing_desk",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "desks",
+      "size": [
+        9,
+        5,
+        5
+      ],
+      "blocks": 99,
+      "file": "fixtures/compiled/vanilla/writing_desk.litematic",
+      "source": "fixtures/sources/vanilla/writing_desk.json",
+      "preview": "fixtures/previews/vanilla/writing_desk.png"
+    },
+    {
+      "id": "library_table",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "blocks": 89,
+      "file": "fixtures/compiled/vanilla/library_table.litematic",
+      "source": "fixtures/sources/vanilla/library_table.json",
+      "preview": "fixtures/previews/vanilla/library_table.png"
+    },
+    {
+      "id": "canopy_bed",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "beds",
+      "size": [
+        9,
+        7,
+        13
+      ],
+      "blocks": 278,
+      "file": "fixtures/compiled/vanilla/canopy_bed.litematic",
+      "source": "fixtures/sources/vanilla/canopy_bed.json",
+      "preview": "fixtures/previews/vanilla/canopy_bed.png"
+    },
+    {
+      "id": "bookcase_wall",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "size": [
+        15,
+        9,
+        3
+      ],
+      "blocks": 405,
+      "file": "fixtures/compiled/vanilla/bookcase_wall.litematic",
+      "source": "fixtures/sources/vanilla/bookcase_wall.json",
+      "preview": "fixtures/previews/vanilla/bookcase_wall.png"
+    },
+    {
+      "id": "grand_chandelier",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "blocks": 34,
+      "file": "fixtures/compiled/vanilla/grand_chandelier.litematic",
+      "source": "fixtures/sources/vanilla/grand_chandelier.json",
+      "preview": "fixtures/previews/vanilla/grand_chandelier.png"
+    },
+    {
+      "id": "armor_niche",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "displays",
+      "size": [
+        7,
+        10,
+        5
+      ],
+      "blocks": 223,
+      "file": "fixtures/compiled/vanilla/armor_niche.litematic",
+      "source": "fixtures/sources/vanilla/armor_niche.json",
+      "preview": "fixtures/previews/vanilla/armor_niche.png"
+    },
+    {
+      "id": "manor_oak_small",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "trees",
+      "size": [
+        17,
+        17,
+        17
+      ],
+      "blocks": 619,
+      "file": "fixtures/compiled/vanilla/manor_oak_small.litematic",
+      "source": "fixtures/sources/vanilla/manor_oak_small.json",
+      "preview": "fixtures/previews/vanilla/manor_oak_small.png"
+    },
+    {
+      "id": "cypress_tree",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "trees",
+      "size": [
+        7,
+        18,
+        7
+      ],
+      "blocks": 341,
+      "file": "fixtures/compiled/vanilla/cypress_tree.litematic",
+      "source": "fixtures/sources/vanilla/cypress_tree.json",
+      "preview": "fixtures/previews/vanilla/cypress_tree.png"
+    },
+    {
+      "id": "formal_hedge_corner",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "hedges",
+      "size": [
+        11,
+        5,
+        11
+      ],
+      "blocks": 292,
+      "file": "fixtures/compiled/vanilla/formal_hedge_corner.litematic",
+      "source": "fixtures/sources/vanilla/formal_hedge_corner.json",
+      "preview": "fixtures/previews/vanilla/formal_hedge_corner.png"
+    },
+    {
+      "id": "ivy_wall_patch",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "ivy",
+      "size": [
+        11,
+        11,
+        2
+      ],
+      "blocks": 158,
+      "file": "fixtures/compiled/vanilla/ivy_wall_patch.litematic",
+      "source": "fixtures/sources/vanilla/ivy_wall_patch.json",
+      "preview": "fixtures/previews/vanilla/ivy_wall_patch.png"
+    },
+    {
+      "id": "indoor_planter",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "planters",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "blocks": 98,
+      "file": "fixtures/compiled/vanilla/indoor_planter.litematic",
+      "source": "fixtures/sources/vanilla/indoor_planter.json",
+      "preview": "fixtures/previews/vanilla/indoor_planter.png"
+    },
+    {
+      "id": "topiary_urn",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "topiary",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "blocks": 126,
+      "file": "fixtures/compiled/vanilla/topiary_urn.litematic",
+      "source": "fixtures/sources/vanilla/topiary_urn.json",
+      "preview": "fixtures/previews/vanilla/topiary_urn.png"
+    },
+    {
+      "id": "industrial_pipe_rack",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "pipes",
+      "size": [
+        15,
+        9,
+        5
+      ],
+      "blocks": 142,
+      "file": "fixtures/compiled/vanilla/industrial_pipe_rack.litematic",
+      "source": "fixtures/sources/vanilla/industrial_pipe_rack.json",
+      "preview": "fixtures/previews/vanilla/industrial_pipe_rack.png"
+    },
+    {
+      "id": "console_bank",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "consoles",
+      "size": [
+        13,
+        6,
+        5
+      ],
+      "blocks": 308,
+      "file": "fixtures/compiled/vanilla/console_bank.litematic",
+      "source": "fixtures/sources/vanilla/console_bank.json",
+      "preview": "fixtures/previews/vanilla/console_bank.png"
+    },
+    {
+      "id": "lab_workstation",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "lab",
+      "size": [
+        13,
+        7,
+        7
+      ],
+      "blocks": 337,
+      "file": "fixtures/compiled/vanilla/lab_workstation.litematic",
+      "source": "fixtures/sources/vanilla/lab_workstation.json",
+      "preview": "fixtures/previews/vanilla/lab_workstation.png"
+    },
+    {
+      "id": "hanging_cable_tray",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "cables",
+      "size": [
+        17,
+        4,
+        5
+      ],
+      "blocks": 117,
+      "file": "fixtures/compiled/vanilla/hanging_cable_tray.litematic",
+      "source": "fixtures/sources/vanilla/hanging_cable_tray.json",
+      "preview": "fixtures/previews/vanilla/hanging_cable_tray.png"
+    },
+    {
+      "id": "beveled_edge",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "contour",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 2176,
+      "file": "fixtures/compiled/microblock/astra/beveled_edge.litematic",
+      "source": "fixtures/sources/microblock/beveled_edge.json",
+      "preview": "fixtures/previews/microblock/beveled_edge.png"
+    },
+    {
+      "id": "quarter_round",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "contour",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 1072,
+      "file": "fixtures/compiled/microblock/astra/quarter_round.litematic",
+      "source": "fixtures/sources/microblock/quarter_round.json",
+      "preview": "fixtures/previews/microblock/quarter_round.png"
+    },
+    {
+      "id": "gothic_arch_inner_curve",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "arches",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 384,
+      "file": "fixtures/compiled/microblock/astra/gothic_arch_inner_curve.litematic",
+      "source": "fixtures/sources/microblock/gothic_arch_inner_curve.json",
+      "preview": "fixtures/previews/microblock/gothic_arch_inner_curve.png"
+    },
+    {
+      "id": "gothic_arch_outer_curve",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "arches",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 720,
+      "file": "fixtures/compiled/microblock/astra/gothic_arch_outer_curve.litematic",
+      "source": "fixtures/sources/microblock/gothic_arch_outer_curve.json",
+      "preview": "fixtures/previews/microblock/gothic_arch_outer_curve.png"
+    },
+    {
+      "id": "fluted_column_quarter",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "columns",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 2208,
+      "file": "fixtures/compiled/microblock/astra/fluted_column_quarter.litematic",
+      "source": "fixtures/sources/microblock/fluted_column_quarter.json",
+      "preview": "fixtures/previews/microblock/fluted_column_quarter.png"
+    },
+    {
+      "id": "gothic_capital",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "capitals",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 1876,
+      "file": "fixtures/compiled/microblock/astra/gothic_capital.litematic",
+      "source": "fixtures/sources/microblock/gothic_capital.json",
+      "preview": "fixtures/previews/microblock/gothic_capital.png"
+    },
+    {
+      "id": "window_mullion_cross",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "windows",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 120,
+      "file": "fixtures/compiled/microblock/astra/window_mullion_cross.litematic",
+      "source": "fixtures/sources/microblock/window_mullion_cross.json",
+      "preview": "fixtures/previews/microblock/window_mullion_cross.png"
+    },
+    {
+      "id": "window_tracery_y",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "windows",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 72,
+      "file": "fixtures/compiled/microblock/astra/window_tracery_y.litematic",
+      "source": "fixtures/sources/microblock/window_tracery_y.json",
+      "preview": "fixtures/previews/microblock/window_tracery_y.png"
+    },
+    {
+      "id": "rail_baluster",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "railings",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 196,
+      "file": "fixtures/compiled/microblock/astra/rail_baluster.litematic",
+      "source": "fixtures/sources/microblock/rail_baluster.json",
+      "preview": "fixtures/previews/microblock/rail_baluster.png"
+    },
+    {
+      "id": "rail_finial",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "railings",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 572,
+      "file": "fixtures/compiled/microblock/astra/rail_finial.litematic",
+      "source": "fixtures/sources/microblock/rail_finial.json",
+      "preview": "fixtures/previews/microblock/rail_finial.png"
+    },
+    {
+      "id": "stepped_cornice",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "trim",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 2304,
+      "file": "fixtures/compiled/microblock/astra/stepped_cornice.litematic",
+      "source": "fixtures/sources/microblock/stepped_cornice.json",
+      "preview": "fixtures/previews/microblock/stepped_cornice.png"
+    },
+    {
+      "id": "corbel_bracket",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "corbels",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 1008,
+      "file": "fixtures/compiled/microblock/astra/corbel_bracket.litematic",
+      "source": "fixtures/sources/microblock/corbel_bracket.json",
+      "preview": "fixtures/previews/microblock/corbel_bracket.png"
+    },
+    {
+      "id": "hammerbeam_joint",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "roofs",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 768,
+      "file": "fixtures/compiled/microblock/astra/hammerbeam_joint.litematic",
+      "source": "fixtures/sources/microblock/hammerbeam_joint.json",
+      "preview": "fixtures/previews/microblock/hammerbeam_joint.png"
+    },
+    {
+      "id": "stair_nosing",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "architecture",
+      "family": "stairs",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 2432,
+      "file": "fixtures/compiled/microblock/astra/stair_nosing.litematic",
+      "source": "fixtures/sources/microblock/stair_nosing.json",
+      "preview": "fixtures/previews/microblock/stair_nosing.png"
+    },
+    {
+      "id": "picture_frame_corner",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "decor",
+      "family": "frames",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 448,
+      "file": "fixtures/compiled/microblock/astra/picture_frame_corner.litematic",
+      "source": "fixtures/sources/microblock/picture_frame_corner.json",
+      "preview": "fixtures/previews/microblock/picture_frame_corner.png"
+    },
+    {
+      "id": "crest_shield",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "decor",
+      "family": "crests",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 664,
+      "file": "fixtures/compiled/microblock/astra/crest_shield.litematic",
+      "source": "fixtures/sources/microblock/crest_shield.json",
+      "preview": "fixtures/previews/microblock/crest_shield.png"
+    },
+    {
+      "id": "chandelier_arm",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 144,
+      "file": "fixtures/compiled/microblock/astra/chandelier_arm.litematic",
+      "source": "fixtures/sources/microblock/chandelier_arm.json",
+      "preview": "fixtures/previews/microblock/chandelier_arm.png"
+    },
+    {
+      "id": "furniture_leg",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "furniture",
+      "family": "legs",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 416,
+      "file": "fixtures/compiled/microblock/astra/furniture_leg.litematic",
+      "source": "fixtures/sources/microblock/furniture_leg.json",
+      "preview": "fixtures/previews/microblock/furniture_leg.png"
+    },
+    {
+      "id": "furniture_armrest",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 566,
+      "file": "fixtures/compiled/microblock/astra/furniture_armrest.litematic",
+      "source": "fixtures/sources/microblock/furniture_armrest.json",
+      "preview": "fixtures/previews/microblock/furniture_armrest.png"
+    },
+    {
+      "id": "gargoyle_head_abstract",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "decor",
+      "family": "statues",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 828,
+      "file": "fixtures/compiled/microblock/astra/gargoyle_head_abstract.litematic",
+      "source": "fixtures/sources/microblock/gargoyle_head_abstract.json",
+      "preview": "fixtures/previews/microblock/gargoyle_head_abstract.png"
+    },
+    {
+      "id": "pipe_elbow",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "mechanical",
+      "family": "pipes",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 555,
+      "file": "fixtures/compiled/microblock/astra/pipe_elbow.litematic",
+      "source": "fixtures/sources/microblock/pipe_elbow.json",
+      "preview": "fixtures/previews/microblock/pipe_elbow.png"
+    },
+    {
+      "id": "vent_grille",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "mechanical",
+      "family": "grilles",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 270,
+      "file": "fixtures/compiled/microblock/astra/vent_grille.litematic",
+      "source": "fixtures/sources/microblock/vent_grille.json",
+      "preview": "fixtures/previews/microblock/vent_grille.png"
+    },
+    {
+      "id": "console_bevel",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "mechanical",
+      "family": "consoles",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 2432,
+      "file": "fixtures/compiled/microblock/astra/console_bevel.litematic",
+      "source": "fixtures/sources/microblock/console_bevel.json",
+      "preview": "fixtures/previews/microblock/console_bevel.png"
+    },
+    {
+      "id": "lantern_cage",
+      "stage": "microblock",
+      "provider": "astra_microblocks",
+      "category": "lighting",
+      "family": "fixtures",
+      "size": [
+        1,
+        1,
+        1
+      ],
+      "occupied_cells": 448,
+      "file": "fixtures/compiled/microblock/astra/lantern_cage.litematic",
+      "source": "fixtures/sources/microblock/lantern_cage.json",
+      "preview": "fixtures/previews/microblock/lantern_cage.png"
+    }
+  ]
+}

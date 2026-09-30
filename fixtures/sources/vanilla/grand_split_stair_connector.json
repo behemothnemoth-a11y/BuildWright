@@ -1,0 +1,1426 @@
+{
+  "schema_version": 1,
+  "id": "grand_split_stair_connector",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "stairs",
+  "size": [
+    25,
+    12,
+    21
+  ],
+  "anchor": [
+    12,
+    0,
+    10
+  ],
+  "blocks": [
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        2
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        3
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        4
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        5
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        2,
+        6
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        2,
+        7
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        3,
+        8
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        3,
+        9
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        4,
+        10
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        12,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        13,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        15,
+        4,
+        11
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        12
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        13
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        14
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        14
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        16,
+        6,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        6,
+        15
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        18,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        6,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        16,
+        7,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        7,
+        16
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        19,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        7,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        8,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        16,
+        8,
+        12
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        8,
+        17
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        20,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        8,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        23,
+        9,
+        18
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        21,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        23,
+        9,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        23,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        24,
+        10,
+        19
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        22,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        23,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        24,
+        10,
+        20
+      ],
+      "state": "minecraft:stone_bricks"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/grand_split_stair_connector.litematic",
+  "preview": "fixtures/previews/vanilla/grand_split_stair_connector.png",
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

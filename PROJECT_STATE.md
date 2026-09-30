@@ -1,7 +1,12 @@
+# BuildWright Project State
 
-
-## BuildWright catalog maturity after DROP 0003
+## Catalog maturity after DROP 0004
 - Vanilla pack foundation: IMPLEMENTED (68 families / 567 variants)
 - Microblock pack foundation: IMPLEMENTED (75 families / 606 variants)
-- Compiled reusable microblock fixture library: NOT YET BUILT
-- Wayne Manor microblock edition: NOT STARTED; vanilla master remains source of truth
+- Compiled vanilla fixture library: IMPLEMENTED (40 fixtures)
+- Compiled Astra microblock fixture library: IMPLEMENTED (24 fixtures)
+- Transform corpus: IMPLEMENTED (32 cases)
+- Fixture serialization QA: IMPLEMENTED
+- Real Minecraft/Fabric/Litematica fixture smoke gate: PENDING
+- Wayne Manor vanilla master: remains source of truth
+- Wayne Manor microblock edition: NOT STARTED

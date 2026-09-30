@@ -4,21 +4,32 @@
 Complete.
 
 ## DROP 0002 — Vanilla Pack Foundations
-Complete: reusable Stage A family/variant catalog, builder techniques, palettes, style profiles and selectors.
+Complete.
 
 ## DROP 0003 — Microblock Pack Foundations
-Complete in this drop: provider-aware Stage B translation vocabulary, resolution tiers, shape primitives, architecture/furniture/decor/vegetation/mechanical/lighting families, complexity budgets, planning tools and QA.
+Complete.
 
 ## DROP 0004 — Compiled Asset Fixtures
+Complete in this drop:
+- canonical fixture source format;
+- real vanilla and Astra-host Litematica artifacts;
+- deterministic previews;
+- independent readback validation;
+- rotation/mirror corpus;
+- fixture registry/index and tooling.
+
+## DROP 0005 — Composition Compiler
 Planned:
-- tested vanilla `.litematic` fixtures for highest-value families;
-- paired microblock fixtures for arches, piers, railings, windows, truss joinery, furniture and machinery;
-- preview renders and in-game test manifests;
-- rotation/mirror fixture corpus.
+- room/module briefs → pack + fixture selection;
+- connector-aware placement graph;
+- collision/clearance masks;
+- palette remapping;
+- deterministic variation seeds;
+- assembled module export;
+- composition-level preview and QA reports.
 
 ## Later
-- automatic source-geometry candidate analyzer;
+- Fabric-side automated fixture smoke tests;
 - Build Studio adapter;
-- Astra Microblocks provider exporter/reader integration;
 - Axiom-assisted placement workflows;
-- project-level pack composition compiler.
+- project-level vanilla→microblock diff planner.

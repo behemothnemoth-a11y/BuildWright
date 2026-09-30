@@ -1,0 +1,1162 @@
+{
+  "schema_version": 1,
+  "id": "industrial_pipe_rack",
+  "stage": "vanilla",
+  "category": "mechanical",
+  "family": "pipes",
+  "size": [
+    15,
+    9,
+    5
+  ],
+  "anchor": [
+    7,
+    0,
+    2
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        13,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        2,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        5,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        12,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        13,
+        3,
+        3
+      ],
+      "state": "minecraft:oxidized_copper"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        3,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        4,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        6,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        6,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        6,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        6,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        6,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        6,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        7,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        11,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        12,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        13,
+        7,
+        1
+      ],
+      "state": "minecraft:copper_block"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        7,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        8,
+        0
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        8,
+        1
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        8,
+        2
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        8,
+        3
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    },
+    {
+      "pos": [
+        14,
+        8,
+        4
+      ],
+      "state": "minecraft:iron_block"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/industrial_pipe_rack.litematic",
+  "preview": "fixtures/previews/vanilla/industrial_pipe_rack.png",
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

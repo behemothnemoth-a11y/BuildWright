@@ -1,0 +1,1258 @@
+{
+  "schema_version": 1,
+  "id": "clustered_pier_compact",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "columns_piers",
+  "size": [
+    5,
+    10,
+    5
+  ],
+  "anchor": [
+    2,
+    0,
+    2
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        1
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        2
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        3
+      ],
+      "state": "minecraft:tuff_bricks"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        1
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        2
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        3
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        9,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        9,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        9,
+        4
+      ],
+      "state": "minecraft:polished_blackstone_bricks"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/clustered_pier_compact.litematic",
+  "preview": "fixtures/previews/vanilla/clustered_pier_compact.png",
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

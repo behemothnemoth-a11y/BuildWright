@@ -9,7 +9,10 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate BuildWright catalogs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate BuildWright catalogs and fixtures
         shell: powershell
         run: ./tools/validate_repo.ps1
       - name: Run unit tests

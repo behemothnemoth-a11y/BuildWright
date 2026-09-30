@@ -1,0 +1,2938 @@
+{
+  "schema_version": 1,
+  "id": "gothic_portal_deep",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "portals",
+  "size": [
+    11,
+    14,
+    7
+  ],
+  "anchor": [
+    5,
+    0,
+    3
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        7,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        7,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        8,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        10,
+        8,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        1,
+        9,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        9,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        9,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        2,
+        10,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        10,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        8,
+        10,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        3,
+        11,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        11,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        11,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        7,
+        11,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        4,
+        12,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        12,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        6,
+        12,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        0
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        1
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        2
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        3
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        4
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        5
+      ],
+      "state": "minecraft:deepslate_bricks"
+    },
+    {
+      "pos": [
+        5,
+        13,
+        6
+      ],
+      "state": "minecraft:deepslate_bricks"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/gothic_portal_deep.litematic",
+  "preview": "fixtures/previews/vanilla/gothic_portal_deep.png",
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

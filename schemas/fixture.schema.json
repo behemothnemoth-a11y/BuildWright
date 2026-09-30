@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildWright Fixture Source",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "stage",
+    "category",
+    "family",
+    "compiled",
+    "preview"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "stage": {
+      "enum": [
+        "vanilla",
+        "microblock"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "size": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "compiled": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "string"
+    }
+  }
+}

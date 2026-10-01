@@ -1,0 +1,15 @@
+{
+  "id": "modern",
+  "wall_state": "minecraft:white_concrete",
+  "pier_state": "minecraft:gray_concrete",
+  "trim_state": "minecraft:smooth_quartz",
+  "glass_state": "minecraft:tinted_glass",
+  "plinth_state": "minecraft:polished_blackstone",
+  "bay_spacing": 9,
+  "pier_depth": 1,
+  "plinth_height": 1,
+  "window_width": 5,
+  "window_height": 4,
+  "window_sill_y": 2,
+  "cornice_depth": 0
+}

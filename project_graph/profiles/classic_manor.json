@@ -1,0 +1,15 @@
+{
+  "id": "classic_manor",
+  "wall_state": "minecraft:stone_bricks",
+  "pier_state": "minecraft:smooth_stone",
+  "trim_state": "minecraft:spruce_planks",
+  "glass_state": "minecraft:glass",
+  "plinth_state": "minecraft:polished_andesite",
+  "bay_spacing": 7,
+  "pier_depth": 1,
+  "plinth_height": 2,
+  "window_width": 3,
+  "window_height": 4,
+  "window_sill_y": 3,
+  "cornice_depth": 1
+}

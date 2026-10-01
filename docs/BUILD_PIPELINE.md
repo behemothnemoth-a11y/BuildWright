@@ -1,5 +1,18 @@
 # Build Pipeline
 
+## Project layer — whole-building assembly
+
+1. Compile or select bounded room/module sources.
+2. Define named cardinal and/or vertical connection ports.
+3. Solve the module graph and reject illegal overlaps.
+4. Reconcile shared wall/floor openings and preserve circulation clearances.
+5. Compile declared corridors between separated modules.
+6. Determine exposed exterior faces.
+7. Apply facade profile, roof massing, and optional site layer.
+8. Normalize project coordinates and export canonical solved project source.
+9. Compile the master Litematic and run independent readback.
+10. Review the building in Minecraft before any generated project becomes canonical.
+
 ## Composition layer — reusable module assembly
 
 1. Register reference/project intent.

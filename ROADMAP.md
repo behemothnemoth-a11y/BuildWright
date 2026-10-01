@@ -41,24 +41,38 @@ Complete in this hotfix:
 - regression test for cross-platform line endings;
 - byte-for-byte validation remains strict.
 
-## DROP 0006 — Multi-Module Project Graph
-Planned:
+## DROP 0007 — Whole-Building Compiler
+Complete in this major direct-repo update. The earlier DROP 0006 graph design is folded into this implementation.
 
-- module-to-module connector matching;
-- room graph / floor graph;
-- shared-wall reconciliation;
-- stair/elevator vertical alignment;
-- exterior envelope constraints;
-- corridor routing;
-- whole-building origin management;
-- terrain/landscape attachment points;
-- project-wide collision and circulation QA;
-- merge multiple compiled modules into a master schematic.
+- module-to-module connector graph;
+- cardinal and explicit up/down ports;
+- direct shared-wall attachment;
+- floor-to-floor alignment;
+- collision rejection for illegal room overlaps;
+- deterministic straight corridor compilation;
+- whole-building coordinate normalization;
+- canonical solved project source;
+- project manifest and SVG graph plan;
+- facade exposure analysis;
+- Gothic/classic/industrial/modern facade profiles;
+- plinth, pier, window, sill/header and cornice passes;
+- flat/gable/hip/mansard roof massing;
+- per-module roof overrides;
+- lightweight ground/site assembly;
+- deterministic committed whole-building examples;
+- master Litematic export + independent readback;
+- whole-building tests and strict recompilation gate.
 
-## Later
+## Next
 
-- reference/image → structured room brief assistance;
-- Fabric-side automated fixture/module smoke tests;
+- exterior zoning by elevation/facade importance;
+- tower, dormer, buttress and balcony graph nodes;
+- non-straight corridor pathfinding;
+- stair-flight generation between unequal floor elevations;
+- terrain-aware foundations and retaining walls;
+- vegetation fixture placement at project scale;
+- reference/image → structured project graph assistance;
+- Fabric-side automated whole-building smoke tests;
 - Axiom-assisted placement workflows;
 - Build Studio adapter;
 - registry-aware palette/material resolver;

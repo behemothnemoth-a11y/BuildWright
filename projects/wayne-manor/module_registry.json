@@ -31,6 +31,16 @@
       "id": "BATCAVE",
       "name": "Batcave",
       "state": "BLOCKOUT"
+    },
+    {
+      "id": "MANOR-GRAPH",
+      "name": "Whole Manor Project Graph",
+      "state": "OFFLINE_COMPILED",
+      "working_brief": "project_graph/phase_a.json",
+      "locked_rules": [
+        "generated project graph is a compiler proof, not approved canon",
+        "preserve Grand Hall stair circulation into future rooms"
+      ]
     }
   ]
 }

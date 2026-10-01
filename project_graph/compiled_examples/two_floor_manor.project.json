@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "id": "two_floor_manor",
+  "brief": {
+    "schema_version": 1,
+    "id": "two_floor_manor",
+    "name": "Two Floor Manor",
+    "facade_profile": "classic_manor",
+    "modules": [
+      {
+        "id": "hall",
+        "source": "composition/compiled_examples/gothic_grand_hall_demo.source.json",
+        "origin": [
+          20,
+          0,
+          20
+        ],
+        "ports": [
+          {
+            "id": "upper",
+            "side": "up",
+            "pos": [
+              30,
+              23,
+              24
+            ],
+            "width": 5,
+            "height": 1,
+            "depth": 5
+          }
+        ]
+      },
+      {
+        "id": "upper_suite",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+        "ports": [
+          {
+            "id": "down",
+            "side": "down",
+            "pos": [
+              15,
+              0,
+              13
+            ],
+            "width": 5,
+            "height": 1,
+            "depth": 5
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": [
+          "hall",
+          "upper"
+        ],
+        "to": [
+          "upper_suite",
+          "down"
+        ],
+        "mode": "attach",
+        "width": 5,
+        "height": 1
+      }
+    ],
+    "roof": {
+      "enabled": true,
+      "style": "gable",
+      "state": "minecraft:spruce_planks",
+      "gable_state": "minecraft:stone_bricks",
+      "step_run": 2,
+      "overhang": 1,
+      "module_overrides": {
+        "hall": {
+          "style": "none"
+        }
+      }
+    },
+    "site": {
+      "enabled": false
+    }
+  },
+  "modules": [
+    {
+      "id": "hall",
+      "source": "composition/compiled_examples/gothic_grand_hall_demo.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "normalized_origin": [
+        1,
+        0,
+        1
+      ],
+      "size": [
+        61,
+        24,
+        49
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "main_entry",
+        "upper"
+      ]
+    },
+    {
+      "id": "upper_suite",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        35,
+        23,
+        31
+      ],
+      "normalized_origin": [
+        16,
+        23,
+        12
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "down",
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    -19,
+    0,
+    -19
+  ],
+  "pre_normalized_bounds": [
+    19,
+    0,
+    19,
+    81,
+    43,
+    69
+  ],
+  "exterior_sides": {
+    "hall": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "upper_suite": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  }
+}

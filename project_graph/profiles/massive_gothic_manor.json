@@ -1,0 +1,15 @@
+{
+  "id": "massive_gothic_manor",
+  "wall_state": "minecraft:tuff_bricks",
+  "pier_state": "minecraft:polished_deepslate",
+  "trim_state": "minecraft:dark_oak_planks",
+  "glass_state": "minecraft:purple_stained_glass",
+  "plinth_state": "minecraft:deepslate_tiles",
+  "bay_spacing": 8,
+  "pier_depth": 2,
+  "plinth_height": 2,
+  "window_width": 3,
+  "window_height": 5,
+  "window_sill_y": 3,
+  "cornice_depth": 1
+}

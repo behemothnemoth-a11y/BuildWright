@@ -48,3 +48,16 @@ These rules apply to ChatGPT, Codex, and automated contributors.
 Use maturity states honestly. A module that has only passed offline compilation/readback remains `LIVE_GAME_PENDING` until Minecraft has actually loaded and reviewed it.
 
 Never call a preview or structural readback proof of final in-game appearance.
+
+## DROP 0007 whole-building rules
+
+- Treat module ports as hard contracts. Do not move, close, shrink, or decorate across them unless the project brief explicitly changes the port.
+- Direct room attachments may share one boundary plane; volumetric room collisions are invalid.
+- Vertical `up`/`down` ports are authoritative for floor-to-floor alignment.
+- Corridor generation must preserve declared player width/height and must not silently tunnel through unrelated modules.
+- Exterior facade passes operate only on exposed sides. Interior shared walls and circulation openings take priority over facade rhythm.
+- Roof massing is a project-scale envelope pass. Do not overwrite hand-authored hero ceilings blindly.
+- Prefer a few strong exterior bays, towers, roof forms, and facade zones over continuous repeated micro-detail.
+- Whole-building compilation must remain deterministic from the same project brief.
+- A successful offline whole-building compile is `LIVE_GAME_PENDING`, never automatically APPROVED.
+- Generated Wayne Manor examples are compiler regression fixtures, not canon replacements for hand-refined Wayne geometry.

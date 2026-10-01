@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate BuildWright packs, fixtures, and composition compiler
+      - name: Validate BuildWright packs, fixtures, composition, and whole-building compilers
         shell: powershell
         run: ./tools/validate_repo.ps1
       - name: Run unit tests

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "industrial_campus",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    130,
+    18,
+    51
+  ],
+  "blocks": 26038,
+  "block_entities": 0,
+  "litematic": "industrial_campus.litematic",
+  "project_source": "industrial_campus.project.json",
+  "preview": "industrial_campus.plan.svg",
+  "litematic_sha256": "a3d283c3dc94296a1c48dc15be3fc24cfc0361df3e72949a064f2cb0a6c7aa25",
+  "readback": {
+    "regions": 1,
+    "nonair": 26038,
+    "volume": 119340,
+    "palette": 22,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 49,
+    "piers": 58
+  },
+  "roof": {
+    "modules": 2,
+    "max_rise": 1
+  },
+  "site": {
+    "ground_blocks": 6630,
+    "path_blocks": 0
+  },
+  "warnings": []
+}

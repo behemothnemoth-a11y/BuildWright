@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.5.1",
+  "version": "0.7.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -20,7 +20,15 @@
     "microblock_fixture_selection",
     "hybrid_module_compile",
     "microblock_implementation",
-    "hybrid_review_gate"
+    "hybrid_review_gate",
+    "project_graph_solve",
+    "shared_wall_reconcile",
+    "corridor_compile",
+    "facade_compile",
+    "roof_compile",
+    "site_compile",
+    "whole_building_compile",
+    "whole_building_review_gate"
   ],
   "pack_system": {
     "registry_schema": 2,
@@ -68,5 +76,22 @@
     "REVIEW_CANDIDATE",
     "APPROVED",
     "MERGED"
-  ]
+  ],
+  "project_graph_system": {
+    "brief_schema": "schemas/project_graph.schema.json",
+    "facade_profiles": 4,
+    "example_projects": 3,
+    "cardinal_and_vertical_ports": true,
+    "corridor_routing": "straight_aligned",
+    "facade_compiler": true,
+    "roof_compiler": [
+      "flat",
+      "gable",
+      "hip",
+      "mansard"
+    ],
+    "site_compiler": true,
+    "canonical_project_source": true,
+    "deterministic_outputs": true
+  }
 }

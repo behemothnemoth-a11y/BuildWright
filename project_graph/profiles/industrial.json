@@ -1,0 +1,15 @@
+{
+  "id": "industrial",
+  "wall_state": "minecraft:gray_concrete",
+  "pier_state": "minecraft:polished_deepslate",
+  "trim_state": "minecraft:iron_block",
+  "glass_state": "minecraft:light_blue_stained_glass",
+  "plinth_state": "minecraft:deepslate_tiles",
+  "bay_spacing": 6,
+  "pier_depth": 1,
+  "plinth_height": 1,
+  "window_width": 3,
+  "window_height": 3,
+  "window_sill_y": 3,
+  "cornice_depth": 0
+}

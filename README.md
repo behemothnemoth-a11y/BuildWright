@@ -2,12 +2,13 @@
 
 BuildWright is a reusable Minecraft architecture system for building, refining, composing, validating and releasing high-detail projects.
 
-The system now has four concrete layers:
+The system now has five concrete layers:
 
 1. **Vanilla Build Language** — 68 reusable families / 567 variants plus builder techniques, palettes and style profiles.
 2. **Microblock Implementation** — 75 families / 606 variants, 40 cell primitives, detail tiers and Astra-aware translation planning.
 3. **Compiled Fixture Library** — 40 real vanilla `.litematic` fixtures, 24 real Astra-host fixtures and a 32-case transform corpus with editable canonical source.
 4. **Composition Compiler** — room/module briefs → deterministic fixture selection → connector-aware placement → palette remap → canonical module source → validated `.litematic`.
+5. **Whole-Building Compiler** — compiled modules → graph solve → shared-wall/vertical alignment → corridors → coherent facade/roof/site passes → master `.litematic`.
 
 ## Core rules
 
@@ -33,7 +34,13 @@ python tools/compile_module.py examples/composition/gothic_library_demo.json `
   --output-dir .buildwright/generated/library
 ```
 
-See `docs/COMPOSITION_COMPILER.md`, `docs/ROOM_BRIEF_CONTRACT.md`, `VANILLA_BUILD_LANGUAGE.md`, `MICROBLOCK_IMPLEMENTATION.md`, and `docs/FIXTURE_SYSTEM.md`.
+## Whole-building quick start
 
+```powershell
+python tools/compile_project.py examples/projects/wayne_manor_phase_a.json `
+  --output .buildwright/generated/wayne-phase-a
+```
 
-BuildWright 0.5.1 makes composition example serialization byte-stable across Windows/Linux by canonicalizing generated text to UTF-8 LF.
+BuildWright 0.7.0 can align compiled modules through named cardinal or vertical ports, generate straight player-scale corridors, add coherent facade depth, roof massing and a lightweight site layer, then export one validated master Litematic.
+
+See `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.

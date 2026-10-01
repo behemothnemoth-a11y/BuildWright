@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "two_floor_manor",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    63,
+    44,
+    51
+  ],
+  "blocks": 15783,
+  "block_entities": 0,
+  "litematic": "two_floor_manor.litematic",
+  "project_source": "two_floor_manor.project.json",
+  "preview": "two_floor_manor.plan.svg",
+  "litematic_sha256": "2740213a3aa181dd57e8d667f4f17de62b50b949de7ddc20326be2e929046a59",
+  "readback": {
+    "regions": 1,
+    "nonair": 15783,
+    "volume": 141372,
+    "palette": 17,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 44,
+    "piers": 55
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0
+  },
+  "warnings": [
+    "1 overlapping module block-state conflicts reconciled by graph order"
+  ]
+}

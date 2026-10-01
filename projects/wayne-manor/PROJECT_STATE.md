@@ -28,3 +28,12 @@ The left and right upper stair landings are not decorative endings. They must re
 - Overall: blockout / early detailing
 - Major decks: conceptually established
 - Player-scale refinement: pending
+
+## Whole-building compiler
+
+- Project graph phase A brief: `project_graph/phase_a.json`
+- Generated regression master: `project_graph/compiled_examples/wayne_manor_phase_a.litematic`
+- Maturity: OFFLINE_COMPILED / LIVE_GAME_PENDING
+- Status: compiler proof only; not approved Wayne Manor canon
+- Current graph test connects Grand Hall, library, suite, and courtyard while preserving named circulation ports.
+- The hand-refined Grand Hall remains authoritative until an explicit merge/replacement decision is made.

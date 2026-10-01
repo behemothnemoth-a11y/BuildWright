@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "wayne_manor_phase_a",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 4,
+  "connections": 3,
+  "size": [
+    155,
+    38,
+    137
+  ],
+  "blocks": 57756,
+  "block_entities": 0,
+  "litematic": "wayne_manor_phase_a.litematic",
+  "project_source": "wayne_manor_phase_a.project.json",
+  "preview": "wayne_manor_phase_a.plan.svg",
+  "litematic_sha256": "7fcd269abe26ce4d7c542926a32d641c3771b353938a3fa4538f6357fc431a72",
+  "readback": {
+    "regions": 1,
+    "nonair": 57756,
+    "volume": 806930,
+    "palette": 20,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 12,
+    "windows": 63,
+    "piers": 83
+  },
+  "roof": {
+    "modules": 3,
+    "max_rise": 14
+  },
+  "site": {
+    "ground_blocks": 21235,
+    "path_blocks": 0
+  },
+  "warnings": [
+    "384 overlapping module block-state conflicts reconciled by graph order"
+  ]
+}

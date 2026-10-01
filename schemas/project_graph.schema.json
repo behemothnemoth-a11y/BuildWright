@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/project_graph.schema.json",
+  "title": "BuildWright Whole-Building Project Graph",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schema_version", "id", "modules"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "minLength": 1},
+    "name": {"type": "string"},
+    "data_version": {"type": "integer"},
+    "facade_profile": {"type": "string"},
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/module"}
+    },
+    "connections": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/connection"}
+    },
+    "roof": {"type": "object"},
+    "site": {"type": "object"}
+  },
+  "$defs": {
+    "module": {
+      "type": "object",
+      "required": ["id", "source"],
+      "properties": {
+        "id": {"type": "string"},
+        "source": {"type": "string"},
+        "origin": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "integer"},
+            {"type": "integer"},
+            {"type": "integer"}
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "rotation": {"type": "integer", "minimum": 0, "maximum": 3},
+        "mirror": {"enum": ["none", "x", "z"]},
+        "ports": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/port"}
+        }
+      }
+    },
+    "port": {
+      "type": "object",
+      "required": ["id", "side", "pos"],
+      "properties": {
+        "id": {"type": "string"},
+        "side": {"enum": ["north", "south", "east", "west", "up", "down"]},
+        "pos": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "integer"},
+            {"type": "integer"},
+            {"type": "integer"}
+          ],
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "depth": {"type": "integer", "minimum": 1},
+        "clearance": {"type": "integer", "minimum": 0}
+      }
+    },
+    "connection": {
+      "type": "object",
+      "required": ["from", "to"],
+      "properties": {
+        "from": {"$ref": "#/$defs/endpoint"},
+        "to": {"$ref": "#/$defs/endpoint"},
+        "mode": {"enum": ["attach", "corridor"]},
+        "gap": {"type": "integer", "minimum": 0},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      }
+    },
+    "endpoint": {
+      "type": "array",
+      "prefixItems": [
+        {"type": "string"},
+        {"type": "string"}
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    }
+  }
+}

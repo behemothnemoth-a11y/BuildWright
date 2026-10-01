@@ -19,3 +19,7 @@ Massive Gothic Wayne Manor with player-scale circulation, dense but controlled h
 `schematics/working/Wayne_Manor_Grand_Hall_CALM_CEILING_v7.litematic`
 
 This is a working seed, not an approved final room.
+
+## Whole-building graph
+
+BuildWright 0.7 adds an offline whole-building regression graph at `project_graph/phase_a.json`. It is intentionally not project canon yet. It exists to test room attachment, corridors, exposed facade detection, roof massing, and site assembly while the hand-refined Grand Hall remains authoritative.

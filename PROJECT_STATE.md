@@ -9,7 +9,7 @@
 - Selective microblock second pass: LOCKED
 - In-game player-eye review required for approval: YES
 
-## System maturity after DROP 0008B
+## System maturity after DROP 0008C
 
 - Vanilla pack foundation: IMPLEMENTED — 68 families / 567 variants
 - Microblock pack foundation: IMPLEMENTED — 75 families / 606 variants
@@ -34,11 +34,15 @@
 - Compiled style regression corpus: IMPLEMENTED — 37 showcases (35 core + 2 hybrids)
 - Whole-building regression corpus: IMPLEMENTED — 3 projects
 - Living inventory catalogue: IMPLEMENTED — CATALOG.md + catalog/catalog.json
-- Picture-first visual catalogue: IMPLEMENTED — VISUAL_CATALOG.md
-- Visual assets: IMPLEMENTED — 64 fixture previews + 7 room renders + 3 project renders + 37 style renders
+- Main picture-first catalogue: IMPLEMENTED — VISUAL_CATALOG.md — VANILLA ONLY
+- Optional refinement catalogue: IMPLEMENTED — MICROBLOCK_CATALOG.md
+- Vanilla visual assets: IMPLEMENTED — 40 fixtures + 6 room baselines + 3 project baselines + 37 style baselines
+- Optional Astra visual assets: RETAINED SEPARATELY — 24 fixtures + 1 hybrid proof room
 - Automatic room cutaway rendering: IMPLEMENTED
+- Vanilla-baseline Astra namespace validation: IMPLEMENTED
 - Deterministic project/style/catalog validation gates: IMPLEMENTED
 - Visual catalogue coverage validation: IMPLEMENTED
+- Complete vanilla detail/furnishing layer across style baselines: NOT YET SYSTEMATIZED
 - Real Minecraft/Fabric/Litematica whole-building/style smoke gate: PENDING
 
 ## Universal engine rule
@@ -55,6 +59,18 @@ BuildWright is a general-purpose architecture/build system. Named projects such 
 - Wayne Manor microblock edition: NOT STARTED as a project-wide conversion.
 - The generated wayne_manor_phase_a artifact remains a compiler proof, not approved canon.
 
-## DROP 0008 direction
+## Vanilla-first implementation rule
 
-The exterior/style layer is now broad enough to exercise radically different architectural languages through the same whole-building compiler. The next major work should deepen project-scale intelligence: towers/dormers/buttresses/balconies/porches, non-straight circulation, story-aware facade zoning, terrain-aware foundations, roads/infrastructure, vegetation placement and reference-driven real-world fitting.
+The style/showcase and whole-building outputs currently catalogued are **vanilla baselines**. They establish architecture, massing, palette, facade rhythm, roof language and basic site intent. They are not the final vanilla detail layer.
+
+The required order is now explicit:
+
+1. vanilla massing / structural base;
+2. complete vanilla architecture and circulation;
+3. complete vanilla detailing, furnishing, lighting, vegetation and storytelling;
+4. player-eye / in-game review;
+5. optional localized Astra Microblocks refinement.
+
+## Next major priority
+
+Build the **complete vanilla detail layer** before expanding microblock usage: project-scale vanilla trim, furniture/decor population, lighting, landscape fixtures, service/detail zones, controlled clutter/storytelling, and style-specific finishing passes. Microblocks remain available, but they are downstream and optional.

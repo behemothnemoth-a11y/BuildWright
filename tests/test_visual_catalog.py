@@ -19,18 +19,46 @@ class VisualCatalogTests(unittest.TestCase):
         cls.manifest=json.loads((ROOT/'catalog/visual/visual_manifest.json').read_text(encoding='utf-8'))
 
     def test_expected_counts(self):
-        self.assertEqual(self.manifest['counts'],{'fixtures':64,'rooms':7,'projects':3,'styles':37})
+        self.assertEqual(self.manifest['counts'],{
+            'vanilla_fixtures':40,
+            'vanilla_rooms':6,
+            'vanilla_projects':3,
+            'vanilla_style_baselines':37,
+            'microblock_fixtures':24,
+            'hybrid_rooms':1
+        })
 
     def test_all_visual_sources_and_images_exist(self):
-        for group in ('fixtures','rooms','projects','styles'):
-            for row in self.manifest[group]:
+        groups=[
+            self.manifest['vanilla']['fixtures'],
+            self.manifest['vanilla']['rooms'],
+            self.manifest['vanilla']['projects'],
+            self.manifest['vanilla']['style_baselines'],
+            self.manifest['optional_microblock']['fixtures'],
+            self.manifest['optional_microblock']['hybrid_rooms']
+        ]
+        for rows in groups:
+            for row in rows:
                 self.assertTrue((ROOT/row['source']).is_file(),row['source'])
                 self.assertTrue((ROOT/row['image']).is_file(),row['image'])
+
+    def test_main_catalogue_is_vanilla_only(self):
+        for row in self.manifest['vanilla']['fixtures']:
+            self.assertEqual(row['stage'],'vanilla')
+        for key in ('rooms','projects','style_baselines'):
+            for row in self.manifest['vanilla'][key]:
+                self.assertFalse(row.get('uses_astra_microblocks',False),row['id'])
+
+    def test_microblock_assets_are_separate(self):
+        self.assertEqual(len(self.manifest['optional_microblock']['fixtures']),24)
+        self.assertEqual(len(self.manifest['optional_microblock']['hybrid_rooms']),1)
+        text=(ROOT/'MICROBLOCK_CATALOG.md').read_text(encoding='utf-8')
+        self.assertIn('optional refinement layer',text.lower())
 
     def test_every_core_style_has_a_picture(self):
         reg=json.loads((ROOT/'project_graph/style_registry.json').read_text(encoding='utf-8'))
         core={x['id'] for x in reg['profiles']}
-        rendered={x['id'].removeprefix('style_showcase_') for x in self.manifest['styles']}
+        rendered={x['id'].removeprefix('style_showcase_') for x in self.manifest['vanilla']['style_baselines']}
         self.assertTrue(core.issubset(rendered),sorted(core-rendered))
 
     def test_room_cutaway_removes_shell_blocks(self):
@@ -41,11 +69,11 @@ class VisualCatalogTests(unittest.TestCase):
             cut=render_iso(blocks,Path(td)/'cut.png',width=400,height=300,cutaway=True)
             self.assertLess(cut['total_blocks'],full['total_blocks'])
 
-    def test_visual_entry_page_is_picture_first(self):
+    def test_visual_entry_page_explains_baseline(self):
         text=(ROOT/'VISUAL_CATALOG.md').read_text(encoding='utf-8')
-        self.assertIn('![Style overview]',text)
-        self.assertIn('![Vanilla fixture overview]',text)
-        self.assertIn('![Project overview]',text)
+        self.assertIn('vanilla foundation',text.lower())
+        self.assertIn('not the completed vanilla detail layer',text.lower())
+        self.assertIn('MICROBLOCK_CATALOG.md',text)
 
 if __name__=='__main__':
     unittest.main()

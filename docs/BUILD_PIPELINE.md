@@ -65,3 +65,11 @@ reference / brief
 ```
 
 Prefer bounded module refinement over rebuilding an entire project for every change.
+
+## Baseline is not completion
+
+The universal style showcase compiler produces a **vanilla baseline**. That baseline establishes massing, room graph, primary structure, palette roles, facade rhythm, windows, roof language and basic site intent.
+
+It is not allowed to jump directly from that baseline to the microblock stage. Before Stage B, the vanilla build must receive its complete vanilla finishing passes: secondary architecture, trim, furniture, decor, lighting, vegetation/landscape, functional/service detail and controlled storytelling/clutter, followed by player-eye review.
+
+Astra/microblock work is optional and downstream. If a build does not read correctly in its completed vanilla edition, microblocks are not the fix.

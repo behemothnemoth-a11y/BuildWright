@@ -21,8 +21,9 @@
 - [Project Modules](PROJECT_MODULES.md)
 
 ## Catalogues
-- [Visual Catalogue](../VISUAL_CATALOG.md)
+- [Vanilla Visual Catalogue](../VISUAL_CATALOG.md)
 - [BuildWright Inventory Catalogue](../CATALOG.md)
+- [Optional Astra/Microblock Catalogue](../MICROBLOCK_CATALOG.md)
 
 ## Quality and process
 - [Validation](VALIDATION.md)

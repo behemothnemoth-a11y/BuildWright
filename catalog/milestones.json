@@ -129,6 +129,20 @@
         "five overview contact sheets",
         "visual manifest and validation"
       ]
+    },
+    {
+      "drop": "0008C",
+      "version": "0.8.2",
+      "name": "Vanilla Baseline Separation",
+      "status": "complete",
+      "highlights": [
+        "main visual catalogue made vanilla-only",
+        "Astra assets moved to separate optional detail-layer catalogue",
+        "style showcases relabeled as vanilla style baselines",
+        "hybrid microblock room removed from main baseline gallery",
+        "vanilla-first pipeline explicitly locked",
+        "vanilla baseline Astra-leak validation"
+      ]
     }
   ]
 }

@@ -42,8 +42,8 @@ python tools/compile_project.py examples/projects/wayne_manor_phase_a.json `
   --output .buildwright/generated/wayne-phase-a
 ```
 
-BuildWright 0.8.1 keeps the compiler project-neutral: the same graph/composition engine can drive Gothic, classical, modern, industrial, vernacular, East Asian, desert, speculative, fantasy, ancient and organic architectures. The universal library contains 35 core style profiles across 14 architectural families, plus style blending and facade zoning.
+BuildWright 0.8.2 keeps the compiler project-neutral: the same graph/composition engine can drive Gothic, classical, modern, industrial, vernacular, East Asian, desert, speculative, fantasy, ancient and organic architectures. The universal library contains 35 core style profiles across 14 architectural families, plus style blending and facade zoning.
 
-Start with [VISUAL_CATALOG.md](VISUAL_CATALOG.md) for the picture-first asset browser, or [CATALOG.md](CATALOG.md) for the full inventory and history.
+Start with [VISUAL_CATALOG.md](VISUAL_CATALOG.md) for the **vanilla-only** picture-first baseline browser, or [CATALOG.md](CATALOG.md) for the full inventory and history. The retained Astra refinement assets are deliberately separated into [MICROBLOCK_CATALOG.md](MICROBLOCK_CATALOG.md).
 
 Core docs: `docs/UNIVERSAL_STYLE_SYSTEM.md`, `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.

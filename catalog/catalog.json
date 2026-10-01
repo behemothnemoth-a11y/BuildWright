@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "buildwright_version": "0.8.1",
+  "buildwright_version": "0.8.2",
   "minecraft_target": "26.2",
   "summary": {
     "vanilla_pack_families": 68,
@@ -15,11 +15,13 @@
     "composition_templates": 11,
     "composition_palettes": 8,
     "composition_examples": 7,
+    "vanilla_composition_examples": 6,
+    "optional_microblock_examples": 1,
     "whole_building_examples": 3,
     "style_profiles": 35,
     "style_families": 14,
     "style_showcases": 37,
-    "tools": 43,
+    "tools": 44,
     "documentation_pages": 58
   },
   "milestones": [
@@ -150,6 +152,20 @@
         "37 isometric style showcase renders",
         "five overview contact sheets",
         "visual manifest and validation"
+      ]
+    },
+    {
+      "drop": "0008C",
+      "version": "0.8.2",
+      "name": "Vanilla Baseline Separation",
+      "status": "complete",
+      "highlights": [
+        "main visual catalogue made vanilla-only",
+        "Astra assets moved to separate optional detail-layer catalogue",
+        "style showcases relabeled as vanilla style baselines",
+        "hybrid microblock room removed from main baseline gallery",
+        "vanilla-first pipeline explicitly locked",
+        "vanilla baseline Astra-leak validation"
       ]
     }
   ],
@@ -1641,6 +1657,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/garden_courtyard_demo.manifest.json",
       "litematic": "garden_courtyard_demo.litematic"
     },
@@ -1652,6 +1669,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/gothic_grand_hall_demo.manifest.json",
       "litematic": "gothic_grand_hall_demo.litematic"
     },
@@ -1663,6 +1681,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/gothic_library_demo.manifest.json",
       "litematic": "gothic_library_demo.litematic"
     },
@@ -1674,6 +1693,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 4,
       "manifest": "composition/compiled_examples/hybrid_gothic_detail_demo.manifest.json",
       "litematic": "hybrid_gothic_detail_demo.litematic"
     },
@@ -1685,6 +1705,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/industrial_lab_demo.manifest.json",
       "litematic": "industrial_lab_demo.litematic"
     },
@@ -1696,6 +1717,7 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/operations_bay_demo.manifest.json",
       "litematic": "operations_bay_demo.litematic"
     },
@@ -1707,8 +1729,97 @@
       "connections": null,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "composition/compiled_examples/victorian_bedroom_demo.manifest.json",
       "litematic": "victorian_bedroom_demo.litematic"
+    }
+  ],
+  "vanilla_composition_examples": [
+    {
+      "id": "garden_courtyard_demo",
+      "size": null,
+      "blocks": 6477,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/garden_courtyard_demo.manifest.json",
+      "litematic": "garden_courtyard_demo.litematic"
+    },
+    {
+      "id": "gothic_grand_hall_demo",
+      "size": null,
+      "blocks": 8644,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/gothic_grand_hall_demo.manifest.json",
+      "litematic": "gothic_grand_hall_demo.litematic"
+    },
+    {
+      "id": "gothic_library_demo",
+      "size": null,
+      "blocks": 6434,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/gothic_library_demo.manifest.json",
+      "litematic": "gothic_library_demo.litematic"
+    },
+    {
+      "id": "industrial_lab_demo",
+      "size": null,
+      "blocks": 6251,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/industrial_lab_demo.manifest.json",
+      "litematic": "industrial_lab_demo.litematic"
+    },
+    {
+      "id": "operations_bay_demo",
+      "size": null,
+      "blocks": 7640,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/operations_bay_demo.manifest.json",
+      "litematic": "operations_bay_demo.litematic"
+    },
+    {
+      "id": "victorian_bedroom_demo",
+      "size": null,
+      "blocks": 3713,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/compiled_examples/victorian_bedroom_demo.manifest.json",
+      "litematic": "victorian_bedroom_demo.litematic"
+    }
+  ],
+  "optional_microblock_examples": [
+    {
+      "id": "hybrid_gothic_detail_demo",
+      "size": null,
+      "blocks": 6536,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 4,
+      "manifest": "composition/compiled_examples/hybrid_gothic_detail_demo.manifest.json",
+      "litematic": "hybrid_gothic_detail_demo.litematic"
     }
   ],
   "whole_building_examples": [
@@ -1724,6 +1835,7 @@
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/compiled_examples/industrial_campus.manifest.json",
       "litematic": "industrial_campus.litematic"
     },
@@ -1739,6 +1851,7 @@
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/compiled_examples/two_floor_manor.manifest.json",
       "litematic": "two_floor_manor.litematic"
     },
@@ -1754,6 +1867,7 @@
       "connections": 3,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/compiled_examples/wayne_manor_phase_a.manifest.json",
       "litematic": "wayne_manor_phase_a.litematic"
     }
@@ -1771,6 +1885,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_alpine_chalet.manifest.json",
       "litematic": "style_showcase_alpine_chalet.litematic"
     },
@@ -1786,6 +1901,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_ancient_temple.manifest.json",
       "litematic": "style_showcase_ancient_temple.litematic"
     },
@@ -1801,6 +1917,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_art_deco.manifest.json",
       "litematic": "style_showcase_art_deco.litematic"
     },
@@ -1816,6 +1933,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_art_nouveau.manifest.json",
       "litematic": "style_showcase_art_nouveau.litematic"
     },
@@ -1831,6 +1949,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_beaux_arts.manifest.json",
       "litematic": "style_showcase_beaux_arts.litematic"
     },
@@ -1846,6 +1965,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_brutalist.manifest.json",
       "litematic": "style_showcase_brutalist.litematic"
     },
@@ -1861,6 +1981,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_chinese_traditional.manifest.json",
       "litematic": "style_showcase_chinese_traditional.litematic"
     },
@@ -1876,6 +1997,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_classic_manor.manifest.json",
       "litematic": "style_showcase_classic_manor.litematic"
     },
@@ -1891,6 +2013,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_contemporary_glass.manifest.json",
       "litematic": "style_showcase_contemporary_glass.litematic"
     },
@@ -1906,6 +2029,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_cottage.manifest.json",
       "litematic": "style_showcase_cottage.litematic"
     },
@@ -1921,6 +2045,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_cyberpunk.manifest.json",
       "litematic": "style_showcase_cyberpunk.litematic"
     },
@@ -1936,6 +2061,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_desert_adobe.manifest.json",
       "litematic": "style_showcase_desert_adobe.litematic"
     },
@@ -1951,6 +2077,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_dwarven_mountain.manifest.json",
       "litematic": "style_showcase_dwarven_mountain.litematic"
     },
@@ -1966,6 +2093,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_elven_fantasy.manifest.json",
       "litematic": "style_showcase_elven_fantasy.litematic"
     },
@@ -1981,6 +2109,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_georgian.manifest.json",
       "litematic": "style_showcase_georgian.litematic"
     },
@@ -1996,6 +2125,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_gothic_industrial_hybrid.manifest.json",
       "litematic": "style_showcase_gothic_industrial_hybrid.litematic"
     },
@@ -2011,6 +2141,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_industrial.manifest.json",
       "litematic": "style_showcase_industrial.litematic"
     },
@@ -2026,6 +2157,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_italianate.manifest.json",
       "litematic": "style_showcase_italianate.litematic"
     },
@@ -2041,6 +2173,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_japanese_modern_hybrid.manifest.json",
       "litematic": "style_showcase_japanese_modern_hybrid.litematic"
     },
@@ -2056,6 +2189,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_japanese_traditional.manifest.json",
       "litematic": "style_showcase_japanese_traditional.litematic"
     },
@@ -2071,6 +2205,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_massive_gothic_manor.manifest.json",
       "litematic": "style_showcase_massive_gothic_manor.litematic"
     },
@@ -2086,6 +2221,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_mediterranean.manifest.json",
       "litematic": "style_showcase_mediterranean.litematic"
     },
@@ -2101,6 +2237,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_midcentury_modern.manifest.json",
       "litematic": "style_showcase_midcentury_modern.litematic"
     },
@@ -2116,6 +2253,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_middle_eastern.manifest.json",
       "litematic": "style_showcase_middle_eastern.litematic"
     },
@@ -2131,6 +2269,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_modern.manifest.json",
       "litematic": "style_showcase_modern.litematic"
     },
@@ -2146,6 +2285,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_neoclassical.manifest.json",
       "litematic": "style_showcase_neoclassical.litematic"
     },
@@ -2161,6 +2301,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_nordic.manifest.json",
       "litematic": "style_showcase_nordic.litematic"
     },
@@ -2176,6 +2317,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_ruin_overgrown.manifest.json",
       "litematic": "style_showcase_ruin_overgrown.litematic"
     },
@@ -2191,6 +2333,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_rustic_farmhouse.manifest.json",
       "litematic": "style_showcase_rustic_farmhouse.litematic"
     },
@@ -2206,6 +2349,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_sci_fi_clean.manifest.json",
       "litematic": "style_showcase_sci_fi_clean.litematic"
     },
@@ -2221,6 +2365,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_solarpunk.manifest.json",
       "litematic": "style_showcase_solarpunk.litematic"
     },
@@ -2236,6 +2381,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_southeast_asian_temple.manifest.json",
       "litematic": "style_showcase_southeast_asian_temple.litematic"
     },
@@ -2251,6 +2397,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_spanish_colonial.manifest.json",
       "litematic": "style_showcase_spanish_colonial.litematic"
     },
@@ -2266,6 +2413,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_tudor.manifest.json",
       "litematic": "style_showcase_tudor.litematic"
     },
@@ -2281,6 +2429,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_underwater_organic.manifest.json",
       "litematic": "style_showcase_underwater_organic.litematic"
     },
@@ -2296,6 +2445,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_victorian_gothic.manifest.json",
       "litematic": "style_showcase_victorian_gothic.litematic"
     },
@@ -2311,6 +2461,7 @@
       "connections": 0,
       "maturity": "OFFLINE_COMPILED",
       "live_game_status": "PENDING",
+      "microblock_hosts": 0,
       "manifest": "project_graph/style_showcases/style_showcase_western_frontier.manifest.json",
       "litematic": "style_showcase_western_frontier.litematic"
     }
@@ -2407,7 +2558,8 @@
     "validate_repo.ps1",
     "validate_repo.py",
     "validate_style_system.py",
-    "validate_transform_corpus.py"
+    "validate_transform_corpus.py",
+    "validate_vanilla_baseline.py"
   ],
   "documentation": [
     "ARCHITECTURE_PACKS.md",

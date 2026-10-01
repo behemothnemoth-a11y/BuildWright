@@ -96,14 +96,40 @@ Complete in this follow-up:
 - machine-readable visual manifest;
 - visual-catalog validation integrated into the repository gate.
 
-## Next
+## DROP 0008C — Vanilla Baseline Separation
+
+Complete in this corrective follow-up:
+
+- main visual catalogue is vanilla-only;
+- Astra assets retained but moved to a separate optional refinement catalogue;
+- hybrid microblock proof removed from the vanilla room gallery;
+- style showcase renders explicitly relabeled as vanilla style baselines;
+- vanilla-first progression locked in documentation and agent rules;
+- validator scans baseline Litematics and fails on any Astra namespace leakage.
+
+## DROP 0009 — Complete Vanilla Detail Layer
+
+Next major priority:
+
+- style-specific vanilla exterior trim and secondary architecture;
+- project-scale furniture and furnishing passes;
+- decor and storytelling population;
+- vanilla lighting fixture placement and hidden ambient strategy;
+- vegetation, gardens and landscape-fixture placement;
+- service spaces and functional detail;
+- controlled clutter and anti-repetition rules;
+- room-role/detail-density profiles;
+- whole-building vanilla finishing pass;
+- player-eye QA before any microblock conversion;
+- catalogue labels that distinguish BASELINE from VANILLA_DETAIL_COMPLETE.
+
+## Later
 
 - tower, dormer, buttress, balcony and porch graph nodes;
 - non-straight corridor pathfinding;
 - stair-flight generation between unequal floor elevations;
 - facade zoning by story/elevation and urban frontage context;
 - terrain-aware foundations, basements and retaining walls;
-- project-scale vegetation fixture placement;
 - roads, plazas, walls, fences and infrastructure networks;
 - real-world/reconstruction facade fitting from measured references;
 - reference/image → structured project graph assistance;

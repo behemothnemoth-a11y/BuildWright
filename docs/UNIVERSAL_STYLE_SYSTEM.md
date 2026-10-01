@@ -85,3 +85,11 @@ The current site compiler remains intentionally restrained: it establishes groun
 Core style profile IDs must describe architecture, not a named BuildWright project.
 
 Project-specific decisions belong in project briefs and overrides. This prevents one regression project from becoming an accidental default for every future build.
+
+## Baseline vs finished vanilla detail
+
+The compiled style showcase corpus is a **vanilla style baseline**, not the final detail target. A baseline proves that massing, palette roles, facade rhythm, window language and roof language can traverse the universal compiler.
+
+It is intentionally earlier than the full vanilla finishing pass. BuildWright must be able to complete the build in vanilla — secondary architecture, trim, furniture, decor, lighting, vegetation, service detail and controlled storytelling — before microblocks are considered.
+
+Astra Microblocks remain an optional downstream enhancement for localized contour/thinness/sculptural targets. They are not required by, and must not leak into, a vanilla baseline.

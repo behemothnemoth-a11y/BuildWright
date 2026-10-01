@@ -50,7 +50,8 @@ def render_group(folder:Path,target:Path,cutaway=False):
           "blocks":meta.get("blocks",result["total_blocks"]),
           "size":meta.get("size"),
           "maturity":meta.get("maturity"),
-          "live_game_status":meta.get("live_game_status")
+          "live_game_status":meta.get("live_game_status"),
+          "microblock_hosts":int(meta.get("microblock_hosts",0) or 0)
         })
     return rows
 
@@ -119,6 +120,8 @@ def build_pages(fixtures,rooms,projects,styles):
 
     for row in styles:
         raw=row["id"].removeprefix("style_showcase_")
+        row["detail_level"]="VANILLA_STYLE_BASELINE"
+        row["uses_astra_microblocks"]=False
         if raw in style_meta:
             row["label"]=style_meta[raw]["display_name"]
             row["profile_id"]=raw
@@ -129,94 +132,162 @@ def build_pages(fixtures,rooms,projects,styles):
             brief=next((b for b in style_briefs.values() if b.get("id")==row["id"]),{})
             row["label"]=brief.get("name",raw.replace("_"," ").title()).replace("Style Showcase - ","")
             row["profile_id"]=raw
-            row["family"]="hybrid"
+            row["family"]="hybrid_style"
             row["roof"]="hybrid"
             row["window"]="hybrid"
 
-    vanilla=[x for x in fixtures if x["stage"]=="vanilla"]
-    micro=[x for x in fixtures if x["stage"]=="microblock"]
+    vanilla_fixtures=[x for x in fixtures if x["stage"]=="vanilla"]
+    micro_fixtures=[x for x in fixtures if x["stage"]=="microblock"]
+    vanilla_rooms=[x for x in rooms if x.get("microblock_hosts",0)==0]
+    hybrid_rooms=[x for x in rooms if x.get("microblock_hosts",0)>0]
+    for row in vanilla_rooms:
+        row["detail_level"]="VANILLA_BASELINE"
+        row["uses_astra_microblocks"]=False
+    for row in hybrid_rooms:
+        row["detail_level"]="OPTIONAL_MICROBLOCK_REFINEMENT"
+        row["uses_astra_microblocks"]=True
+    for row in projects:
+        row["detail_level"]="VANILLA_BASELINE"
+        row["uses_astra_microblocks"]=False
 
-    contact_sheet(vanilla,VIS/"fixture_overview_vanilla.png",cols=4)
-    contact_sheet(micro,VIS/"fixture_overview_microblock.png",cols=4)
-    contact_sheet(rooms,VIS/"room_overview.png",cols=3)
+    contact_sheet(vanilla_fixtures,VIS/"fixture_overview_vanilla.png",cols=4)
+    contact_sheet(micro_fixtures,VIS/"fixture_overview_microblock.png",cols=4)
+    contact_sheet(vanilla_rooms,VIS/"room_overview.png",cols=3)
     contact_sheet(projects,VIS/"project_overview.png",cols=3)
     contact_sheet(styles,VIS/"style_overview.png",cols=4)
 
     main=[
-      "# BuildWright Visual Catalogue","",
-      "This is the picture-first catalogue for BuildWright. Fixture cards use the existing compiled-fixture previews. Room, project and style cards use deterministic isometric renders generated from the actual compiled Litematic geometry.","",
-      "> The isometric renderer uses simplified material colors. These are exact compiled shapes, not Minecraft screenshots or shader renders.","",
-      "## Quick galleries","",
-      f"### Styles — {len(styles)} compiled showcases","",
+      "# BuildWright Vanilla Visual Catalogue","",
+      "**This main catalogue is the vanilla foundation. Astra Microblocks are not part of the baseline shown here.**","",
+      "The style cards are **style-language baselines**: massing, materials, facade rhythm, windows, and roof language. They are not the completed vanilla detail layer and should not be read as finished builds.","",
+      "Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing → in-game review → optional Astra Microblocks refinement**.","",
+      "> Isometric images are deterministic renders of the actual compiled Litematic geometry using simplified material colors. They are not Minecraft screenshots or concept art.","",
+      "## Vanilla style baselines","",
+      f"### {len(styles)} compiled baselines — 35 core styles + 2 style-blend demonstrations","",
       "![Style overview](catalog/visual/style_overview.png)","",
-      "[Browse every style showcase](catalog/visual/styles.md)","",
-      f"### Fixtures — {len(fixtures)} compiled fixtures","",
+      "[Browse vanilla style baselines](catalog/visual/styles.md)","",
+      "## Vanilla fixture library","",
+      f"### {len(vanilla_fixtures)} compiled vanilla fixtures","",
       "![Vanilla fixture overview](catalog/visual/fixture_overview_vanilla.png)","",
-      "![Microblock fixture overview](catalog/visual/fixture_overview_microblock.png)","",
-      "[Browse every fixture](catalog/visual/fixtures.md)","",
-      f"### Room / module examples — {len(rooms)}","",
+      "[Browse vanilla fixtures](catalog/visual/fixtures.md)","",
+      "## Vanilla room / module baselines","",
+      f"### {len(vanilla_rooms)} vanilla examples","",
       "![Room overview](catalog/visual/room_overview.png)","",
-      "[Browse rooms and modules](catalog/visual/rooms.md)","",
-      f"### Whole-building regression projects — {len(projects)}","",
+      "[Browse vanilla rooms and modules](catalog/visual/rooms.md)","",
+      "## Vanilla whole-building baselines","",
+      f"### {len(projects)} regression projects","",
       "![Project overview](catalog/visual/project_overview.png)","",
-      "[Browse whole-building projects](catalog/visual/projects.md)","",
+      "[Browse vanilla whole-building projects](catalog/visual/projects.md)","",
+      "## Optional detail layer — deliberately separate","",
+      f"The retained Astra layer currently contains **{len(micro_fixtures)} microblock fixtures** and **{len(hybrid_rooms)} hybrid room example**. It is not the default BuildWright output.","",
+      "[Open the optional Astra Microblocks catalogue](MICROBLOCK_CATALOG.md)","",
       "## Other catalogues","",
-      "- [Full inventory catalogue](CATALOG.md)",
+      "- [Full inventory and history](CATALOG.md)",
       "- [Machine-readable inventory](catalog/catalog.json)",
       "- [Machine-readable visual manifest](catalog/visual/visual_manifest.json)",""
     ]
     lf(MAIN,"\n".join(main))
 
     room_page=[
-      "# Room & Module Visual Catalogue","",
-      "[← Visual Catalogue](../../VISUAL_CATALOG.md)","",
-      card_table(rooms,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · {r.get('maturity') or 'offline'}")
+      "# Vanilla Room & Module Baselines","",
+      "[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)","",
+      "> These are vanilla compiler baselines, not the complete finished vanilla-detail layer.","",
+      card_table(vanilla_rooms,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · VANILLA BASELINE")
     ]
     lf(VIS/"rooms.md","\n".join(room_page))
 
     project_page=[
-      "# Whole-Building Visual Catalogue","",
-      "[← Visual Catalogue](../../VISUAL_CATALOG.md)","",
-      card_table(projects,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · {r.get('maturity') or 'offline'}")
+      "# Vanilla Whole-Building Baselines","",
+      "[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)","",
+      "> These whole-building renders are vanilla regression baselines. They still require deeper vanilla detailing and in-game review.","",
+      card_table(projects,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · VANILLA BASELINE")
     ]
     lf(VIS/"projects.md","\n".join(project_page))
 
     style_page=[
-      "# Universal Style Visual Catalogue","",
-      "[← Visual Catalogue](../../VISUAL_CATALOG.md)","",
-      f"**{len(styles)} compiled style showcases.** The 35 core profiles are project-neutral; two additional cards demonstrate style blending.","",
-      card_table(styles,"../../",lambda r:f"{r.get('family','—')} · roof: {r.get('roof','—')} · windows: {r.get('window','—')}")
+      "# Vanilla Style Baselines","",
+      "[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)","",
+      f"**{len(styles)} compiled vanilla style baselines.** The 35 core profiles are project-neutral; two additional cards demonstrate style blending.","",
+      "> These establish architectural language only. They are intentionally earlier than the complete vanilla detail/furnishing pass.","",
+      card_table(styles,"../../",lambda r:f"{r.get('family','—')} · roof: {r.get('roof','—')} · windows: {r.get('window','—')} · VANILLA BASELINE")
     ]
     lf(VIS/"styles.md","\n".join(style_page))
 
-    fx=["# Fixture Visual Catalogue","",'[← Visual Catalogue](../../VISUAL_CATALOG.md)',""]
-    for stage,items in (("Vanilla",vanilla),("Astra Microblocks",micro)):
-        fx += [f"## {stage} — {len(items)} fixtures",""]
-        grouped={}
-        for item in items:
-            grouped.setdefault((item["category"],item["family"]),[]).append(item)
-        for (cat,fam),group in sorted(grouped.items()):
-            fx += [f"### {cat} · {fam}","",card_table(group,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks"),""]
+    fx=["# Vanilla Fixture Visual Catalogue","",'[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)',"",
+        f"**{len(vanilla_fixtures)} vanilla fixtures.** Astra fixtures are intentionally excluded from this baseline catalogue.",""]
+    grouped={}
+    for item in vanilla_fixtures:
+        grouped.setdefault((item["category"],item["family"]),[]).append(item)
+    for (cat,fam),group in sorted(grouped.items()):
+        fx += [f"### {cat} · {fam}","",card_table(group,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks"),""]
     lf(VIS/"fixtures.md","\n".join(fx))
 
+    micro_page=[
+      "# Optional Astra Microblocks Detail Layer","",
+      "[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)","",
+      "**This is not the BuildWright base layer.** These assets are retained for optional post-vanilla refinement after the vanilla build is complete and reviewed.","",
+      f"## Astra fixture library — {len(micro_fixtures)} fixtures","",
+      "![Astra fixture overview](fixture_overview_microblock.png)",""
+    ]
+    grouped={}
+    for item in micro_fixtures:
+        grouped.setdefault((item["category"],item["family"]),[]).append(item)
+    for (cat,fam),group in sorted(grouped.items()):
+        micro_page += [f"### {cat} · {fam}","",card_table(group,"../../",lambda r:f"{size_text(r.get('size'))} · optional microblock detail"),""]
+    if hybrid_rooms:
+        micro_page += ["## Hybrid proof-of-concept room","",
+                       "> This room exists to test the optional refinement pipeline. It is not part of the vanilla baseline catalogue.","",
+                       card_table(hybrid_rooms,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('microblock_hosts')} Astra hosts · OPTIONAL REFINEMENT"),""]
+    lf(VIS/"microblocks.md","\n".join(micro_page))
+
+    micro_root=[
+      "# BuildWright Optional Microblock Catalogue","",
+      "**Astra Microblocks are an optional refinement layer, not the base BuildWright output.**","",
+      "The authoritative workflow is vanilla-first: finish the architecture, vanilla detailing, furnishing and player-eye review before deciding whether any local contour/detail benefits from microblocks.","",
+      "![Astra fixture overview](catalog/visual/fixture_overview_microblock.png)","",
+      "[Browse the optional detail-layer assets](catalog/visual/microblocks.md)","",
+      "[Return to the vanilla visual catalogue](VISUAL_CATALOG.md)",""
+    ]
+    lf(ROOT/"MICROBLOCK_CATALOG.md","\n".join(micro_root))
+
+    return vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms
+
 def build_manifest(fixtures,rooms,projects,styles):
+    vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms=build_pages(fixtures,rooms,projects,styles)
     return {
-      "schema_version":1,
+      "schema_version":2,
       "generator":"tools/build_visual_catalog.py",
-      "fixtures":fixtures,
-      "rooms":rooms,
-      "projects":projects,
-      "styles":styles,
-      "counts":{"fixtures":len(fixtures),"rooms":len(rooms),"projects":len(projects),"styles":len(styles)}
+      "vanilla":{
+        "fixtures":vanilla_fixtures,
+        "rooms":vanilla_rooms,
+        "projects":projects,
+        "style_baselines":styles
+      },
+      "optional_microblock":{
+        "fixtures":micro_fixtures,
+        "hybrid_rooms":hybrid_rooms
+      },
+      "counts":{
+        "vanilla_fixtures":len(vanilla_fixtures),
+        "vanilla_rooms":len(vanilla_rooms),
+        "vanilla_projects":len(projects),
+        "vanilla_style_baselines":len(styles),
+        "microblock_fixtures":len(micro_fixtures),
+        "hybrid_rooms":len(hybrid_rooms)
+      }
     }
 
 def validate_manifest(data):
     missing=[]
-    for group in ("fixtures","rooms","projects","styles"):
-        for row in data[group]:
+    groups=[
+      data["vanilla"]["fixtures"],data["vanilla"]["rooms"],data["vanilla"]["projects"],data["vanilla"]["style_baselines"],
+      data["optional_microblock"]["fixtures"],data["optional_microblock"]["hybrid_rooms"]
+    ]
+    for rows in groups:
+        for row in rows:
             if not (ROOT/row["image"]).is_file(): missing.append(row["image"])
             if not (ROOT/row["source"]).is_file(): missing.append(row["source"])
-    for p in (MAIN,VIS/"fixtures.md",VIS/"rooms.md",VIS/"projects.md",VIS/"styles.md",
+    for p in (MAIN,ROOT/"MICROBLOCK_CATALOG.md",VIS/"fixtures.md",VIS/"rooms.md",VIS/"projects.md",VIS/"styles.md",VIS/"microblocks.md",
               VIS/"fixture_overview_vanilla.png",VIS/"fixture_overview_microblock.png",
               VIS/"room_overview.png",VIS/"project_overview.png",VIS/"style_overview.png"):
         if not p.is_file(): missing.append(str(p.relative_to(ROOT)))
@@ -235,11 +306,20 @@ def main():
         if missing:
             print("VISUAL CATALOG: FAIL",", ".join(missing));raise SystemExit(1)
         expected=load(ROOT/"buildwright.json").get("visual_catalog",{})
-        want={"fixtures":expected.get("fixture_previews"),"rooms":expected.get("room_renders"),"projects":expected.get("project_renders"),"styles":expected.get("style_renders")}
+        want={
+          "vanilla_fixtures":expected.get("vanilla_fixture_previews"),
+          "vanilla_rooms":expected.get("vanilla_room_renders"),
+          "vanilla_projects":expected.get("vanilla_project_renders"),
+          "vanilla_style_baselines":expected.get("vanilla_style_baselines"),
+          "microblock_fixtures":expected.get("microblock_fixture_previews"),
+          "hybrid_rooms":expected.get("hybrid_room_renders")
+        }
         if data.get("counts")!=want:
             print("VISUAL CATALOG: COUNT MISMATCH",data.get("counts"),want);raise SystemExit(1)
+        if any(x.get("uses_astra_microblocks") for x in data["vanilla"]["rooms"]+data["vanilla"]["projects"]+data["vanilla"]["style_baselines"]):
+            print("VISUAL CATALOG: ASTRA LEAKED INTO VANILLA BASELINE");raise SystemExit(1)
         core=set(x["id"] for x in load(ROOT/"project_graph/style_registry.json")["profiles"])
-        rendered={x["id"].removeprefix("style_showcase_") for x in data["styles"]}
+        rendered={x["id"].removeprefix("style_showcase_") for x in data["vanilla"]["style_baselines"]}
         absent=sorted(core-rendered)
         if absent:
             print("VISUAL CATALOG: MISSING CORE STYLES",", ".join(absent));raise SystemExit(1)
@@ -249,7 +329,6 @@ def main():
     rooms=render_group(ROOT/"composition/compiled_examples",IMAGES/"rooms",cutaway=True)
     projects=render_group(ROOT/"project_graph/compiled_examples",IMAGES/"projects")
     styles=render_group(ROOT/"project_graph/style_showcases",IMAGES/"styles")
-    build_pages(fixtures,rooms,projects,styles)
     data=build_manifest(fixtures,rooms,projects,styles)
     lf(MANIFEST,json.dumps(data,indent=2))
     print("VISUAL CATALOG: WROTE",data["counts"])

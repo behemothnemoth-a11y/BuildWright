@@ -78,3 +78,9 @@ DROP 0008B adds coverage checks for the picture-first catalogue:
 - room/module imagery uses cutaway renders where exterior shells would hide the interior.
 
 The visual catalogue is a browsing aid, not an approval gate. A generated preview can still represent a LIVE_GAME_PENDING artifact.
+
+## Vanilla baseline separation
+
+DROP 0008C adds a hard vanilla-baseline gate. Every artifact classified as a vanilla room baseline, whole-building baseline, or style baseline is read back and scanned for the `astra_microblocks:` namespace in both block-state palettes and block entities. Any match fails repository validation.
+
+The main visual catalogue must also contain only vanilla fixtures and vanilla-classified room/project/style entries. Optional Astra fixtures and hybrid proof artifacts are retained in `MICROBLOCK_CATALOG.md` and are intentionally downstream of vanilla completion.

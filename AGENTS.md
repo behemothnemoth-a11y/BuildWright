@@ -82,3 +82,13 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Generated isometric renders are geometry proofs with simplified material colors; never present them as Minecraft screenshots or shader output.
 - Every core universal style profile must have a rendered showcase card.
 - Regenerate both CATALOG.md and VISUAL_CATALOG.md whenever compiled catalogue coverage changes.
+
+## DROP 0008C vanilla-baseline separation
+
+- BuildWright's authoritative base output is vanilla-only.
+- The required progression is: vanilla massing/base → complete vanilla architecture/detail/furnishing/lighting/landscape → in-game review → optional microblock refinement.
+- Astra Microblocks must never be required to make a baseline build read correctly.
+- Main catalogues and default examples must exclude Astra-host assets. Optional microblock assets live in a clearly separate refinement catalogue.
+- Style showcase renders are baseline architectural-language tests, not finished vanilla-detail builds.
+- A hybrid/microblock proof may be retained for testing, but it must never be presented as a base example.
+- Validation must fail if an Astra namespace block or block entity leaks into any artifact classified as a vanilla baseline.

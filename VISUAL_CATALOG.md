@@ -1,39 +1,53 @@
-# BuildWright Visual Catalogue
+# BuildWright Vanilla Visual Catalogue
 
-This is the picture-first catalogue for BuildWright. Fixture cards use the existing compiled-fixture previews. Room, project and style cards use deterministic isometric renders generated from the actual compiled Litematic geometry.
+**This main catalogue is the vanilla foundation. Astra Microblocks are not part of the baseline shown here.**
 
-> The isometric renderer uses simplified material colors. These are exact compiled shapes, not Minecraft screenshots or shader renders.
+The style cards are **style-language baselines**: massing, materials, facade rhythm, windows, and roof language. They are not the completed vanilla detail layer and should not be read as finished builds.
 
-## Quick galleries
+Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing → in-game review → optional Astra Microblocks refinement**.
 
-### Styles — 37 compiled showcases
+> Isometric images are deterministic renders of the actual compiled Litematic geometry using simplified material colors. They are not Minecraft screenshots or concept art.
+
+## Vanilla style baselines
+
+### 37 compiled baselines — 35 core styles + 2 style-blend demonstrations
 
 ![Style overview](catalog/visual/style_overview.png)
 
-[Browse every style showcase](catalog/visual/styles.md)
+[Browse vanilla style baselines](catalog/visual/styles.md)
 
-### Fixtures — 64 compiled fixtures
+## Vanilla fixture library
+
+### 40 compiled vanilla fixtures
 
 ![Vanilla fixture overview](catalog/visual/fixture_overview_vanilla.png)
 
-![Microblock fixture overview](catalog/visual/fixture_overview_microblock.png)
+[Browse vanilla fixtures](catalog/visual/fixtures.md)
 
-[Browse every fixture](catalog/visual/fixtures.md)
+## Vanilla room / module baselines
 
-### Room / module examples — 7
+### 6 vanilla examples
 
 ![Room overview](catalog/visual/room_overview.png)
 
-[Browse rooms and modules](catalog/visual/rooms.md)
+[Browse vanilla rooms and modules](catalog/visual/rooms.md)
 
-### Whole-building regression projects — 3
+## Vanilla whole-building baselines
+
+### 3 regression projects
 
 ![Project overview](catalog/visual/project_overview.png)
 
-[Browse whole-building projects](catalog/visual/projects.md)
+[Browse vanilla whole-building projects](catalog/visual/projects.md)
+
+## Optional detail layer — deliberately separate
+
+The retained Astra layer currently contains **24 microblock fixtures** and **1 hybrid room example**. It is not the default BuildWright output.
+
+[Open the optional Astra Microblocks catalogue](MICROBLOCK_CATALOG.md)
 
 ## Other catalogues
 
-- [Full inventory catalogue](CATALOG.md)
+- [Full inventory and history](CATALOG.md)
 - [Machine-readable inventory](catalog/catalog.json)
 - [Machine-readable visual manifest](catalog/visual/visual_manifest.json)

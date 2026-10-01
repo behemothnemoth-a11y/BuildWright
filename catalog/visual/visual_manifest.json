@@ -1,1820 +1,1971 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generator": "tools/build_visual_catalog.py",
-  "fixtures": [
-    {
-      "id": "gothic_lancet_arch_small",
-      "label": "Gothic Lancet Arch Small",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "arches",
-      "size": [
-        9,
-        11,
-        3
-      ],
-      "blocks": 120,
-      "source": "fixtures/compiled/vanilla/gothic_lancet_arch_small.litematic",
-      "image": "fixtures/previews/vanilla/gothic_lancet_arch_small.png",
-      "sha256": "d6157b46218bf49fc6c85b839136cd332b7f9215f69319ba2b04a2ca3a8835b3"
-    },
-    {
-      "id": "gothic_lancet_arch_large",
-      "label": "Gothic Lancet Arch Large",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "arches",
-      "size": [
-        13,
-        17,
-        4
-      ],
-      "blocks": 240,
-      "source": "fixtures/compiled/vanilla/gothic_lancet_arch_large.litematic",
-      "image": "fixtures/previews/vanilla/gothic_lancet_arch_large.png",
-      "sha256": "17eecf3ff8ff98461a6c9933d8bae0da24b3b1629c0e1edef3c844bc4469e326"
-    },
-    {
-      "id": "gothic_tudor_arch",
-      "label": "Gothic Tudor Arch",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "arches",
-      "size": [
-        13,
-        10,
-        3
-      ],
-      "blocks": 138,
-      "source": "fixtures/compiled/vanilla/gothic_tudor_arch.litematic",
-      "image": "fixtures/previews/vanilla/gothic_tudor_arch.png",
-      "sha256": "323ee5b2e9402f934f7bbfbc1fccd14bcaffc7f6eff4d0c0ad09e26d2f73d881"
-    },
-    {
-      "id": "gothic_portal_deep",
-      "label": "Gothic Portal Deep",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "portals",
-      "size": [
-        11,
-        14,
-        7
-      ],
-      "blocks": 364,
-      "source": "fixtures/compiled/vanilla/gothic_portal_deep.litematic",
-      "image": "fixtures/previews/vanilla/gothic_portal_deep.png",
-      "sha256": "8fc682c22109aa4fef5b3dd057d4965fa519180242072a631c015ec3c37d32e7"
-    },
-    {
-      "id": "clustered_pier_compact",
-      "label": "Clustered Pier Compact",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "columns_piers",
-      "size": [
-        5,
-        10,
-        5
-      ],
-      "blocks": 154,
-      "source": "fixtures/compiled/vanilla/clustered_pier_compact.litematic",
-      "image": "fixtures/previews/vanilla/clustered_pier_compact.png",
-      "sha256": "d8e7bc9c1b7d0e665955e6e5cb5eb438c9f257e8f642b3e6f850481ba6d23cfd"
-    },
-    {
-      "id": "clustered_pier_monumental",
-      "label": "Clustered Pier Monumental",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "columns_piers",
-      "size": [
-        7,
-        16,
-        7
-      ],
-      "blocks": 232,
-      "source": "fixtures/compiled/vanilla/clustered_pier_monumental.litematic",
-      "image": "fixtures/previews/vanilla/clustered_pier_monumental.png",
-      "sha256": "27ddbb926ce6821ad8044c6b522cbb25435aef9720c0ceffb8a07da083c3e64a"
-    },
-    {
-      "id": "stepped_buttress",
-      "label": "Stepped Buttress",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "buttresses",
-      "size": [
-        7,
-        14,
-        9
-      ],
-      "blocks": 163,
-      "source": "fixtures/compiled/vanilla/stepped_buttress.litematic",
-      "image": "fixtures/previews/vanilla/stepped_buttress.png",
-      "sha256": "4d9b88919946d95624905a8dd517b09d5edbf53d56a971c0e963b8fd64399cf9"
-    },
-    {
-      "id": "gothic_wall_bay",
-      "label": "Gothic Wall Bay",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "wall_bays",
-      "size": [
-        15,
-        14,
-        5
-      ],
-      "blocks": 668,
-      "source": "fixtures/compiled/vanilla/gothic_wall_bay.litematic",
-      "image": "fixtures/previews/vanilla/gothic_wall_bay.png",
-      "sha256": "7cb021cf82fc40af14825035275aad7d447b2af099442ad9d7646c92187500ed"
-    },
-    {
-      "id": "hammerbeam_truss_small",
-      "label": "Hammerbeam Truss Small",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "roofs",
-      "size": [
-        17,
-        11,
-        3
-      ],
-      "blocks": 202,
-      "source": "fixtures/compiled/vanilla/hammerbeam_truss_small.litematic",
-      "image": "fixtures/previews/vanilla/hammerbeam_truss_small.png",
-      "sha256": "5390561758b3e37da280753fdd1adbffb91178c77f9835128e14e3d9ca0b47b4"
-    },
-    {
-      "id": "hammerbeam_truss_large",
-      "label": "Hammerbeam Truss Large",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "roofs",
-      "size": [
-        25,
-        15,
-        3
-      ],
-      "blocks": 272,
-      "source": "fixtures/compiled/vanilla/hammerbeam_truss_large.litematic",
-      "image": "fixtures/previews/vanilla/hammerbeam_truss_large.png",
-      "sha256": "4161afa1d310d7780d8ed76d1a58ce73fa51efe85f7896902a526ea0e77f899a"
-    },
-    {
-      "id": "coffered_ceiling_bay",
-      "label": "Coffered Ceiling Bay",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "ceilings",
-      "size": [
-        13,
-        4,
-        13
-      ],
-      "blocks": 354,
-      "source": "fixtures/compiled/vanilla/coffered_ceiling_bay.litematic",
-      "image": "fixtures/previews/vanilla/coffered_ceiling_bay.png",
-      "sha256": "b7b217fe311420a1d7733d09e8851a37c6ab429b70e219868088e8b02f8cc98c"
-    },
-    {
-      "id": "grand_split_stair_connector",
-      "label": "Grand Split Stair Connector",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "stairs",
-      "size": [
-        25,
-        12,
-        21
-      ],
-      "blocks": 175,
-      "source": "fixtures/compiled/vanilla/grand_split_stair_connector.litematic",
-      "image": "fixtures/previews/vanilla/grand_split_stair_connector.png",
-      "sha256": "af7d5a53e4d64b853b033125645f7687ce29b776ecacff9c5343cedcbdb52e45"
-    },
-    {
-      "id": "gothic_gallery_bay",
-      "label": "Gothic Gallery Bay",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "galleries",
-      "size": [
-        17,
-        12,
-        7
-      ],
-      "blocks": 452,
-      "source": "fixtures/compiled/vanilla/gothic_gallery_bay.litematic",
-      "image": "fixtures/previews/vanilla/gothic_gallery_bay.png",
-      "sha256": "17b346ba77d66fa707bdc1820c9747d0ae9a2b783616db4e79c8bee3bc36719d"
-    },
-    {
-      "id": "gothic_railing",
-      "label": "Gothic Railing",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "railings",
-      "size": [
-        15,
-        5,
-        2
-      ],
-      "blocks": 84,
-      "source": "fixtures/compiled/vanilla/gothic_railing.litematic",
-      "image": "fixtures/previews/vanilla/gothic_railing.png",
-      "sha256": "6ddea07717ab8a03fdcf148d902d1da15729b5f4ade5a87eaf20869260f1e0a7"
-    },
-    {
-      "id": "manor_railing",
-      "label": "Manor Railing",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "railings",
-      "size": [
-        15,
-        5,
-        2
-      ],
-      "blocks": 84,
-      "source": "fixtures/compiled/vanilla/manor_railing.litematic",
-      "image": "fixtures/previews/vanilla/manor_railing.png",
-      "sha256": "5ec4a9786d363dcc2e2d4a1e30c08a8616995fce73c4e9754dfc72eea876c700"
-    },
-    {
-      "id": "lancet_window_single",
-      "label": "Lancet Window Single",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "windows",
-      "size": [
-        7,
-        11,
-        3
-      ],
-      "blocks": 151,
-      "source": "fixtures/compiled/vanilla/lancet_window_single.litematic",
-      "image": "fixtures/previews/vanilla/lancet_window_single.png",
-      "sha256": "386d6cb7e86cb252cba77580adc60771aab9e9e63f76eac7a1e79edba8286591"
-    },
-    {
-      "id": "lancet_window_pair",
-      "label": "Lancet Window Pair",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "windows",
-      "size": [
-        13,
-        12,
-        3
-      ],
-      "blocks": 288,
-      "source": "fixtures/compiled/vanilla/lancet_window_pair.litematic",
-      "image": "fixtures/previews/vanilla/lancet_window_pair.png",
-      "sha256": "c2d0cf65f780476011181d4ee28f557deb6b848444ab14345b05da6938ce58b6"
-    },
-    {
-      "id": "rose_window_bay",
-      "label": "Rose Window Bay",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "windows",
-      "size": [
-        15,
-        15,
-        3
-      ],
-      "blocks": 297,
-      "source": "fixtures/compiled/vanilla/rose_window_bay.litematic",
-      "image": "fixtures/previews/vanilla/rose_window_bay.png",
-      "sha256": "a439df6f4df4bb775d2d999615443915fb717e1e08ad89ab9cbf68e348c140e5"
-    },
-    {
-      "id": "gothic_fireplace",
-      "label": "Gothic Fireplace",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "fireplaces",
-      "size": [
-        11,
-        10,
-        5
-      ],
-      "blocks": 403,
-      "source": "fixtures/compiled/vanilla/gothic_fireplace.litematic",
-      "image": "fixtures/previews/vanilla/gothic_fireplace.png",
-      "sha256": "dde51039d3fed75b843644243ee2164bede6779a67e53a4a93b156af7a72d4ef"
-    },
-    {
-      "id": "manor_fireplace",
-      "label": "Manor Fireplace",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "fireplaces",
-      "size": [
-        9,
-        8,
-        5
-      ],
-      "blocks": 285,
-      "source": "fixtures/compiled/vanilla/manor_fireplace.litematic",
-      "image": "fixtures/previews/vanilla/manor_fireplace.png",
-      "sha256": "282f5c499ea90096ba325a98a9f3cf25963fe18d17ae5eaa365c00062bf33406"
-    },
-    {
-      "id": "gothic_dormer",
-      "label": "Gothic Dormer",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "dormers",
-      "size": [
-        11,
-        10,
-        9
-      ],
-      "blocks": 547,
-      "source": "fixtures/compiled/vanilla/gothic_dormer.litematic",
-      "image": "fixtures/previews/vanilla/gothic_dormer.png",
-      "sha256": "f154119679dcb82735ccecc3de97823100fe71af43562cf2bf7bdbae1ecfc3dd"
-    },
-    {
-      "id": "stepped_gable",
-      "label": "Stepped Gable",
-      "stage": "vanilla",
-      "category": "architecture",
-      "family": "gables",
-      "size": [
-        17,
-        12,
-        5
-      ],
-      "blocks": 660,
-      "source": "fixtures/compiled/vanilla/stepped_gable.litematic",
-      "image": "fixtures/previews/vanilla/stepped_gable.png",
-      "sha256": "174483ae20501b328aaeb14c41bb4cad12d1e8364c711df7780b74d6afeed18c"
-    },
-    {
-      "id": "gothic_armchair",
-      "label": "Gothic Armchair",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "seating",
-      "size": [
-        5,
-        7,
-        5
-      ],
-      "blocks": 37,
-      "source": "fixtures/compiled/vanilla/gothic_armchair.litematic",
-      "image": "fixtures/previews/vanilla/gothic_armchair.png",
-      "sha256": "f9ab21ea09f834a1eb483adba1cf038ecae2cca807d627ed32a0f309ce13bc9a"
-    },
-    {
-      "id": "highback_bench",
-      "label": "Highback Bench",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "seating",
-      "size": [
-        9,
-        6,
-        4
-      ],
-      "blocks": 57,
-      "source": "fixtures/compiled/vanilla/highback_bench.litematic",
-      "image": "fixtures/previews/vanilla/highback_bench.png",
-      "sha256": "c6bab9badcbbfdec47a18b926e25af9d2472b72e88183b0cc3925f3c49ac8c1f"
-    },
-    {
-      "id": "writing_desk",
-      "label": "Writing Desk",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "desks",
-      "size": [
-        9,
-        5,
-        5
-      ],
-      "blocks": 99,
-      "source": "fixtures/compiled/vanilla/writing_desk.litematic",
-      "image": "fixtures/previews/vanilla/writing_desk.png",
-      "sha256": "7810e4d4901ab45b39f9069b9f45a2bbf4d0d218b6729d4c07f888609b2c028c"
-    },
-    {
-      "id": "library_table",
-      "label": "Library Table",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "tables",
-      "size": [
-        11,
-        5,
-        7
-      ],
-      "blocks": 89,
-      "source": "fixtures/compiled/vanilla/library_table.litematic",
-      "image": "fixtures/previews/vanilla/library_table.png",
-      "sha256": "b65daa21c20a8457c7a15e7fa0d047f4b9a059d01a929421141db7aff7bdebdb"
-    },
-    {
-      "id": "canopy_bed",
-      "label": "Canopy Bed",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "beds",
-      "size": [
-        9,
-        7,
-        13
-      ],
-      "blocks": 278,
-      "source": "fixtures/compiled/vanilla/canopy_bed.litematic",
-      "image": "fixtures/previews/vanilla/canopy_bed.png",
-      "sha256": "7b3d7a54998f37d20b495261496cb98f5fd80e6565fa53c48fd6928f2f977cff"
-    },
-    {
-      "id": "bookcase_wall",
-      "label": "Bookcase Wall",
-      "stage": "vanilla",
-      "category": "furniture",
-      "family": "storage",
-      "size": [
-        15,
-        9,
-        3
-      ],
-      "blocks": 405,
-      "source": "fixtures/compiled/vanilla/bookcase_wall.litematic",
-      "image": "fixtures/previews/vanilla/bookcase_wall.png",
-      "sha256": "1f62b1bc039b1a7a7702ff940ef319ecc1ad4f09d8fcecc2196a34cd92e451c9"
-    },
-    {
-      "id": "grand_chandelier",
-      "label": "Grand Chandelier",
-      "stage": "vanilla",
-      "category": "decor",
-      "family": "lighting",
-      "size": [
-        11,
-        12,
-        11
-      ],
-      "blocks": 34,
-      "source": "fixtures/compiled/vanilla/grand_chandelier.litematic",
-      "image": "fixtures/previews/vanilla/grand_chandelier.png",
-      "sha256": "51b403851b22cd6388fb7b8ea66636f4c67f65582418b6e53aaab58197f4dbee"
-    },
-    {
-      "id": "armor_niche",
-      "label": "Armor Niche",
-      "stage": "vanilla",
-      "category": "decor",
-      "family": "displays",
-      "size": [
-        7,
-        10,
-        5
-      ],
-      "blocks": 223,
-      "source": "fixtures/compiled/vanilla/armor_niche.litematic",
-      "image": "fixtures/previews/vanilla/armor_niche.png",
-      "sha256": "9402624f08ca88a6560a106ae3288c3a954f68daabfc212679c9ca92a795f8b9"
-    },
-    {
-      "id": "manor_oak_small",
-      "label": "Manor Oak Small",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "trees",
-      "size": [
-        17,
-        17,
-        17
-      ],
-      "blocks": 619,
-      "source": "fixtures/compiled/vanilla/manor_oak_small.litematic",
-      "image": "fixtures/previews/vanilla/manor_oak_small.png",
-      "sha256": "b71a11f4ee1118c062aa346517c12f4bdf65b6de9249cf0819974c276fbfc749"
-    },
-    {
-      "id": "cypress_tree",
-      "label": "Cypress Tree",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "trees",
-      "size": [
-        7,
-        18,
-        7
-      ],
-      "blocks": 341,
-      "source": "fixtures/compiled/vanilla/cypress_tree.litematic",
-      "image": "fixtures/previews/vanilla/cypress_tree.png",
-      "sha256": "831cd704f4fa4bc4acfc8ee081ed5171e5a0b98aa3fdfcf72026dec67935fff9"
-    },
-    {
-      "id": "formal_hedge_corner",
-      "label": "Formal Hedge Corner",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "hedges",
-      "size": [
-        11,
-        5,
-        11
-      ],
-      "blocks": 292,
-      "source": "fixtures/compiled/vanilla/formal_hedge_corner.litematic",
-      "image": "fixtures/previews/vanilla/formal_hedge_corner.png",
-      "sha256": "cde7d3cec4a1097bf6ab3a14e2d090246c358c3372a975adae75500532755771"
-    },
-    {
-      "id": "ivy_wall_patch",
-      "label": "Ivy Wall Patch",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "ivy",
-      "size": [
-        11,
-        11,
-        2
-      ],
-      "blocks": 158,
-      "source": "fixtures/compiled/vanilla/ivy_wall_patch.litematic",
-      "image": "fixtures/previews/vanilla/ivy_wall_patch.png",
-      "sha256": "fa859caf93ca53303935b790ee4a70308c322012915e8ed9f8da287fe2e05bdb"
-    },
-    {
-      "id": "indoor_planter",
-      "label": "Indoor Planter",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "planters",
-      "size": [
-        7,
-        10,
-        7
-      ],
-      "blocks": 98,
-      "source": "fixtures/compiled/vanilla/indoor_planter.litematic",
-      "image": "fixtures/previews/vanilla/indoor_planter.png",
-      "sha256": "4eb8f5e0de71202c8608687e5013e382777443c0f410d886a649cd694b73d5fe"
-    },
-    {
-      "id": "topiary_urn",
-      "label": "Topiary Urn",
-      "stage": "vanilla",
-      "category": "vegetation",
-      "family": "topiary",
-      "size": [
-        7,
-        10,
-        7
-      ],
-      "blocks": 126,
-      "source": "fixtures/compiled/vanilla/topiary_urn.litematic",
-      "image": "fixtures/previews/vanilla/topiary_urn.png",
-      "sha256": "4a0e9e18701da7ec0cc5092f08fcc679e69392849843d843971dc38866a54cfd"
-    },
-    {
-      "id": "industrial_pipe_rack",
-      "label": "Industrial Pipe Rack",
-      "stage": "vanilla",
-      "category": "mechanical",
-      "family": "pipes",
-      "size": [
-        15,
-        9,
-        5
-      ],
-      "blocks": 142,
-      "source": "fixtures/compiled/vanilla/industrial_pipe_rack.litematic",
-      "image": "fixtures/previews/vanilla/industrial_pipe_rack.png",
-      "sha256": "3b9d6a4de0affad3d463e21cbeafb6df574573c67e6c2d9e978a6e44c4901d21"
-    },
-    {
-      "id": "console_bank",
-      "label": "Console Bank",
-      "stage": "vanilla",
-      "category": "mechanical",
-      "family": "consoles",
-      "size": [
-        13,
-        6,
-        5
-      ],
-      "blocks": 308,
-      "source": "fixtures/compiled/vanilla/console_bank.litematic",
-      "image": "fixtures/previews/vanilla/console_bank.png",
-      "sha256": "63c44d6f73b6290e3486a18b1bf4d44e1f0b98fb2972f04fb8f521dc15f7f849"
-    },
-    {
-      "id": "lab_workstation",
-      "label": "Lab Workstation",
-      "stage": "vanilla",
-      "category": "mechanical",
-      "family": "lab",
-      "size": [
-        13,
-        7,
-        7
-      ],
-      "blocks": 337,
-      "source": "fixtures/compiled/vanilla/lab_workstation.litematic",
-      "image": "fixtures/previews/vanilla/lab_workstation.png",
-      "sha256": "1dc2ce921e94556635990e98ab7a6378db3410e4ecbe309f4dc74d396641fa7e"
-    },
-    {
-      "id": "hanging_cable_tray",
-      "label": "Hanging Cable Tray",
-      "stage": "vanilla",
-      "category": "mechanical",
-      "family": "cables",
-      "size": [
-        17,
-        4,
-        5
-      ],
-      "blocks": 117,
-      "source": "fixtures/compiled/vanilla/hanging_cable_tray.litematic",
-      "image": "fixtures/previews/vanilla/hanging_cable_tray.png",
-      "sha256": "e582724ebf58ad7d67ddf5daa0b3d86ccf364fd9dbea65b515db2b73da29a44e"
-    },
-    {
-      "id": "beveled_edge",
-      "label": "Beveled Edge",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "contour",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/beveled_edge.litematic",
-      "image": "fixtures/previews/microblock/beveled_edge.png",
-      "sha256": "24948ddcf2e705653d789b722fbc2e97e4fc0d7df1cd83fe42f523532c2636c6"
-    },
-    {
-      "id": "quarter_round",
-      "label": "Quarter Round",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "contour",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/quarter_round.litematic",
-      "image": "fixtures/previews/microblock/quarter_round.png",
-      "sha256": "6607850ce302848d0150d3ebae3443a69cf8d57cd9ee45a355e8839e17588c9c"
-    },
-    {
-      "id": "gothic_arch_inner_curve",
-      "label": "Gothic Arch Inner Curve",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "arches",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/gothic_arch_inner_curve.litematic",
-      "image": "fixtures/previews/microblock/gothic_arch_inner_curve.png",
-      "sha256": "044f7c9a245f6fc5f1334ddea982b1129c3e2b105678c433680c08600e30af43"
-    },
-    {
-      "id": "gothic_arch_outer_curve",
-      "label": "Gothic Arch Outer Curve",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "arches",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/gothic_arch_outer_curve.litematic",
-      "image": "fixtures/previews/microblock/gothic_arch_outer_curve.png",
-      "sha256": "87c6dc0091154d2a18e47b0bea55c754046cb0f6c34ad7acda72d01f86359111"
-    },
-    {
-      "id": "fluted_column_quarter",
-      "label": "Fluted Column Quarter",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "columns",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/fluted_column_quarter.litematic",
-      "image": "fixtures/previews/microblock/fluted_column_quarter.png",
-      "sha256": "d1ebd6ea7383b5722b07f80024eeea8473b21b819dd4019bcbb5c1d92c0c3a1f"
-    },
-    {
-      "id": "gothic_capital",
-      "label": "Gothic Capital",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "capitals",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/gothic_capital.litematic",
-      "image": "fixtures/previews/microblock/gothic_capital.png",
-      "sha256": "43fb4af335488079d8d40dbfaa679d23e272e44fb483ba93d6b6fdf258d32d76"
-    },
-    {
-      "id": "window_mullion_cross",
-      "label": "Window Mullion Cross",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "windows",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/window_mullion_cross.litematic",
-      "image": "fixtures/previews/microblock/window_mullion_cross.png",
-      "sha256": "ed4bb03dc0ce299918a20fab20ab3fbb389607219f07ad2fd3908aa07f6b1834"
-    },
-    {
-      "id": "window_tracery_y",
-      "label": "Window Tracery Y",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "windows",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/window_tracery_y.litematic",
-      "image": "fixtures/previews/microblock/window_tracery_y.png",
-      "sha256": "edd282356b6228c6a7ed4934d33b182b00956773a3f935b3da89ef186df43b3b"
-    },
-    {
-      "id": "rail_baluster",
-      "label": "Rail Baluster",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "railings",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/rail_baluster.litematic",
-      "image": "fixtures/previews/microblock/rail_baluster.png",
-      "sha256": "ee76c2877c3660e98ad975e40a58d972b54ae6574240cb0e6eed2095c9375b07"
-    },
-    {
-      "id": "rail_finial",
-      "label": "Rail Finial",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "railings",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/rail_finial.litematic",
-      "image": "fixtures/previews/microblock/rail_finial.png",
-      "sha256": "22a59e1599bf849190e0eb6d4b1e0a5b606c251f1920fe52bd40691323363b1f"
-    },
-    {
-      "id": "stepped_cornice",
-      "label": "Stepped Cornice",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "trim",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/stepped_cornice.litematic",
-      "image": "fixtures/previews/microblock/stepped_cornice.png",
-      "sha256": "7abbca9ad0b759c6f9d51db414d52c335eab26136f0eeb6d1a4c905543443a5b"
-    },
-    {
-      "id": "corbel_bracket",
-      "label": "Corbel Bracket",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "corbels",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/corbel_bracket.litematic",
-      "image": "fixtures/previews/microblock/corbel_bracket.png",
-      "sha256": "410ae047e6c7313da49886f799c853dfda5871e182b183a67603441c2ba8efb1"
-    },
-    {
-      "id": "hammerbeam_joint",
-      "label": "Hammerbeam Joint",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "roofs",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/hammerbeam_joint.litematic",
-      "image": "fixtures/previews/microblock/hammerbeam_joint.png",
-      "sha256": "6959c3007cad22adac0e7949fcd278ef938537c8c4e6749fe4971c728b398d2c"
-    },
-    {
-      "id": "stair_nosing",
-      "label": "Stair Nosing",
-      "stage": "microblock",
-      "category": "architecture",
-      "family": "stairs",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/stair_nosing.litematic",
-      "image": "fixtures/previews/microblock/stair_nosing.png",
-      "sha256": "b54f6c6f304f11d4e22c58185eb9e7bfa744f10de691ae2681a91deb2957bda3"
-    },
-    {
-      "id": "picture_frame_corner",
-      "label": "Picture Frame Corner",
-      "stage": "microblock",
-      "category": "decor",
-      "family": "frames",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/picture_frame_corner.litematic",
-      "image": "fixtures/previews/microblock/picture_frame_corner.png",
-      "sha256": "efcc75873a1d5d0e373317129f677d3bdc49b05613225c0e5f083e604755c2ce"
-    },
-    {
-      "id": "crest_shield",
-      "label": "Crest Shield",
-      "stage": "microblock",
-      "category": "decor",
-      "family": "crests",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/crest_shield.litematic",
-      "image": "fixtures/previews/microblock/crest_shield.png",
-      "sha256": "fbf97bc7b016a7825bee6a5c681a6f66988eca68205a2f84cb6e81a2c8a204c7"
-    },
-    {
-      "id": "chandelier_arm",
-      "label": "Chandelier Arm",
-      "stage": "microblock",
-      "category": "decor",
-      "family": "lighting",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/chandelier_arm.litematic",
-      "image": "fixtures/previews/microblock/chandelier_arm.png",
-      "sha256": "f0c2393286e69366f707ad48fcc1d3d8295f73fd70261c6eae0e330475865873"
-    },
-    {
-      "id": "furniture_leg",
-      "label": "Furniture Leg",
-      "stage": "microblock",
-      "category": "furniture",
-      "family": "legs",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/furniture_leg.litematic",
-      "image": "fixtures/previews/microblock/furniture_leg.png",
-      "sha256": "2b457f792f70b08da46a41d935adaeb13532668a8e2760e081cb74d3a0aeec3c"
-    },
-    {
-      "id": "furniture_armrest",
-      "label": "Furniture Armrest",
-      "stage": "microblock",
-      "category": "furniture",
-      "family": "seating",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/furniture_armrest.litematic",
-      "image": "fixtures/previews/microblock/furniture_armrest.png",
-      "sha256": "20384dd2a7f14f4ef6b1a5b3ab7816d1f0582ccf4024ff3c6ee6ea4829a131b9"
-    },
-    {
-      "id": "gargoyle_head_abstract",
-      "label": "Gargoyle Head Abstract",
-      "stage": "microblock",
-      "category": "decor",
-      "family": "statues",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/gargoyle_head_abstract.litematic",
-      "image": "fixtures/previews/microblock/gargoyle_head_abstract.png",
-      "sha256": "9e88f2cc3cbd0db56b473b2d94bba37bfb3b1a219545bfda784f5f421efcf481"
-    },
-    {
-      "id": "pipe_elbow",
-      "label": "Pipe Elbow",
-      "stage": "microblock",
-      "category": "mechanical",
-      "family": "pipes",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/pipe_elbow.litematic",
-      "image": "fixtures/previews/microblock/pipe_elbow.png",
-      "sha256": "7178dcc1f0faf8c6c6002b2eeaa772c8bb84d5287b1c45b00badd27b48c7034d"
-    },
-    {
-      "id": "vent_grille",
-      "label": "Vent Grille",
-      "stage": "microblock",
-      "category": "mechanical",
-      "family": "grilles",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/vent_grille.litematic",
-      "image": "fixtures/previews/microblock/vent_grille.png",
-      "sha256": "676d191aa2dcdb77b8dcea44653857a57397c71c193a9a478fdae6d436434e9a"
-    },
-    {
-      "id": "console_bevel",
-      "label": "Console Bevel",
-      "stage": "microblock",
-      "category": "mechanical",
-      "family": "consoles",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/console_bevel.litematic",
-      "image": "fixtures/previews/microblock/console_bevel.png",
-      "sha256": "29ea5446def7aeb3bb82e658a30ad82cf44f5d19152848de2316ff6cedb3b78e"
-    },
-    {
-      "id": "lantern_cage",
-      "label": "Lantern Cage",
-      "stage": "microblock",
-      "category": "lighting",
-      "family": "fixtures",
-      "size": [
-        1,
-        1,
-        1
-      ],
-      "blocks": null,
-      "source": "fixtures/compiled/microblock/astra/lantern_cage.litematic",
-      "image": "fixtures/previews/microblock/lantern_cage.png",
-      "sha256": "84326894c7b08e472e9d3592f1824d434bfd4e4a3e9ece3c9e531ed57a79e9e2"
-    }
-  ],
-  "rooms": [
-    {
-      "id": "garden_courtyard_demo",
-      "label": "Garden Courtyard Demo",
-      "source": "composition/compiled_examples/garden_courtyard_demo.litematic",
-      "image": "catalog/visual/images/rooms/garden_courtyard_demo.png",
-      "blocks": 6401,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "gothic_grand_hall_demo",
-      "label": "Gothic Grand Hall Demo",
-      "source": "composition/compiled_examples/gothic_grand_hall_demo.litematic",
-      "image": "catalog/visual/images/rooms/gothic_grand_hall_demo.png",
-      "blocks": 6681,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "gothic_library_demo",
-      "label": "Gothic Library Demo",
-      "source": "composition/compiled_examples/gothic_library_demo.litematic",
-      "image": "catalog/visual/images/rooms/gothic_library_demo.png",
-      "blocks": 3968,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "hybrid_gothic_detail_demo",
-      "label": "Hybrid Gothic Detail Demo",
-      "source": "composition/compiled_examples/hybrid_gothic_detail_demo.litematic",
-      "image": "catalog/visual/images/rooms/hybrid_gothic_detail_demo.png",
-      "blocks": 4070,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "industrial_lab_demo",
-      "label": "Industrial Lab Demo",
-      "source": "composition/compiled_examples/industrial_lab_demo.litematic",
-      "image": "catalog/visual/images/rooms/industrial_lab_demo.png",
-      "blocks": 3804,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "operations_bay_demo",
-      "label": "Operations Bay Demo",
-      "source": "composition/compiled_examples/operations_bay_demo.litematic",
-      "image": "catalog/visual/images/rooms/operations_bay_demo.png",
-      "blocks": 4504,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "victorian_bedroom_demo",
-      "label": "Victorian Bedroom Demo",
-      "source": "composition/compiled_examples/victorian_bedroom_demo.litematic",
-      "image": "catalog/visual/images/rooms/victorian_bedroom_demo.png",
-      "blocks": 2261,
-      "size": null,
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    }
-  ],
-  "projects": [
-    {
-      "id": "industrial_campus",
-      "label": "Industrial Campus",
-      "source": "project_graph/compiled_examples/industrial_campus.litematic",
-      "image": "catalog/visual/images/projects/industrial_campus.png",
-      "blocks": 25664,
-      "size": [
-        130,
-        18,
-        51
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "two_floor_manor",
-      "label": "Two Floor Manor",
-      "source": "project_graph/compiled_examples/two_floor_manor.litematic",
-      "image": "catalog/visual/images/projects/two_floor_manor.png",
-      "blocks": 16032,
-      "size": [
-        63,
-        44,
-        51
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    },
-    {
-      "id": "wayne_manor_phase_a",
-      "label": "Wayne Manor Phase A",
-      "source": "project_graph/compiled_examples/wayne_manor_phase_a.litematic",
-      "image": "catalog/visual/images/projects/wayne_manor_phase_a.png",
-      "blocks": 59485,
-      "size": [
-        155,
-        38,
-        137
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING"
-    }
-  ],
-  "styles": [
-    {
-      "id": "style_showcase_alpine_chalet",
-      "label": "Alpine Chalet",
-      "source": "project_graph/style_showcases/style_showcase_alpine_chalet.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_alpine_chalet.png",
-      "blocks": 6164,
-      "size": [
-        37,
-        30,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "alpine_chalet",
-      "family": "vernacular",
-      "roof": "steep_gable",
-      "window": "balcony_group"
-    },
-    {
-      "id": "style_showcase_ancient_temple",
-      "label": "Ancient Temple",
-      "source": "project_graph/style_showcases/style_showcase_ancient_temple.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_ancient_temple.png",
-      "blocks": 6606,
-      "size": [
-        35,
-        16,
-        32
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "ancient_temple",
-      "family": "ancient",
-      "roof": "terraced",
-      "window": "screen"
-    },
-    {
-      "id": "style_showcase_art_deco",
-      "label": "Art Deco",
-      "source": "project_graph/style_showcases/style_showcase_art_deco.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_art_deco.png",
-      "blocks": 5538,
-      "size": [
-        35,
-        14,
-        32
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "art_deco",
-      "family": "modern_historic",
-      "roof": "flat",
-      "window": "vertical_band"
-    },
-    {
-      "id": "style_showcase_art_nouveau",
-      "label": "Art Nouveau",
-      "source": "project_graph/style_showcases/style_showcase_art_nouveau.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_art_nouveau.png",
-      "blocks": 5061,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "art_nouveau",
-      "family": "modern_historic",
-      "roof": "hip",
-      "window": "organic_arch"
-    },
-    {
-      "id": "style_showcase_beaux_arts",
-      "label": "Beaux Arts",
-      "source": "project_graph/style_showcases/style_showcase_beaux_arts.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_beaux_arts.png",
-      "blocks": 5924,
-      "size": [
-        33,
-        22,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "beaux_arts",
-      "family": "classical",
-      "roof": "mansard",
-      "window": "arched"
-    },
-    {
-      "id": "style_showcase_brutalist",
-      "label": "Brutalist",
-      "source": "project_graph/style_showcases/style_showcase_brutalist.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_brutalist.png",
-      "blocks": 5438,
-      "size": [
-        35,
-        14,
-        31
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "brutalist",
-      "family": "modern",
-      "roof": "flat",
-      "window": "slot"
-    },
-    {
-      "id": "style_showcase_chinese_traditional",
-      "label": "Chinese Traditional",
-      "source": "project_graph/style_showcases/style_showcase_chinese_traditional.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_chinese_traditional.png",
-      "blocks": 5957,
-      "size": [
-        37,
-        36,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "chinese_traditional",
-      "family": "east_asian",
-      "roof": "pagoda",
-      "window": "lattice"
-    },
-    {
-      "id": "style_showcase_classic_manor",
-      "label": "Classic Manor",
-      "source": "project_graph/style_showcases/style_showcase_classic_manor.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_classic_manor.png",
-      "blocks": 5012,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "classic_manor",
-      "family": "classical",
-      "roof": "hip",
-      "window": "rect"
-    },
-    {
-      "id": "style_showcase_contemporary_glass",
-      "label": "Contemporary Glass",
-      "source": "project_graph/style_showcases/style_showcase_contemporary_glass.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_contemporary_glass.png",
-      "blocks": 5072,
-      "size": [
-        33,
-        14,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "contemporary_glass",
-      "family": "modern",
-      "roof": "flat",
-      "window": "curtain_wall"
-    },
-    {
-      "id": "style_showcase_cottage",
-      "label": "Cottage",
-      "source": "project_graph/style_showcases/style_showcase_cottage.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_cottage.png",
-      "blocks": 5824,
-      "size": [
-        33,
-        28,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "cottage",
-      "family": "vernacular",
-      "roof": "steep_gable",
-      "window": "small_rect"
-    },
-    {
-      "id": "style_showcase_cyberpunk",
-      "label": "Cyberpunk",
-      "source": "project_graph/style_showcases/style_showcase_cyberpunk.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_cyberpunk.png",
-      "blocks": 5739,
-      "size": [
-        37,
-        14,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "cyberpunk",
-      "family": "speculative",
-      "roof": "mechanical_flat",
-      "window": "vertical_band"
-    },
-    {
-      "id": "style_showcase_desert_adobe",
-      "label": "Desert Adobe",
-      "source": "project_graph/style_showcases/style_showcase_desert_adobe.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_desert_adobe.png",
-      "blocks": 5520,
-      "size": [
-        35,
-        14,
-        31
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "desert_adobe",
-      "family": "desert",
-      "roof": "flat",
-      "window": "small_rect"
-    },
-    {
-      "id": "style_showcase_dwarven_mountain",
-      "label": "Dwarven Mountain",
-      "source": "project_graph/style_showcases/style_showcase_dwarven_mountain.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_dwarven_mountain.png",
-      "blocks": 5751,
-      "size": [
-        39,
-        27,
-        35
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "dwarven_mountain",
-      "family": "fantasy",
-      "roof": "vaulted_mass",
-      "window": "deep_arch"
-    },
-    {
-      "id": "style_showcase_elven_fantasy",
-      "label": "Elven Fantasy",
-      "source": "project_graph/style_showcases/style_showcase_elven_fantasy.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_elven_fantasy.png",
-      "blocks": 5939,
-      "size": [
-        35,
-        28,
-        32
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "elven_fantasy",
-      "family": "fantasy",
-      "roof": "swept_gable",
-      "window": "lancet"
-    },
-    {
-      "id": "style_showcase_georgian",
-      "label": "Georgian",
-      "source": "project_graph/style_showcases/style_showcase_georgian.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_georgian.png",
-      "blocks": 4968,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "georgian",
-      "family": "classical",
-      "roof": "hip",
-      "window": "tall_rect"
-    },
-    {
-      "id": "style_showcase_gothic_industrial_hybrid",
-      "label": "Gothic + Industrial",
-      "source": "project_graph/style_showcases/style_showcase_gothic_industrial_hybrid.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_gothic_industrial_hybrid.png",
-      "blocks": 6146,
-      "size": [
-        37,
-        28,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "gothic_industrial_hybrid",
-      "family": "hybrid",
-      "roof": "hybrid",
-      "window": "hybrid"
-    },
-    {
-      "id": "style_showcase_industrial",
-      "label": "Industrial",
-      "source": "project_graph/style_showcases/style_showcase_industrial.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_industrial.png",
-      "blocks": 5318,
-      "size": [
-        33,
-        16,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "industrial",
-      "family": "industrial",
-      "roof": "sawtooth",
-      "window": "factory_grid"
-    },
-    {
-      "id": "style_showcase_italianate",
-      "label": "Italianate",
-      "source": "project_graph/style_showcases/style_showcase_italianate.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_italianate.png",
-      "blocks": 5018,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "italianate",
-      "family": "historic_european",
-      "roof": "hip",
-      "window": "arched"
-    },
-    {
-      "id": "style_showcase_japanese_modern_hybrid",
-      "label": "Japanese + Modern",
-      "source": "project_graph/style_showcases/style_showcase_japanese_modern_hybrid.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_japanese_modern_hybrid.png",
-      "blocks": 5801,
-      "size": [
-        35,
-        35,
-        31
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "japanese_modern_hybrid",
-      "family": "hybrid",
-      "roof": "hybrid",
-      "window": "hybrid"
-    },
-    {
-      "id": "style_showcase_japanese_traditional",
-      "label": "Japanese Traditional",
-      "source": "project_graph/style_showcases/style_showcase_japanese_traditional.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_japanese_traditional.png",
-      "blocks": 5915,
-      "size": [
-        37,
-        36,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "japanese_traditional",
-      "family": "east_asian",
-      "roof": "pagoda",
-      "window": "shoji_grid"
-    },
-    {
-      "id": "style_showcase_massive_gothic_manor",
-      "label": "Massive Gothic Manor",
-      "source": "project_graph/style_showcases/style_showcase_massive_gothic_manor.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_massive_gothic_manor.png",
-      "blocks": 6102,
-      "size": [
-        37,
-        28,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "massive_gothic_manor",
-      "family": "gothic",
-      "roof": "steep_gable",
-      "window": "pointed"
-    },
-    {
-      "id": "style_showcase_mediterranean",
-      "label": "Mediterranean",
-      "source": "project_graph/style_showcases/style_showcase_mediterranean.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_mediterranean.png",
-      "blocks": 5572,
-      "size": [
-        33,
-        18,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "mediterranean",
-      "family": "mediterranean",
-      "roof": "low_gable",
-      "window": "arched"
-    },
-    {
-      "id": "style_showcase_midcentury_modern",
-      "label": "Mid-Century Modern",
-      "source": "project_graph/style_showcases/style_showcase_midcentury_modern.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_midcentury_modern.png",
-      "blocks": 5184,
-      "size": [
-        33,
-        28,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "midcentury_modern",
-      "family": "modern",
-      "roof": "shed",
-      "window": "rect"
-    },
-    {
-      "id": "style_showcase_middle_eastern",
-      "label": "Middle Eastern",
-      "source": "project_graph/style_showcases/style_showcase_middle_eastern.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_middle_eastern.png",
-      "blocks": 5208,
-      "size": [
-        33,
-        23,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "middle_eastern",
-      "family": "desert",
-      "roof": "dome_flat",
-      "window": "horseshoe_arch"
-    },
-    {
-      "id": "style_showcase_modern",
-      "label": "Modern",
-      "source": "project_graph/style_showcases/style_showcase_modern.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_modern.png",
-      "blocks": 5149,
-      "size": [
-        33,
-        14,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "modern",
-      "family": "modern",
-      "roof": "flat",
-      "window": "rect"
-    },
-    {
-      "id": "style_showcase_neoclassical",
-      "label": "Neoclassical",
-      "source": "project_graph/style_showcases/style_showcase_neoclassical.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_neoclassical.png",
-      "blocks": 5018,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "neoclassical",
-      "family": "classical",
-      "roof": "hip",
-      "window": "tall_rect"
-    },
-    {
-      "id": "style_showcase_nordic",
-      "label": "Nordic",
-      "source": "project_graph/style_showcases/style_showcase_nordic.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_nordic.png",
-      "blocks": 5787,
-      "size": [
-        33,
-        28,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "nordic",
-      "family": "vernacular",
-      "roof": "steep_gable",
-      "window": "tall_rect"
-    },
-    {
-      "id": "style_showcase_ruin_overgrown",
-      "label": "Overgrown Ruin",
-      "source": "project_graph/style_showcases/style_showcase_ruin_overgrown.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_ruin_overgrown.png",
-      "blocks": 5236,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "ruin_overgrown",
-      "family": "ancient",
-      "roof": "ruined",
-      "window": "broken"
-    },
-    {
-      "id": "style_showcase_rustic_farmhouse",
-      "label": "Rustic Farmhouse",
-      "source": "project_graph/style_showcases/style_showcase_rustic_farmhouse.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_rustic_farmhouse.png",
-      "blocks": 5577,
-      "size": [
-        33,
-        21,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "rustic_farmhouse",
-      "family": "vernacular",
-      "roof": "gable",
-      "window": "small_rect"
-    },
-    {
-      "id": "style_showcase_sci_fi_clean",
-      "label": "Clean Sci-Fi",
-      "source": "project_graph/style_showcases/style_showcase_sci_fi_clean.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_sci_fi_clean.png",
-      "blocks": 5369,
-      "size": [
-        33,
-        14,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "sci_fi_clean",
-      "family": "speculative",
-      "roof": "mechanical_flat",
-      "window": "ribbon"
-    },
-    {
-      "id": "style_showcase_solarpunk",
-      "label": "Solarpunk",
-      "source": "project_graph/style_showcases/style_showcase_solarpunk.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_solarpunk.png",
-      "blocks": 6354,
-      "size": [
-        33,
-        16,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "solarpunk",
-      "family": "speculative",
-      "roof": "green_terrace",
-      "window": "curtain_wall"
-    },
-    {
-      "id": "style_showcase_southeast_asian_temple",
-      "label": "Southeast Asian Temple",
-      "source": "project_graph/style_showcases/style_showcase_southeast_asian_temple.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_southeast_asian_temple.png",
-      "blocks": 5827,
-      "size": [
-        33,
-        35,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "southeast_asian_temple",
-      "family": "east_asian",
-      "roof": "tiered",
-      "window": "screen"
-    },
-    {
-      "id": "style_showcase_spanish_colonial",
-      "label": "Spanish Colonial",
-      "source": "project_graph/style_showcases/style_showcase_spanish_colonial.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_spanish_colonial.png",
-      "blocks": 5572,
-      "size": [
-        33,
-        18,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "spanish_colonial",
-      "family": "mediterranean",
-      "roof": "low_gable",
-      "window": "arched"
-    },
-    {
-      "id": "style_showcase_tudor",
-      "label": "Tudor",
-      "source": "project_graph/style_showcases/style_showcase_tudor.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_tudor.png",
-      "blocks": 5894,
-      "size": [
-        33,
-        28,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "tudor",
-      "family": "historic_european",
-      "roof": "steep_gable",
-      "window": "mullioned"
-    },
-    {
-      "id": "style_showcase_underwater_organic",
-      "label": "Underwater Organic",
-      "source": "project_graph/style_showcases/style_showcase_underwater_organic.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_underwater_organic.png",
-      "blocks": 5544,
-      "size": [
-        37,
-        23,
-        33
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "underwater_organic",
-      "family": "organic",
-      "roof": "dome",
-      "window": "organic_arch"
-    },
-    {
-      "id": "style_showcase_victorian_gothic",
-      "label": "Victorian Gothic",
-      "source": "project_graph/style_showcases/style_showcase_victorian_gothic.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_victorian_gothic.png",
-      "blocks": 5963,
-      "size": [
-        35,
-        22,
-        32
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "victorian_gothic",
-      "family": "gothic",
-      "roof": "mansard",
-      "window": "pointed"
-    },
-    {
-      "id": "style_showcase_western_frontier",
-      "label": "Western Frontier",
-      "source": "project_graph/style_showcases/style_showcase_western_frontier.litematic",
-      "image": "catalog/visual/images/styles/style_showcase_western_frontier.png",
-      "blocks": 5390,
-      "size": [
-        33,
-        14,
-        30
-      ],
-      "maturity": "OFFLINE_COMPILED",
-      "live_game_status": "PENDING",
-      "profile_id": "western_frontier",
-      "family": "vernacular",
-      "roof": "false_front",
-      "window": "storefront"
-    }
-  ],
+  "vanilla": {
+    "fixtures": [
+      {
+        "id": "gothic_lancet_arch_small",
+        "label": "Gothic Lancet Arch Small",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "arches",
+        "size": [
+          9,
+          11,
+          3
+        ],
+        "blocks": 120,
+        "source": "fixtures/compiled/vanilla/gothic_lancet_arch_small.litematic",
+        "image": "fixtures/previews/vanilla/gothic_lancet_arch_small.png",
+        "sha256": "d6157b46218bf49fc6c85b839136cd332b7f9215f69319ba2b04a2ca3a8835b3"
+      },
+      {
+        "id": "gothic_lancet_arch_large",
+        "label": "Gothic Lancet Arch Large",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "arches",
+        "size": [
+          13,
+          17,
+          4
+        ],
+        "blocks": 240,
+        "source": "fixtures/compiled/vanilla/gothic_lancet_arch_large.litematic",
+        "image": "fixtures/previews/vanilla/gothic_lancet_arch_large.png",
+        "sha256": "17eecf3ff8ff98461a6c9933d8bae0da24b3b1629c0e1edef3c844bc4469e326"
+      },
+      {
+        "id": "gothic_tudor_arch",
+        "label": "Gothic Tudor Arch",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "arches",
+        "size": [
+          13,
+          10,
+          3
+        ],
+        "blocks": 138,
+        "source": "fixtures/compiled/vanilla/gothic_tudor_arch.litematic",
+        "image": "fixtures/previews/vanilla/gothic_tudor_arch.png",
+        "sha256": "323ee5b2e9402f934f7bbfbc1fccd14bcaffc7f6eff4d0c0ad09e26d2f73d881"
+      },
+      {
+        "id": "gothic_portal_deep",
+        "label": "Gothic Portal Deep",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "portals",
+        "size": [
+          11,
+          14,
+          7
+        ],
+        "blocks": 364,
+        "source": "fixtures/compiled/vanilla/gothic_portal_deep.litematic",
+        "image": "fixtures/previews/vanilla/gothic_portal_deep.png",
+        "sha256": "8fc682c22109aa4fef5b3dd057d4965fa519180242072a631c015ec3c37d32e7"
+      },
+      {
+        "id": "clustered_pier_compact",
+        "label": "Clustered Pier Compact",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "columns_piers",
+        "size": [
+          5,
+          10,
+          5
+        ],
+        "blocks": 154,
+        "source": "fixtures/compiled/vanilla/clustered_pier_compact.litematic",
+        "image": "fixtures/previews/vanilla/clustered_pier_compact.png",
+        "sha256": "d8e7bc9c1b7d0e665955e6e5cb5eb438c9f257e8f642b3e6f850481ba6d23cfd"
+      },
+      {
+        "id": "clustered_pier_monumental",
+        "label": "Clustered Pier Monumental",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "columns_piers",
+        "size": [
+          7,
+          16,
+          7
+        ],
+        "blocks": 232,
+        "source": "fixtures/compiled/vanilla/clustered_pier_monumental.litematic",
+        "image": "fixtures/previews/vanilla/clustered_pier_monumental.png",
+        "sha256": "27ddbb926ce6821ad8044c6b522cbb25435aef9720c0ceffb8a07da083c3e64a"
+      },
+      {
+        "id": "stepped_buttress",
+        "label": "Stepped Buttress",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "buttresses",
+        "size": [
+          7,
+          14,
+          9
+        ],
+        "blocks": 163,
+        "source": "fixtures/compiled/vanilla/stepped_buttress.litematic",
+        "image": "fixtures/previews/vanilla/stepped_buttress.png",
+        "sha256": "4d9b88919946d95624905a8dd517b09d5edbf53d56a971c0e963b8fd64399cf9"
+      },
+      {
+        "id": "gothic_wall_bay",
+        "label": "Gothic Wall Bay",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "wall_bays",
+        "size": [
+          15,
+          14,
+          5
+        ],
+        "blocks": 668,
+        "source": "fixtures/compiled/vanilla/gothic_wall_bay.litematic",
+        "image": "fixtures/previews/vanilla/gothic_wall_bay.png",
+        "sha256": "7cb021cf82fc40af14825035275aad7d447b2af099442ad9d7646c92187500ed"
+      },
+      {
+        "id": "hammerbeam_truss_small",
+        "label": "Hammerbeam Truss Small",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "roofs",
+        "size": [
+          17,
+          11,
+          3
+        ],
+        "blocks": 202,
+        "source": "fixtures/compiled/vanilla/hammerbeam_truss_small.litematic",
+        "image": "fixtures/previews/vanilla/hammerbeam_truss_small.png",
+        "sha256": "5390561758b3e37da280753fdd1adbffb91178c77f9835128e14e3d9ca0b47b4"
+      },
+      {
+        "id": "hammerbeam_truss_large",
+        "label": "Hammerbeam Truss Large",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "roofs",
+        "size": [
+          25,
+          15,
+          3
+        ],
+        "blocks": 272,
+        "source": "fixtures/compiled/vanilla/hammerbeam_truss_large.litematic",
+        "image": "fixtures/previews/vanilla/hammerbeam_truss_large.png",
+        "sha256": "4161afa1d310d7780d8ed76d1a58ce73fa51efe85f7896902a526ea0e77f899a"
+      },
+      {
+        "id": "coffered_ceiling_bay",
+        "label": "Coffered Ceiling Bay",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "ceilings",
+        "size": [
+          13,
+          4,
+          13
+        ],
+        "blocks": 354,
+        "source": "fixtures/compiled/vanilla/coffered_ceiling_bay.litematic",
+        "image": "fixtures/previews/vanilla/coffered_ceiling_bay.png",
+        "sha256": "b7b217fe311420a1d7733d09e8851a37c6ab429b70e219868088e8b02f8cc98c"
+      },
+      {
+        "id": "grand_split_stair_connector",
+        "label": "Grand Split Stair Connector",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "stairs",
+        "size": [
+          25,
+          12,
+          21
+        ],
+        "blocks": 175,
+        "source": "fixtures/compiled/vanilla/grand_split_stair_connector.litematic",
+        "image": "fixtures/previews/vanilla/grand_split_stair_connector.png",
+        "sha256": "af7d5a53e4d64b853b033125645f7687ce29b776ecacff9c5343cedcbdb52e45"
+      },
+      {
+        "id": "gothic_gallery_bay",
+        "label": "Gothic Gallery Bay",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "galleries",
+        "size": [
+          17,
+          12,
+          7
+        ],
+        "blocks": 452,
+        "source": "fixtures/compiled/vanilla/gothic_gallery_bay.litematic",
+        "image": "fixtures/previews/vanilla/gothic_gallery_bay.png",
+        "sha256": "17b346ba77d66fa707bdc1820c9747d0ae9a2b783616db4e79c8bee3bc36719d"
+      },
+      {
+        "id": "gothic_railing",
+        "label": "Gothic Railing",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "railings",
+        "size": [
+          15,
+          5,
+          2
+        ],
+        "blocks": 84,
+        "source": "fixtures/compiled/vanilla/gothic_railing.litematic",
+        "image": "fixtures/previews/vanilla/gothic_railing.png",
+        "sha256": "6ddea07717ab8a03fdcf148d902d1da15729b5f4ade5a87eaf20869260f1e0a7"
+      },
+      {
+        "id": "manor_railing",
+        "label": "Manor Railing",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "railings",
+        "size": [
+          15,
+          5,
+          2
+        ],
+        "blocks": 84,
+        "source": "fixtures/compiled/vanilla/manor_railing.litematic",
+        "image": "fixtures/previews/vanilla/manor_railing.png",
+        "sha256": "5ec4a9786d363dcc2e2d4a1e30c08a8616995fce73c4e9754dfc72eea876c700"
+      },
+      {
+        "id": "lancet_window_single",
+        "label": "Lancet Window Single",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "windows",
+        "size": [
+          7,
+          11,
+          3
+        ],
+        "blocks": 151,
+        "source": "fixtures/compiled/vanilla/lancet_window_single.litematic",
+        "image": "fixtures/previews/vanilla/lancet_window_single.png",
+        "sha256": "386d6cb7e86cb252cba77580adc60771aab9e9e63f76eac7a1e79edba8286591"
+      },
+      {
+        "id": "lancet_window_pair",
+        "label": "Lancet Window Pair",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "windows",
+        "size": [
+          13,
+          12,
+          3
+        ],
+        "blocks": 288,
+        "source": "fixtures/compiled/vanilla/lancet_window_pair.litematic",
+        "image": "fixtures/previews/vanilla/lancet_window_pair.png",
+        "sha256": "c2d0cf65f780476011181d4ee28f557deb6b848444ab14345b05da6938ce58b6"
+      },
+      {
+        "id": "rose_window_bay",
+        "label": "Rose Window Bay",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "windows",
+        "size": [
+          15,
+          15,
+          3
+        ],
+        "blocks": 297,
+        "source": "fixtures/compiled/vanilla/rose_window_bay.litematic",
+        "image": "fixtures/previews/vanilla/rose_window_bay.png",
+        "sha256": "a439df6f4df4bb775d2d999615443915fb717e1e08ad89ab9cbf68e348c140e5"
+      },
+      {
+        "id": "gothic_fireplace",
+        "label": "Gothic Fireplace",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "fireplaces",
+        "size": [
+          11,
+          10,
+          5
+        ],
+        "blocks": 403,
+        "source": "fixtures/compiled/vanilla/gothic_fireplace.litematic",
+        "image": "fixtures/previews/vanilla/gothic_fireplace.png",
+        "sha256": "dde51039d3fed75b843644243ee2164bede6779a67e53a4a93b156af7a72d4ef"
+      },
+      {
+        "id": "manor_fireplace",
+        "label": "Manor Fireplace",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "fireplaces",
+        "size": [
+          9,
+          8,
+          5
+        ],
+        "blocks": 285,
+        "source": "fixtures/compiled/vanilla/manor_fireplace.litematic",
+        "image": "fixtures/previews/vanilla/manor_fireplace.png",
+        "sha256": "282f5c499ea90096ba325a98a9f3cf25963fe18d17ae5eaa365c00062bf33406"
+      },
+      {
+        "id": "gothic_dormer",
+        "label": "Gothic Dormer",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "dormers",
+        "size": [
+          11,
+          10,
+          9
+        ],
+        "blocks": 547,
+        "source": "fixtures/compiled/vanilla/gothic_dormer.litematic",
+        "image": "fixtures/previews/vanilla/gothic_dormer.png",
+        "sha256": "f154119679dcb82735ccecc3de97823100fe71af43562cf2bf7bdbae1ecfc3dd"
+      },
+      {
+        "id": "stepped_gable",
+        "label": "Stepped Gable",
+        "stage": "vanilla",
+        "category": "architecture",
+        "family": "gables",
+        "size": [
+          17,
+          12,
+          5
+        ],
+        "blocks": 660,
+        "source": "fixtures/compiled/vanilla/stepped_gable.litematic",
+        "image": "fixtures/previews/vanilla/stepped_gable.png",
+        "sha256": "174483ae20501b328aaeb14c41bb4cad12d1e8364c711df7780b74d6afeed18c"
+      },
+      {
+        "id": "gothic_armchair",
+        "label": "Gothic Armchair",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "seating",
+        "size": [
+          5,
+          7,
+          5
+        ],
+        "blocks": 37,
+        "source": "fixtures/compiled/vanilla/gothic_armchair.litematic",
+        "image": "fixtures/previews/vanilla/gothic_armchair.png",
+        "sha256": "f9ab21ea09f834a1eb483adba1cf038ecae2cca807d627ed32a0f309ce13bc9a"
+      },
+      {
+        "id": "highback_bench",
+        "label": "Highback Bench",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "seating",
+        "size": [
+          9,
+          6,
+          4
+        ],
+        "blocks": 57,
+        "source": "fixtures/compiled/vanilla/highback_bench.litematic",
+        "image": "fixtures/previews/vanilla/highback_bench.png",
+        "sha256": "c6bab9badcbbfdec47a18b926e25af9d2472b72e88183b0cc3925f3c49ac8c1f"
+      },
+      {
+        "id": "writing_desk",
+        "label": "Writing Desk",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "desks",
+        "size": [
+          9,
+          5,
+          5
+        ],
+        "blocks": 99,
+        "source": "fixtures/compiled/vanilla/writing_desk.litematic",
+        "image": "fixtures/previews/vanilla/writing_desk.png",
+        "sha256": "7810e4d4901ab45b39f9069b9f45a2bbf4d0d218b6729d4c07f888609b2c028c"
+      },
+      {
+        "id": "library_table",
+        "label": "Library Table",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "tables",
+        "size": [
+          11,
+          5,
+          7
+        ],
+        "blocks": 89,
+        "source": "fixtures/compiled/vanilla/library_table.litematic",
+        "image": "fixtures/previews/vanilla/library_table.png",
+        "sha256": "b65daa21c20a8457c7a15e7fa0d047f4b9a059d01a929421141db7aff7bdebdb"
+      },
+      {
+        "id": "canopy_bed",
+        "label": "Canopy Bed",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "beds",
+        "size": [
+          9,
+          7,
+          13
+        ],
+        "blocks": 278,
+        "source": "fixtures/compiled/vanilla/canopy_bed.litematic",
+        "image": "fixtures/previews/vanilla/canopy_bed.png",
+        "sha256": "7b3d7a54998f37d20b495261496cb98f5fd80e6565fa53c48fd6928f2f977cff"
+      },
+      {
+        "id": "bookcase_wall",
+        "label": "Bookcase Wall",
+        "stage": "vanilla",
+        "category": "furniture",
+        "family": "storage",
+        "size": [
+          15,
+          9,
+          3
+        ],
+        "blocks": 405,
+        "source": "fixtures/compiled/vanilla/bookcase_wall.litematic",
+        "image": "fixtures/previews/vanilla/bookcase_wall.png",
+        "sha256": "1f62b1bc039b1a7a7702ff940ef319ecc1ad4f09d8fcecc2196a34cd92e451c9"
+      },
+      {
+        "id": "grand_chandelier",
+        "label": "Grand Chandelier",
+        "stage": "vanilla",
+        "category": "decor",
+        "family": "lighting",
+        "size": [
+          11,
+          12,
+          11
+        ],
+        "blocks": 34,
+        "source": "fixtures/compiled/vanilla/grand_chandelier.litematic",
+        "image": "fixtures/previews/vanilla/grand_chandelier.png",
+        "sha256": "51b403851b22cd6388fb7b8ea66636f4c67f65582418b6e53aaab58197f4dbee"
+      },
+      {
+        "id": "armor_niche",
+        "label": "Armor Niche",
+        "stage": "vanilla",
+        "category": "decor",
+        "family": "displays",
+        "size": [
+          7,
+          10,
+          5
+        ],
+        "blocks": 223,
+        "source": "fixtures/compiled/vanilla/armor_niche.litematic",
+        "image": "fixtures/previews/vanilla/armor_niche.png",
+        "sha256": "9402624f08ca88a6560a106ae3288c3a954f68daabfc212679c9ca92a795f8b9"
+      },
+      {
+        "id": "manor_oak_small",
+        "label": "Manor Oak Small",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "trees",
+        "size": [
+          17,
+          17,
+          17
+        ],
+        "blocks": 619,
+        "source": "fixtures/compiled/vanilla/manor_oak_small.litematic",
+        "image": "fixtures/previews/vanilla/manor_oak_small.png",
+        "sha256": "b71a11f4ee1118c062aa346517c12f4bdf65b6de9249cf0819974c276fbfc749"
+      },
+      {
+        "id": "cypress_tree",
+        "label": "Cypress Tree",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "trees",
+        "size": [
+          7,
+          18,
+          7
+        ],
+        "blocks": 341,
+        "source": "fixtures/compiled/vanilla/cypress_tree.litematic",
+        "image": "fixtures/previews/vanilla/cypress_tree.png",
+        "sha256": "831cd704f4fa4bc4acfc8ee081ed5171e5a0b98aa3fdfcf72026dec67935fff9"
+      },
+      {
+        "id": "formal_hedge_corner",
+        "label": "Formal Hedge Corner",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "hedges",
+        "size": [
+          11,
+          5,
+          11
+        ],
+        "blocks": 292,
+        "source": "fixtures/compiled/vanilla/formal_hedge_corner.litematic",
+        "image": "fixtures/previews/vanilla/formal_hedge_corner.png",
+        "sha256": "cde7d3cec4a1097bf6ab3a14e2d090246c358c3372a975adae75500532755771"
+      },
+      {
+        "id": "ivy_wall_patch",
+        "label": "Ivy Wall Patch",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "ivy",
+        "size": [
+          11,
+          11,
+          2
+        ],
+        "blocks": 158,
+        "source": "fixtures/compiled/vanilla/ivy_wall_patch.litematic",
+        "image": "fixtures/previews/vanilla/ivy_wall_patch.png",
+        "sha256": "fa859caf93ca53303935b790ee4a70308c322012915e8ed9f8da287fe2e05bdb"
+      },
+      {
+        "id": "indoor_planter",
+        "label": "Indoor Planter",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "planters",
+        "size": [
+          7,
+          10,
+          7
+        ],
+        "blocks": 98,
+        "source": "fixtures/compiled/vanilla/indoor_planter.litematic",
+        "image": "fixtures/previews/vanilla/indoor_planter.png",
+        "sha256": "4eb8f5e0de71202c8608687e5013e382777443c0f410d886a649cd694b73d5fe"
+      },
+      {
+        "id": "topiary_urn",
+        "label": "Topiary Urn",
+        "stage": "vanilla",
+        "category": "vegetation",
+        "family": "topiary",
+        "size": [
+          7,
+          10,
+          7
+        ],
+        "blocks": 126,
+        "source": "fixtures/compiled/vanilla/topiary_urn.litematic",
+        "image": "fixtures/previews/vanilla/topiary_urn.png",
+        "sha256": "4a0e9e18701da7ec0cc5092f08fcc679e69392849843d843971dc38866a54cfd"
+      },
+      {
+        "id": "industrial_pipe_rack",
+        "label": "Industrial Pipe Rack",
+        "stage": "vanilla",
+        "category": "mechanical",
+        "family": "pipes",
+        "size": [
+          15,
+          9,
+          5
+        ],
+        "blocks": 142,
+        "source": "fixtures/compiled/vanilla/industrial_pipe_rack.litematic",
+        "image": "fixtures/previews/vanilla/industrial_pipe_rack.png",
+        "sha256": "3b9d6a4de0affad3d463e21cbeafb6df574573c67e6c2d9e978a6e44c4901d21"
+      },
+      {
+        "id": "console_bank",
+        "label": "Console Bank",
+        "stage": "vanilla",
+        "category": "mechanical",
+        "family": "consoles",
+        "size": [
+          13,
+          6,
+          5
+        ],
+        "blocks": 308,
+        "source": "fixtures/compiled/vanilla/console_bank.litematic",
+        "image": "fixtures/previews/vanilla/console_bank.png",
+        "sha256": "63c44d6f73b6290e3486a18b1bf4d44e1f0b98fb2972f04fb8f521dc15f7f849"
+      },
+      {
+        "id": "lab_workstation",
+        "label": "Lab Workstation",
+        "stage": "vanilla",
+        "category": "mechanical",
+        "family": "lab",
+        "size": [
+          13,
+          7,
+          7
+        ],
+        "blocks": 337,
+        "source": "fixtures/compiled/vanilla/lab_workstation.litematic",
+        "image": "fixtures/previews/vanilla/lab_workstation.png",
+        "sha256": "1dc2ce921e94556635990e98ab7a6378db3410e4ecbe309f4dc74d396641fa7e"
+      },
+      {
+        "id": "hanging_cable_tray",
+        "label": "Hanging Cable Tray",
+        "stage": "vanilla",
+        "category": "mechanical",
+        "family": "cables",
+        "size": [
+          17,
+          4,
+          5
+        ],
+        "blocks": 117,
+        "source": "fixtures/compiled/vanilla/hanging_cable_tray.litematic",
+        "image": "fixtures/previews/vanilla/hanging_cable_tray.png",
+        "sha256": "e582724ebf58ad7d67ddf5daa0b3d86ccf364fd9dbea65b515db2b73da29a44e"
+      }
+    ],
+    "rooms": [
+      {
+        "id": "garden_courtyard_demo",
+        "label": "Garden Courtyard Demo",
+        "source": "composition/compiled_examples/garden_courtyard_demo.litematic",
+        "image": "catalog/visual/images/rooms/garden_courtyard_demo.png",
+        "blocks": 6401,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "gothic_grand_hall_demo",
+        "label": "Gothic Grand Hall Demo",
+        "source": "composition/compiled_examples/gothic_grand_hall_demo.litematic",
+        "image": "catalog/visual/images/rooms/gothic_grand_hall_demo.png",
+        "blocks": 6681,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "gothic_library_demo",
+        "label": "Gothic Library Demo",
+        "source": "composition/compiled_examples/gothic_library_demo.litematic",
+        "image": "catalog/visual/images/rooms/gothic_library_demo.png",
+        "blocks": 3968,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "industrial_lab_demo",
+        "label": "Industrial Lab Demo",
+        "source": "composition/compiled_examples/industrial_lab_demo.litematic",
+        "image": "catalog/visual/images/rooms/industrial_lab_demo.png",
+        "blocks": 3804,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "operations_bay_demo",
+        "label": "Operations Bay Demo",
+        "source": "composition/compiled_examples/operations_bay_demo.litematic",
+        "image": "catalog/visual/images/rooms/operations_bay_demo.png",
+        "blocks": 4504,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "victorian_bedroom_demo",
+        "label": "Victorian Bedroom Demo",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.litematic",
+        "image": "catalog/visual/images/rooms/victorian_bedroom_demo.png",
+        "blocks": 2261,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      }
+    ],
+    "projects": [
+      {
+        "id": "industrial_campus",
+        "label": "Industrial Campus",
+        "source": "project_graph/compiled_examples/industrial_campus.litematic",
+        "image": "catalog/visual/images/projects/industrial_campus.png",
+        "blocks": 25664,
+        "size": [
+          130,
+          18,
+          51
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "two_floor_manor",
+        "label": "Two Floor Manor",
+        "source": "project_graph/compiled_examples/two_floor_manor.litematic",
+        "image": "catalog/visual/images/projects/two_floor_manor.png",
+        "blocks": 16032,
+        "size": [
+          63,
+          44,
+          51
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "wayne_manor_phase_a",
+        "label": "Wayne Manor Phase A",
+        "source": "project_graph/compiled_examples/wayne_manor_phase_a.litematic",
+        "image": "catalog/visual/images/projects/wayne_manor_phase_a.png",
+        "blocks": 59485,
+        "size": [
+          155,
+          38,
+          137
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_BASELINE",
+        "uses_astra_microblocks": false
+      }
+    ],
+    "style_baselines": [
+      {
+        "id": "style_showcase_alpine_chalet",
+        "label": "Alpine Chalet",
+        "source": "project_graph/style_showcases/style_showcase_alpine_chalet.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_alpine_chalet.png",
+        "blocks": 6164,
+        "size": [
+          37,
+          30,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "alpine_chalet",
+        "family": "vernacular",
+        "roof": "steep_gable",
+        "window": "balcony_group"
+      },
+      {
+        "id": "style_showcase_ancient_temple",
+        "label": "Ancient Temple",
+        "source": "project_graph/style_showcases/style_showcase_ancient_temple.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_ancient_temple.png",
+        "blocks": 6606,
+        "size": [
+          35,
+          16,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "ancient_temple",
+        "family": "ancient",
+        "roof": "terraced",
+        "window": "screen"
+      },
+      {
+        "id": "style_showcase_art_deco",
+        "label": "Art Deco",
+        "source": "project_graph/style_showcases/style_showcase_art_deco.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_art_deco.png",
+        "blocks": 5538,
+        "size": [
+          35,
+          14,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "art_deco",
+        "family": "modern_historic",
+        "roof": "flat",
+        "window": "vertical_band"
+      },
+      {
+        "id": "style_showcase_art_nouveau",
+        "label": "Art Nouveau",
+        "source": "project_graph/style_showcases/style_showcase_art_nouveau.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_art_nouveau.png",
+        "blocks": 5061,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "art_nouveau",
+        "family": "modern_historic",
+        "roof": "hip",
+        "window": "organic_arch"
+      },
+      {
+        "id": "style_showcase_beaux_arts",
+        "label": "Beaux Arts",
+        "source": "project_graph/style_showcases/style_showcase_beaux_arts.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_beaux_arts.png",
+        "blocks": 5924,
+        "size": [
+          33,
+          22,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "beaux_arts",
+        "family": "classical",
+        "roof": "mansard",
+        "window": "arched"
+      },
+      {
+        "id": "style_showcase_brutalist",
+        "label": "Brutalist",
+        "source": "project_graph/style_showcases/style_showcase_brutalist.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_brutalist.png",
+        "blocks": 5438,
+        "size": [
+          35,
+          14,
+          31
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "brutalist",
+        "family": "modern",
+        "roof": "flat",
+        "window": "slot"
+      },
+      {
+        "id": "style_showcase_chinese_traditional",
+        "label": "Chinese Traditional",
+        "source": "project_graph/style_showcases/style_showcase_chinese_traditional.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_chinese_traditional.png",
+        "blocks": 5957,
+        "size": [
+          37,
+          36,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "chinese_traditional",
+        "family": "east_asian",
+        "roof": "pagoda",
+        "window": "lattice"
+      },
+      {
+        "id": "style_showcase_classic_manor",
+        "label": "Classic Manor",
+        "source": "project_graph/style_showcases/style_showcase_classic_manor.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_classic_manor.png",
+        "blocks": 5012,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "classic_manor",
+        "family": "classical",
+        "roof": "hip",
+        "window": "rect"
+      },
+      {
+        "id": "style_showcase_contemporary_glass",
+        "label": "Contemporary Glass",
+        "source": "project_graph/style_showcases/style_showcase_contemporary_glass.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_contemporary_glass.png",
+        "blocks": 5072,
+        "size": [
+          33,
+          14,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "contemporary_glass",
+        "family": "modern",
+        "roof": "flat",
+        "window": "curtain_wall"
+      },
+      {
+        "id": "style_showcase_cottage",
+        "label": "Cottage",
+        "source": "project_graph/style_showcases/style_showcase_cottage.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_cottage.png",
+        "blocks": 5824,
+        "size": [
+          33,
+          28,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "cottage",
+        "family": "vernacular",
+        "roof": "steep_gable",
+        "window": "small_rect"
+      },
+      {
+        "id": "style_showcase_cyberpunk",
+        "label": "Cyberpunk",
+        "source": "project_graph/style_showcases/style_showcase_cyberpunk.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_cyberpunk.png",
+        "blocks": 5739,
+        "size": [
+          37,
+          14,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "cyberpunk",
+        "family": "speculative",
+        "roof": "mechanical_flat",
+        "window": "vertical_band"
+      },
+      {
+        "id": "style_showcase_desert_adobe",
+        "label": "Desert Adobe",
+        "source": "project_graph/style_showcases/style_showcase_desert_adobe.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_desert_adobe.png",
+        "blocks": 5520,
+        "size": [
+          35,
+          14,
+          31
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "desert_adobe",
+        "family": "desert",
+        "roof": "flat",
+        "window": "small_rect"
+      },
+      {
+        "id": "style_showcase_dwarven_mountain",
+        "label": "Dwarven Mountain",
+        "source": "project_graph/style_showcases/style_showcase_dwarven_mountain.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_dwarven_mountain.png",
+        "blocks": 5751,
+        "size": [
+          39,
+          27,
+          35
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "dwarven_mountain",
+        "family": "fantasy",
+        "roof": "vaulted_mass",
+        "window": "deep_arch"
+      },
+      {
+        "id": "style_showcase_elven_fantasy",
+        "label": "Elven Fantasy",
+        "source": "project_graph/style_showcases/style_showcase_elven_fantasy.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_elven_fantasy.png",
+        "blocks": 5939,
+        "size": [
+          35,
+          28,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "elven_fantasy",
+        "family": "fantasy",
+        "roof": "swept_gable",
+        "window": "lancet"
+      },
+      {
+        "id": "style_showcase_georgian",
+        "label": "Georgian",
+        "source": "project_graph/style_showcases/style_showcase_georgian.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_georgian.png",
+        "blocks": 4968,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "georgian",
+        "family": "classical",
+        "roof": "hip",
+        "window": "tall_rect"
+      },
+      {
+        "id": "style_showcase_gothic_industrial_hybrid",
+        "label": "Gothic + Industrial",
+        "source": "project_graph/style_showcases/style_showcase_gothic_industrial_hybrid.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_gothic_industrial_hybrid.png",
+        "blocks": 6146,
+        "size": [
+          37,
+          28,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "gothic_industrial_hybrid",
+        "family": "hybrid_style",
+        "roof": "hybrid",
+        "window": "hybrid"
+      },
+      {
+        "id": "style_showcase_industrial",
+        "label": "Industrial",
+        "source": "project_graph/style_showcases/style_showcase_industrial.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_industrial.png",
+        "blocks": 5318,
+        "size": [
+          33,
+          16,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "industrial",
+        "family": "industrial",
+        "roof": "sawtooth",
+        "window": "factory_grid"
+      },
+      {
+        "id": "style_showcase_italianate",
+        "label": "Italianate",
+        "source": "project_graph/style_showcases/style_showcase_italianate.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_italianate.png",
+        "blocks": 5018,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "italianate",
+        "family": "historic_european",
+        "roof": "hip",
+        "window": "arched"
+      },
+      {
+        "id": "style_showcase_japanese_modern_hybrid",
+        "label": "Japanese + Modern",
+        "source": "project_graph/style_showcases/style_showcase_japanese_modern_hybrid.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_japanese_modern_hybrid.png",
+        "blocks": 5801,
+        "size": [
+          35,
+          35,
+          31
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "japanese_modern_hybrid",
+        "family": "hybrid_style",
+        "roof": "hybrid",
+        "window": "hybrid"
+      },
+      {
+        "id": "style_showcase_japanese_traditional",
+        "label": "Japanese Traditional",
+        "source": "project_graph/style_showcases/style_showcase_japanese_traditional.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_japanese_traditional.png",
+        "blocks": 5915,
+        "size": [
+          37,
+          36,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "japanese_traditional",
+        "family": "east_asian",
+        "roof": "pagoda",
+        "window": "shoji_grid"
+      },
+      {
+        "id": "style_showcase_massive_gothic_manor",
+        "label": "Massive Gothic Manor",
+        "source": "project_graph/style_showcases/style_showcase_massive_gothic_manor.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_massive_gothic_manor.png",
+        "blocks": 6102,
+        "size": [
+          37,
+          28,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "massive_gothic_manor",
+        "family": "gothic",
+        "roof": "steep_gable",
+        "window": "pointed"
+      },
+      {
+        "id": "style_showcase_mediterranean",
+        "label": "Mediterranean",
+        "source": "project_graph/style_showcases/style_showcase_mediterranean.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_mediterranean.png",
+        "blocks": 5572,
+        "size": [
+          33,
+          18,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "mediterranean",
+        "family": "mediterranean",
+        "roof": "low_gable",
+        "window": "arched"
+      },
+      {
+        "id": "style_showcase_midcentury_modern",
+        "label": "Mid-Century Modern",
+        "source": "project_graph/style_showcases/style_showcase_midcentury_modern.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_midcentury_modern.png",
+        "blocks": 5184,
+        "size": [
+          33,
+          28,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "midcentury_modern",
+        "family": "modern",
+        "roof": "shed",
+        "window": "rect"
+      },
+      {
+        "id": "style_showcase_middle_eastern",
+        "label": "Middle Eastern",
+        "source": "project_graph/style_showcases/style_showcase_middle_eastern.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_middle_eastern.png",
+        "blocks": 5208,
+        "size": [
+          33,
+          23,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "middle_eastern",
+        "family": "desert",
+        "roof": "dome_flat",
+        "window": "horseshoe_arch"
+      },
+      {
+        "id": "style_showcase_modern",
+        "label": "Modern",
+        "source": "project_graph/style_showcases/style_showcase_modern.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_modern.png",
+        "blocks": 5149,
+        "size": [
+          33,
+          14,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "modern",
+        "family": "modern",
+        "roof": "flat",
+        "window": "rect"
+      },
+      {
+        "id": "style_showcase_neoclassical",
+        "label": "Neoclassical",
+        "source": "project_graph/style_showcases/style_showcase_neoclassical.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_neoclassical.png",
+        "blocks": 5018,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "neoclassical",
+        "family": "classical",
+        "roof": "hip",
+        "window": "tall_rect"
+      },
+      {
+        "id": "style_showcase_nordic",
+        "label": "Nordic",
+        "source": "project_graph/style_showcases/style_showcase_nordic.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_nordic.png",
+        "blocks": 5787,
+        "size": [
+          33,
+          28,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "nordic",
+        "family": "vernacular",
+        "roof": "steep_gable",
+        "window": "tall_rect"
+      },
+      {
+        "id": "style_showcase_ruin_overgrown",
+        "label": "Overgrown Ruin",
+        "source": "project_graph/style_showcases/style_showcase_ruin_overgrown.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_ruin_overgrown.png",
+        "blocks": 5236,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "ruin_overgrown",
+        "family": "ancient",
+        "roof": "ruined",
+        "window": "broken"
+      },
+      {
+        "id": "style_showcase_rustic_farmhouse",
+        "label": "Rustic Farmhouse",
+        "source": "project_graph/style_showcases/style_showcase_rustic_farmhouse.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_rustic_farmhouse.png",
+        "blocks": 5577,
+        "size": [
+          33,
+          21,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "rustic_farmhouse",
+        "family": "vernacular",
+        "roof": "gable",
+        "window": "small_rect"
+      },
+      {
+        "id": "style_showcase_sci_fi_clean",
+        "label": "Clean Sci-Fi",
+        "source": "project_graph/style_showcases/style_showcase_sci_fi_clean.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_sci_fi_clean.png",
+        "blocks": 5369,
+        "size": [
+          33,
+          14,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "sci_fi_clean",
+        "family": "speculative",
+        "roof": "mechanical_flat",
+        "window": "ribbon"
+      },
+      {
+        "id": "style_showcase_solarpunk",
+        "label": "Solarpunk",
+        "source": "project_graph/style_showcases/style_showcase_solarpunk.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_solarpunk.png",
+        "blocks": 6354,
+        "size": [
+          33,
+          16,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "solarpunk",
+        "family": "speculative",
+        "roof": "green_terrace",
+        "window": "curtain_wall"
+      },
+      {
+        "id": "style_showcase_southeast_asian_temple",
+        "label": "Southeast Asian Temple",
+        "source": "project_graph/style_showcases/style_showcase_southeast_asian_temple.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_southeast_asian_temple.png",
+        "blocks": 5827,
+        "size": [
+          33,
+          35,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "southeast_asian_temple",
+        "family": "east_asian",
+        "roof": "tiered",
+        "window": "screen"
+      },
+      {
+        "id": "style_showcase_spanish_colonial",
+        "label": "Spanish Colonial",
+        "source": "project_graph/style_showcases/style_showcase_spanish_colonial.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_spanish_colonial.png",
+        "blocks": 5572,
+        "size": [
+          33,
+          18,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "spanish_colonial",
+        "family": "mediterranean",
+        "roof": "low_gable",
+        "window": "arched"
+      },
+      {
+        "id": "style_showcase_tudor",
+        "label": "Tudor",
+        "source": "project_graph/style_showcases/style_showcase_tudor.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_tudor.png",
+        "blocks": 5894,
+        "size": [
+          33,
+          28,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "tudor",
+        "family": "historic_european",
+        "roof": "steep_gable",
+        "window": "mullioned"
+      },
+      {
+        "id": "style_showcase_underwater_organic",
+        "label": "Underwater Organic",
+        "source": "project_graph/style_showcases/style_showcase_underwater_organic.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_underwater_organic.png",
+        "blocks": 5544,
+        "size": [
+          37,
+          23,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "underwater_organic",
+        "family": "organic",
+        "roof": "dome",
+        "window": "organic_arch"
+      },
+      {
+        "id": "style_showcase_victorian_gothic",
+        "label": "Victorian Gothic",
+        "source": "project_graph/style_showcases/style_showcase_victorian_gothic.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_victorian_gothic.png",
+        "blocks": 5963,
+        "size": [
+          35,
+          22,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "victorian_gothic",
+        "family": "gothic",
+        "roof": "mansard",
+        "window": "pointed"
+      },
+      {
+        "id": "style_showcase_western_frontier",
+        "label": "Western Frontier",
+        "source": "project_graph/style_showcases/style_showcase_western_frontier.litematic",
+        "image": "catalog/visual/images/styles/style_showcase_western_frontier.png",
+        "blocks": 5390,
+        "size": [
+          33,
+          14,
+          30
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_BASELINE",
+        "uses_astra_microblocks": false,
+        "profile_id": "western_frontier",
+        "family": "vernacular",
+        "roof": "false_front",
+        "window": "storefront"
+      }
+    ]
+  },
+  "optional_microblock": {
+    "fixtures": [
+      {
+        "id": "beveled_edge",
+        "label": "Beveled Edge",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "contour",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/beveled_edge.litematic",
+        "image": "fixtures/previews/microblock/beveled_edge.png",
+        "sha256": "24948ddcf2e705653d789b722fbc2e97e4fc0d7df1cd83fe42f523532c2636c6"
+      },
+      {
+        "id": "quarter_round",
+        "label": "Quarter Round",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "contour",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/quarter_round.litematic",
+        "image": "fixtures/previews/microblock/quarter_round.png",
+        "sha256": "6607850ce302848d0150d3ebae3443a69cf8d57cd9ee45a355e8839e17588c9c"
+      },
+      {
+        "id": "gothic_arch_inner_curve",
+        "label": "Gothic Arch Inner Curve",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "arches",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/gothic_arch_inner_curve.litematic",
+        "image": "fixtures/previews/microblock/gothic_arch_inner_curve.png",
+        "sha256": "044f7c9a245f6fc5f1334ddea982b1129c3e2b105678c433680c08600e30af43"
+      },
+      {
+        "id": "gothic_arch_outer_curve",
+        "label": "Gothic Arch Outer Curve",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "arches",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/gothic_arch_outer_curve.litematic",
+        "image": "fixtures/previews/microblock/gothic_arch_outer_curve.png",
+        "sha256": "87c6dc0091154d2a18e47b0bea55c754046cb0f6c34ad7acda72d01f86359111"
+      },
+      {
+        "id": "fluted_column_quarter",
+        "label": "Fluted Column Quarter",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "columns",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/fluted_column_quarter.litematic",
+        "image": "fixtures/previews/microblock/fluted_column_quarter.png",
+        "sha256": "d1ebd6ea7383b5722b07f80024eeea8473b21b819dd4019bcbb5c1d92c0c3a1f"
+      },
+      {
+        "id": "gothic_capital",
+        "label": "Gothic Capital",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "capitals",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/gothic_capital.litematic",
+        "image": "fixtures/previews/microblock/gothic_capital.png",
+        "sha256": "43fb4af335488079d8d40dbfaa679d23e272e44fb483ba93d6b6fdf258d32d76"
+      },
+      {
+        "id": "window_mullion_cross",
+        "label": "Window Mullion Cross",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "windows",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/window_mullion_cross.litematic",
+        "image": "fixtures/previews/microblock/window_mullion_cross.png",
+        "sha256": "ed4bb03dc0ce299918a20fab20ab3fbb389607219f07ad2fd3908aa07f6b1834"
+      },
+      {
+        "id": "window_tracery_y",
+        "label": "Window Tracery Y",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "windows",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/window_tracery_y.litematic",
+        "image": "fixtures/previews/microblock/window_tracery_y.png",
+        "sha256": "edd282356b6228c6a7ed4934d33b182b00956773a3f935b3da89ef186df43b3b"
+      },
+      {
+        "id": "rail_baluster",
+        "label": "Rail Baluster",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "railings",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/rail_baluster.litematic",
+        "image": "fixtures/previews/microblock/rail_baluster.png",
+        "sha256": "ee76c2877c3660e98ad975e40a58d972b54ae6574240cb0e6eed2095c9375b07"
+      },
+      {
+        "id": "rail_finial",
+        "label": "Rail Finial",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "railings",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/rail_finial.litematic",
+        "image": "fixtures/previews/microblock/rail_finial.png",
+        "sha256": "22a59e1599bf849190e0eb6d4b1e0a5b606c251f1920fe52bd40691323363b1f"
+      },
+      {
+        "id": "stepped_cornice",
+        "label": "Stepped Cornice",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "trim",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/stepped_cornice.litematic",
+        "image": "fixtures/previews/microblock/stepped_cornice.png",
+        "sha256": "7abbca9ad0b759c6f9d51db414d52c335eab26136f0eeb6d1a4c905543443a5b"
+      },
+      {
+        "id": "corbel_bracket",
+        "label": "Corbel Bracket",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "corbels",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/corbel_bracket.litematic",
+        "image": "fixtures/previews/microblock/corbel_bracket.png",
+        "sha256": "410ae047e6c7313da49886f799c853dfda5871e182b183a67603441c2ba8efb1"
+      },
+      {
+        "id": "hammerbeam_joint",
+        "label": "Hammerbeam Joint",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "roofs",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/hammerbeam_joint.litematic",
+        "image": "fixtures/previews/microblock/hammerbeam_joint.png",
+        "sha256": "6959c3007cad22adac0e7949fcd278ef938537c8c4e6749fe4971c728b398d2c"
+      },
+      {
+        "id": "stair_nosing",
+        "label": "Stair Nosing",
+        "stage": "microblock",
+        "category": "architecture",
+        "family": "stairs",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/stair_nosing.litematic",
+        "image": "fixtures/previews/microblock/stair_nosing.png",
+        "sha256": "b54f6c6f304f11d4e22c58185eb9e7bfa744f10de691ae2681a91deb2957bda3"
+      },
+      {
+        "id": "picture_frame_corner",
+        "label": "Picture Frame Corner",
+        "stage": "microblock",
+        "category": "decor",
+        "family": "frames",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/picture_frame_corner.litematic",
+        "image": "fixtures/previews/microblock/picture_frame_corner.png",
+        "sha256": "efcc75873a1d5d0e373317129f677d3bdc49b05613225c0e5f083e604755c2ce"
+      },
+      {
+        "id": "crest_shield",
+        "label": "Crest Shield",
+        "stage": "microblock",
+        "category": "decor",
+        "family": "crests",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/crest_shield.litematic",
+        "image": "fixtures/previews/microblock/crest_shield.png",
+        "sha256": "fbf97bc7b016a7825bee6a5c681a6f66988eca68205a2f84cb6e81a2c8a204c7"
+      },
+      {
+        "id": "chandelier_arm",
+        "label": "Chandelier Arm",
+        "stage": "microblock",
+        "category": "decor",
+        "family": "lighting",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/chandelier_arm.litematic",
+        "image": "fixtures/previews/microblock/chandelier_arm.png",
+        "sha256": "f0c2393286e69366f707ad48fcc1d3d8295f73fd70261c6eae0e330475865873"
+      },
+      {
+        "id": "furniture_leg",
+        "label": "Furniture Leg",
+        "stage": "microblock",
+        "category": "furniture",
+        "family": "legs",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/furniture_leg.litematic",
+        "image": "fixtures/previews/microblock/furniture_leg.png",
+        "sha256": "2b457f792f70b08da46a41d935adaeb13532668a8e2760e081cb74d3a0aeec3c"
+      },
+      {
+        "id": "furniture_armrest",
+        "label": "Furniture Armrest",
+        "stage": "microblock",
+        "category": "furniture",
+        "family": "seating",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/furniture_armrest.litematic",
+        "image": "fixtures/previews/microblock/furniture_armrest.png",
+        "sha256": "20384dd2a7f14f4ef6b1a5b3ab7816d1f0582ccf4024ff3c6ee6ea4829a131b9"
+      },
+      {
+        "id": "gargoyle_head_abstract",
+        "label": "Gargoyle Head Abstract",
+        "stage": "microblock",
+        "category": "decor",
+        "family": "statues",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/gargoyle_head_abstract.litematic",
+        "image": "fixtures/previews/microblock/gargoyle_head_abstract.png",
+        "sha256": "9e88f2cc3cbd0db56b473b2d94bba37bfb3b1a219545bfda784f5f421efcf481"
+      },
+      {
+        "id": "pipe_elbow",
+        "label": "Pipe Elbow",
+        "stage": "microblock",
+        "category": "mechanical",
+        "family": "pipes",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/pipe_elbow.litematic",
+        "image": "fixtures/previews/microblock/pipe_elbow.png",
+        "sha256": "7178dcc1f0faf8c6c6002b2eeaa772c8bb84d5287b1c45b00badd27b48c7034d"
+      },
+      {
+        "id": "vent_grille",
+        "label": "Vent Grille",
+        "stage": "microblock",
+        "category": "mechanical",
+        "family": "grilles",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/vent_grille.litematic",
+        "image": "fixtures/previews/microblock/vent_grille.png",
+        "sha256": "676d191aa2dcdb77b8dcea44653857a57397c71c193a9a478fdae6d436434e9a"
+      },
+      {
+        "id": "console_bevel",
+        "label": "Console Bevel",
+        "stage": "microblock",
+        "category": "mechanical",
+        "family": "consoles",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/console_bevel.litematic",
+        "image": "fixtures/previews/microblock/console_bevel.png",
+        "sha256": "29ea5446def7aeb3bb82e658a30ad82cf44f5d19152848de2316ff6cedb3b78e"
+      },
+      {
+        "id": "lantern_cage",
+        "label": "Lantern Cage",
+        "stage": "microblock",
+        "category": "lighting",
+        "family": "fixtures",
+        "size": [
+          1,
+          1,
+          1
+        ],
+        "blocks": null,
+        "source": "fixtures/compiled/microblock/astra/lantern_cage.litematic",
+        "image": "fixtures/previews/microblock/lantern_cage.png",
+        "sha256": "84326894c7b08e472e9d3592f1824d434bfd4e4a3e9ece3c9e531ed57a79e9e2"
+      }
+    ],
+    "hybrid_rooms": [
+      {
+        "id": "hybrid_gothic_detail_demo",
+        "label": "Hybrid Gothic Detail Demo",
+        "source": "composition/compiled_examples/hybrid_gothic_detail_demo.litematic",
+        "image": "catalog/visual/images/rooms/hybrid_gothic_detail_demo.png",
+        "blocks": 4070,
+        "size": null,
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 4,
+        "detail_level": "OPTIONAL_MICROBLOCK_REFINEMENT",
+        "uses_astra_microblocks": true
+      }
+    ]
+  },
   "counts": {
-    "fixtures": 64,
-    "rooms": 7,
-    "projects": 3,
-    "styles": 37
+    "vanilla_fixtures": 40,
+    "vanilla_rooms": 6,
+    "vanilla_projects": 3,
+    "vanilla_style_baselines": 37,
+    "microblock_fixtures": 24,
+    "hybrid_rooms": 1
   }
 }

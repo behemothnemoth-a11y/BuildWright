@@ -25,3 +25,4 @@ catalog/visual/*.md text eol=lf
 catalog/visual/visual_manifest.json text eol=lf
 CATALOG.md text eol=lf
 VISUAL_CATALOG.md text eol=lf
+MICROBLOCK_CATALOG.md text eol=lf

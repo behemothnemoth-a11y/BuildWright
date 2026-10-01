@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -112,11 +112,21 @@
     "style_registry": "project_graph/style_registry.json",
     "style_profiles": 35,
     "style_families": 14,
-    "style_showcases": 21,
+    "style_showcases": 37,
     "style_blending": true,
     "facade_zoning": true,
     "window_languages": true,
     "semantic_material_roles": true,
     "site_character_system": true
+  },
+  "visual_catalog": {
+    "entry": "VISUAL_CATALOG.md",
+    "manifest": "catalog/visual/visual_manifest.json",
+    "fixture_previews": 64,
+    "room_renders": 7,
+    "project_renders": 3,
+    "style_renders": 37,
+    "isometric_renderer": "tools/render_litematic_iso.py",
+    "builder": "tools/build_visual_catalog.py"
   }
 }

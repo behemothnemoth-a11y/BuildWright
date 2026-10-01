@@ -20,8 +20,9 @@
 - [Site Assembly](SITE_ASSEMBLY.md)
 - [Project Modules](PROJECT_MODULES.md)
 
-## Catalogue
-- [BuildWright Catalogue](../CATALOG.md)
+## Catalogues
+- [Visual Catalogue](../VISUAL_CATALOG.md)
+- [BuildWright Inventory Catalogue](../CATALOG.md)
 
 ## Quality and process
 - [Validation](VALIDATION.md)

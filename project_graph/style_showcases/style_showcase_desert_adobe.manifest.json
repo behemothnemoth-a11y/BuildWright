@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_desert_adobe",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    14,
+    31
+  ],
+  "blocks": 5520,
+  "block_entities": 0,
+  "litematic": "style_showcase_desert_adobe.litematic",
+  "project_source": "style_showcase_desert_adobe.project.json",
+  "preview": "style_showcase_desert_adobe.plan.svg",
+  "litematic_sha256": "9546a07c5462f3cf3c77ce462874ab1972f8082f7593a5ccab96863491f9f067",
+  "readback": {
+    "regions": 1,
+    "nonair": 5520,
+    "volume": 15190,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 111,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "desert"
+  },
+  "warnings": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_midcentury_modern",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    28,
+    30
+  ],
+  "blocks": 5184,
+  "block_entities": 0,
+  "litematic": "style_showcase_midcentury_modern.litematic",
+  "project_source": "style_showcase_midcentury_modern.project.json",
+  "preview": "style_showcase_midcentury_modern.plan.svg",
+  "litematic_sha256": "45625c7a34864df76cd255d9ae3870aea54a60f65beda8256003f58cff3a478c",
+  "readback": {
+    "regions": 1,
+    "nonair": 5184,
+    "volume": 27720,
+    "palette": 9,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 10,
+    "piers": 21,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 15,
+    "styles": {
+      "shed": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "integrated_landscape"
+  },
+  "warnings": []
+}

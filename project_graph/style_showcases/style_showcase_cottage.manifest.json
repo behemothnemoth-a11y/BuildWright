@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_cottage",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    28,
+    30
+  ],
+  "blocks": 5824,
+  "block_entities": 0,
+  "litematic": "style_showcase_cottage.litematic",
+  "project_source": "style_showcase_cottage.project.json",
+  "preview": "style_showcase_cottage.plan.svg",
+  "litematic_sha256": "46431b64f2296541591f13b2fe42499579544a04a328866cb11ed52fe8642427",
+  "readback": {
+    "regions": 1,
+    "nonair": 5824,
+    "volume": 27720,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 191,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "garden"
+  },
+  "warnings": []
+}

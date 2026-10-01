@@ -65,3 +65,16 @@ DROP 0008 adds strict style/catalog gates:
 - the living catalogue must regenerate byte-for-byte from repository state.
 
 The style showcase corpus is an offline diversity/regression test. It proves that very different architectural languages can traverse the same compiler; it does not prove aesthetic approval in Minecraft.
+
+## Visual catalogue validation
+
+DROP 0008B adds coverage checks for the picture-first catalogue:
+
+- every catalogued fixture preview must exist;
+- every rendered room/project/style image must exist;
+- every visual card must point to a real source artifact;
+- all 35 core universal styles must have a rendered showcase;
+- gallery pages, overview contact sheets and the visual manifest must exist;
+- room/module imagery uses cutaway renders where exterior shells would hide the interior.
+
+The visual catalogue is a browsing aid, not an approval gate. A generated preview can still represent a LIVE_GAME_PENDING artifact.

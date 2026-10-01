@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_midcentury_modern",
+  "name": "Style Showcase - Mid-Century Modern",
+  "facade_profile": "midcentury_modern",
+  "facade": {
+    "zone_assignments": {
+      "south": "hero",
+      "north": "service",
+      "east": "secondary",
+      "west": "secondary"
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  }
+}

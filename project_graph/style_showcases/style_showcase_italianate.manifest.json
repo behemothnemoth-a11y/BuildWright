@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_italianate",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    21,
+    30
+  ],
+  "blocks": 5018,
+  "block_entities": 0,
+  "litematic": "style_showcase_italianate.litematic",
+  "project_source": "style_showcase_italianate.project.json",
+  "preview": "style_showcase_italianate.plan.svg",
+  "litematic_sha256": "fc69f184b701f14fbac8ea8ff69881e21b4380499bfda2b69b952c2a4a9588d3",
+  "readback": {
+    "regions": 1,
+    "nonair": 5018,
+    "volume": 20790,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 8,
+    "styles": {
+      "hip": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

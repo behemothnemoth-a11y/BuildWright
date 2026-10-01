@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_contemporary_glass",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    14,
+    30
+  ],
+  "blocks": 5072,
+  "block_entities": 0,
+  "litematic": "style_showcase_contemporary_glass.litematic",
+  "project_source": "style_showcase_contemporary_glass.project.json",
+  "preview": "style_showcase_contemporary_glass.plan.svg",
+  "litematic_sha256": "d41a232fed6c32ee1379cf078558bfaf00fbb559b00bf4b911d31e8c1f8bb41e",
+  "readback": {
+    "regions": 1,
+    "nonair": 5072,
+    "volume": 13860,
+    "palette": 8,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 0,
+    "piers": 21,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

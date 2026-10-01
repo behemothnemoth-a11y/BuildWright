@@ -76,9 +76,25 @@ Complete in this major direct-repo update:
 - expanded roof languages including shed, butterfly, sawtooth, pagoda/tiered, dome, vault, terrace and ruin modes;
 - style-aware site character and vegetation intent;
 - deterministic style registry generator and validator;
-- 21 committed cross-style showcase compiles;
+- 37 committed cross-style showcase compiles (35 core styles + 2 blend demonstrations);
 - living human-readable CATALOG.md plus machine-readable catalog/catalog.json;
 - deterministic catalogue generation and validation.
+
+## DROP 0008B — Visual Catalogue
+
+Complete in this follow-up:
+
+- picture-first GitHub asset browser;
+- 64 fixture previews integrated into browsable galleries;
+- deterministic isometric Litematic renderer with simplified material colors;
+- automatic cutaway views for room/module interiors;
+- 7 rendered room/module examples;
+- 3 rendered whole-building regression projects;
+- all 35 core style profiles rendered;
+- 2 hybrid style demonstrations rendered;
+- overview contact sheets for fixtures, rooms, projects and styles;
+- machine-readable visual manifest;
+- visual-catalog validation integrated into the repository gate.
 
 ## Next
 

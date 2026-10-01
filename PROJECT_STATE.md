@@ -9,7 +9,7 @@
 - Selective microblock second pass: LOCKED
 - In-game player-eye review required for approval: YES
 
-## System maturity after DROP 0008
+## System maturity after DROP 0008B
 
 - Vanilla pack foundation: IMPLEMENTED — 68 families / 567 variants
 - Microblock pack foundation: IMPLEMENTED — 75 families / 606 variants
@@ -31,10 +31,14 @@
 - Broad window-language compiler: IMPLEMENTED
 - Expanded roof-language compiler: IMPLEMENTED
 - Site-character language: IMPLEMENTED
-- Compiled style regression corpus: IMPLEMENTED — 21 showcases
+- Compiled style regression corpus: IMPLEMENTED — 37 showcases (35 core + 2 hybrids)
 - Whole-building regression corpus: IMPLEMENTED — 3 projects
-- Living BuildWright catalogue: IMPLEMENTED — CATALOG.md + catalog/catalog.json
-- Deterministic project/style/catalog recompilation gates: IMPLEMENTED
+- Living inventory catalogue: IMPLEMENTED — CATALOG.md + catalog/catalog.json
+- Picture-first visual catalogue: IMPLEMENTED — VISUAL_CATALOG.md
+- Visual assets: IMPLEMENTED — 64 fixture previews + 7 room renders + 3 project renders + 37 style renders
+- Automatic room cutaway rendering: IMPLEMENTED
+- Deterministic project/style/catalog validation gates: IMPLEMENTED
+- Visual catalogue coverage validation: IMPLEMENTED
 - Real Minecraft/Fabric/Litematica whole-building/style smoke gate: PENDING
 
 ## Universal engine rule

@@ -111,8 +111,23 @@
         "facade zoning",
         "expanded window languages",
         "expanded roof languages",
-        "21 style showcase compiles",
+        "37 style showcase compiles",
         "living BuildWright catalogue"
+      ]
+    },
+    {
+      "drop": "0008B",
+      "version": "0.8.1",
+      "name": "Visual Catalogue",
+      "status": "complete",
+      "highlights": [
+        "picture-first GitHub catalogue",
+        "64 fixture previews",
+        "7 isometric room/module renders",
+        "3 isometric whole-building renders",
+        "37 isometric style showcase renders",
+        "five overview contact sheets",
+        "visual manifest and validation"
       ]
     }
   ]

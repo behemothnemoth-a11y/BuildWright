@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_southeast_asian_temple",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    35,
+    30
+  ],
+  "blocks": 5827,
+  "block_entities": 0,
+  "litematic": "style_showcase_southeast_asian_temple.litematic",
+  "project_source": "style_showcase_southeast_asian_temple.project.json",
+  "preview": "style_showcase_southeast_asian_temple.plan.svg",
+  "litematic_sha256": "44cd631dc1daa158cb33147eb50007f6dfba278b03240599d2c092f6d137a864",
+  "readback": {
+    "regions": 1,
+    "nonair": 5827,
+    "volume": 34650,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 302,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 22,
+    "styles": {
+      "tiered": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "temple_garden"
+  },
+  "warnings": []
+}

@@ -73,3 +73,12 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Roof language is style-aware but remains a massing pass. Hand-authored hero roofs/ceilings can opt out.
 - Universal style additions require registry validation and at least one representative compile path.
 - The living catalogue must be regenerated when a major reusable system, compiled artifact family, style corpus, or project regression set changes.
+
+## DROP 0008B visual-catalogue rules
+
+- The visual catalogue is picture-first. A catalogue entry without a usable preview is incomplete.
+- Fixture cards should use canonical fixture previews. Room/project/style cards should render from the compiled Litematic, not from unrelated concept art.
+- Room/module previews should use cutaway views when an exterior shell would hide the content being catalogued.
+- Generated isometric renders are geometry proofs with simplified material colors; never present them as Minecraft screenshots or shader output.
+- Every core universal style profile must have a rendered showcase card.
+- Regenerate both CATALOG.md and VISUAL_CATALOG.md whenever compiled catalogue coverage changes.

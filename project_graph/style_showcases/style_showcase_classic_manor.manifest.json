@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_classic_manor",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    21,
+    30
+  ],
+  "blocks": 5012,
+  "block_entities": 0,
+  "litematic": "style_showcase_classic_manor.litematic",
+  "project_source": "style_showcase_classic_manor.project.json",
+  "preview": "style_showcase_classic_manor.plan.svg",
+  "litematic_sha256": "130bfc1ec1bf5e399323b39079c84e529b1b794935ba2a99abf4837372db8b36",
+  "readback": {
+    "regions": 1,
+    "nonair": 5012,
+    "volume": 20790,
+    "palette": 8,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 191,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 8,
+    "styles": {
+      "hip": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

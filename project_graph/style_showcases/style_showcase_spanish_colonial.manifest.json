@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_spanish_colonial",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    18,
+    30
+  ],
+  "blocks": 5572,
+  "block_entities": 0,
+  "litematic": "style_showcase_spanish_colonial.litematic",
+  "project_source": "style_showcase_spanish_colonial.project.json",
+  "preview": "style_showcase_spanish_colonial.plan.svg",
+  "litematic_sha256": "65d5128f03423de1cfac927f601d62fadf0bacbce484b326a91c78d5d16671e8",
+  "readback": {
+    "regions": 1,
+    "nonair": 5572,
+    "volume": 17820,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 191,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 6,
+    "styles": {
+      "low_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "courtyard"
+  },
+  "warnings": []
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "buildwright_version": "0.8.0",
+  "buildwright_version": "0.8.1",
   "minecraft_target": "26.2",
   "summary": {
     "vanilla_pack_families": 68,
@@ -18,8 +18,8 @@
     "whole_building_examples": 3,
     "style_profiles": 35,
     "style_families": 14,
-    "style_showcases": 21,
-    "tools": 41,
+    "style_showcases": 37,
+    "tools": 43,
     "documentation_pages": 58
   },
   "milestones": [
@@ -133,8 +133,23 @@
         "facade zoning",
         "expanded window languages",
         "expanded roof languages",
-        "21 style showcase compiles",
+        "37 style showcase compiles",
         "living BuildWright catalogue"
+      ]
+    },
+    {
+      "drop": "0008B",
+      "version": "0.8.1",
+      "name": "Visual Catalogue",
+      "status": "complete",
+      "highlights": [
+        "picture-first GitHub catalogue",
+        "64 fixture previews",
+        "7 isometric room/module renders",
+        "3 isometric whole-building renders",
+        "37 isometric style showcase renders",
+        "five overview contact sheets",
+        "visual manifest and validation"
       ]
     }
   ],
@@ -1745,6 +1760,21 @@
   ],
   "style_showcases": [
     {
+      "id": "style_showcase_alpine_chalet",
+      "size": [
+        37,
+        30,
+        33
+      ],
+      "blocks": 6164,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_alpine_chalet.manifest.json",
+      "litematic": "style_showcase_alpine_chalet.litematic"
+    },
+    {
       "id": "style_showcase_ancient_temple",
       "size": [
         35,
@@ -1835,6 +1865,51 @@
       "litematic": "style_showcase_chinese_traditional.litematic"
     },
     {
+      "id": "style_showcase_classic_manor",
+      "size": [
+        33,
+        21,
+        30
+      ],
+      "blocks": 5012,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_classic_manor.manifest.json",
+      "litematic": "style_showcase_classic_manor.litematic"
+    },
+    {
+      "id": "style_showcase_contemporary_glass",
+      "size": [
+        33,
+        14,
+        30
+      ],
+      "blocks": 5072,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_contemporary_glass.manifest.json",
+      "litematic": "style_showcase_contemporary_glass.litematic"
+    },
+    {
+      "id": "style_showcase_cottage",
+      "size": [
+        33,
+        28,
+        30
+      ],
+      "blocks": 5824,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_cottage.manifest.json",
+      "litematic": "style_showcase_cottage.litematic"
+    },
+    {
       "id": "style_showcase_cyberpunk",
       "size": [
         37,
@@ -1848,6 +1923,21 @@
       "live_game_status": "PENDING",
       "manifest": "project_graph/style_showcases/style_showcase_cyberpunk.manifest.json",
       "litematic": "style_showcase_cyberpunk.litematic"
+    },
+    {
+      "id": "style_showcase_desert_adobe",
+      "size": [
+        35,
+        14,
+        31
+      ],
+      "blocks": 5520,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_desert_adobe.manifest.json",
+      "litematic": "style_showcase_desert_adobe.litematic"
     },
     {
       "id": "style_showcase_dwarven_mountain",
@@ -1880,6 +1970,21 @@
       "litematic": "style_showcase_elven_fantasy.litematic"
     },
     {
+      "id": "style_showcase_georgian",
+      "size": [
+        33,
+        21,
+        30
+      ],
+      "blocks": 4968,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_georgian.manifest.json",
+      "litematic": "style_showcase_georgian.litematic"
+    },
+    {
       "id": "style_showcase_gothic_industrial_hybrid",
       "size": [
         37,
@@ -1908,6 +2013,21 @@
       "live_game_status": "PENDING",
       "manifest": "project_graph/style_showcases/style_showcase_industrial.manifest.json",
       "litematic": "style_showcase_industrial.litematic"
+    },
+    {
+      "id": "style_showcase_italianate",
+      "size": [
+        33,
+        21,
+        30
+      ],
+      "blocks": 5018,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_italianate.manifest.json",
+      "litematic": "style_showcase_italianate.litematic"
     },
     {
       "id": "style_showcase_japanese_modern_hybrid",
@@ -1970,6 +2090,21 @@
       "litematic": "style_showcase_mediterranean.litematic"
     },
     {
+      "id": "style_showcase_midcentury_modern",
+      "size": [
+        33,
+        28,
+        30
+      ],
+      "blocks": 5184,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_midcentury_modern.manifest.json",
+      "litematic": "style_showcase_midcentury_modern.litematic"
+    },
+    {
       "id": "style_showcase_middle_eastern",
       "size": [
         33,
@@ -2000,6 +2135,51 @@
       "litematic": "style_showcase_modern.litematic"
     },
     {
+      "id": "style_showcase_neoclassical",
+      "size": [
+        33,
+        21,
+        30
+      ],
+      "blocks": 5018,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_neoclassical.manifest.json",
+      "litematic": "style_showcase_neoclassical.litematic"
+    },
+    {
+      "id": "style_showcase_nordic",
+      "size": [
+        33,
+        28,
+        30
+      ],
+      "blocks": 5787,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_nordic.manifest.json",
+      "litematic": "style_showcase_nordic.litematic"
+    },
+    {
+      "id": "style_showcase_ruin_overgrown",
+      "size": [
+        33,
+        21,
+        30
+      ],
+      "blocks": 5236,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_ruin_overgrown.manifest.json",
+      "litematic": "style_showcase_ruin_overgrown.litematic"
+    },
+    {
       "id": "style_showcase_rustic_farmhouse",
       "size": [
         33,
@@ -2015,6 +2195,21 @@
       "litematic": "style_showcase_rustic_farmhouse.litematic"
     },
     {
+      "id": "style_showcase_sci_fi_clean",
+      "size": [
+        33,
+        14,
+        30
+      ],
+      "blocks": 5369,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_sci_fi_clean.manifest.json",
+      "litematic": "style_showcase_sci_fi_clean.litematic"
+    },
+    {
       "id": "style_showcase_solarpunk",
       "size": [
         33,
@@ -2028,6 +2223,36 @@
       "live_game_status": "PENDING",
       "manifest": "project_graph/style_showcases/style_showcase_solarpunk.manifest.json",
       "litematic": "style_showcase_solarpunk.litematic"
+    },
+    {
+      "id": "style_showcase_southeast_asian_temple",
+      "size": [
+        33,
+        35,
+        30
+      ],
+      "blocks": 5827,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_southeast_asian_temple.manifest.json",
+      "litematic": "style_showcase_southeast_asian_temple.litematic"
+    },
+    {
+      "id": "style_showcase_spanish_colonial",
+      "size": [
+        33,
+        18,
+        30
+      ],
+      "blocks": 5572,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_spanish_colonial.manifest.json",
+      "litematic": "style_showcase_spanish_colonial.litematic"
     },
     {
       "id": "style_showcase_tudor",
@@ -2058,6 +2283,36 @@
       "live_game_status": "PENDING",
       "manifest": "project_graph/style_showcases/style_showcase_underwater_organic.manifest.json",
       "litematic": "style_showcase_underwater_organic.litematic"
+    },
+    {
+      "id": "style_showcase_victorian_gothic",
+      "size": [
+        35,
+        22,
+        32
+      ],
+      "blocks": 5963,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_victorian_gothic.manifest.json",
+      "litematic": "style_showcase_victorian_gothic.litematic"
+    },
+    {
+      "id": "style_showcase_western_frontier",
+      "size": [
+        33,
+        14,
+        30
+      ],
+      "blocks": 5390,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "manifest": "project_graph/style_showcases/style_showcase_western_frontier.manifest.json",
+      "litematic": "style_showcase_western_frontier.litematic"
     }
   ],
   "projects": [
@@ -2118,6 +2373,7 @@
     "build_microblock_index.py",
     "build_pack_index.py",
     "build_style_registry.py",
+    "build_visual_catalog.py",
     "compile_composition_examples.py",
     "compile_fixtures.py",
     "compile_module.py",
@@ -2137,6 +2393,7 @@
     "plan_composition.py",
     "plan_microblock_translation.py",
     "project_stats.py",
+    "render_litematic_iso.py",
     "render_module_svg.py",
     "report_microblock_coverage.py",
     "report_pack_coverage.py",

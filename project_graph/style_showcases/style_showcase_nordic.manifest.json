@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_nordic",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    28,
+    30
+  ],
+  "blocks": 5787,
+  "block_entities": 0,
+  "litematic": "style_showcase_nordic.litematic",
+  "project_source": "style_showcase_nordic.project.json",
+  "preview": "style_showcase_nordic.plan.svg",
+  "litematic_sha256": "92dc29e0b50648e14a5654891d856d6a00f8cad372334377420cfde629d36058",
+  "readback": {
+    "regions": 1,
+    "nonair": 5787,
+    "volume": 27720,
+    "palette": 9,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 111,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "cold_temperate"
+  },
+  "warnings": []
+}

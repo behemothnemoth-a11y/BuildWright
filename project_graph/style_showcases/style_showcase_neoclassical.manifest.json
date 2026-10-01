@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_neoclassical",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    21,
+    30
+  ],
+  "blocks": 5018,
+  "block_entities": 0,
+  "litematic": "style_showcase_neoclassical.litematic",
+  "project_source": "style_showcase_neoclassical.project.json",
+  "preview": "style_showcase_neoclassical.plan.svg",
+  "litematic_sha256": "83ebaa0cf8a5b8fba69164568034effa9247bb760dc4abaf291d4dbefd053797",
+  "readback": {
+    "regions": 1,
+    "nonair": 5018,
+    "volume": 20790,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 8,
+    "styles": {
+      "hip": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

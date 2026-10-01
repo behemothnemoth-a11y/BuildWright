@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_victorian_gothic",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    22,
+    32
+  ],
+  "blocks": 5963,
+  "block_entities": 0,
+  "litematic": "style_showcase_victorian_gothic.litematic",
+  "project_source": "style_showcase_victorian_gothic.project.json",
+  "preview": "style_showcase_victorian_gothic.plan.svg",
+  "litematic_sha256": "1e5cb948d8ffc88c70a991776d8c4ce22bd058712d91f11cdc0800330c5c828e",
+  "readback": {
+    "regions": 1,
+    "nonair": 5963,
+    "volume": 24640,
+    "palette": 9,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9,
+    "styles": {
+      "mansard": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

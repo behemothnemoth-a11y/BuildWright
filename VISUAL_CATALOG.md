@@ -18,6 +18,14 @@ Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing →
 
 [Browse VANILLA_DETAIL_COMPLETE examples](catalog/visual/vanilla_detail.md)
 
+## Structural & Site Intelligence
+
+### 3 project-scale circulation / structure / site regressions
+
+![Structural & site projects](catalog/visual/structural_site_overview.png)
+
+[Browse structural & site regressions](catalog/visual/structural_site.md)
+
 ## Vanilla style baselines
 
 ### 37 compiled baselines — 35 core styles + 2 style-blend demonstrations

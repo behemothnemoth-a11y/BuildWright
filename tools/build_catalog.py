@@ -54,6 +54,7 @@ def build_catalog():
     detailed_composition=manifests(ROOT/"composition/detailed_examples")
     whole=manifests(ROOT/"project_graph/compiled_examples")
     detailed_projects=manifests(ROOT/"project_graph/detailed_examples")
+    structural_projects=manifests(ROOT/"project_graph/structural_examples")
     showcases=manifests(ROOT/"project_graph/style_showcases")
     groups=defaultdict(list)
     for f in fixtures["fixtures"]:
@@ -78,6 +79,7 @@ def build_catalog():
         "vanilla_detail_examples":len(detailed_composition),
         "whole_building_examples":len(whole),
         "vanilla_detail_projects":len(detailed_projects),
+        "structural_site_projects":len(structural_projects),
         "style_profiles":styles["count"],
         "style_families":len(styles["families"]),
         "style_showcases":len(showcases),
@@ -100,6 +102,7 @@ def build_catalog():
         "vanilla_detail_examples":detailed_composition,
         "whole_building_examples":whole,
         "vanilla_detail_projects":detailed_projects,
+        "structural_site_projects":structural_projects,
         "style_showcases":showcases,
         "projects":projects(),
         "tools":tools,
@@ -127,6 +130,7 @@ def markdown(data):
         f"| VANILLA_DETAIL_COMPLETE room-role examples | {s['vanilla_detail_examples']} |",
         f"| Vanilla whole-building baseline projects | {s['whole_building_examples']} |",
         f"| VANILLA_DETAIL_COMPLETE whole-building projects | {s['vanilla_detail_projects']} |",
+        f"| Structural/site intelligence regression projects | {s['structural_site_projects']} |",
         f"| Universal style profiles | {s['style_profiles']} |",
         f"| Architectural style families | {s['style_families']} |",
         f"| Vanilla style baseline compiles | {s['style_showcases']} |","",
@@ -193,6 +197,7 @@ def finish_markdown(data,out):
     add_manifest_table(out,"VANILLA_DETAIL_COMPLETE room-role examples",data["vanilla_detail_examples"])
     add_manifest_table(out,"Vanilla whole-building regression baselines",data["whole_building_examples"],True)
     add_manifest_table(out,"VANILLA_DETAIL_COMPLETE whole-building projects",data["vanilla_detail_projects"],True)
+    add_manifest_table(out,"Structural & site intelligence regressions",data["structural_site_projects"],True)
     add_manifest_table(out,"Vanilla style baseline compiles",data["style_showcases"])
     if data["optional_microblock_examples"]:
         add_manifest_table(out,"Optional Astra/microblock proof examples",data["optional_microblock_examples"])

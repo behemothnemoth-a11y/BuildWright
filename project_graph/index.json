@@ -61,7 +61,9 @@
   ],
   "connection_modes": [
     "attach",
-    "corridor"
+    "corridor",
+    "route",
+    "stairs"
   ],
   "port_sides": [
     "north",
@@ -85,5 +87,36 @@
     "two_floor_manor_vanilla_detail",
     "wayne_manor_phase_a_vanilla_detail"
   ],
-  "vanilla_finish_engine": true
+  "vanilla_finish_engine": true,
+  "structural_node_types": [
+    "tower",
+    "porch",
+    "balcony",
+    "buttress_run",
+    "dormer_row"
+  ],
+  "site_network_types": [
+    "path",
+    "road",
+    "plaza",
+    "wall",
+    "fence",
+    "retaining_wall",
+    "stairs"
+  ],
+  "foundation_modes": [
+    "perimeter",
+    "piers",
+    "solid"
+  ],
+  "structural_site_examples": [
+    "modern_campus_network",
+    "routed_gothic_estate",
+    "terraced_hillside_compound"
+  ],
+  "routed_corridors": true,
+  "elevation_stairs": true,
+  "structural_nodes": true,
+  "site_networks": true,
+  "foundation_engine": true
 }

@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -30,6 +30,11 @@
     "microblock_implementation",
     "hybrid_review_gate",
     "project_graph_solve",
+    "project_routed_circulation",
+    "project_elevation_stairs",
+    "project_structural_nodes",
+    "project_site_networks",
+    "project_foundations",
     "shared_wall_reconcile",
     "corridor_compile",
     "facade_compile",
@@ -132,7 +137,34 @@
     "semantic_material_roles": true,
     "site_character_system": true,
     "vanilla_finish_engine": true,
-    "vanilla_detail_projects": 3
+    "vanilla_detail_projects": 3,
+    "routed_corridors": true,
+    "elevation_stairs": true,
+    "structural_nodes": true,
+    "structural_node_types": [
+      "tower",
+      "porch",
+      "balcony",
+      "buttress_run",
+      "dormer_row"
+    ],
+    "site_networks": true,
+    "site_network_types": [
+      "path",
+      "road",
+      "plaza",
+      "wall",
+      "fence",
+      "retaining_wall",
+      "stairs"
+    ],
+    "foundation_engine": true,
+    "foundation_modes": [
+      "perimeter",
+      "piers",
+      "solid"
+    ],
+    "structural_site_examples": 3
   },
   "visual_catalog": {
     "entry": "VISUAL_CATALOG.md",
@@ -149,6 +181,7 @@
     "base_policy": "vanilla_only",
     "microblock_policy": "optional_post_vanilla_refinement",
     "vanilla_detail_room_renders": 10,
-    "vanilla_detail_project_renders": 3
+    "vanilla_detail_project_renders": 3,
+    "structural_site_renders": 3
   }
 }

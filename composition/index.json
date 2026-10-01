@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "buildwright_version": "0.9.0",
+  "buildwright_version": "0.10.0",
   "counts": {
     "templates": 11,
     "palettes": 8,

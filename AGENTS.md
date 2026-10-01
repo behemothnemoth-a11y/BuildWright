@@ -105,3 +105,14 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Whole-building finishing must stay project-neutral and style-aware; no Wayne-specific logic belongs in the reusable engine.
 - Every VANILLA_DETAIL_COMPLETE artifact must remain free of the `astra_microblocks:` namespace.
 - Microblock candidate analysis may begin only after the vanilla detail-complete artifact has passed the vanilla review gate.
+
+## DROP 0010 structural/site rules
+
+- Routed circulation is a first-class graph constraint. Prefer preserving room origins and routing a corridor over silently moving a module to make a straight connection fit.
+- Routed corridors and elevation stairs must preserve declared player width, headroom and connector openings.
+- Structural nodes are reusable project-graph grammar, not project-specific sculpture. Keep tower/porch/balcony/buttress/dormer generation style-aware and coarse enough for later vanilla finishing.
+- Foundations must respond to declared site grade/elevation and may not float or bridge through unrelated modules.
+- Roads, plazas, walls, fences, retaining walls and site stairs are explicit networks with deterministic control points. Do not replace them with random landscaping scatter.
+- Site networks must remain subordinate to building entrances, circulation and terrain constraints.
+- Structural/site regression artifacts remain pure vanilla and must fail validation on any Astra namespace leakage.
+- Offline structural success is not aesthetic or in-game approval. Player-eye QA remains mandatory.

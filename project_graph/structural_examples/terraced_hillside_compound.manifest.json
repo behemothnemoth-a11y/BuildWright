@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "terraced_hillside_compound",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    123,
+    37,
+    59
+  ],
+  "blocks": 20908,
+  "block_entities": 0,
+  "litematic": "terraced_hillside_compound.litematic",
+  "project_source": "terraced_hillside_compound.project.json",
+  "preview": "terraced_hillside_compound.plan.svg",
+  "litematic_sha256": "d498a65721da9e8d5a67a04cdb306533b2d005adbc6758dfc309be2d953e9c61",
+  "readback": {
+    "regions": 1,
+    "nonair": 20908,
+    "volume": 268509,
+    "palette": 22,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 26,
+    "piers": 40,
+    "bands": 424,
+    "balconies": 364
+  },
+  "roof": {
+    "modules": 2,
+    "max_rise": 18,
+    "styles": {
+      "steep_gable": 2
+    }
+  },
+  "site": {
+    "ground_blocks": 6962,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "mountain",
+    "vegetation_profile": "temperate_manor",
+    "road_blocks": 66,
+    "plaza_blocks": 0,
+    "wall_blocks": 0,
+    "fence_blocks": 0,
+    "retaining_blocks": 258,
+    "stair_blocks": 0,
+    "networks": 2
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 1,
+    "route_blocks": 168,
+    "route_length": 24
+  },
+  "structures": {
+    "nodes": 2,
+    "blocks": 134,
+    "by_type": {
+      "balcony": 1,
+      "porch": 1
+    }
+  },
+  "foundations": {
+    "enabled": true,
+    "blocks": 672,
+    "modules": 1,
+    "mode": "perimeter",
+    "ground_y": -1,
+    "max_drop": 6
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 31002,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 12,
+    "lighting_blocks": 4,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 6,
+    "service_blocks": 0
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

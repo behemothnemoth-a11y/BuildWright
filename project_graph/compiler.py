@@ -10,6 +10,8 @@ from .model import ProjectPlan, load_project
 from .preview import render_project_svg
 from .roof import apply_roofs
 from .site import apply_site
+from .foundation import apply_foundations
+from .structures import apply_structures
 from .vanilla_finish import apply_vanilla_finish
 from .solver import project_bounds, solve_project
 
@@ -72,10 +74,12 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
     blocks, block_entities, warnings = merge_modules(plan, placed)
 
     carve_connections(plan, placed, blocks)
-    build_straight_corridors(plan, placed, blocks)
+    circulation_stats = build_straight_corridors(plan, placed, blocks)
     facade_stats = apply_facades(plan, placed, blocks)
     roof_stats = apply_roofs(plan, placed, blocks)
+    structure_stats = apply_structures(plan, placed, blocks, brief)
     site_stats = apply_site(plan, placed, blocks)
+    foundation_stats = apply_foundations(plan, placed, blocks, brief)
     finish_stats = apply_vanilla_finish(plan, placed, blocks, brief)
 
     normalized, entities, size, delta, min_pos, max_pos = _normalize(blocks, block_entities)
@@ -109,6 +113,9 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "normalization_offset": list(delta),
         "pre_normalized_bounds": [*min_pos, *max_pos],
         "exterior_sides": exterior_sides(plan),
+        "circulation": circulation_stats,
+        "structures": structure_stats,
+        "foundations": foundation_stats,
         "vanilla_finish": finish_stats,
     }
     _write_lf(source_path, json.dumps(canonical, indent=2) + "\n")
@@ -144,6 +151,9 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "facade": facade_stats,
         "roof": roof_stats,
         "site": site_stats,
+        "circulation": circulation_stats,
+        "structures": structure_stats,
+        "foundations": foundation_stats,
         "vanilla_finish": finish_stats,
         "detail_status": finish_stats.get("status","BASELINE"),
         "warnings": warnings + plan.warnings,

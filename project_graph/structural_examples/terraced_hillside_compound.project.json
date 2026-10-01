@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "id": "terraced_hillside_compound",
+  "brief": {
+    "schema_version": 1,
+    "id": "terraced_hillside_compound",
+    "name": "Terraced Hillside Compound",
+    "facade_profile": "alpine_chalet",
+    "modules": [
+      {
+        "id": "lower",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          20,
+          0,
+          20
+        ],
+        "ports": [
+          {
+            "id": "uphill",
+            "side": "east",
+            "pos": [
+              30,
+              1,
+              13
+            ],
+            "width": 3,
+            "height": 4
+          }
+        ]
+      },
+      {
+        "id": "upper",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          75,
+          6,
+          20
+        ],
+        "ports": [
+          {
+            "id": "downhill",
+            "side": "west",
+            "pos": [
+              0,
+              1,
+              13
+            ],
+            "width": 3,
+            "height": 4
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": [
+          "lower",
+          "uphill"
+        ],
+        "to": [
+          "upper",
+          "downhill"
+        ],
+        "mode": "stairs",
+        "width": 3,
+        "height": 4,
+        "stair_block": "minecraft:stone_brick_stairs",
+        "rail_state": "minecraft:spruce_fence"
+      }
+    ],
+    "structures": [
+      {
+        "type": "balcony",
+        "module": "upper",
+        "side": "south",
+        "center": 15,
+        "width": 11,
+        "depth": 4,
+        "y": 6
+      },
+      {
+        "type": "porch",
+        "module": "lower",
+        "side": "west",
+        "center": 13,
+        "width": 7,
+        "depth": 4,
+        "height": 5
+      }
+    ],
+    "foundation": {
+      "enabled": true,
+      "mode": "perimeter",
+      "ground_y": -1,
+      "state": "minecraft:stone_bricks"
+    },
+    "site": {
+      "enabled": true,
+      "margin": 16,
+      "ground_y": -1,
+      "character": "mountain",
+      "edge_feature": false,
+      "networks": [
+        {
+          "type": "retaining_wall",
+          "points": [
+            [
+              68,
+              8
+            ],
+            [
+              68,
+              50
+            ]
+          ],
+          "base_y": 0,
+          "top_y": 5,
+          "state": "minecraft:stone_bricks"
+        },
+        {
+          "type": "path",
+          "points": [
+            [
+              0,
+              33
+            ],
+            [
+              19,
+              33
+            ]
+          ],
+          "width": 3,
+          "state": "minecraft:gravel"
+        }
+      ]
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 31002
+    }
+  },
+  "modules": [
+    {
+      "id": "lower",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "normalized_origin": [
+        21,
+        1,
+        16
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry",
+        "uphill"
+      ]
+    },
+    {
+      "id": "upper",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        75,
+        6,
+        20
+      ],
+      "normalized_origin": [
+        76,
+        7,
+        16
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "downhill",
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    1,
+    1,
+    -4
+  ],
+  "pre_normalized_bounds": [
+    -1,
+    -1,
+    4,
+    121,
+    35,
+    62
+  ],
+  "exterior_sides": {
+    "lower": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "upper": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 1,
+    "route_blocks": 168,
+    "route_length": 24
+  },
+  "structures": {
+    "nodes": 2,
+    "blocks": 134,
+    "by_type": {
+      "balcony": 1,
+      "porch": 1
+    }
+  },
+  "foundations": {
+    "enabled": true,
+    "blocks": 672,
+    "modules": 1,
+    "mode": "perimeter",
+    "ground_y": -1,
+    "max_drop": 6
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 31002,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 12,
+    "lighting_blocks": 4,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 6,
+    "service_blocks": 0
+  }
+}

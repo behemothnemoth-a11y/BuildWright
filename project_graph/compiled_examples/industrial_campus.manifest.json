@@ -42,7 +42,32 @@
     "path_blocks": 0,
     "edge_blocks": 116,
     "character": "service_yard",
-    "vegetation_profile": "temperate_manor"
+    "vegetation_profile": "temperate_manor",
+    "road_blocks": 0,
+    "plaza_blocks": 0,
+    "wall_blocks": 0,
+    "fence_blocks": 0,
+    "retaining_blocks": 0,
+    "stair_blocks": 0,
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 1,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 196,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
   },
   "vanilla_finish": {
     "enabled": false,

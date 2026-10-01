@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "routed_gothic_estate",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    186,
+    51,
+    129
+  ],
+  "blocks": 54058,
+  "block_entities": 0,
+  "litematic": "routed_gothic_estate.litematic",
+  "project_source": "routed_gothic_estate.project.json",
+  "preview": "routed_gothic_estate.plan.svg",
+  "litematic_sha256": "5a7026a65e4586d00f4f09a599ac5b069252a74dab249106f3a64f4ee11c6d9e",
+  "readback": {
+    "regions": 1,
+    "nonair": 54058,
+    "volume": 1223694,
+    "palette": 28,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 42,
+    "piers": 52,
+    "bands": 1026,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 2,
+    "max_rise": 27,
+    "styles": {
+      "steep_gable": 2
+    }
+  },
+  "site": {
+    "ground_blocks": 21204,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal",
+    "vegetation_profile": "temperate_manor",
+    "road_blocks": 847,
+    "plaza_blocks": 425,
+    "wall_blocks": 1200,
+    "fence_blocks": 0,
+    "retaining_blocks": 0,
+    "stair_blocks": 0,
+    "networks": 3
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 1,
+    "stairs": 0,
+    "route_blocks": 1489,
+    "route_length": 76
+  },
+  "structures": {
+    "nodes": 4,
+    "blocks": 1540,
+    "by_type": {
+      "tower": 1,
+      "buttress_run": 6,
+      "porch": 1,
+      "balcony": 1
+    }
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 31001,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 20,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 44,
+    "roof_detail_blocks": 9,
+    "service_blocks": 0
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

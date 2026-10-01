@@ -39,6 +39,10 @@ def _validate_pair(a: Port, b: Port):
     if a.side in VERTICAL and b.side not in VERTICAL:
         raise ValueError("Cannot connect vertical port to cardinal port")
 
+def _validate_routed_pair(a: Port, b: Port):
+    if a.side not in CARDINAL or b.side not in CARDINAL:
+        raise ValueError("Routed/stair circulation requires two cardinal ports")
+
 def target_origin(source_origin: Vec3, source_port: Port, target_port: Port, mode: str, gap: int) -> Vec3:
     _validate_pair(source_port, target_port)
     source_world = world_port(source_origin, source_port).pos
@@ -75,7 +79,21 @@ def solve_project(plan: ProjectPlan) -> dict[str, PlacedModule]:
         for connection in list(unresolved):
             a_done = connection.a_module in placed
             b_done = connection.b_module in placed
-            if a_done == b_done:
+            if a_done and b_done:
+                a_port=port_for(modules[connection.a_module],connection.a_port)
+                b_port=port_for(modules[connection.b_module],connection.b_port)
+                if connection.mode in {"route","stairs"}:
+                    _validate_routed_pair(a_port,b_port)
+                    unresolved.remove(connection)
+                    progress=True
+                    continue
+                expected=target_origin(placed[connection.a_module].origin,a_port,b_port,connection.mode,connection.gap)
+                if expected!=placed[connection.b_module].origin:
+                    raise ValueError(f"Explicit module origins violate {connection.mode} connection {connection.a_module}:{connection.a_port}->{connection.b_module}:{connection.b_port}")
+                unresolved.remove(connection)
+                progress=True
+                continue
+            if not a_done and not b_done:
                 continue
             if a_done:
                 source_id, source_port_id = connection.a_module, connection.a_port
@@ -90,6 +108,8 @@ def solve_project(plan: ProjectPlan) -> dict[str, PlacedModule]:
             source_port = port_for(source, source_port_id)
             target_port = port_for(target, target_port_id)
             mode = connection.mode
+            if mode in {"route","stairs"}:
+                raise ValueError(f"{mode} connections require explicit origins for both modules")
             origin = target_origin(placed[source_id].origin, source_port, target_port, mode, connection.gap)
             placed[target_id] = PlacedModule(target_id, origin, target.size)
             unresolved.remove(connection)

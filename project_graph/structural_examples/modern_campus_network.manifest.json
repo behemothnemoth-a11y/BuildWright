@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "modern_campus_network",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    181,
+    20,
+    129
+  ],
+  "blocks": 44639,
+  "block_entities": 0,
+  "litematic": "modern_campus_network.litematic",
+  "project_source": "modern_campus_network.project.json",
+  "preview": "modern_campus_network.plan.svg",
+  "litematic_sha256": "b8ae1519a1c0c890a7ce57f9417729fa9567db286f90e4d32071de286bdb77a7",
+  "readback": {
+    "regions": 1,
+    "nonair": 44639,
+    "volume": 466980,
+    "palette": 30,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 22,
+    "piers": 54,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 2,
+    "max_rise": 1,
+    "styles": {
+      "flat": 2
+    }
+  },
+  "site": {
+    "ground_blocks": 21700,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "hardscape",
+    "vegetation_profile": "temperate_manor",
+    "road_blocks": 1404,
+    "plaza_blocks": 713,
+    "wall_blocks": 0,
+    "fence_blocks": 582,
+    "retaining_blocks": 0,
+    "stair_blocks": 0,
+    "networks": 3
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 1,
+    "stairs": 0,
+    "route_blocks": 1587,
+    "route_length": 88
+  },
+  "structures": {
+    "nodes": 2,
+    "blocks": 219,
+    "by_type": {
+      "porch": 1,
+      "balcony": 1
+    }
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 31003,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 14,
+    "lighting_blocks": 18,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 8,
+    "service_blocks": 0
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

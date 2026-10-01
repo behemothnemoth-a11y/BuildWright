@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "buildwright_version": "0.9.0",
+  "buildwright_version": "0.10.0",
   "minecraft_target": "26.2",
   "summary": {
     "vanilla_pack_families": 68,
@@ -20,11 +20,12 @@
     "vanilla_detail_examples": 10,
     "whole_building_examples": 3,
     "vanilla_detail_projects": 3,
+    "structural_site_projects": 3,
     "style_profiles": 35,
     "style_families": 14,
     "style_showcases": 37,
-    "tools": 47,
-    "documentation_pages": 59
+    "tools": 48,
+    "documentation_pages": 60
   },
   "milestones": [
     {
@@ -184,6 +185,22 @@
         "3 VANILLA_DETAIL_COMPLETE whole-building regressions",
         "hard Astra namespace exclusion from vanilla outputs",
         "BASELINE vs VANILLA_DETAIL_COMPLETE visual catalogue separation"
+      ]
+    },
+    {
+      "drop": "0010",
+      "version": "0.10.0",
+      "name": "Structural & Site Intelligence",
+      "status": "complete",
+      "highlights": [
+        "deterministic routed orthogonal corridors",
+        "elevation stair compilation",
+        "reusable tower / porch / balcony / buttress / dormer structural nodes",
+        "perimeter / pier / solid foundation engine",
+        "road / path / plaza / wall / fence / retaining-wall / stair site networks",
+        "3 pure-vanilla structural/site regression projects",
+        "structural/site visual catalogue integration",
+        "byte-for-byte structural/site recompilation gate"
       ]
     }
   ],
@@ -2908,6 +2925,56 @@
       "litematic": "wayne_manor_phase_a_vanilla_detail.litematic"
     }
   ],
+  "structural_site_projects": [
+    {
+      "id": "modern_campus_network",
+      "size": [
+        181,
+        20,
+        129
+      ],
+      "blocks": 44639,
+      "modules": 2,
+      "connections": 1,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/structural_examples/modern_campus_network.manifest.json",
+      "litematic": "modern_campus_network.litematic"
+    },
+    {
+      "id": "routed_gothic_estate",
+      "size": [
+        186,
+        51,
+        129
+      ],
+      "blocks": 54058,
+      "modules": 2,
+      "connections": 1,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/structural_examples/routed_gothic_estate.manifest.json",
+      "litematic": "routed_gothic_estate.litematic"
+    },
+    {
+      "id": "terraced_hillside_compound",
+      "size": [
+        123,
+        37,
+        59
+      ],
+      "blocks": 20908,
+      "modules": 2,
+      "connections": 1,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/structural_examples/terraced_hillside_compound.manifest.json",
+      "litematic": "terraced_hillside_compound.litematic"
+    }
+  ],
   "style_showcases": [
     {
       "id": "style_showcase_alpine_chalet",
@@ -3567,6 +3634,7 @@
     "compile_module.py",
     "compile_project.py",
     "compile_project_examples.py",
+    "compile_structural_site_examples.py",
     "compile_style_showcases.py",
     "compile_vanilla_detail_examples.py",
     "compile_vanilla_detail_projects.py",
@@ -3649,6 +3717,7 @@
     "ROOM_BRIEF_CONTRACT.md",
     "SCALE_CONTRACT.md",
     "SITE_ASSEMBLY.md",
+    "STRUCTURAL_SITE_INTELLIGENCE.md",
     "STYLE_PROFILES.md",
     "TRANSFORM_CORPUS.md",
     "UNIVERSAL_STYLE_SYSTEM.md",

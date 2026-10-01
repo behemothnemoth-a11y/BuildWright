@@ -16,6 +16,7 @@
 - [Complete Vanilla Detail Layer](VANILLA_DETAIL_LAYER.md)
 
 ## Whole-building compiler
+- [Structural & Site Intelligence](STRUCTURAL_SITE_INTELLIGENCE.md)
 - [Universal Style & Exterior System](UNIVERSAL_STYLE_SYSTEM.md)
 - [Project Graph Compiler](PROJECT_GRAPH_COMPILER.md)
 - [Exterior Envelope and Facade](EXTERIOR_ENVELOPE_AND_FACADE.md)

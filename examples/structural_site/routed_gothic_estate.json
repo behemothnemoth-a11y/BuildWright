@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "routed_gothic_estate",
+  "name": "Routed Gothic Estate",
+  "facade_profile": "massive_gothic_manor",
+  "modules": [
+    {
+      "id": "hall",
+      "source": "composition/detailed_examples/grand_hall_detail_complete.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "ports": [
+        {
+          "id": "east_route",
+          "side": "east",
+          "pos": [
+            60,
+            1,
+            24
+          ],
+          "width": 5,
+          "height": 5
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "source": "composition/detailed_examples/library_detail_complete.source.json",
+      "origin": [
+        110,
+        0,
+        75
+      ],
+      "ports": [
+        {
+          "id": "west_route",
+          "side": "west",
+          "pos": [
+            0,
+            1,
+            16
+          ],
+          "width": 5,
+          "height": 5
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": [
+        "hall",
+        "east_route"
+      ],
+      "to": [
+        "library",
+        "west_route"
+      ],
+      "mode": "route",
+      "width": 5,
+      "height": 5,
+      "max_detour": 40
+    }
+  ],
+  "structures": [
+    {
+      "type": "tower",
+      "module": "hall",
+      "corner": "nw",
+      "width": 9,
+      "depth": 9,
+      "height": 34
+    },
+    {
+      "type": "buttress_run",
+      "module": "hall",
+      "side": "north",
+      "spacing": 10,
+      "depth": 3,
+      "width": 2,
+      "height": 18
+    },
+    {
+      "type": "porch",
+      "module": "hall",
+      "side": "south",
+      "center": 30,
+      "width": 11,
+      "depth": 5,
+      "height": 6
+    },
+    {
+      "type": "balcony",
+      "module": "library",
+      "side": "east",
+      "center": 16,
+      "width": 9,
+      "depth": 3,
+      "y": 7
+    }
+  ],
+  "site": {
+    "enabled": true,
+    "margin": 18,
+    "ground_y": -1,
+    "character": "formal",
+    "edge_feature": false,
+    "networks": [
+      {
+        "type": "plaza",
+        "center": [
+          50,
+          74
+        ],
+        "size": [
+          25,
+          17
+        ],
+        "state": "minecraft:stone_bricks"
+      },
+      {
+        "type": "road",
+        "points": [
+          [
+            -10,
+            74
+          ],
+          [
+            50,
+            74
+          ],
+          [
+            50,
+            20
+          ]
+        ],
+        "width": 7,
+        "state": "minecraft:gravel"
+      },
+      {
+        "type": "wall",
+        "points": [
+          [
+            -5,
+            5
+          ],
+          [
+            170,
+            5
+          ],
+          [
+            170,
+            130
+          ],
+          [
+            -5,
+            130
+          ],
+          [
+            -5,
+            5
+          ]
+        ],
+        "height": 2,
+        "state": "minecraft:stone_bricks"
+      }
+    ]
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 31001
+  }
+}

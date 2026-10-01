@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "modern_campus_network",
+  "name": "Modern Campus Network",
+  "facade_profile": "modern",
+  "modules": [
+    {
+      "id": "operations",
+      "source": "composition/detailed_examples/operations_bay_detail_complete.source.json",
+      "origin": [
+        10,
+        0,
+        10
+      ],
+      "ports": [
+        {
+          "id": "east_route",
+          "side": "east",
+          "pos": [
+            54,
+            1,
+            17
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "source": "composition/detailed_examples/industrial_lab_detail_complete.source.json",
+      "origin": [
+        100,
+        0,
+        65
+      ],
+      "ports": [
+        {
+          "id": "west_route",
+          "side": "west",
+          "pos": [
+            0,
+            1,
+            15
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": [
+        "operations",
+        "east_route"
+      ],
+      "to": [
+        "lab",
+        "west_route"
+      ],
+      "mode": "route",
+      "width": 5,
+      "height": 4,
+      "floor_state": "minecraft:smooth_stone",
+      "wall_state": "minecraft:white_concrete",
+      "ceiling_state": "minecraft:light_gray_concrete",
+      "max_detour": 36
+    }
+  ],
+  "structures": [
+    {
+      "type": "porch",
+      "module": "operations",
+      "side": "south",
+      "center": 27,
+      "width": 13,
+      "depth": 5,
+      "height": 5
+    },
+    {
+      "type": "balcony",
+      "module": "lab",
+      "side": "south",
+      "center": 24,
+      "width": 13,
+      "depth": 4,
+      "y": 8
+    }
+  ],
+  "site": {
+    "enabled": true,
+    "margin": 18,
+    "ground_y": -1,
+    "character": "hardscape",
+    "edge_feature": false,
+    "networks": [
+      {
+        "type": "plaza",
+        "center": [
+          72,
+          50
+        ],
+        "size": [
+          31,
+          23
+        ],
+        "state": "minecraft:smooth_stone"
+      },
+      {
+        "type": "road",
+        "points": [
+          [
+            -10,
+            50
+          ],
+          [
+            72,
+            50
+          ],
+          [
+            72,
+            115
+          ]
+        ],
+        "width": 9,
+        "state": "minecraft:gray_concrete"
+      },
+      {
+        "type": "fence",
+        "points": [
+          [
+            -5,
+            0
+          ],
+          [
+            165,
+            0
+          ],
+          [
+            165,
+            120
+          ]
+        ],
+        "height": 2,
+        "state": "minecraft:iron_bars"
+      }
+    ]
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 31003
+  }
+}

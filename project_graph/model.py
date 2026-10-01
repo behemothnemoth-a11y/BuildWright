@@ -57,6 +57,7 @@ class Connection:
     gap: int = 0
     width: int | None = None
     height: int | None = None
+    options: dict[str, Any] = field(default_factory=dict)
 
 @dataclass
 class ProjectPlan:
@@ -66,6 +67,7 @@ class ProjectPlan:
     facade_profile: dict[str, Any]
     roof: dict[str, Any]
     site: dict[str, Any]
+    structures: list[dict[str, Any]] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
 def _connector_port(conn: dict[str, Any], size: Vec3) -> Port:
     w, h, d = size
@@ -122,7 +124,7 @@ def load_project(root: Path, brief: dict[str, Any] | Path) -> ProjectPlan:
     for c in brief.get("connections", []):
         a = c["from"]
         b = c["to"]
-        connections.append(Connection(str(a[0]), str(a[1]), str(b[0]), str(b[1]), str(c.get("mode", "attach")), int(c.get("gap", 0)), c.get("width"), c.get("height")))
+        connections.append(Connection(str(a[0]), str(a[1]), str(b[0]), str(b[1]), str(c.get("mode", "attach")), int(c.get("gap", 0)), c.get("width"), c.get("height"), dict(c)))
     facade = resolve_style(root, brief)
     roof = dict(brief.get("roof", {}))
     roof.setdefault("style", facade.get("default_roof", "gable"))
@@ -133,7 +135,8 @@ def load_project(root: Path, brief: dict[str, Any] | Path) -> ProjectPlan:
     site = dict(brief.get("site", {}))
     site.setdefault("character", facade.get("site_character", "generic"))
     site.setdefault("vegetation_profile", facade.get("vegetation_profile", "temperate"))
-    return ProjectPlan(str(brief["id"]), modules, connections, facade, roof, site)
+    structures=list(brief.get("structures",[]))
+    return ProjectPlan(str(brief["id"]), modules, connections, facade, roof, site, structures)
 
 def port_for(module: ModuleSpec, port_id: str) -> Port:
     try:

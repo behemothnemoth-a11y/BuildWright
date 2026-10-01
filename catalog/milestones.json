@@ -159,6 +159,22 @@
         "hard Astra namespace exclusion from vanilla outputs",
         "BASELINE vs VANILLA_DETAIL_COMPLETE visual catalogue separation"
       ]
+    },
+    {
+      "drop": "0010",
+      "version": "0.10.0",
+      "name": "Structural & Site Intelligence",
+      "status": "complete",
+      "highlights": [
+        "deterministic routed orthogonal corridors",
+        "elevation stair compilation",
+        "reusable tower / porch / balcony / buttress / dormer structural nodes",
+        "perimeter / pier / solid foundation engine",
+        "road / path / plaza / wall / fence / retaining-wall / stair site networks",
+        "3 pure-vanilla structural/site regression projects",
+        "structural/site visual catalogue integration",
+        "byte-for-byte structural/site recompilation gate"
+      ]
     }
   ]
 }

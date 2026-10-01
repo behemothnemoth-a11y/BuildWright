@@ -129,18 +129,30 @@ Complete:
 
 ## DROP 0010 — Structural & Site Intelligence
 
+Complete:
+
+- deterministic routed orthogonal corridors that preserve explicit module origins;
+- stair-flight generation between unequal floor elevations;
+- reusable tower, porch, balcony, buttress-run and dormer-row graph nodes;
+- terrain/elevation-aware foundation engine with perimeter, pier and solid modes;
+- project-scale path, road, plaza, wall, fence, retaining-wall and site-stair networks;
+- richer site statistics and structural provenance in project manifests;
+- 3 deterministic pure-vanilla structural/site regression projects;
+- visual catalogue integration for structural/site projects;
+- strict byte-for-byte recompilation and Astra-namespace exclusion.
+
+## DROP 0011 — Style-Specific Finish & Reference Fitting
+
 Next major priority:
 
-- tower, dormer, buttress, balcony and porch graph nodes;
-- non-straight corridor pathfinding;
-- stair-flight generation between unequal floor elevations;
+- style-family-specific vanilla finishing profiles beyond generic room-role defaults;
 - facade zoning by story/elevation and urban frontage context;
-- terrain-aware foundations, basements and retaining walls;
-- roads, plazas, walls, fences and infrastructure networks;
+- terrain/profile ingestion and better grade-aware site solving;
 - richer project-scale vegetation/landscape graphs;
-- style-family-specific vanilla finishing profiles beyond room-role defaults;
-- real-world/reconstruction facade fitting from measured references;
-- reference/image → structured project graph assistance.
+- measured-reference facade fitting for real-world reconstruction;
+- reference/image → structured project graph assistance;
+- stronger circulation QA across large campuses/estates;
+- project-aware roof intersection and tower/dormer reconciliation.
 
 ## Later
 

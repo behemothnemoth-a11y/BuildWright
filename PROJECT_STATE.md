@@ -9,7 +9,7 @@
 - Selective microblock second pass: LOCKED
 - In-game player-eye review required for approval: YES
 
-## System maturity after DROP 0009
+## System maturity after DROP 0010
 
 - Vanilla pack foundation: IMPLEMENTED — 68 families / 567 variants
 - Microblock pack foundation: IMPLEMENTED — 75 families / 606 variants
@@ -25,6 +25,12 @@
 - Cardinal + explicit up/down connector alignment: IMPLEMENTED
 - Shared-wall/floor attachment and collision QA: IMPLEMENTED
 - Straight deterministic corridor compiler: IMPLEMENTED
+- Routed orthogonal corridor compiler: IMPLEMENTED
+- Elevation stair compiler: IMPLEMENTED
+- Structural graph nodes: IMPLEMENTED — tower / porch / balcony / buttress_run / dormer_row
+- Foundation engine: IMPLEMENTED — perimeter / piers / solid
+- Project-scale site networks: IMPLEMENTED — path / road / plaza / wall / fence / retaining_wall / stairs
+- Structural/site regression corpus: IMPLEMENTED — 3 pure-vanilla projects
 - Universal architectural style profiles: IMPLEMENTED — 35 profiles / 14 families
 - Semantic material-role system: IMPLEMENTED
 - Primary/secondary style blending: IMPLEMENTED
@@ -41,7 +47,7 @@
 - VANILLA_DETAIL_COMPLETE room regressions: IMPLEMENTED — 10
 - Whole-building vanilla finishing engine: IMPLEMENTED
 - VANILLA_DETAIL_COMPLETE project regressions: IMPLEMENTED — 3
-- Vanilla visual assets: IMPLEMENTED — 85 fixtures + 6 room baselines + 10 detailed rooms + 3 project baselines + 3 detailed projects + 37 style baselines
+- Vanilla visual assets: IMPLEMENTED — 85 fixtures + 6 room baselines + 10 detailed rooms + 3 project baselines + 3 detailed projects + 3 structural/site projects + 37 style baselines
 - Optional Astra visual assets: RETAINED SEPARATELY — 24 fixtures + 1 hybrid proof room
 - Automatic room cutaway rendering: IMPLEMENTED
 - Vanilla-output Astra namespace validation: IMPLEMENTED
@@ -81,6 +87,12 @@ The reusable **complete vanilla detail layer is implemented**. Ten room-role pro
 
 `VANILLA_DETAIL_COMPLETE` is an offline compiler maturity state, not automatic approval. In-game/player-eye review is still mandatory.
 
+## DROP 0010 status
+
+Structural and site intelligence is implemented on top of the completed vanilla pipeline. Project briefs can now express routed corridors, elevation stairs, reusable structural nodes, terrain-aware foundations, and explicit site networks. Three deterministic pure-vanilla regression projects exercise those systems.
+
+These remain offline regression outputs. They still require in-game/player-eye review before any project-specific geometry is approved.
+
 ## Next major priority
 
-Deepen structural/project intelligence on top of the completed vanilla pipeline: tower/dormer/buttress/balcony/porch graph nodes, non-straight circulation, terrain-aware foundations, urban frontage rules, project-scale road/plaza/infrastructure networks, and more style-specific finishing profiles. Microblocks remain downstream and optional.
+Deepen **style-specific vanilla finishing and real-world fitting**: frontage/story zoning, style-family finishing profiles beyond generic room roles, measured-reference facade fitting, terrain/profile ingestion, richer landscape graphs, and better automated circulation QA. Microblocks remain downstream and optional.

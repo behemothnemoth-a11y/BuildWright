@@ -34,6 +34,9 @@ def sync_index(data, check=False):
     detail_projects=[]
     for p in sorted((ROOT/"examples/projects_detail").glob("*.json")):
         detail_projects.append(json.loads(p.read_text(encoding="utf-8"))["id"])
+    structural_projects=[]
+    for p in sorted((ROOT/"examples/structural_site").glob("*.json")):
+        structural_projects.append(json.loads(p.read_text(encoding="utf-8"))["id"])
     desired={
         "facade_profiles":[p["id"] for p in data["profiles"]],
         "style_registry":"style_registry.json",
@@ -41,6 +44,16 @@ def sync_index(data, check=False):
         "style_families":len(data["families"]),
         "vanilla_detail_projects":detail_projects,
         "vanilla_finish_engine":True,
+        "connection_modes":["attach","corridor","route","stairs"],
+        "structural_node_types":["tower","porch","balcony","buttress_run","dormer_row"],
+        "site_network_types":["path","road","plaza","wall","fence","retaining_wall","stairs"],
+        "foundation_modes":["perimeter","piers","solid"],
+        "structural_site_examples":structural_projects,
+        "routed_corridors":True,
+        "elevation_stairs":True,
+        "structural_nodes":True,
+        "site_networks":True,
+        "foundation_engine":True,
     }
     if check:
         for key,value in desired.items():

@@ -99,3 +99,16 @@ DROP 0009 adds a deterministic completion gate above the vanilla architectural b
 - fixture/detail placement may skip conflicting optional content, but must never break authoritative connector/circulation keepouts.
 
 `VANILLA_DETAIL_COMPLETE` is an offline finishing milestone, not APPROVED. Minecraft/player-eye review remains required.
+
+## Structural and site validation
+
+DROP 0010 adds project-scale circulation/structure/site regression gates:
+
+- structural/site example briefs must recompile byte-for-byte;
+- routed connections must generate player-scale route geometry while preserving explicitly positioned modules;
+- elevation stair connections must generate vertical circulation and preserve connector clearances;
+- structural nodes must reference valid modules and supported node types;
+- foundations must respond deterministically to declared grade and module elevation;
+- roads, plazas, walls, fences, retaining walls and site stairs must produce deterministic network statistics;
+- all structural/site outputs must remain free of the `astra_microblocks:` namespace;
+- generated structural/site projects remain LIVE_GAME_PENDING until loaded and reviewed in Minecraft.

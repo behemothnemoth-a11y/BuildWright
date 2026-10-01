@@ -2460,6 +2460,59 @@
         "detail_level": "VANILLA_DETAIL_COMPLETE",
         "uses_astra_microblocks": false
       }
+    ],
+    "structural_site_projects": [
+      {
+        "id": "modern_campus_network",
+        "label": "Modern Campus Network",
+        "source": "project_graph/structural_examples/modern_campus_network.litematic",
+        "image": "catalog/visual/images/structural_site/modern_campus_network.png",
+        "blocks": 44639,
+        "size": [
+          181,
+          20,
+          129
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_DETAIL_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "routed_gothic_estate",
+        "label": "Routed Gothic Estate",
+        "source": "project_graph/structural_examples/routed_gothic_estate.litematic",
+        "image": "catalog/visual/images/structural_site/routed_gothic_estate.png",
+        "blocks": 54058,
+        "size": [
+          186,
+          51,
+          129
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_DETAIL_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "terraced_hillside_compound",
+        "label": "Terraced Hillside Compound",
+        "source": "project_graph/structural_examples/terraced_hillside_compound.litematic",
+        "image": "catalog/visual/images/structural_site/terraced_hillside_compound.png",
+        "blocks": 20908,
+        "size": [
+          123,
+          37,
+          59
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_DETAIL_COMPLETE",
+        "uses_astra_microblocks": false
+      }
     ]
   },
   "optional_microblock": {
@@ -2872,6 +2925,7 @@
     "vanilla_style_baselines": 37,
     "vanilla_detail_rooms": 10,
     "vanilla_detail_projects": 3,
+    "structural_site_projects": 3,
     "microblock_fixtures": 24,
     "hybrid_rooms": 1
   }

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_elven_fantasy",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    28,
+    32
+  ],
+  "blocks": 5939,
+  "block_entities": 0,
+  "litematic": "style_showcase_elven_fantasy.litematic",
+  "project_source": "style_showcase_elven_fantasy.project.json",
+  "preview": "style_showcase_elven_fantasy.plan.svg",
+  "litematic_sha256": "447468a69821e9f4342263b0b818e57237444c217ea782ccf77fe2c4587dcdd6",
+  "readback": {
+    "regions": 1,
+    "nonair": 5939,
+    "volume": 31360,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "swept_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "forest"
+  },
+  "warnings": []
+}

@@ -1,0 +1,94 @@
+{
+  "wall_state": "minecraft:light_gray_concrete",
+  "pier_state": "minecraft:black_concrete",
+  "trim_state": "minecraft:smooth_quartz",
+  "glass_state": "minecraft:light_blue_stained_glass",
+  "plinth_state": "minecraft:polished_andesite",
+  "accent_state": "minecraft:chiseled_stone_bricks",
+  "roof_state": "minecraft:dark_oak_planks",
+  "gable_state": "minecraft:stone_bricks",
+  "bay_spacing": 7,
+  "pier_depth": 1,
+  "plinth_height": 1,
+  "window_width": 7,
+  "window_height": 6,
+  "window_sill_y": 3,
+  "cornice_depth": 0,
+  "window_shape": "curtain_wall",
+  "facade_rhythm": "regular",
+  "symmetry": "balanced",
+  "depth_bias": 1,
+  "vertical_emphasis": 0.5,
+  "ornament_density": 0.03,
+  "default_roof": "flat",
+  "roof_step_run": 2,
+  "roof_overhang": 1,
+  "massing": {
+    "tower_bias": 0.15,
+    "courtyard_bias": 0.1,
+    "setback_bias": 0.2,
+    "verticality": 0.5
+  },
+  "site_character": "formal",
+  "vegetation_profile": "temperate_manor",
+  "id": "contemporary_glass",
+  "family": "modern",
+  "display_name": "Contemporary Glass",
+  "material_roles": {
+    "wall": "minecraft:light_gray_concrete",
+    "structure": "minecraft:black_concrete",
+    "trim": "minecraft:smooth_quartz",
+    "accent": "minecraft:chiseled_stone_bricks",
+    "glass": "minecraft:light_blue_stained_glass",
+    "plinth": "minecraft:polished_andesite",
+    "roof": "minecraft:dark_oak_planks"
+  },
+  "zone_presets": {
+    "hero": {
+      "ornament_multiplier": 1.35,
+      "depth_add": 1,
+      "window_scale": 1.15,
+      "band_multiplier": 1.25
+    },
+    "primary": {
+      "ornament_multiplier": 1.0,
+      "depth_add": 0,
+      "window_scale": 1.0,
+      "band_multiplier": 1.0
+    },
+    "secondary": {
+      "ornament_multiplier": 0.75,
+      "depth_add": 0,
+      "window_scale": 0.95,
+      "band_multiplier": 0.75
+    },
+    "service": {
+      "ornament_multiplier": 0.35,
+      "depth_add": -1,
+      "window_scale": 0.8,
+      "band_multiplier": 0.35
+    },
+    "courtyard": {
+      "ornament_multiplier": 0.8,
+      "depth_add": 0,
+      "window_scale": 0.9,
+      "band_multiplier": 0.8
+    },
+    "blind": {
+      "ornament_multiplier": 0.15,
+      "depth_add": 0,
+      "window_scale": 0.0,
+      "band_multiplier": 0.25
+    }
+  },
+  "recommended_scales": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "compatible_contexts": [
+    "standalone",
+    "urban",
+    "campus"
+  ]
+}

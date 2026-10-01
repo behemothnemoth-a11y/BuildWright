@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_japanese_modern_hybrid",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_showcase_japanese_modern_hybrid",
+    "name": "Style Showcase - Japanese + Modern",
+    "style": {
+      "primary": "japanese_traditional",
+      "secondary": "modern",
+      "blend": 0.3,
+      "material_roles": {
+        "glass": "minecraft:tinted_glass"
+      }
+    },
+    "facade": {
+      "zone_assignments": {
+        "south": "hero",
+        "north": "secondary"
+      }
+    },
+    "modules": [
+      {
+        "id": "showcase",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        2,
+        0,
+        2
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    2,
+    0,
+    2
+  ],
+  "pre_normalized_bounds": [
+    -2,
+    0,
+    -2,
+    32,
+    34,
+    28
+  ],
+  "exterior_sides": {
+    "showcase": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  }
+}

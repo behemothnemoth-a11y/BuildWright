@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_underwater_organic",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    23,
+    33
+  ],
+  "blocks": 5544,
+  "block_entities": 0,
+  "litematic": "style_showcase_underwater_organic.litematic",
+  "project_source": "style_showcase_underwater_organic.project.json",
+  "preview": "style_showcase_underwater_organic.plan.svg",
+  "litematic_sha256": "5ad631942fd15d57cfb9e86b8f99d3be905cfa159371e7e96dd4085c8a58bb87",
+  "readback": {
+    "regions": 1,
+    "nonair": 5544,
+    "volume": 28083,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 10,
+    "styles": {
+      "dome": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "submerged"
+  },
+  "warnings": []
+}

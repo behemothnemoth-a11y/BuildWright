@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_massive_gothic_manor",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    28,
+    33
+  ],
+  "blocks": 6102,
+  "block_entities": 0,
+  "litematic": "style_showcase_massive_gothic_manor.litematic",
+  "project_source": "style_showcase_massive_gothic_manor.project.json",
+  "preview": "style_showcase_massive_gothic_manor.plan.svg",
+  "litematic_sha256": "8cbabde5f844a171190990f06fb88da80b7377aa698a104ec377943a7768b888",
+  "readback": {
+    "regions": 1,
+    "nonair": 6102,
+    "volume": 34188,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 14,
+    "piers": 19,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

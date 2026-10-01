@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_rustic_farmhouse",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_showcase_rustic_farmhouse",
+    "name": "Style Showcase - rustic_farmhouse",
+    "facade_profile": "rustic_farmhouse",
+    "facade": {
+      "zone_assignments": {
+        "south": "hero",
+        "north": "service",
+        "east": "secondary",
+        "west": "secondary"
+      }
+    },
+    "modules": [
+      {
+        "id": "showcase",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        1,
+        0,
+        1
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    1,
+    0,
+    1
+  ],
+  "pre_normalized_bounds": [
+    -1,
+    0,
+    -1,
+    31,
+    20,
+    28
+  ],
+  "exterior_sides": {
+    "showcase": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  }
+}

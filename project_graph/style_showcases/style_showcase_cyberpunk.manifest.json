@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_cyberpunk",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    14,
+    33
+  ],
+  "blocks": 5739,
+  "block_entities": 0,
+  "litematic": "style_showcase_cyberpunk.litematic",
+  "project_source": "style_showcase_cyberpunk.project.json",
+  "preview": "style_showcase_cyberpunk.plan.svg",
+  "litematic_sha256": "104a7aab31e94639d6cdb6bfcfb7febfda9ccdc0739b0c7a0b76efa86b21dc90",
+  "readback": {
+    "regions": 1,
+    "nonair": 5739,
+    "volume": 17094,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "mechanical_flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "dense_urban"
+  },
+  "warnings": []
+}

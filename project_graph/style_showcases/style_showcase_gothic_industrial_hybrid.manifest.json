@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_gothic_industrial_hybrid",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    28,
+    33
+  ],
+  "blocks": 6146,
+  "block_entities": 0,
+  "litematic": "style_showcase_gothic_industrial_hybrid.litematic",
+  "project_source": "style_showcase_gothic_industrial_hybrid.project.json",
+  "preview": "style_showcase_gothic_industrial_hybrid.plan.svg",
+  "litematic_sha256": "8a4e4647cf1092f2d195f3dbb2aaca2b8406c34aa6e981da51f7bcff51d58cd3",
+  "readback": {
+    "regions": 1,
+    "nonair": 6146,
+    "volume": 34188,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

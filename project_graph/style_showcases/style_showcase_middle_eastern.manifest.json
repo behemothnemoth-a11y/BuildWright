@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_middle_eastern",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    23,
+    30
+  ],
+  "blocks": 5208,
+  "block_entities": 0,
+  "litematic": "style_showcase_middle_eastern.litematic",
+  "project_source": "style_showcase_middle_eastern.project.json",
+  "preview": "style_showcase_middle_eastern.plan.svg",
+  "litematic_sha256": "3198bd647ffc0ecc14a2904b66103f5cb835bb4409f3e288a733e1f2af92a1a4",
+  "readback": {
+    "regions": 1,
+    "nonair": 5208,
+    "volume": 22770,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 10,
+    "styles": {
+      "dome_flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "courtyard"
+  },
+  "warnings": []
+}

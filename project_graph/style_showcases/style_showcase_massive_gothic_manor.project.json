@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_massive_gothic_manor",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_showcase_massive_gothic_manor",
+    "name": "Style Showcase - massive_gothic_manor",
+    "facade_profile": "massive_gothic_manor",
+    "facade": {
+      "zone_assignments": {
+        "south": "hero",
+        "north": "service",
+        "east": "secondary",
+        "west": "secondary"
+      }
+    },
+    "modules": [
+      {
+        "id": "showcase",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        3,
+        0,
+        2
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    3,
+    0,
+    2
+  ],
+  "pre_normalized_bounds": [
+    -3,
+    0,
+    -2,
+    33,
+    27,
+    30
+  ],
+  "exterior_sides": {
+    "showcase": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  }
+}

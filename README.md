@@ -2,13 +2,14 @@
 
 BuildWright is a reusable Minecraft architecture system for building, refining, composing, validating and releasing high-detail projects.
 
-The system now has five concrete layers:
+The system now has six concrete layers:
 
 1. **Vanilla Build Language** — 68 reusable families / 567 variants plus builder techniques, palettes and style profiles.
 2. **Microblock Implementation** — 75 families / 606 variants, 40 cell primitives, detail tiers and Astra-aware translation planning.
 3. **Compiled Fixture Library** — 40 real vanilla `.litematic` fixtures, 24 real Astra-host fixtures and a 32-case transform corpus with editable canonical source.
 4. **Composition Compiler** — room/module briefs → deterministic fixture selection → connector-aware placement → palette remap → canonical module source → validated `.litematic`.
-5. **Whole-Building Compiler** — compiled modules → graph solve → shared-wall/vertical alignment → corridors → coherent facade/roof/site passes → master `.litematic`.
+5. **Whole-Building Compiler** — compiled modules → graph solve → shared-wall/vertical alignment → corridors → facade/roof/site passes → master `.litematic`.
+6. **Universal Style & Exterior System** — project-neutral architectural language profiles, facade zoning, semantic material roles, style blending, window families, roof families and site intent.
 
 ## Core rules
 
@@ -41,6 +42,8 @@ python tools/compile_project.py examples/projects/wayne_manor_phase_a.json `
   --output .buildwright/generated/wayne-phase-a
 ```
 
-BuildWright 0.7.0 can align compiled modules through named cardinal or vertical ports, generate straight player-scale corridors, add coherent facade depth, roof massing and a lightweight site layer, then export one validated master Litematic.
+BuildWright 0.8.0 keeps the compiler project-neutral: the same graph/composition engine can drive Gothic, classical, modern, industrial, vernacular, East Asian, desert, speculative, fantasy, ancient and organic architectures. The initial universal library contains 35 style profiles across 14 architectural families, plus style blending and facade zoning.
 
-See `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.
+See `CATALOG.md` for the living inventory of what has been made so far.
+
+Core docs: `docs/UNIVERSAL_STYLE_SYSTEM.md`, `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.

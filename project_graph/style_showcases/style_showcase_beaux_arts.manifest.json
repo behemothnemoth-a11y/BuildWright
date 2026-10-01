@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_beaux_arts",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    22,
+    30
+  ],
+  "blocks": 5924,
+  "block_entities": 0,
+  "litematic": "style_showcase_beaux_arts.litematic",
+  "project_source": "style_showcase_beaux_arts.project.json",
+  "preview": "style_showcase_beaux_arts.plan.svg",
+  "litematic_sha256": "8246489ec0de2d473a5e2771b1d4b74c27ec4944a41c5b696609180e223f7fdd",
+  "readback": {
+    "regions": 1,
+    "nonair": 5924,
+    "volume": 21780,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 302,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9,
+    "styles": {
+      "mansard": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

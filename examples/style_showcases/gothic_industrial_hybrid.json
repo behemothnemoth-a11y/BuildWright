@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_gothic_industrial_hybrid",
+  "name": "Style Showcase - Gothic + Industrial",
+  "style": {
+    "primary": "massive_gothic_manor",
+    "secondary": "industrial",
+    "blend": 0.35,
+    "material_roles": {
+      "accent": "minecraft:copper_block"
+    }
+  },
+  "facade": {
+    "zone_assignments": {
+      "south": "hero",
+      "north": "service"
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  }
+}

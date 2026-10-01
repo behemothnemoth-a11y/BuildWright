@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_dwarven_mountain",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    39,
+    27,
+    35
+  ],
+  "blocks": 5751,
+  "block_entities": 0,
+  "litematic": "style_showcase_dwarven_mountain.litematic",
+  "project_source": "style_showcase_dwarven_mountain.project.json",
+  "preview": "style_showcase_dwarven_mountain.plan.svg",
+  "litematic_sha256": "756da1dd9b5a88f8f110d7eaedd9cb939ac9f547120368ce819fb40775a98261",
+  "readback": {
+    "regions": 1,
+    "nonair": 5751,
+    "volume": 36855,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 12,
+    "piers": 17,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 14,
+    "styles": {
+      "vaulted_mass": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "mountain"
+  },
+  "warnings": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_industrial",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    16,
+    30
+  ],
+  "blocks": 5318,
+  "block_entities": 0,
+  "litematic": "style_showcase_industrial.litematic",
+  "project_source": "style_showcase_industrial.project.json",
+  "preview": "style_showcase_industrial.plan.svg",
+  "litematic_sha256": "c2c71f38a1ef644b6f3e733f3b287d52b63466a559f319c100ff1e4a8fd907ba",
+  "readback": {
+    "regions": 1,
+    "nonair": 5318,
+    "volume": 15840,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 5,
+    "piers": 23,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 3,
+    "styles": {
+      "sawtooth": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "service_yard"
+  },
+  "warnings": []
+}

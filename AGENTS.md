@@ -61,3 +61,15 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Whole-building compilation must remain deterministic from the same project brief.
 - A successful offline whole-building compile is `LIVE_GAME_PENDING`, never automatically APPROVED.
 - Generated Wayne Manor examples are compiler regression fixtures, not canon replacements for hand-refined Wayne geometry.
+
+## DROP 0008 universal-style rules
+
+- Core BuildWright logic must remain project-neutral. Do not bake Wayne Manor, Blackglass, Cthulhu, or any other named project into universal style defaults.
+- A style profile describes architectural language: massing bias, facade rhythm, window language, material roles, roof language, ornament density, site character and related constraints.
+- Project-specific story, layout, dimensions and hero geometry belong in project briefs/overrides, not reusable style profiles.
+- Material roles are semantic. Override wall/structure/trim/accent/glass/plinth/roof roles explicitly; never interpolate block IDs.
+- Hybrid styles retain a primary architectural language and blend numeric biases from a secondary profile. Avoid incoherent fifty-fifty style soup.
+- Facade zones distinguish hero, primary, secondary, service, courtyard and blind elevations. Do not detail every exterior face equally.
+- Roof language is style-aware but remains a massing pass. Hand-authored hero roofs/ceilings can opt out.
+- Universal style additions require registry validation and at least one representative compile path.
+- The living catalogue must be regenerated when a major reusable system, compiled artifact family, style corpus, or project regression set changes.

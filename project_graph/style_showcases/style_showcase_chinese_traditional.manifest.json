@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_chinese_traditional",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    36,
+    33
+  ],
+  "blocks": 5957,
+  "block_entities": 0,
+  "litematic": "style_showcase_chinese_traditional.litematic",
+  "project_source": "style_showcase_chinese_traditional.project.json",
+  "preview": "style_showcase_chinese_traditional.plan.svg",
+  "litematic_sha256": "cf616702db51773bda60e72bcc62139abefb19c136847fe2e87cc894c57f223e",
+  "readback": {
+    "regions": 1,
+    "nonair": 5957,
+    "volume": 43956,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 23,
+    "styles": {
+      "pagoda": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "courtyard"
+  },
+  "warnings": []
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_solarpunk",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    16,
+    30
+  ],
+  "blocks": 6354,
+  "block_entities": 0,
+  "litematic": "style_showcase_solarpunk.litematic",
+  "project_source": "style_showcase_solarpunk.project.json",
+  "preview": "style_showcase_solarpunk.plan.svg",
+  "litematic_sha256": "fb6369751e43ef2d109bef1997661b97aa5dea2adae8b3c6ff37f8851c1143b7",
+  "readback": {
+    "regions": 1,
+    "nonair": 6354,
+    "volume": 15840,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 9,
+    "piers": 19,
+    "bands": 137,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 3,
+    "styles": {
+      "green_terrace": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "lush_integrated"
+  },
+  "warnings": []
+}

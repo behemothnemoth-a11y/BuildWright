@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_rustic_farmhouse",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    21,
+    30
+  ],
+  "blocks": 5577,
+  "block_entities": 0,
+  "litematic": "style_showcase_rustic_farmhouse.litematic",
+  "project_source": "style_showcase_rustic_farmhouse.project.json",
+  "preview": "style_showcase_rustic_farmhouse.plan.svg",
+  "litematic_sha256": "6188e41e81186642b3aff03340712d73fcd2944f1fd1165234585d2287c622bb",
+  "readback": {
+    "regions": 1,
+    "nonair": 5577,
+    "volume": 20790,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 111,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9,
+    "styles": {
+      "gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "farm"
+  },
+  "warnings": []
+}

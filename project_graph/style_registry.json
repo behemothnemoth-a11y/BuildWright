@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "count": 35,
+  "families": [
+    "ancient",
+    "classical",
+    "desert",
+    "east_asian",
+    "fantasy",
+    "gothic",
+    "historic_european",
+    "industrial",
+    "mediterranean",
+    "modern",
+    "modern_historic",
+    "organic",
+    "speculative",
+    "vernacular"
+  ],
+  "profiles": [
+    {
+      "id": "alpine_chalet",
+      "family": "vernacular",
+      "display_name": "Alpine Chalet",
+      "default_roof": "steep_gable",
+      "window_shape": "balcony_group"
+    },
+    {
+      "id": "ancient_temple",
+      "family": "ancient",
+      "display_name": "Ancient Temple",
+      "default_roof": "terraced",
+      "window_shape": "screen"
+    },
+    {
+      "id": "art_deco",
+      "family": "modern_historic",
+      "display_name": "Art Deco",
+      "default_roof": "flat",
+      "window_shape": "vertical_band"
+    },
+    {
+      "id": "art_nouveau",
+      "family": "modern_historic",
+      "display_name": "Art Nouveau",
+      "default_roof": "hip",
+      "window_shape": "organic_arch"
+    },
+    {
+      "id": "beaux_arts",
+      "family": "classical",
+      "display_name": "Beaux Arts",
+      "default_roof": "mansard",
+      "window_shape": "arched"
+    },
+    {
+      "id": "brutalist",
+      "family": "modern",
+      "display_name": "Brutalist",
+      "default_roof": "flat",
+      "window_shape": "slot"
+    },
+    {
+      "id": "chinese_traditional",
+      "family": "east_asian",
+      "display_name": "Chinese Traditional",
+      "default_roof": "pagoda",
+      "window_shape": "lattice"
+    },
+    {
+      "id": "classic_manor",
+      "family": "classical",
+      "display_name": "Classic Manor",
+      "default_roof": "hip",
+      "window_shape": "rect"
+    },
+    {
+      "id": "contemporary_glass",
+      "family": "modern",
+      "display_name": "Contemporary Glass",
+      "default_roof": "flat",
+      "window_shape": "curtain_wall"
+    },
+    {
+      "id": "cottage",
+      "family": "vernacular",
+      "display_name": "Cottage",
+      "default_roof": "steep_gable",
+      "window_shape": "small_rect"
+    },
+    {
+      "id": "cyberpunk",
+      "family": "speculative",
+      "display_name": "Cyberpunk",
+      "default_roof": "mechanical_flat",
+      "window_shape": "vertical_band"
+    },
+    {
+      "id": "desert_adobe",
+      "family": "desert",
+      "display_name": "Desert Adobe",
+      "default_roof": "flat",
+      "window_shape": "small_rect"
+    },
+    {
+      "id": "dwarven_mountain",
+      "family": "fantasy",
+      "display_name": "Dwarven Mountain",
+      "default_roof": "vaulted_mass",
+      "window_shape": "deep_arch"
+    },
+    {
+      "id": "elven_fantasy",
+      "family": "fantasy",
+      "display_name": "Elven Fantasy",
+      "default_roof": "swept_gable",
+      "window_shape": "lancet"
+    },
+    {
+      "id": "georgian",
+      "family": "classical",
+      "display_name": "Georgian",
+      "default_roof": "hip",
+      "window_shape": "tall_rect"
+    },
+    {
+      "id": "industrial",
+      "family": "industrial",
+      "display_name": "Industrial",
+      "default_roof": "sawtooth",
+      "window_shape": "factory_grid"
+    },
+    {
+      "id": "italianate",
+      "family": "historic_european",
+      "display_name": "Italianate",
+      "default_roof": "hip",
+      "window_shape": "arched"
+    },
+    {
+      "id": "japanese_traditional",
+      "family": "east_asian",
+      "display_name": "Japanese Traditional",
+      "default_roof": "pagoda",
+      "window_shape": "shoji_grid"
+    },
+    {
+      "id": "massive_gothic_manor",
+      "family": "gothic",
+      "display_name": "Massive Gothic Manor",
+      "default_roof": "steep_gable",
+      "window_shape": "pointed"
+    },
+    {
+      "id": "mediterranean",
+      "family": "mediterranean",
+      "display_name": "Mediterranean",
+      "default_roof": "low_gable",
+      "window_shape": "arched"
+    },
+    {
+      "id": "midcentury_modern",
+      "family": "modern",
+      "display_name": "Mid-Century Modern",
+      "default_roof": "shed",
+      "window_shape": "rect"
+    },
+    {
+      "id": "middle_eastern",
+      "family": "desert",
+      "display_name": "Middle Eastern",
+      "default_roof": "dome_flat",
+      "window_shape": "horseshoe_arch"
+    },
+    {
+      "id": "modern",
+      "family": "modern",
+      "display_name": "Modern",
+      "default_roof": "flat",
+      "window_shape": "rect"
+    },
+    {
+      "id": "neoclassical",
+      "family": "classical",
+      "display_name": "Neoclassical",
+      "default_roof": "hip",
+      "window_shape": "tall_rect"
+    },
+    {
+      "id": "nordic",
+      "family": "vernacular",
+      "display_name": "Nordic",
+      "default_roof": "steep_gable",
+      "window_shape": "tall_rect"
+    },
+    {
+      "id": "ruin_overgrown",
+      "family": "ancient",
+      "display_name": "Overgrown Ruin",
+      "default_roof": "ruined",
+      "window_shape": "broken"
+    },
+    {
+      "id": "rustic_farmhouse",
+      "family": "vernacular",
+      "display_name": "Rustic Farmhouse",
+      "default_roof": "gable",
+      "window_shape": "small_rect"
+    },
+    {
+      "id": "sci_fi_clean",
+      "family": "speculative",
+      "display_name": "Clean Sci-Fi",
+      "default_roof": "mechanical_flat",
+      "window_shape": "ribbon"
+    },
+    {
+      "id": "solarpunk",
+      "family": "speculative",
+      "display_name": "Solarpunk",
+      "default_roof": "green_terrace",
+      "window_shape": "curtain_wall"
+    },
+    {
+      "id": "southeast_asian_temple",
+      "family": "east_asian",
+      "display_name": "Southeast Asian Temple",
+      "default_roof": "tiered",
+      "window_shape": "screen"
+    },
+    {
+      "id": "spanish_colonial",
+      "family": "mediterranean",
+      "display_name": "Spanish Colonial",
+      "default_roof": "low_gable",
+      "window_shape": "arched"
+    },
+    {
+      "id": "tudor",
+      "family": "historic_european",
+      "display_name": "Tudor",
+      "default_roof": "steep_gable",
+      "window_shape": "mullioned"
+    },
+    {
+      "id": "underwater_organic",
+      "family": "organic",
+      "display_name": "Underwater Organic",
+      "default_roof": "dome",
+      "window_shape": "organic_arch"
+    },
+    {
+      "id": "victorian_gothic",
+      "family": "gothic",
+      "display_name": "Victorian Gothic",
+      "default_roof": "mansard",
+      "window_shape": "pointed"
+    },
+    {
+      "id": "western_frontier",
+      "family": "vernacular",
+      "display_name": "Western Frontier",
+      "default_roof": "false_front",
+      "window_shape": "storefront"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_japanese_traditional",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    36,
+    33
+  ],
+  "blocks": 5915,
+  "block_entities": 0,
+  "litematic": "style_showcase_japanese_traditional.litematic",
+  "project_source": "style_showcase_japanese_traditional.project.json",
+  "preview": "style_showcase_japanese_traditional.plan.svg",
+  "litematic_sha256": "1b41e7be30d87851cfec7a503991bea3c34f9fdeac32263f00ee5806fe1a57fe",
+  "readback": {
+    "regions": 1,
+    "nonair": 5915,
+    "volume": 43956,
+    "palette": 9,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 137,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 23,
+    "styles": {
+      "pagoda": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "garden"
+  },
+  "warnings": []
+}

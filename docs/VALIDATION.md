@@ -50,3 +50,18 @@ DROP 0007 adds project-graph validation on top of module validation. The offline
 - committed project examples reproduce byte-for-byte, including JSON/SVG LF serialization.
 
 Offline project validation still does not prove that the assembled building is aesthetically successful. Whole-building outputs remain `LIVE_GAME_PENDING` until loaded and walked in Minecraft.
+
+## Universal style validation
+
+DROP 0008 adds strict style/catalog gates:
+
+- all registered style profiles must exist and have unique IDs;
+- universal profiles must define complete semantic material roles;
+- massing biases must remain normalized;
+- default roof languages must be supported by the roof compiler;
+- the style registry must regenerate byte-for-byte;
+- committed style showcases must regenerate byte-for-byte;
+- style profiles must stay project-neutral rather than naming a regression project;
+- the living catalogue must regenerate byte-for-byte from repository state.
+
+The style showcase corpus is an offline diversity/regression test. It proves that very different architectural languages can traverse the same compiler; it does not prove aesthetic approval in Minecraft.

@@ -10,31 +10,39 @@
     18,
     51
   ],
-  "blocks": 26038,
+  "blocks": 25664,
   "block_entities": 0,
   "litematic": "industrial_campus.litematic",
   "project_source": "industrial_campus.project.json",
   "preview": "industrial_campus.plan.svg",
-  "litematic_sha256": "a3d283c3dc94296a1c48dc15be3fc24cfc0361df3e72949a064f2cb0a6c7aa25",
+  "litematic_sha256": "39ead5f44e30ac1103429527c59873bac53d6693264c5fd4ec39a2134921b00f",
   "readback": {
     "regions": 1,
-    "nonair": 26038,
+    "nonair": 25664,
     "volume": 119340,
-    "palette": 22,
+    "palette": 21,
     "block_entities": 0
   },
   "facade": {
     "sides": 8,
-    "windows": 49,
-    "piers": 58
+    "windows": 0,
+    "piers": 58,
+    "bands": 0,
+    "balconies": 0
   },
   "roof": {
     "modules": 2,
-    "max_rise": 1
+    "max_rise": 1,
+    "styles": {
+      "flat": 2
+    }
   },
   "site": {
     "ground_blocks": 6630,
-    "path_blocks": 0
+    "path_blocks": 0,
+    "edge_blocks": 116,
+    "character": "service_yard",
+    "vegetation_profile": "temperate_manor"
   },
   "warnings": []
 }

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_ancient_temple",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    16,
+    32
+  ],
+  "blocks": 6606,
+  "block_entities": 0,
+  "litematic": "style_showcase_ancient_temple.litematic",
+  "project_source": "style_showcase_ancient_temple.project.json",
+  "preview": "style_showcase_ancient_temple.plan.svg",
+  "litematic_sha256": "a4d840bfc84927626420a84336bafa8ce539b2899ffe041b7e4227085a556cf7",
+  "readback": {
+    "regions": 1,
+    "nonair": 6606,
+    "volume": 17920,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 3,
+    "styles": {
+      "terraced": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "monumental"
+  },
+  "warnings": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_gothic_industrial_hybrid",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_showcase_gothic_industrial_hybrid",
+    "name": "Style Showcase - Gothic + Industrial",
+    "style": {
+      "primary": "massive_gothic_manor",
+      "secondary": "industrial",
+      "blend": 0.35,
+      "material_roles": {
+        "accent": "minecraft:copper_block"
+      }
+    },
+    "facade": {
+      "zone_assignments": {
+        "south": "hero",
+        "north": "service"
+      }
+    },
+    "modules": [
+      {
+        "id": "showcase",
+        "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    }
+  },
+  "modules": [
+    {
+      "id": "showcase",
+      "source": "composition/compiled_examples/victorian_bedroom_demo.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        3,
+        0,
+        2
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    3,
+    0,
+    2
+  ],
+  "pre_normalized_bounds": [
+    -3,
+    0,
+    -2,
+    33,
+    27,
+    30
+  ],
+  "exterior_sides": {
+    "showcase": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  }
+}

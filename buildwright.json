@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -79,19 +79,44 @@
   ],
   "project_graph_system": {
     "brief_schema": "schemas/project_graph.schema.json",
-    "facade_profiles": 4,
+    "facade_profiles": 35,
     "example_projects": 3,
     "cardinal_and_vertical_ports": true,
     "corridor_routing": "straight_aligned",
     "facade_compiler": true,
     "roof_compiler": [
       "flat",
+      "mechanical_flat",
+      "green_terrace",
+      "false_front",
       "gable",
+      "steep_gable",
+      "swept_gable",
+      "low_gable",
       "hip",
-      "mansard"
+      "mansard",
+      "shed",
+      "butterfly",
+      "sawtooth",
+      "pagoda",
+      "tiered",
+      "dome",
+      "dome_flat",
+      "vaulted_mass",
+      "terraced",
+      "ruined"
     ],
     "site_compiler": true,
     "canonical_project_source": true,
-    "deterministic_outputs": true
+    "deterministic_outputs": true,
+    "style_registry": "project_graph/style_registry.json",
+    "style_profiles": 35,
+    "style_families": 14,
+    "style_showcases": 21,
+    "style_blending": true,
+    "facade_zoning": true,
+    "window_languages": true,
+    "semantic_material_roles": true,
+    "site_character_system": true
   }
 }

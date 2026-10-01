@@ -10,31 +10,38 @@
     44,
     51
   ],
-  "blocks": 15783,
+  "blocks": 16032,
   "block_entities": 0,
   "litematic": "two_floor_manor.litematic",
   "project_source": "two_floor_manor.project.json",
   "preview": "two_floor_manor.plan.svg",
-  "litematic_sha256": "2740213a3aa181dd57e8d667f4f17de62b50b949de7ddc20326be2e929046a59",
+  "litematic_sha256": "6779cfb92d4cd6f3c7838b5b59d2a1147a72a8b54c249ff47139eb8e20e967c0",
   "readback": {
     "regions": 1,
-    "nonair": 15783,
+    "nonair": 16032,
     "volume": 141372,
-    "palette": 17,
+    "palette": 16,
     "block_entities": 0
   },
   "facade": {
     "sides": 8,
     "windows": 44,
-    "piers": 55
+    "piers": 55,
+    "bands": 640,
+    "balconies": 0
   },
   "roof": {
     "modules": 1,
-    "max_rise": 9
+    "max_rise": 9,
+    "styles": {
+      "gable": 1
+    }
   },
   "site": {
     "ground_blocks": 0,
-    "path_blocks": 0
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
   },
   "warnings": [
     "1 overlapping module block-state conflicts reconciled by graph order"

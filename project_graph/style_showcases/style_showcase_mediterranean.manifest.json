@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_mediterranean",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    18,
+    30
+  ],
+  "blocks": 5572,
+  "block_entities": 0,
+  "litematic": "style_showcase_mediterranean.litematic",
+  "project_source": "style_showcase_mediterranean.project.json",
+  "preview": "style_showcase_mediterranean.plan.svg",
+  "litematic_sha256": "decc1730866b3f00b21b3a0ceb2c8f74ee45f8155e4f482968df62d3be9a3f2d",
+  "readback": {
+    "regions": 1,
+    "nonair": 5572,
+    "volume": 17820,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 191,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 6,
+    "styles": {
+      "low_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "courtyard"
+  },
+  "warnings": []
+}

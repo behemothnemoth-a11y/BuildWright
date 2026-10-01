@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_tudor",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    33,
+    28,
+    30
+  ],
+  "blocks": 5894,
+  "block_entities": 0,
+  "litematic": "style_showcase_tudor.litematic",
+  "project_source": "style_showcase_tudor.project.json",
+  "preview": "style_showcase_tudor.plan.svg",
+  "litematic_sha256": "5790f42ded6add737fb863ba9c6533bfff6a1de25072a016209efa8855e1bf4d",
+  "readback": {
+    "regions": 1,
+    "nonair": 5894,
+    "volume": 27720,
+    "palette": 8,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 191,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

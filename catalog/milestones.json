@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "milestones": [
+    {
+      "drop": "0001C",
+      "version": "0.1.x",
+      "name": "Repository Foundation",
+      "status": "complete",
+      "highlights": [
+        "repository foundation",
+        "drop installer and validation workflow",
+        "vanilla build language",
+        "microblock stage contract",
+        "Wayne Manor seed project"
+      ]
+    },
+    {
+      "drop": "0002",
+      "version": "0.2.x",
+      "name": "Vanilla Pack Foundations",
+      "status": "complete",
+      "highlights": [
+        "68 vanilla pack families",
+        "567 variants",
+        "22 builder-technique cards",
+        "16 material palettes",
+        "16 style profiles"
+      ]
+    },
+    {
+      "drop": "0003",
+      "version": "0.3.0",
+      "name": "Microblock Pack Foundations",
+      "status": "complete",
+      "highlights": [
+        "75 microblock families",
+        "606 variants",
+        "40 cell-shape primitives",
+        "10 detail/performance profiles",
+        "Astra Microblocks-aware translation planning"
+      ]
+    },
+    {
+      "drop": "0004",
+      "version": "0.4.0",
+      "name": "Compiled Asset Fixtures",
+      "status": "complete",
+      "highlights": [
+        "40 vanilla Litematic fixtures",
+        "24 Astra Microblocks Litematic fixtures",
+        "32 rotation/mirror transform cases",
+        "fixture compiler, reader and validation corpus"
+      ]
+    },
+    {
+      "drop": "0005",
+      "version": "0.5.0",
+      "name": "Composition Compiler",
+      "status": "complete",
+      "highlights": [
+        "11 spatial templates",
+        "8 composition palettes",
+        "7 compiled room/module examples",
+        "deterministic fixture selection and module Litematic export"
+      ]
+    },
+    {
+      "drop": "0005B",
+      "version": "0.5.1",
+      "name": "Composition Reproducibility Fix",
+      "status": "complete",
+      "highlights": [
+        "canonical UTF-8/LF generated text",
+        "strict cross-platform byte-for-byte recompilation"
+      ]
+    },
+    {
+      "drop": "0006",
+      "version": "design",
+      "name": "Multi-Module Project Graph",
+      "status": "folded_into_0007",
+      "highlights": [
+        "graph design was folded into DROP 0007 rather than released separately"
+      ]
+    },
+    {
+      "drop": "0007",
+      "version": "0.7.0",
+      "name": "Whole-Building Compiler",
+      "status": "complete",
+      "highlights": [
+        "module graph solver",
+        "cardinal and vertical ports",
+        "shared-wall/floor alignment",
+        "corridor compiler",
+        "facade compiler",
+        "roof compiler",
+        "site compiler",
+        "3 whole-building regression projects"
+      ]
+    },
+    {
+      "drop": "0008",
+      "version": "0.8.0",
+      "name": "Universal Style & Exterior System",
+      "status": "complete",
+      "highlights": [
+        "35 project-agnostic style profiles",
+        "14 architectural families",
+        "style blending",
+        "facade zoning",
+        "expanded window languages",
+        "expanded roof languages",
+        "21 style showcase compiles",
+        "living BuildWright catalogue"
+      ]
+    }
+  ]
+}

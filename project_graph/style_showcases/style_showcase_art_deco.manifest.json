@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_art_deco",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    14,
+    32
+  ],
+  "blocks": 5538,
+  "block_entities": 0,
+  "litematic": "style_showcase_art_deco.litematic",
+  "project_source": "style_showcase_art_deco.project.json",
+  "preview": "style_showcase_art_deco.plan.svg",
+  "litematic_sha256": "ff19b9fa5d567fc081b9c6d9411e14a51cf512135e44bad96c629c7731496924",
+  "readback": {
+    "regions": 1,
+    "nonair": 5538,
+    "volume": 15680,
+    "palette": 11,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 14,
+    "piers": 19,
+    "bands": 217,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "warnings": []
+}

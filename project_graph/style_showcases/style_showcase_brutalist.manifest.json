@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "id": "style_showcase_brutalist",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    14,
+    31
+  ],
+  "blocks": 5438,
+  "block_entities": 0,
+  "litematic": "style_showcase_brutalist.litematic",
+  "project_source": "style_showcase_brutalist.project.json",
+  "preview": "style_showcase_brutalist.plan.svg",
+  "litematic_sha256": "7ad91ef0a7f2e49f55b5b56c45a69b5fbe3693830421d6cb8df41d25e548a467",
+  "readback": {
+    "regions": 1,
+    "nonair": 5438,
+    "volume": 15190,
+    "palette": 10,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 12,
+    "piers": 17,
+    "bands": 111,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "hardscape"
+  },
+  "warnings": []
+}

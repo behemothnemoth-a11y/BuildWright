@@ -1,0 +1,94 @@
+{
+  "wall_state": "minecraft:red_terracotta",
+  "pier_state": "minecraft:dark_oak_log",
+  "trim_state": "minecraft:red_concrete",
+  "glass_state": "minecraft:glass",
+  "plinth_state": "minecraft:polished_andesite",
+  "accent_state": "minecraft:gold_block",
+  "roof_state": "minecraft:dark_oak_planks",
+  "gable_state": "minecraft:stone_bricks",
+  "bay_spacing": 7,
+  "pier_depth": 1,
+  "plinth_height": 2,
+  "window_width": 3,
+  "window_height": 4,
+  "window_sill_y": 3,
+  "cornice_depth": 1,
+  "window_shape": "lattice",
+  "facade_rhythm": "post_bay",
+  "symmetry": "strong",
+  "depth_bias": 1,
+  "vertical_emphasis": 0.5,
+  "ornament_density": 0.7,
+  "default_roof": "pagoda",
+  "roof_step_run": 2,
+  "roof_overhang": 3,
+  "massing": {
+    "tower_bias": 0.15,
+    "courtyard_bias": 0.1,
+    "setback_bias": 0.2,
+    "verticality": 0.5
+  },
+  "site_character": "courtyard",
+  "vegetation_profile": "temperate_manor",
+  "id": "chinese_traditional",
+  "family": "east_asian",
+  "display_name": "Chinese Traditional",
+  "material_roles": {
+    "wall": "minecraft:red_terracotta",
+    "structure": "minecraft:dark_oak_log",
+    "trim": "minecraft:red_concrete",
+    "accent": "minecraft:gold_block",
+    "glass": "minecraft:glass",
+    "plinth": "minecraft:polished_andesite",
+    "roof": "minecraft:dark_oak_planks"
+  },
+  "zone_presets": {
+    "hero": {
+      "ornament_multiplier": 1.35,
+      "depth_add": 1,
+      "window_scale": 1.15,
+      "band_multiplier": 1.25
+    },
+    "primary": {
+      "ornament_multiplier": 1.0,
+      "depth_add": 0,
+      "window_scale": 1.0,
+      "band_multiplier": 1.0
+    },
+    "secondary": {
+      "ornament_multiplier": 0.75,
+      "depth_add": 0,
+      "window_scale": 0.95,
+      "band_multiplier": 0.75
+    },
+    "service": {
+      "ornament_multiplier": 0.35,
+      "depth_add": -1,
+      "window_scale": 0.8,
+      "band_multiplier": 0.35
+    },
+    "courtyard": {
+      "ornament_multiplier": 0.8,
+      "depth_add": 0,
+      "window_scale": 0.9,
+      "band_multiplier": 0.8
+    },
+    "blind": {
+      "ornament_multiplier": 0.15,
+      "depth_add": 0,
+      "window_scale": 0.0,
+      "band_multiplier": 0.25
+    }
+  },
+  "recommended_scales": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "compatible_contexts": [
+    "standalone",
+    "urban",
+    "campus"
+  ]
+}

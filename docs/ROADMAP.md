@@ -63,14 +63,33 @@ Complete in this major direct-repo update. The earlier DROP 0006 graph design is
 - master Litematic export + independent readback;
 - whole-building tests and strict recompilation gate.
 
+## DROP 0008 — Universal Style & Exterior System
+
+Complete in this major direct-repo update:
+
+- 35 project-neutral architectural profiles across 14 style families;
+- semantic material roles for wall, structure, trim, accent, glass, plinth and roof;
+- primary/secondary style blending with explicit material overrides;
+- hero/primary/secondary/service/courtyard/blind facade zoning;
+- broader facade rhythm, depth, verticality and ornament controls;
+- expanded window languages for historic, modern, industrial, cultural, fantasy, ruin and organic builds;
+- expanded roof languages including shed, butterfly, sawtooth, pagoda/tiered, dome, vault, terrace and ruin modes;
+- style-aware site character and vegetation intent;
+- deterministic style registry generator and validator;
+- 21 committed cross-style showcase compiles;
+- living human-readable CATALOG.md plus machine-readable catalog/catalog.json;
+- deterministic catalogue generation and validation.
+
 ## Next
 
-- exterior zoning by elevation/facade importance;
-- tower, dormer, buttress and balcony graph nodes;
+- tower, dormer, buttress, balcony and porch graph nodes;
 - non-straight corridor pathfinding;
 - stair-flight generation between unequal floor elevations;
-- terrain-aware foundations and retaining walls;
-- vegetation fixture placement at project scale;
+- facade zoning by story/elevation and urban frontage context;
+- terrain-aware foundations, basements and retaining walls;
+- project-scale vegetation fixture placement;
+- roads, plazas, walls, fences and infrastructure networks;
+- real-world/reconstruction facade fitting from measured references;
 - reference/image → structured project graph assistance;
 - Fabric-side automated whole-building smoke tests;
 - Axiom-assisted placement workflows;

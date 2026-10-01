@@ -6,6 +6,7 @@ from typing import Any
 
 from composition.geometry import resolve_coord
 from composition.transforms import transform_direction, transform_pos, transformed_size
+from .style import resolve_style
 
 Vec3 = tuple[int, int, int]
 CARDINAL = {"north", "south", "east", "west"}
@@ -122,11 +123,16 @@ def load_project(root: Path, brief: dict[str, Any] | Path) -> ProjectPlan:
         a = c["from"]
         b = c["to"]
         connections.append(Connection(str(a[0]), str(a[1]), str(b[0]), str(b[1]), str(c.get("mode", "attach")), int(c.get("gap", 0)), c.get("width"), c.get("height")))
-    facade_id = brief.get("facade_profile", "massive_gothic_manor")
-    profile_path = root / "project_graph" / "profiles" / f"{facade_id}.json"
-    facade = load_json(profile_path) if profile_path.is_file() else {"id": facade_id}
+    facade = resolve_style(root, brief)
     roof = dict(brief.get("roof", {}))
+    roof.setdefault("style", facade.get("default_roof", "gable"))
+    roof.setdefault("state", facade.get("roof_state", "minecraft:dark_oak_planks"))
+    roof.setdefault("gable_state", facade.get("gable_state", facade.get("wall_state", "minecraft:stone_bricks")))
+    roof.setdefault("step_run", int(facade.get("roof_step_run", 2)))
+    roof.setdefault("overhang", int(facade.get("roof_overhang", 1)))
     site = dict(brief.get("site", {}))
+    site.setdefault("character", facade.get("site_character", "generic"))
+    site.setdefault("vegetation_profile", facade.get("vegetation_profile", "temperate"))
     return ProjectPlan(str(brief["id"]), modules, connections, facade, roof, site)
 
 def port_for(module: ModuleSpec, port_id: str) -> Port:

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buildwright://schemas/style_language.schema.json",
+  "title": "BuildWright Universal Style Profile",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id", "family", "display_name", "material_roles",
+    "window_shape", "facade_rhythm", "default_roof",
+    "ornament_density", "vertical_emphasis", "massing"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "family": {"type": "string", "minLength": 1},
+    "display_name": {"type": "string", "minLength": 1},
+    "window_shape": {"type": "string"},
+    "facade_rhythm": {"type": "string"},
+    "symmetry": {"type": "string"},
+    "default_roof": {"type": "string"},
+    "ornament_density": {"type": "number", "minimum": 0, "maximum": 1},
+    "vertical_emphasis": {"type": "number", "minimum": 0, "maximum": 1},
+    "depth_bias": {"type": "integer", "minimum": 0},
+    "material_roles": {
+      "type": "object",
+      "required": ["wall", "structure", "trim", "accent", "glass", "plinth", "roof"],
+      "additionalProperties": {"type": "string"}
+    },
+    "massing": {
+      "type": "object",
+      "required": ["tower_bias", "courtyard_bias", "setback_bias", "verticality"],
+      "properties": {
+        "tower_bias": {"type": "number", "minimum": 0, "maximum": 1},
+        "courtyard_bias": {"type": "number", "minimum": 0, "maximum": 1},
+        "setback_bias": {"type": "number", "minimum": 0, "maximum": 1},
+        "verticality": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "zone_presets": {"type": "object"},
+    "site_character": {"type": "string"},
+    "vegetation_profile": {"type": "string"},
+    "recommended_scales": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "compatible_contexts": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}

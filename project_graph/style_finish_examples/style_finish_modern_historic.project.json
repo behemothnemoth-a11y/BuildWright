@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_modern_historic",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_finish_modern_historic",
+    "name": "Style Finish - Modern Historic",
+    "facade_profile": "art_deco",
+    "modules": [
+      {
+        "id": "room",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 21010
+    },
+    "style_finish": {
+      "enabled": true,
+      "seed": 21110
+    }
+  },
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        3,
+        0,
+        3
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    3,
+    0,
+    3
+  ],
+  "pre_normalized_bounds": [
+    -3,
+    0,
+    -3,
+    32,
+    15,
+    29
+  ],
+  "exterior_sides": {
+    "room": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21010,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 9,
+    "vegetation_blocks": 14,
+    "roof_detail_blocks": 0,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "modern_historic",
+    "seed": 21110,
+    "astra_microblocks": false,
+    "band_blocks": 102,
+    "corner_blocks": 16,
+    "eave_blocks": 24,
+    "lighting_blocks": 16,
+    "plant_blocks": 8,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 174
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  }
+}

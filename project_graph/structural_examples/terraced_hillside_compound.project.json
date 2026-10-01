@@ -253,5 +253,25 @@
     "vegetation_blocks": 0,
     "roof_detail_blocks": 6,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "vernacular",
+    "seed": 13758,
+    "astra_microblocks": false,
+    "band_blocks": 192,
+    "corner_blocks": 0,
+    "eave_blocks": 56,
+    "lighting_blocks": 0,
+    "plant_blocks": 34,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 0,
+    "total_blocks": 282
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   }
 }

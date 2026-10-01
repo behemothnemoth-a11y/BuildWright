@@ -2,7 +2,7 @@
 
 BuildWright is a reusable Minecraft architecture system for building, refining, composing, validating and releasing high-detail projects.
 
-The system now has eight concrete layers, in the order a build should actually use them:
+The system now has nine concrete layers, in the order a build should actually use them:
 
 1. **Vanilla Build Language** — 68 reusable families / 567 variants plus builder techniques, palettes and style profiles.
 2. **Compiled Vanilla Fixture Library** — 85 real vanilla `.litematic` fixtures, including 45 finishing/detail fixtures.
@@ -10,8 +10,9 @@ The system now has eight concrete layers, in the order a build should actually u
 4. **Complete Vanilla Detail Layer** — 10 room-role profiles for secondary architecture, furnishing, decor/storytelling, lighting, vegetation and service detail; plus whole-building finishing passes.
 5. **Whole-Building Compiler** — compiled modules → graph solve → shared-wall/vertical alignment → circulation → facade/roof/site/detail passes → master `.litematic`.
 6. **Structural & Site Intelligence** — routed corridors, elevation stairs, towers/porches/balconies/buttresses/dormers, terrain-aware foundations, roads/plazas/walls/fences/retaining walls.
-7. **Universal Style & Exterior System** — project-neutral architectural language profiles, facade zoning, semantic material roles, style blending, window families, roof families and site intent.
-8. **Optional Microblock Refinement** — a separate downstream layer with 24 Astra fixtures, 75 families / 606 variants and translation/budget tooling. It is never required for the vanilla build to read correctly.
+7. **Style-Specific Finish & Reference Fitting** — 14 family-specific vanilla finishing grammars plus measured reconstruction constraints for project size, module origins/sizes, facade dimensions and named-port anchors.
+8. **Universal Style & Exterior System** — project-neutral architectural language profiles, facade zoning, semantic material roles, style blending, window families, roof families and site intent.
+9. **Optional Microblock Refinement** — a separate downstream layer with 24 Astra fixtures, 75 families / 606 variants and translation/budget tooling. It is never required for the vanilla build to read correctly.
 
 ## Core rules
 
@@ -44,8 +45,8 @@ python tools/compile_project.py examples/projects/wayne_manor_phase_a.json `
   --output .buildwright/generated/wayne-phase-a
 ```
 
-BuildWright 0.10.0 keeps the compiler project-neutral: the same graph/composition engine can drive Gothic, classical, modern, industrial, vernacular, East Asian, desert, speculative, fantasy, ancient and organic architectures. The universal library contains 35 core style profiles across 14 architectural families, plus style blending and facade zoning.
+BuildWright 0.11.0 keeps the compiler project-neutral: the same graph/composition engine can drive Gothic, classical, modern, industrial, vernacular, East Asian, desert, speculative, fantasy, ancient and organic architectures. The universal library contains 35 core style profiles across 14 architectural families, plus style blending and facade zoning.
 
 Start with [VISUAL_CATALOG.md](VISUAL_CATALOG.md) for the **vanilla-only** picture-first baseline browser, or [CATALOG.md](CATALOG.md) for the full inventory and history. The retained Astra refinement assets are deliberately separated into [MICROBLOCK_CATALOG.md](MICROBLOCK_CATALOG.md).
 
-Core docs: `docs/VANILLA_DETAIL_LAYER.md`, `docs/STRUCTURAL_SITE_INTELLIGENCE.md`, `docs/UNIVERSAL_STYLE_SYSTEM.md`, `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.
+Core docs: `docs/VANILLA_DETAIL_LAYER.md`, `docs/STRUCTURAL_SITE_INTELLIGENCE.md`, `docs/STYLE_FINISH_REFERENCE_FIT.md`, `docs/UNIVERSAL_STYLE_SYSTEM.md`, `docs/PROJECT_GRAPH_COMPILER.md`, `docs/EXTERIOR_ENVELOPE_AND_FACADE.md`, `docs/ROOF_COMPILER.md`, `docs/SITE_ASSEMBLY.md`, `docs/COMPOSITION_COMPILER.md`, `VANILLA_BUILD_LANGUAGE.md`, and `MICROBLOCK_IMPLEMENTATION.md`.

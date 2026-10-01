@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_mediterranean",
+  "name": "Style Finish - Mediterranean",
+  "facade_profile": "mediterranean",
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 21008
+  },
+  "style_finish": {
+    "enabled": true,
+    "seed": 21108
+  }
+}

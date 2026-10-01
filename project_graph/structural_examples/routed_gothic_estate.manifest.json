@@ -10,17 +10,17 @@
     51,
     129
   ],
-  "blocks": 54058,
+  "blocks": 54835,
   "block_entities": 0,
   "litematic": "routed_gothic_estate.litematic",
   "project_source": "routed_gothic_estate.project.json",
   "preview": "routed_gothic_estate.plan.svg",
-  "litematic_sha256": "5a7026a65e4586d00f4f09a599ac5b069252a74dab249106f3a64f4ee11c6d9e",
+  "litematic_sha256": "273ff390c2418b9f8e479a202a8e9074e1a8aa9cc35f71b1551ad564ccca3af4",
   "readback": {
     "regions": 1,
-    "nonair": 54058,
+    "nonair": 54835,
     "volume": 1223694,
-    "palette": 28,
+    "palette": 29,
     "block_entities": 0
   },
   "facade": {
@@ -85,6 +85,26 @@
     "vegetation_blocks": 44,
     "roof_detail_blocks": 9,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "gothic",
+    "seed": 13144,
+    "astra_microblocks": false,
+    "band_blocks": 530,
+    "corner_blocks": 28,
+    "eave_blocks": 108,
+    "lighting_blocks": 72,
+    "plant_blocks": 23,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 16,
+    "total_blocks": 777
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   },
   "detail_status": "VANILLA_DETAIL_COMPLETE",
   "warnings": []

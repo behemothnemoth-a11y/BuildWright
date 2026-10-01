@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_classical",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    25,
+    33
+  ],
+  "blocks": 6395,
+  "block_entities": 0,
+  "litematic": "style_finish_classical.litematic",
+  "project_source": "style_finish_classical.project.json",
+  "preview": "style_finish_classical.plan.svg",
+  "litematic_sha256": "ee87f634e28b957386e458d53fcc0b22ec9724507f1e034456bbce6a247020b6",
+  "readback": {
+    "regions": 1,
+    "nonair": 6395,
+    "volume": 30525,
+    "palette": 21,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 333,
+    "balconies": 30
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9,
+    "styles": {
+      "mansard": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21001,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 12,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "classical",
+    "seed": 21101,
+    "astra_microblocks": false,
+    "band_blocks": 96,
+    "corner_blocks": 88,
+    "eave_blocks": 28,
+    "lighting_blocks": 16,
+    "plant_blocks": 12,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 248
+  },
+  "reference_fit": {
+    "enabled": true,
+    "status": "PASS",
+    "strict": true,
+    "checks": 5,
+    "max_error": 0,
+    "errors": [],
+    "details": [
+      {
+        "type": "project_size",
+        "target": [
+          31,
+          13,
+          27
+        ],
+        "actual": [
+          31,
+          13,
+          27
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "module_origin",
+        "module": "room",
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "module_size",
+        "module": "room",
+        "target": [
+          31,
+          13,
+          27
+        ],
+        "actual": [
+          31,
+          13,
+          27
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "facade_length",
+        "module": "room",
+        "side": "south",
+        "target": 31,
+        "actual": 31,
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "facade_height",
+        "module": "room",
+        "side": "south",
+        "target": 13,
+        "actual": 13,
+        "error": 0,
+        "tolerance": 0
+      }
+    ]
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

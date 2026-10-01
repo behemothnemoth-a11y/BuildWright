@@ -99,5 +99,15 @@
     "enabled": false,
     "status": "BASELINE",
     "astra_microblocks": false
+  },
+  "style_finish": {
+    "enabled": false,
+    "status": "DISABLED",
+    "family": "modern",
+    "astra_microblocks": false
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   }
 }

@@ -26,6 +26,14 @@ Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing →
 
 [Browse structural & site regressions](catalog/visual/structural_site.md)
 
+## Style-Family Vanilla Finish
+
+### 14 family-specific finishing regressions
+
+![Style finish projects](catalog/visual/style_finish_overview.png)
+
+[Browse style-family finish regressions](catalog/visual/style_finish.md)
+
 ## Vanilla style baselines
 
 ### 37 compiled baselines — 35 core styles + 2 style-blend demonstrations

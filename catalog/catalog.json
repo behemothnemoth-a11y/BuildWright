@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "buildwright_version": "0.10.0",
+  "buildwright_version": "0.11.0",
   "minecraft_target": "26.2",
   "summary": {
     "vanilla_pack_families": 68,
@@ -21,11 +21,12 @@
     "whole_building_examples": 3,
     "vanilla_detail_projects": 3,
     "structural_site_projects": 3,
+    "style_finish_projects": 14,
     "style_profiles": 35,
     "style_families": 14,
     "style_showcases": 37,
-    "tools": 48,
-    "documentation_pages": 60
+    "tools": 49,
+    "documentation_pages": 61
   },
   "milestones": [
     {
@@ -201,6 +202,22 @@
         "3 pure-vanilla structural/site regression projects",
         "structural/site visual catalogue integration",
         "byte-for-byte structural/site recompilation gate"
+      ]
+    },
+    {
+      "drop": "0011",
+      "version": "0.11.0",
+      "name": "Style-Specific Finish & Reference Fitting",
+      "status": "complete",
+      "highlights": [
+        "14 architectural-family vanilla finishing grammars",
+        "14 pure-vanilla style-family regression projects",
+        "automatic family finish after vanilla detail completion",
+        "measured project/module/facade/port constraints",
+        "advisory and strict reconstruction tolerance modes",
+        "measured module-origin injection",
+        "zero-tolerance strict reference regression",
+        "byte-for-byte recompilation and Astra namespace exclusion"
       ]
     }
   ],
@@ -2883,7 +2900,7 @@
         20,
         51
       ],
-      "blocks": 27222,
+      "blocks": 27760,
       "modules": 2,
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
@@ -2895,11 +2912,11 @@
     {
       "id": "two_floor_manor_vanilla_detail",
       "size": [
-        65,
+        67,
         44,
-        54
+        55
       ],
-      "blocks": 17551,
+      "blocks": 18831,
       "modules": 2,
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
@@ -2915,7 +2932,7 @@
         38,
         125
       ],
-      "blocks": 55656,
+      "blocks": 56730,
       "modules": 4,
       "connections": 3,
       "maturity": "OFFLINE_COMPILED",
@@ -2933,7 +2950,7 @@
         20,
         129
       ],
-      "blocks": 44639,
+      "blocks": 45141,
       "modules": 2,
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
@@ -2949,7 +2966,7 @@
         51,
         129
       ],
-      "blocks": 54058,
+      "blocks": 54835,
       "modules": 2,
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
@@ -2965,7 +2982,7 @@
         37,
         59
       ],
-      "blocks": 20908,
+      "blocks": 21190,
       "modules": 2,
       "connections": 1,
       "maturity": "OFFLINE_COMPILED",
@@ -2973,6 +2990,232 @@
       "microblock_hosts": 0,
       "manifest": "project_graph/structural_examples/terraced_hillside_compound.manifest.json",
       "litematic": "terraced_hillside_compound.litematic"
+    }
+  ],
+  "style_finish_projects": [
+    {
+      "id": "style_finish_ancient",
+      "size": [
+        37,
+        19,
+        33
+      ],
+      "blocks": 7104,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_ancient.manifest.json",
+      "litematic": "style_finish_ancient.litematic"
+    },
+    {
+      "id": "style_finish_classical",
+      "size": [
+        37,
+        25,
+        33
+      ],
+      "blocks": 6395,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_classical.manifest.json",
+      "litematic": "style_finish_classical.litematic"
+    },
+    {
+      "id": "style_finish_desert",
+      "size": [
+        37,
+        23,
+        33
+      ],
+      "blocks": 5661,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_desert.manifest.json",
+      "litematic": "style_finish_desert.litematic"
+    },
+    {
+      "id": "style_finish_east_asian",
+      "size": [
+        37,
+        36,
+        33
+      ],
+      "blocks": 6427,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_east_asian.manifest.json",
+      "litematic": "style_finish_east_asian.litematic"
+    },
+    {
+      "id": "style_finish_fantasy",
+      "size": [
+        39,
+        28,
+        35
+      ],
+      "blocks": 6157,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_fantasy.manifest.json",
+      "litematic": "style_finish_fantasy.litematic"
+    },
+    {
+      "id": "style_finish_gothic",
+      "size": [
+        37,
+        28,
+        33
+      ],
+      "blocks": 6527,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_gothic.manifest.json",
+      "litematic": "style_finish_gothic.litematic"
+    },
+    {
+      "id": "style_finish_historic_european",
+      "size": [
+        37,
+        28,
+        33
+      ],
+      "blocks": 6349,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_historic_european.manifest.json",
+      "litematic": "style_finish_historic_european.litematic"
+    },
+    {
+      "id": "style_finish_industrial",
+      "size": [
+        35,
+        17,
+        32
+      ],
+      "blocks": 5699,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_industrial.manifest.json",
+      "litematic": "style_finish_industrial.litematic"
+    },
+    {
+      "id": "style_finish_mediterranean",
+      "size": [
+        37,
+        19,
+        33
+      ],
+      "blocks": 6057,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_mediterranean.manifest.json",
+      "litematic": "style_finish_mediterranean.litematic"
+    },
+    {
+      "id": "style_finish_modern",
+      "size": [
+        37,
+        16,
+        32
+      ],
+      "blocks": 5482,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_modern.manifest.json",
+      "litematic": "style_finish_modern.litematic"
+    },
+    {
+      "id": "style_finish_modern_historic",
+      "size": [
+        36,
+        16,
+        33
+      ],
+      "blocks": 5911,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_modern_historic.manifest.json",
+      "litematic": "style_finish_modern_historic.litematic"
+    },
+    {
+      "id": "style_finish_organic",
+      "size": [
+        37,
+        23,
+        33
+      ],
+      "blocks": 5959,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_organic.manifest.json",
+      "litematic": "style_finish_organic.litematic"
+    },
+    {
+      "id": "style_finish_speculative",
+      "size": [
+        37,
+        16,
+        33
+      ],
+      "blocks": 6197,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_speculative.manifest.json",
+      "litematic": "style_finish_speculative.litematic"
+    },
+    {
+      "id": "style_finish_vernacular",
+      "size": [
+        37,
+        30,
+        33
+      ],
+      "blocks": 6529,
+      "modules": 1,
+      "connections": 0,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/style_finish_examples/style_finish_vernacular.manifest.json",
+      "litematic": "style_finish_vernacular.litematic"
     }
   ],
   "style_showcases": [
@@ -3635,6 +3878,7 @@
     "compile_project.py",
     "compile_project_examples.py",
     "compile_structural_site_examples.py",
+    "compile_style_finish_examples.py",
     "compile_style_showcases.py",
     "compile_vanilla_detail_examples.py",
     "compile_vanilla_detail_projects.py",
@@ -3718,6 +3962,7 @@
     "SCALE_CONTRACT.md",
     "SITE_ASSEMBLY.md",
     "STRUCTURAL_SITE_INTELLIGENCE.md",
+    "STYLE_FINISH_REFERENCE_FIT.md",
     "STYLE_PROFILES.md",
     "TRANSFORM_CORPUS.md",
     "UNIVERSAL_STYLE_SYSTEM.md",

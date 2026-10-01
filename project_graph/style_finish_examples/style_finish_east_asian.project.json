@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_east_asian",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_finish_east_asian",
+    "name": "Style Finish - East Asian",
+    "facade_profile": "japanese_traditional",
+    "modules": [
+      {
+        "id": "room",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 21003
+    },
+    "style_finish": {
+      "enabled": true,
+      "seed": 21103
+    }
+  },
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        3,
+        0,
+        3
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    3,
+    0,
+    3
+  ],
+  "pre_normalized_bounds": [
+    -3,
+    0,
+    -3,
+    33,
+    35,
+    29
+  ],
+  "exterior_sides": {
+    "room": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21003,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 16,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "east_asian",
+    "seed": 21103,
+    "astra_microblocks": false,
+    "band_blocks": 100,
+    "corner_blocks": 88,
+    "eave_blocks": 44,
+    "lighting_blocks": 20,
+    "plant_blocks": 14,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 274
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  }
+}

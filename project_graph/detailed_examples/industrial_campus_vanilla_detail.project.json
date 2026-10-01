@@ -188,5 +188,25 @@
     "vegetation_blocks": 0,
     "roof_detail_blocks": 8,
     "service_blocks": 12
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "industrial",
+    "seed": 14402,
+    "astra_microblocks": false,
+    "band_blocks": 284,
+    "corner_blocks": 0,
+    "eave_blocks": 0,
+    "lighting_blocks": 44,
+    "plant_blocks": 0,
+    "service_blocks": 210,
+    "parapet_blocks": 0,
+    "finial_blocks": 0,
+    "total_blocks": 538
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   }
 }

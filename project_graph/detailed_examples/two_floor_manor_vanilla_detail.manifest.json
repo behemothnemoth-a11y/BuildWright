@@ -6,21 +6,21 @@
   "modules": 2,
   "connections": 1,
   "size": [
-    65,
+    67,
     44,
-    54
+    55
   ],
-  "blocks": 17551,
+  "blocks": 18831,
   "block_entities": 0,
   "litematic": "two_floor_manor_vanilla_detail.litematic",
   "project_source": "two_floor_manor_vanilla_detail.project.json",
   "preview": "two_floor_manor_vanilla_detail.plan.svg",
-  "litematic_sha256": "349a8c525358d7755c0970ca03262b0e5d4ec774d38f6a18302e76e3927c13be",
+  "litematic_sha256": "c80c43f0ab5c61c5e273d1ec51b2018743aeeab9a09920d34bd233033ee13dba",
   "readback": {
     "regions": 1,
-    "nonair": 17551,
-    "volume": 154440,
-    "palette": 28,
+    "nonair": 18831,
+    "volume": 162140,
+    "palette": 30,
     "block_entities": 0
   },
   "facade": {
@@ -73,6 +73,26 @@
     "vegetation_blocks": 44,
     "roof_detail_blocks": 9,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "classical",
+    "seed": 14194,
+    "astra_microblocks": false,
+    "band_blocks": 558,
+    "corner_blocks": 264,
+    "eave_blocks": 80,
+    "lighting_blocks": 52,
+    "plant_blocks": 40,
+    "service_blocks": 0,
+    "parapet_blocks": 270,
+    "finial_blocks": 16,
+    "total_blocks": 1280
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   },
   "detail_status": "VANILLA_DETAIL_COMPLETE",
   "warnings": [

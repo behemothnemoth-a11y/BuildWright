@@ -44,6 +44,7 @@ def main():
       'whole_buildings':sorted((ROOT/'project_graph/compiled_examples').glob('*.litematic')),
       'vanilla_detail_projects':sorted((ROOT/'project_graph/detailed_examples').glob('*.litematic')),
       'structural_site_projects':sorted((ROOT/'project_graph/structural_examples').glob('*.litematic')),
+      'style_finish_projects':sorted((ROOT/'project_graph/style_finish_examples').glob('*.litematic')),
       'style_baselines':sorted((ROOT/'project_graph/style_showcases').glob('*.litematic'))
     }
     errors=[]
@@ -57,7 +58,7 @@ def main():
     visual=ROOT/'catalog/visual/visual_manifest.json'
     if visual.is_file():
         data=json.loads(visual.read_text(encoding='utf-8'))
-        for group in ('rooms','projects','style_baselines','detail_complete_rooms','detail_complete_projects','structural_site_projects'):
+        for group in ('rooms','projects','style_baselines','detail_complete_rooms','detail_complete_projects','structural_site_projects','style_finish_projects'):
             for row in data.get('vanilla',{}).get(group,[]):
                 if row.get('uses_astra_microblocks'):
                     errors.append(f"visual vanilla/{group}/{row.get('id')}: marked Astra")

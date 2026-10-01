@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_mediterranean",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    19,
+    33
+  ],
+  "blocks": 6057,
+  "block_entities": 0,
+  "litematic": "style_finish_mediterranean.litematic",
+  "project_source": "style_finish_mediterranean.project.json",
+  "preview": "style_finish_mediterranean.plan.svg",
+  "litematic_sha256": "ac6a15dfd402728e52e9e7f8fc62c22313b1dbd67daa9dbda621afdb8ef0ab09",
+  "readback": {
+    "regions": 1,
+    "nonair": 6057,
+    "volume": 23199,
+    "palette": 21,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 222,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 6,
+    "styles": {
+      "low_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "courtyard",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21008,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 14,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "mediterranean",
+    "seed": 21108,
+    "astra_microblocks": false,
+    "band_blocks": 190,
+    "corner_blocks": 0,
+    "eave_blocks": 24,
+    "lighting_blocks": 16,
+    "plant_blocks": 14,
+    "service_blocks": 0,
+    "parapet_blocks": 46,
+    "finial_blocks": 0,
+    "total_blocks": 290
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

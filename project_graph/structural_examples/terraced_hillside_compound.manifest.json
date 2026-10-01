@@ -10,17 +10,17 @@
     37,
     59
   ],
-  "blocks": 20908,
+  "blocks": 21190,
   "block_entities": 0,
   "litematic": "terraced_hillside_compound.litematic",
   "project_source": "terraced_hillside_compound.project.json",
   "preview": "terraced_hillside_compound.plan.svg",
-  "litematic_sha256": "d498a65721da9e8d5a67a04cdb306533b2d005adbc6758dfc309be2d953e9c61",
+  "litematic_sha256": "4c5767979439a5c8da3d29c86df5570e11fbc93334aa9dba2768959d7b4b2228",
   "readback": {
     "regions": 1,
-    "nonair": 20908,
+    "nonair": 21190,
     "volume": 268509,
-    "palette": 22,
+    "palette": 23,
     "block_entities": 0
   },
   "facade": {
@@ -85,6 +85,26 @@
     "vegetation_blocks": 0,
     "roof_detail_blocks": 6,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "vernacular",
+    "seed": 13758,
+    "astra_microblocks": false,
+    "band_blocks": 192,
+    "corner_blocks": 0,
+    "eave_blocks": 56,
+    "lighting_blocks": 0,
+    "plant_blocks": 34,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 0,
+    "total_blocks": 282
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   },
   "detail_status": "VANILLA_DETAIL_COMPLETE",
   "warnings": []

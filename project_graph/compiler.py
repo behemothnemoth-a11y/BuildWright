@@ -13,6 +13,8 @@ from .site import apply_site
 from .foundation import apply_foundations
 from .structures import apply_structures
 from .vanilla_finish import apply_vanilla_finish
+from .style_finish import apply_style_finish
+from .reference_fit import inject_reference_origins, evaluate_reference_fit
 from .solver import project_bounds, solve_project
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,8 +71,10 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         brief = json.loads(brief.read_text(encoding="utf-8"))
     else:
         brief_path = None
+    brief = inject_reference_origins(brief)
     plan = load_project(root, brief)
     placed = solve_project(plan)
+    reference_stats = evaluate_reference_fit(plan, placed, brief)
     blocks, block_entities, warnings = merge_modules(plan, placed)
 
     carve_connections(plan, placed, blocks)
@@ -81,6 +85,7 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
     site_stats = apply_site(plan, placed, blocks)
     foundation_stats = apply_foundations(plan, placed, blocks, brief)
     finish_stats = apply_vanilla_finish(plan, placed, blocks, brief)
+    style_finish_stats = apply_style_finish(plan, placed, blocks, brief)
 
     normalized, entities, size, delta, min_pos, max_pos = _normalize(blocks, block_entities)
     output_dir = Path(output_dir) if output_dir else root / "project_graph" / "compiled_examples"
@@ -117,6 +122,8 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "structures": structure_stats,
         "foundations": foundation_stats,
         "vanilla_finish": finish_stats,
+        "style_finish": style_finish_stats,
+        "reference_fit": reference_stats,
     }
     _write_lf(source_path, json.dumps(canonical, indent=2) + "\n")
 
@@ -155,6 +162,8 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "structures": structure_stats,
         "foundations": foundation_stats,
         "vanilla_finish": finish_stats,
+        "style_finish": style_finish_stats,
+        "reference_fit": reference_stats,
         "detail_status": finish_stats.get("status","BASELINE"),
         "warnings": warnings + plan.warnings,
     }

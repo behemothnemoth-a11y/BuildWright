@@ -35,8 +35,8 @@
 
 <table>
 <tr>
-<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/industrial_campus_vanilla_detail.png" width="100%"><br><b>Industrial Campus Vanilla Detail</b><br><code>industrial_campus_vanilla_detail</code><br>130 × 20 × 51 · 27222 blocks · VANILLA_DETAIL_COMPLETE</td>
-<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/two_floor_manor_vanilla_detail.png" width="100%"><br><b>Two Floor Manor Vanilla Detail</b><br><code>two_floor_manor_vanilla_detail</code><br>65 × 44 × 54 · 17551 blocks · VANILLA_DETAIL_COMPLETE</td>
-<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/wayne_manor_phase_a_vanilla_detail.png" width="100%"><br><b>Wayne Manor Phase A Vanilla Detail</b><br><code>wayne_manor_phase_a_vanilla_detail</code><br>155 × 38 × 125 · 55656 blocks · VANILLA_DETAIL_COMPLETE</td>
+<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/industrial_campus_vanilla_detail.png" width="100%"><br><b>Industrial Campus Vanilla Detail</b><br><code>industrial_campus_vanilla_detail</code><br>130 × 20 × 51 · 27760 blocks · VANILLA_DETAIL_COMPLETE</td>
+<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/two_floor_manor_vanilla_detail.png" width="100%"><br><b>Two Floor Manor Vanilla Detail</b><br><code>two_floor_manor_vanilla_detail</code><br>67 × 44 × 55 · 18831 blocks · VANILLA_DETAIL_COMPLETE</td>
+<td width="33%" valign="top"><img src="../../catalog/visual/images/detailed_projects/wayne_manor_phase_a_vanilla_detail.png" width="100%"><br><b>Wayne Manor Phase A Vanilla Detail</b><br><code>wayne_manor_phase_a_vanilla_detail</code><br>155 × 38 × 125 · 56730 blocks · VANILLA_DETAIL_COMPLETE</td>
 </tr>
 </table>

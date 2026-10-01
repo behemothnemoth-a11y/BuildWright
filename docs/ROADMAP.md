@@ -143,16 +143,34 @@ Complete:
 
 ## DROP 0011 — Style-Specific Finish & Reference Fitting
 
+Complete:
+
+- 14 deterministic architectural-family finishing grammars;
+- family-specific facade bands, corner structure, eaves, lighting, planting, service runs, parapets and finials;
+- automatic style-family finish after VANILLA_DETAIL_COMPLETE unless explicitly disabled;
+- semantic material-role inheritance from the active style profile;
+- 14 pure-vanilla style-family finish regression projects;
+- measured project-size constraints;
+- measured module origin / size constraints;
+- measured named-port anchor constraints;
+- measured facade length / height constraints;
+- advisory and strict tolerance modes;
+- measured-origin injection for reconstruction briefs;
+- zero-tolerance strict regression coverage;
+- byte-for-byte recompilation and Astra-namespace exclusion.
+
+## DROP 0012 — Story / Frontage / Terrain Reference Intelligence
+
 Next major priority:
 
-- style-family-specific vanilla finishing profiles beyond generic room-role defaults;
-- facade zoning by story/elevation and urban frontage context;
-- terrain/profile ingestion and better grade-aware site solving;
+- facade zoning by story/elevation rather than whole-side only;
+- urban frontage and neighboring-envelope constraints;
+- terrain profiles / sampled grade instead of a single flat ground_y;
 - richer project-scale vegetation/landscape graphs;
-- measured-reference facade fitting for real-world reconstruction;
+- project-aware roof intersection / valley / dormer reconciliation;
 - reference/image → structured project graph assistance;
-- stronger circulation QA across large campuses/estates;
-- project-aware roof intersection and tower/dormer reconciliation.
+- measured/reference import adapters;
+- stronger circulation QA across large campuses and estates.
 
 ## Later
 

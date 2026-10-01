@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_historic_european",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    28,
+    33
+  ],
+  "blocks": 6349,
+  "block_entities": 0,
+  "litematic": "style_finish_historic_european.litematic",
+  "project_source": "style_finish_historic_european.project.json",
+  "preview": "style_finish_historic_european.plan.svg",
+  "litematic_sha256": "b5e6e41e2800f7f029153d8d2c973a4ea702f4f3bb92108ca9afa335b849ac01",
+  "readback": {
+    "regions": 1,
+    "nonair": 6349,
+    "volume": 34188,
+    "palette": 19,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 19,
+    "bands": 222,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21006,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 4,
+    "vegetation_blocks": 10,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "historic_european",
+    "seed": 21106,
+    "astra_microblocks": false,
+    "band_blocks": 102,
+    "corner_blocks": 88,
+    "eave_blocks": 32,
+    "lighting_blocks": 16,
+    "plant_blocks": 7,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 253
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

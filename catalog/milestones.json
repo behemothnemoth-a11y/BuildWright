@@ -175,6 +175,22 @@
         "structural/site visual catalogue integration",
         "byte-for-byte structural/site recompilation gate"
       ]
+    },
+    {
+      "drop": "0011",
+      "version": "0.11.0",
+      "name": "Style-Specific Finish & Reference Fitting",
+      "status": "complete",
+      "highlights": [
+        "14 architectural-family vanilla finishing grammars",
+        "14 pure-vanilla style-family regression projects",
+        "automatic family finish after vanilla detail completion",
+        "measured project/module/facade/port constraints",
+        "advisory and strict reconstruction tolerance modes",
+        "measured module-origin injection",
+        "zero-tolerance strict reference regression",
+        "byte-for-byte recompilation and Astra namespace exclusion"
+      ]
     }
   ]
 }

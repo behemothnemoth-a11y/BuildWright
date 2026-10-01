@@ -9,7 +9,7 @@
 - Selective microblock second pass: LOCKED
 - In-game player-eye review required for approval: YES
 
-## System maturity after DROP 0010
+## System maturity after DROP 0011
 
 - Vanilla pack foundation: IMPLEMENTED — 68 families / 567 variants
 - Microblock pack foundation: IMPLEMENTED — 75 families / 606 variants
@@ -31,6 +31,11 @@
 - Foundation engine: IMPLEMENTED — perimeter / piers / solid
 - Project-scale site networks: IMPLEMENTED — path / road / plaza / wall / fence / retaining_wall / stairs
 - Structural/site regression corpus: IMPLEMENTED — 3 pure-vanilla projects
+- Style-family vanilla finish engine: IMPLEMENTED — 14 architectural families
+- Style-family finish regression corpus: IMPLEMENTED — 14 pure-vanilla projects
+- Measured reference-fit engine: IMPLEMENTED
+- Reference constraints: IMPLEMENTED — project size / module origin / module size / port anchor / facade length / facade height
+- Strict reconstruction tolerance gate: IMPLEMENTED
 - Universal architectural style profiles: IMPLEMENTED — 35 profiles / 14 families
 - Semantic material-role system: IMPLEMENTED
 - Primary/secondary style blending: IMPLEMENTED
@@ -47,7 +52,7 @@
 - VANILLA_DETAIL_COMPLETE room regressions: IMPLEMENTED — 10
 - Whole-building vanilla finishing engine: IMPLEMENTED
 - VANILLA_DETAIL_COMPLETE project regressions: IMPLEMENTED — 3
-- Vanilla visual assets: IMPLEMENTED — 85 fixtures + 6 room baselines + 10 detailed rooms + 3 project baselines + 3 detailed projects + 3 structural/site projects + 37 style baselines
+- Vanilla visual assets: IMPLEMENTED — 85 fixtures + 6 room baselines + 10 detailed rooms + 3 project baselines + 3 detailed projects + 3 structural/site projects + 14 style-finish projects + 37 style baselines
 - Optional Astra visual assets: RETAINED SEPARATELY — 24 fixtures + 1 hybrid proof room
 - Automatic room cutaway rendering: IMPLEMENTED
 - Vanilla-output Astra namespace validation: IMPLEMENTED
@@ -93,6 +98,12 @@ Structural and site intelligence is implemented on top of the completed vanilla 
 
 These remain offline regression outputs. They still require in-game/player-eye review before any project-specific geometry is approved.
 
+## DROP 0011 status
+
+Style-family finishing and measured-reference fitting are implemented. BuildWright now has one deterministic vanilla finishing grammar for every architectural family, plus a 14-project regression corpus that proves the family finishes do not collapse into one generic treatment.
+
+Reconstruction briefs can declare measured project/module/facade/port targets with tolerances. Advisory mode records drift; strict mode fails compilation when the solved architecture exceeds the allowed measurement error. Reference-fit geometry remains pure vanilla and is evaluated before decorative envelope growth.
+
 ## Next major priority
 
-Deepen **style-specific vanilla finishing and real-world fitting**: frontage/story zoning, style-family finishing profiles beyond generic room roles, measured-reference facade fitting, terrain/profile ingestion, richer landscape graphs, and better automated circulation QA. Microblocks remain downstream and optional.
+Deepen **story/frontage zoning and terrain/reference ingestion**: multi-story facade logic, urban frontage relationships, terrain profiles instead of a single grade, richer landscape graphs, roof-intersection reconciliation, and import/adapters that can turn measured/reference data into a structured project graph. Microblocks remain downstream and optional.

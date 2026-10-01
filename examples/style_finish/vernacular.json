@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_vernacular",
+  "name": "Style Finish - Vernacular",
+  "facade_profile": "alpine_chalet",
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 21013
+  },
+  "style_finish": {
+    "enabled": true,
+    "seed": 21113
+  }
+}

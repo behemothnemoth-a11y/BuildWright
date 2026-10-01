@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_industrial",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    35,
+    17,
+    32
+  ],
+  "blocks": 5699,
+  "block_entities": 0,
+  "litematic": "style_finish_industrial.litematic",
+  "project_source": "style_finish_industrial.project.json",
+  "preview": "style_finish_industrial.plan.svg",
+  "litematic_sha256": "5a078e075c46769c360c8e406f6adf488ca281bd0a9f202ef0f829044db7f73a",
+  "readback": {
+    "regions": 1,
+    "nonair": 5699,
+    "volume": 19040,
+    "palette": 21,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 0,
+    "piers": 23,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 3,
+    "styles": {
+      "sawtooth": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "service_yard",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21007,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 8,
+    "lighting_blocks": 4,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 4,
+    "service_blocks": 6
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "industrial",
+    "seed": 21107,
+    "astra_microblocks": false,
+    "band_blocks": 93,
+    "corner_blocks": 0,
+    "eave_blocks": 0,
+    "lighting_blocks": 16,
+    "plant_blocks": 0,
+    "service_blocks": 70,
+    "parapet_blocks": 116,
+    "finial_blocks": 0,
+    "total_blocks": 295
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

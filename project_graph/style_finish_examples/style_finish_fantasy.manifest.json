@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_fantasy",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    39,
+    28,
+    35
+  ],
+  "blocks": 6157,
+  "block_entities": 0,
+  "litematic": "style_finish_fantasy.litematic",
+  "project_source": "style_finish_fantasy.project.json",
+  "preview": "style_finish_fantasy.plan.svg",
+  "litematic_sha256": "ee933d835a4be8382fbac557d3e155961fe2c31f053fef6e3e3c18a4703789fc",
+  "readback": {
+    "regions": 1,
+    "nonair": 6157,
+    "volume": 38220,
+    "palette": 21,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 12,
+    "piers": 17,
+    "bands": 333,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 14,
+    "styles": {
+      "vaulted_mass": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "mountain",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21004,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 0,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "fantasy",
+    "seed": 21104,
+    "astra_microblocks": false,
+    "band_blocks": 10,
+    "corner_blocks": 0,
+    "eave_blocks": 36,
+    "lighting_blocks": 24,
+    "plant_blocks": 9,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 87
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

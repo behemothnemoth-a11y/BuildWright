@@ -27,6 +27,7 @@ class VisualCatalogTests(unittest.TestCase):
             'vanilla_detail_rooms':10,
             'vanilla_detail_projects':3,
             'structural_site_projects':3,
+            'style_finish_projects':14,
             'microblock_fixtures':24,
             'hybrid_rooms':1
         })
@@ -40,6 +41,7 @@ class VisualCatalogTests(unittest.TestCase):
             self.manifest['vanilla']['detail_complete_rooms'],
             self.manifest['vanilla']['detail_complete_projects'],
             self.manifest['vanilla']['structural_site_projects'],
+            self.manifest['vanilla']['style_finish_projects'],
             self.manifest['optional_microblock']['fixtures'],
             self.manifest['optional_microblock']['hybrid_rooms']
         ]
@@ -51,7 +53,7 @@ class VisualCatalogTests(unittest.TestCase):
     def test_main_catalogue_is_vanilla_only(self):
         for row in self.manifest['vanilla']['fixtures']:
             self.assertEqual(row['stage'],'vanilla')
-        for key in ('rooms','projects','style_baselines','detail_complete_rooms','detail_complete_projects','structural_site_projects'):
+        for key in ('rooms','projects','style_baselines','detail_complete_rooms','detail_complete_projects','structural_site_projects','style_finish_projects'):
             for row in self.manifest['vanilla'][key]:
                 self.assertFalse(row.get('uses_astra_microblocks',False),row['id'])
 

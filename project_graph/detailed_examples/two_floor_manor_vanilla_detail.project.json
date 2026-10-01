@@ -95,7 +95,7 @@
         20
       ],
       "normalized_origin": [
-        2,
+        3,
         0,
         3
       ],
@@ -120,7 +120,7 @@
         31
       ],
       "normalized_origin": [
-        17,
+        18,
         23,
         14
       ],
@@ -138,17 +138,17 @@
     }
   ],
   "normalization_offset": [
-    -18,
+    -17,
     0,
     -17
   ],
   "pre_normalized_bounds": [
-    18,
+    17,
     0,
     17,
-    82,
+    83,
     43,
-    70
+    71
   ],
   "exterior_sides": {
     "hall": [
@@ -193,5 +193,25 @@
     "vegetation_blocks": 44,
     "roof_detail_blocks": 9,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "classical",
+    "seed": 14194,
+    "astra_microblocks": false,
+    "band_blocks": 558,
+    "corner_blocks": 264,
+    "eave_blocks": 80,
+    "lighting_blocks": 52,
+    "plant_blocks": 40,
+    "service_blocks": 0,
+    "parapet_blocks": 270,
+    "finial_blocks": 16,
+    "total_blocks": 1280
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_modern_historic",
+  "name": "Style Finish - Modern Historic",
+  "facade_profile": "art_deco",
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 21010
+  },
+  "style_finish": {
+    "enabled": true,
+    "seed": 21110
+  }
+}

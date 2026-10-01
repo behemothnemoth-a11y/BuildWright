@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_classical",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_finish_classical",
+    "name": "Style Finish - Classical",
+    "facade_profile": "beaux_arts",
+    "modules": [
+      {
+        "id": "room",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 21001
+    },
+    "style_finish": {
+      "enabled": true,
+      "seed": 21101
+    },
+    "reference_fit": {
+      "enabled": true,
+      "strict": true,
+      "tolerance": 0,
+      "target_size": [
+        31,
+        13,
+        27
+      ],
+      "module_targets": [
+        {
+          "module": "room",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            31,
+            13,
+            27
+          ],
+          "tolerance": 0
+        }
+      ],
+      "facade_targets": [
+        {
+          "module": "room",
+          "side": "south",
+          "length": 31,
+          "height": 13,
+          "tolerance": 0
+        }
+      ]
+    }
+  },
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        3,
+        0,
+        3
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    3,
+    0,
+    3
+  ],
+  "pre_normalized_bounds": [
+    -3,
+    0,
+    -3,
+    33,
+    24,
+    29
+  ],
+  "exterior_sides": {
+    "room": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21001,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 12,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "classical",
+    "seed": 21101,
+    "astra_microblocks": false,
+    "band_blocks": 96,
+    "corner_blocks": 88,
+    "eave_blocks": 28,
+    "lighting_blocks": 16,
+    "plant_blocks": 12,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 248
+  },
+  "reference_fit": {
+    "enabled": true,
+    "status": "PASS",
+    "strict": true,
+    "checks": 5,
+    "max_error": 0,
+    "errors": [],
+    "details": [
+      {
+        "type": "project_size",
+        "target": [
+          31,
+          13,
+          27
+        ],
+        "actual": [
+          31,
+          13,
+          27
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "module_origin",
+        "module": "room",
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "actual": [
+          0,
+          0,
+          0
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "module_size",
+        "module": "room",
+        "target": [
+          31,
+          13,
+          27
+        ],
+        "actual": [
+          31,
+          13,
+          27
+        ],
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "facade_length",
+        "module": "room",
+        "side": "south",
+        "target": 31,
+        "actual": 31,
+        "error": 0,
+        "tolerance": 0
+      },
+      {
+        "type": "facade_height",
+        "module": "room",
+        "side": "south",
+        "target": 13,
+        "actual": 13,
+        "error": 0,
+        "tolerance": 0
+      }
+    ]
+  }
+}

@@ -10,17 +10,17 @@
     20,
     51
   ],
-  "blocks": 27222,
+  "blocks": 27760,
   "block_entities": 0,
   "litematic": "industrial_campus_vanilla_detail.litematic",
   "project_source": "industrial_campus_vanilla_detail.project.json",
   "preview": "industrial_campus_vanilla_detail.plan.svg",
-  "litematic_sha256": "7167de0b67dee7bc1c1b61f0bffcb4ba48fb63f6f687da65c62542d5127ba326",
+  "litematic_sha256": "0eb1f661164bbe662ddbfe936a1ff73a42ba5f37bd6955f6dddf091ff999bad1",
   "readback": {
     "regions": 1,
-    "nonair": 27222,
+    "nonair": 27760,
     "volume": 132600,
-    "palette": 27,
+    "palette": 28,
     "block_entities": 0
   },
   "facade": {
@@ -80,6 +80,26 @@
     "vegetation_blocks": 0,
     "roof_detail_blocks": 8,
     "service_blocks": 12
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "industrial",
+    "seed": 14402,
+    "astra_microblocks": false,
+    "band_blocks": 284,
+    "corner_blocks": 0,
+    "eave_blocks": 0,
+    "lighting_blocks": 44,
+    "plant_blocks": 0,
+    "service_blocks": 210,
+    "parapet_blocks": 0,
+    "finial_blocks": 0,
+    "total_blocks": 538
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   },
   "detail_status": "VANILLA_DETAIL_COMPLETE",
   "warnings": []

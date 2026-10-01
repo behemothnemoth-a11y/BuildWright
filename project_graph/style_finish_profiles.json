@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "families": {
+    "ancient": {
+      "bands": [
+        0.22,
+        0.72
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 0,
+      "lantern_spacing": 0,
+      "plant_spacing": 14,
+      "roof_finials": false,
+      "service_spacing": 0,
+      "parapet": true
+    },
+    "classical": {
+      "bands": [
+        0.28,
+        0.68
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 8,
+      "lantern_spacing": 12,
+      "plant_spacing": 12,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": true
+    },
+    "desert": {
+      "bands": [
+        0.35
+      ],
+      "corner_posts": 1,
+      "eave_spacing": 10,
+      "lantern_spacing": 14,
+      "plant_spacing": 16,
+      "roof_finials": false,
+      "service_spacing": 0,
+      "parapet": true
+    },
+    "east_asian": {
+      "bands": [
+        0.3,
+        0.64
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 5,
+      "lantern_spacing": 10,
+      "plant_spacing": 10,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": false
+    },
+    "fantasy": {
+      "bands": [
+        0.3,
+        0.7
+      ],
+      "corner_posts": 3,
+      "eave_spacing": 6,
+      "lantern_spacing": 9,
+      "plant_spacing": 12,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": false
+    },
+    "gothic": {
+      "bands": [
+        0.3,
+        0.65
+      ],
+      "corner_posts": 3,
+      "eave_spacing": 7,
+      "lantern_spacing": 10,
+      "plant_spacing": 14,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": false
+    },
+    "historic_european": {
+      "bands": [
+        0.35,
+        0.7
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 7,
+      "lantern_spacing": 12,
+      "plant_spacing": 14,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": false
+    },
+    "industrial": {
+      "bands": [
+        0.5
+      ],
+      "corner_posts": 1,
+      "eave_spacing": 0,
+      "lantern_spacing": 14,
+      "plant_spacing": 0,
+      "roof_finials": false,
+      "service_spacing": 8,
+      "parapet": true
+    },
+    "mediterranean": {
+      "bands": [
+        0.38,
+        0.72
+      ],
+      "corner_posts": 1,
+      "eave_spacing": 10,
+      "lantern_spacing": 12,
+      "plant_spacing": 9,
+      "roof_finials": false,
+      "service_spacing": 0,
+      "parapet": true
+    },
+    "modern": {
+      "bands": [
+        0.45
+      ],
+      "corner_posts": 1,
+      "eave_spacing": 0,
+      "lantern_spacing": 16,
+      "plant_spacing": 12,
+      "roof_finials": false,
+      "service_spacing": 12,
+      "parapet": true
+    },
+    "modern_historic": {
+      "bands": [
+        0.32,
+        0.7
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 9,
+      "lantern_spacing": 12,
+      "plant_spacing": 13,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": true
+    },
+    "organic": {
+      "bands": [
+        0.4
+      ],
+      "corner_posts": 0,
+      "eave_spacing": 6,
+      "lantern_spacing": 10,
+      "plant_spacing": 7,
+      "roof_finials": true,
+      "service_spacing": 0,
+      "parapet": false
+    },
+    "speculative": {
+      "bands": [
+        0.33,
+        0.66
+      ],
+      "corner_posts": 2,
+      "eave_spacing": 0,
+      "lantern_spacing": 8,
+      "plant_spacing": 8,
+      "roof_finials": false,
+      "service_spacing": 6,
+      "parapet": true
+    },
+    "vernacular": {
+      "bands": [
+        0.4
+      ],
+      "corner_posts": 1,
+      "eave_spacing": 8,
+      "lantern_spacing": 12,
+      "plant_spacing": 9,
+      "roof_finials": false,
+      "service_spacing": 0,
+      "parapet": false
+    }
+  }
+}

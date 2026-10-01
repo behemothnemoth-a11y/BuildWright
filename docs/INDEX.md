@@ -14,6 +14,7 @@
 
 ## Vanilla completion
 - [Complete Vanilla Detail Layer](VANILLA_DETAIL_LAYER.md)
+- [Style-Specific Finish & Reference Fitting](STYLE_FINISH_REFERENCE_FIT.md)
 
 ## Whole-building compiler
 - [Structural & Site Intelligence](STRUCTURAL_SITE_INTELLIGENCE.md)

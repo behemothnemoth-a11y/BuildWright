@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_historic_european",
+  "name": "Style Finish - Historic European",
+  "facade_profile": "tudor",
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 21006
+  },
+  "style_finish": {
+    "enabled": true,
+    "seed": 21106
+  }
+}

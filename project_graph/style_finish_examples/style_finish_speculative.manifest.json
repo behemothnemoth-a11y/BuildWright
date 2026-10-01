@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_speculative",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    16,
+    33
+  ],
+  "blocks": 6197,
+  "block_entities": 0,
+  "litematic": "style_finish_speculative.litematic",
+  "project_source": "style_finish_speculative.project.json",
+  "preview": "style_finish_speculative.plan.svg",
+  "litematic_sha256": "4a33def1df77a57f46d6e73bb20d9b7cfb3ed00cc31bd2fb2df820aaecca6c8b",
+  "readback": {
+    "regions": 1,
+    "nonair": 6197,
+    "volume": 19536,
+    "palette": 23,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 333,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 1,
+    "styles": {
+      "mechanical_flat": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "dense_urban",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21012,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 4,
+    "service_blocks": 2
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "speculative",
+    "seed": 21112,
+    "astra_microblocks": false,
+    "band_blocks": 10,
+    "corner_blocks": 0,
+    "eave_blocks": 0,
+    "lighting_blocks": 24,
+    "plant_blocks": 20,
+    "service_blocks": 70,
+    "parapet_blocks": 0,
+    "finial_blocks": 0,
+    "total_blocks": 124
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

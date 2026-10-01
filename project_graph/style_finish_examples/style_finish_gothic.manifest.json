@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_gothic",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    28,
+    33
+  ],
+  "blocks": 6527,
+  "block_entities": 0,
+  "litematic": "style_finish_gothic.litematic",
+  "project_source": "style_finish_gothic.project.json",
+  "preview": "style_finish_gothic.plan.svg",
+  "litematic_sha256": "7f095344720c23d6ba553809cc2eb51096bfd7e9bc55f317d6998953dea95720",
+  "readback": {
+    "regions": 1,
+    "nonair": 6527,
+    "volume": 34188,
+    "palette": 20,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 14,
+    "piers": 19,
+    "bands": 333,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 16,
+    "styles": {
+      "steep_gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21005,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 2,
+    "vegetation_blocks": 14,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "gothic",
+    "seed": 21105,
+    "astra_microblocks": false,
+    "band_blocks": 10,
+    "corner_blocks": 16,
+    "eave_blocks": 32,
+    "lighting_blocks": 20,
+    "plant_blocks": 15,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 101
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

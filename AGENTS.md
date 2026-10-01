@@ -116,3 +116,15 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Site networks must remain subordinate to building entrances, circulation and terrain constraints.
 - Structural/site regression artifacts remain pure vanilla and must fail validation on any Astra namespace leakage.
 - Offline structural success is not aesthetic or in-game approval. Player-eye QA remains mandatory.
+
+## DROP 0011 style-finish / reference-fit rules
+
+- Generic VANILLA_DETAIL_COMPLETE finishing is not the final style-specific pass. Apply the active architectural-family finish when a project opts into vanilla completion unless it is explicitly disabled.
+- Style-family finish must remain semantic and material-role driven. Do not hard-code Wayne/Gothic materials into reusable family logic.
+- Different style families must produce meaningfully different finishing signatures; avoid one universal parapet/eave/lantern recipe.
+- Measured reconstruction constraints belong in reference_fit, not in hidden magic numbers inside compilers.
+- Reference-fit strict mode must fail closed when project/module/facade/port measurements exceed tolerance.
+- Evaluate reference control geometry before decorative roof/site/detail growth so dimensions describe architecture rather than incidental ornament.
+- Measured module origins may be injected only when the project brief opts in; never silently overwrite an explicitly authored module origin.
+- Reference-fit and style-family outputs are part of the vanilla pipeline and must remain free of the astra_microblocks namespace.
+- Passing a zero-tolerance reference fit proves coordinate/dimension agreement only. It does not prove visual likeness or in-game approval.

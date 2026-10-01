@@ -112,3 +112,23 @@ DROP 0010 adds project-scale circulation/structure/site regression gates:
 - roads, plazas, walls, fences, retaining walls and site stairs must produce deterministic network statistics;
 - all structural/site outputs must remain free of the `astra_microblocks:` namespace;
 - generated structural/site projects remain LIVE_GAME_PENDING until loaded and reviewed in Minecraft.
+
+## Style-family finish and reference-fit validation
+
+DROP 0011 adds two additional vanilla gates.
+
+Style-family finish validation requires:
+
+- all 14 architectural families to have committed regression projects;
+- each regression to add meaningful style-family finish geometry;
+- family finish signatures to remain diverse rather than collapsing to one generic treatment;
+- all style-family finish outputs to remain free of the `astra_microblocks:` namespace.
+
+Reference-fit validation requires:
+
+- strict zero-tolerance reference regressions to pass exactly;
+- project/module/facade/port targets to record measured error and tolerance;
+- strict mode to fail compilation when a target exceeds tolerance;
+- measured-origin injection to preserve explicitly authored module origins and only fill missing origins when opted in.
+
+Reference-fit PASS proves dimensional/anchor agreement only. It does not prove photographic likeness or in-game approval.

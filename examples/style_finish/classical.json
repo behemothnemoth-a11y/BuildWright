@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_classical",
+  "name": "Style Finish - Classical",
+  "facade_profile": "beaux_arts",
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [],
+  "site": {
+    "enabled": false
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 21001
+  },
+  "style_finish": {
+    "enabled": true,
+    "seed": 21101
+  },
+  "reference_fit": {
+    "enabled": true,
+    "strict": true,
+    "tolerance": 0,
+    "target_size": [
+      31,
+      13,
+      27
+    ],
+    "module_targets": [
+      {
+        "module": "room",
+        "origin": [
+          0,
+          0,
+          0
+        ],
+        "size": [
+          31,
+          13,
+          27
+        ],
+        "tolerance": 0
+      }
+    ],
+    "facade_targets": [
+      {
+        "module": "room",
+        "side": "south",
+        "length": 31,
+        "height": 13,
+        "tolerance": 0
+      }
+    ]
+  }
+}

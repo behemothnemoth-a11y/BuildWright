@@ -118,5 +118,32 @@
   "elevation_stairs": true,
   "structural_nodes": true,
   "site_networks": true,
-  "foundation_engine": true
+  "foundation_engine": true,
+  "style_finish_engine": true,
+  "style_finish_profiles": 14,
+  "style_finish_examples": [
+    "style_finish_ancient",
+    "style_finish_classical",
+    "style_finish_desert",
+    "style_finish_east_asian",
+    "style_finish_fantasy",
+    "style_finish_gothic",
+    "style_finish_historic_european",
+    "style_finish_industrial",
+    "style_finish_mediterranean",
+    "style_finish_modern",
+    "style_finish_modern_historic",
+    "style_finish_organic",
+    "style_finish_speculative",
+    "style_finish_vernacular"
+  ],
+  "reference_fit_engine": true,
+  "reference_fit_constraints": [
+    "project_size",
+    "module_origin",
+    "module_size",
+    "port_anchor",
+    "facade_length",
+    "facade_height"
+  ]
 }

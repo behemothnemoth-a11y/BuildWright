@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -40,6 +40,8 @@
     "facade_compile",
     "roof_compile",
     "site_compile",
+    "project_style_family_finish",
+    "project_reference_fit",
     "whole_building_compile",
     "whole_building_review_gate"
   ],
@@ -164,7 +166,20 @@
       "piers",
       "solid"
     ],
-    "structural_site_examples": 3
+    "structural_site_examples": 3,
+    "style_finish_engine": true,
+    "style_finish_profiles": 14,
+    "style_finish_examples": 14,
+    "reference_fit_engine": true,
+    "reference_fit_constraints": [
+      "project_size",
+      "module_origin",
+      "module_size",
+      "port_anchor",
+      "facade_length",
+      "facade_height"
+    ],
+    "reference_fit_strict_mode": true
   },
   "visual_catalog": {
     "entry": "VISUAL_CATALOG.md",
@@ -182,6 +197,7 @@
     "microblock_policy": "optional_post_vanilla_refinement",
     "vanilla_detail_room_renders": 10,
     "vanilla_detail_project_renders": 3,
-    "structural_site_renders": 3
+    "structural_site_renders": 3,
+    "style_finish_renders": 14
   }
 }

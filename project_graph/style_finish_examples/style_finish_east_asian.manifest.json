@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_east_asian",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 1,
+  "connections": 0,
+  "size": [
+    37,
+    36,
+    33
+  ],
+  "blocks": 6427,
+  "block_entities": 0,
+  "litematic": "style_finish_east_asian.litematic",
+  "project_source": "style_finish_east_asian.project.json",
+  "preview": "style_finish_east_asian.plan.svg",
+  "litematic_sha256": "9428fccf54a943f9ff031b67de5bd55f7b637b70c385ca6bfbbcdd0993cfb518",
+  "readback": {
+    "regions": 1,
+    "nonair": 6427,
+    "volume": 43956,
+    "palette": 20,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 4,
+    "windows": 15,
+    "piers": 21,
+    "bands": 222,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 23,
+    "styles": {
+      "pagoda": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "garden",
+    "networks": 0
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21003,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 10,
+    "vegetation_blocks": 16,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "east_asian",
+    "seed": 21103,
+    "astra_microblocks": false,
+    "band_blocks": 100,
+    "corner_blocks": 88,
+    "eave_blocks": 44,
+    "lighting_blocks": 20,
+    "plant_blocks": 14,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 274
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

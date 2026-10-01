@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "style_finish_fantasy",
+  "brief": {
+    "schema_version": 1,
+    "id": "style_finish_fantasy",
+    "name": "Style Finish - Fantasy",
+    "facade_profile": "dwarven_mountain",
+    "modules": [
+      {
+        "id": "room",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "connections": [],
+    "site": {
+      "enabled": false
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 21004
+    },
+    "style_finish": {
+      "enabled": true,
+      "seed": 21104
+    }
+  },
+  "modules": [
+    {
+      "id": "room",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "normalized_origin": [
+        4,
+        0,
+        4
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    4,
+    0,
+    4
+  ],
+  "pre_normalized_bounds": [
+    -4,
+    0,
+    -4,
+    34,
+    27,
+    30
+  ],
+  "exterior_sides": {
+    "room": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "circulation": {
+    "straight": 0,
+    "routed": 0,
+    "stairs": 0,
+    "route_blocks": 0,
+    "route_length": 0
+  },
+  "structures": {
+    "nodes": 0,
+    "blocks": 0,
+    "by_type": {}
+  },
+  "foundations": {
+    "enabled": false,
+    "blocks": 0,
+    "modules": 0,
+    "mode": "perimeter"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 21004,
+    "astra_microblocks": false,
+    "entrances": 1,
+    "entrance_blocks": 6,
+    "lighting_blocks": 0,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 3,
+    "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "fantasy",
+    "seed": 21104,
+    "astra_microblocks": false,
+    "band_blocks": 10,
+    "corner_blocks": 0,
+    "eave_blocks": 36,
+    "lighting_blocks": 24,
+    "plant_blocks": 9,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 8,
+    "total_blocks": 87
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
+  }
+}

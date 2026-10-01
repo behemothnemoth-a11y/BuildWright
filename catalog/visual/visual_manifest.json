@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "generator": "tools/build_visual_catalog.py",
   "vanilla": {
     "fixtures": [
@@ -2414,7 +2414,7 @@
         "label": "Industrial Campus Vanilla Detail",
         "source": "project_graph/detailed_examples/industrial_campus_vanilla_detail.litematic",
         "image": "catalog/visual/images/detailed_projects/industrial_campus_vanilla_detail.png",
-        "blocks": 27222,
+        "blocks": 27760,
         "size": [
           130,
           20,
@@ -2431,11 +2431,11 @@
         "label": "Two Floor Manor Vanilla Detail",
         "source": "project_graph/detailed_examples/two_floor_manor_vanilla_detail.litematic",
         "image": "catalog/visual/images/detailed_projects/two_floor_manor_vanilla_detail.png",
-        "blocks": 17551,
+        "blocks": 18831,
         "size": [
-          65,
+          67,
           44,
-          54
+          55
         ],
         "maturity": "OFFLINE_COMPILED",
         "live_game_status": "PENDING",
@@ -2448,7 +2448,7 @@
         "label": "Wayne Manor Phase A Vanilla Detail",
         "source": "project_graph/detailed_examples/wayne_manor_phase_a_vanilla_detail.litematic",
         "image": "catalog/visual/images/detailed_projects/wayne_manor_phase_a_vanilla_detail.png",
-        "blocks": 55656,
+        "blocks": 56730,
         "size": [
           155,
           38,
@@ -2467,7 +2467,7 @@
         "label": "Modern Campus Network",
         "source": "project_graph/structural_examples/modern_campus_network.litematic",
         "image": "catalog/visual/images/structural_site/modern_campus_network.png",
-        "blocks": 44639,
+        "blocks": 45141,
         "size": [
           181,
           20,
@@ -2484,7 +2484,7 @@
         "label": "Routed Gothic Estate",
         "source": "project_graph/structural_examples/routed_gothic_estate.litematic",
         "image": "catalog/visual/images/structural_site/routed_gothic_estate.png",
-        "blocks": 54058,
+        "blocks": 54835,
         "size": [
           186,
           51,
@@ -2501,7 +2501,7 @@
         "label": "Terraced Hillside Compound",
         "source": "project_graph/structural_examples/terraced_hillside_compound.litematic",
         "image": "catalog/visual/images/structural_site/terraced_hillside_compound.png",
-        "blocks": 20908,
+        "blocks": 21190,
         "size": [
           123,
           37,
@@ -2511,6 +2511,246 @@
         "live_game_status": "PENDING",
         "microblock_hosts": 0,
         "detail_level": "VANILLA_DETAIL_COMPLETE",
+        "uses_astra_microblocks": false
+      }
+    ],
+    "style_finish_projects": [
+      {
+        "id": "style_finish_ancient",
+        "label": "Style Finish Ancient",
+        "source": "project_graph/style_finish_examples/style_finish_ancient.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_ancient.png",
+        "blocks": 7104,
+        "size": [
+          37,
+          19,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_classical",
+        "label": "Style Finish Classical",
+        "source": "project_graph/style_finish_examples/style_finish_classical.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_classical.png",
+        "blocks": 6395,
+        "size": [
+          37,
+          25,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_desert",
+        "label": "Style Finish Desert",
+        "source": "project_graph/style_finish_examples/style_finish_desert.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_desert.png",
+        "blocks": 5661,
+        "size": [
+          37,
+          23,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_east_asian",
+        "label": "Style Finish East Asian",
+        "source": "project_graph/style_finish_examples/style_finish_east_asian.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_east_asian.png",
+        "blocks": 6427,
+        "size": [
+          37,
+          36,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_fantasy",
+        "label": "Style Finish Fantasy",
+        "source": "project_graph/style_finish_examples/style_finish_fantasy.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_fantasy.png",
+        "blocks": 6157,
+        "size": [
+          39,
+          28,
+          35
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_gothic",
+        "label": "Style Finish Gothic",
+        "source": "project_graph/style_finish_examples/style_finish_gothic.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_gothic.png",
+        "blocks": 6527,
+        "size": [
+          37,
+          28,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_historic_european",
+        "label": "Style Finish Historic European",
+        "source": "project_graph/style_finish_examples/style_finish_historic_european.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_historic_european.png",
+        "blocks": 6349,
+        "size": [
+          37,
+          28,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_industrial",
+        "label": "Style Finish Industrial",
+        "source": "project_graph/style_finish_examples/style_finish_industrial.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_industrial.png",
+        "blocks": 5699,
+        "size": [
+          35,
+          17,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_mediterranean",
+        "label": "Style Finish Mediterranean",
+        "source": "project_graph/style_finish_examples/style_finish_mediterranean.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_mediterranean.png",
+        "blocks": 6057,
+        "size": [
+          37,
+          19,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_modern",
+        "label": "Style Finish Modern",
+        "source": "project_graph/style_finish_examples/style_finish_modern.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_modern.png",
+        "blocks": 5482,
+        "size": [
+          37,
+          16,
+          32
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_modern_historic",
+        "label": "Style Finish Modern Historic",
+        "source": "project_graph/style_finish_examples/style_finish_modern_historic.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_modern_historic.png",
+        "blocks": 5911,
+        "size": [
+          36,
+          16,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_organic",
+        "label": "Style Finish Organic",
+        "source": "project_graph/style_finish_examples/style_finish_organic.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_organic.png",
+        "blocks": 5959,
+        "size": [
+          37,
+          23,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_speculative",
+        "label": "Style Finish Speculative",
+        "source": "project_graph/style_finish_examples/style_finish_speculative.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_speculative.png",
+        "blocks": 6197,
+        "size": [
+          37,
+          16,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
+        "uses_astra_microblocks": false
+      },
+      {
+        "id": "style_finish_vernacular",
+        "label": "Style Finish Vernacular",
+        "source": "project_graph/style_finish_examples/style_finish_vernacular.litematic",
+        "image": "catalog/visual/images/style_finish/style_finish_vernacular.png",
+        "blocks": 6529,
+        "size": [
+          37,
+          30,
+          33
+        ],
+        "maturity": "OFFLINE_COMPILED",
+        "live_game_status": "PENDING",
+        "microblock_hosts": 0,
+        "detail_level": "VANILLA_STYLE_FINISH_COMPLETE",
         "uses_astra_microblocks": false
       }
     ]
@@ -2926,6 +3166,7 @@
     "vanilla_detail_rooms": 10,
     "vanilla_detail_projects": 3,
     "structural_site_projects": 3,
+    "style_finish_projects": 14,
     "microblock_fixtures": 24,
     "hybrid_rooms": 1
   }

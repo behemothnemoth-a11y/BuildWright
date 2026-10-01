@@ -320,5 +320,25 @@
     "vegetation_blocks": 69,
     "roof_detail_blocks": 18,
     "service_blocks": 0
+  },
+  "style_finish": {
+    "enabled": true,
+    "status": "VANILLA_STYLE_FINISH_COMPLETE",
+    "family": "gothic",
+    "seed": 14571,
+    "astra_microblocks": false,
+    "band_blocks": 699,
+    "corner_blocks": 40,
+    "eave_blocks": 150,
+    "lighting_blocks": 102,
+    "plant_blocks": 51,
+    "service_blocks": 0,
+    "parapet_blocks": 0,
+    "finial_blocks": 32,
+    "total_blocks": 1074
+  },
+  "reference_fit": {
+    "enabled": false,
+    "status": "DISABLED"
   }
 }

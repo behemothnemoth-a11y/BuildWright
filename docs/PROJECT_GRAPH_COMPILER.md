@@ -44,3 +44,9 @@ The project JSON records both pre-normalized and normalized coordinates so a bui
 
 A successful compile is OFFLINE_COMPILED, not APPROVED.
 Player-eye review in Minecraft remains mandatory before a generated building becomes project canon.
+
+## Whole-building vanilla finishing
+
+A project brief can enable `vanilla_finish.enabled=true` after its modules are assembled. This stage runs after facade, roof and site compilation and adds restrained project-scale detail such as entrances, exterior lighting rhythm, foundation planting, roof/service details and context-appropriate service storytelling.
+
+Detailed whole-building regression outputs live in `project_graph/detailed_examples/`. They remain pure vanilla and are scanned for Astra namespace leakage during repository validation.

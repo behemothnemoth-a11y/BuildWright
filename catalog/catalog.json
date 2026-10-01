@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "buildwright_version": "0.8.2",
+  "buildwright_version": "0.9.0",
   "minecraft_target": "26.2",
   "summary": {
     "vanilla_pack_families": 68,
@@ -9,7 +9,7 @@
     "microblock_variants": 606,
     "microblock_primitives": 40,
     "microblock_detail_profiles": 10,
-    "vanilla_fixtures": 40,
+    "vanilla_fixtures": 85,
     "microblock_fixtures": 24,
     "transform_cases": 32,
     "composition_templates": 11,
@@ -17,12 +17,14 @@
     "composition_examples": 7,
     "vanilla_composition_examples": 6,
     "optional_microblock_examples": 1,
+    "vanilla_detail_examples": 10,
     "whole_building_examples": 3,
+    "vanilla_detail_projects": 3,
     "style_profiles": 35,
     "style_families": 14,
     "style_showcases": 37,
-    "tools": 44,
-    "documentation_pages": 58
+    "tools": 47,
+    "documentation_pages": 59
   },
   "milestones": [
     {
@@ -166,6 +168,22 @@
         "hybrid microblock room removed from main baseline gallery",
         "vanilla-first pipeline explicitly locked",
         "vanilla baseline Astra-leak validation"
+      ]
+    },
+    {
+      "drop": "0009",
+      "version": "0.9.0",
+      "name": "Complete Vanilla Detail Layer",
+      "status": "complete",
+      "highlights": [
+        "45 new vanilla detail fixtures / 85 vanilla fixtures total",
+        "10 deterministic room-role finishing profiles",
+        "secondary architecture, furnishing, decor, lighting, vegetation and service passes",
+        "10 VANILLA_DETAIL_COMPLETE room-role regressions",
+        "whole-building vanilla finishing engine",
+        "3 VANILLA_DETAIL_COMPLETE whole-building regressions",
+        "hard Astra namespace exclusion from vanilla outputs",
+        "BASELINE vs VANILLA_DETAIL_COMPLETE visual catalogue separation"
       ]
     }
   ],
@@ -1217,6 +1235,771 @@
       "sha256": "dee1f9d9b8096a2ce05d4937b8f7470dbd59807be19a1f449aadd1a611e0e8d9",
       "source": "fixtures/sources/microblock/lantern_cage.json",
       "preview": "fixtures/previews/microblock/lantern_cage.png"
+    },
+    {
+      "id": "side_table_small",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "blocks": 27,
+      "file": "fixtures/compiled/vanilla/side_table_small.litematic",
+      "sha256": "1ddcd3867171582f8e0e7fd35411ed3e27830b5122557ee08f2b09adaa8faa10",
+      "source": "fixtures/sources/vanilla/side_table_small.json",
+      "preview": "fixtures/previews/vanilla/side_table_small.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "nightstand",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "bedroom",
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "blocks": 27,
+      "file": "fixtures/compiled/vanilla/nightstand.litematic",
+      "sha256": "e329dc5413c6a0fcdfb7552f0fa1bad7194d64ce6523a54dbd557d845175216d",
+      "source": "fixtures/sources/vanilla/nightstand.json",
+      "preview": "fixtures/previews/vanilla/nightstand.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "wardrobe_tall",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "size": [
+        5,
+        7,
+        3
+      ],
+      "blocks": 105,
+      "file": "fixtures/compiled/vanilla/wardrobe_tall.litematic",
+      "sha256": "483cc43abcba0962c934b589dfcdeb534af72946e6e3f66f1c36a997555c1c07",
+      "source": "fixtures/sources/vanilla/wardrobe_tall.json",
+      "preview": "fixtures/previews/vanilla/wardrobe_tall.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "dresser_low",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "size": [
+        7,
+        4,
+        3
+      ],
+      "blocks": 84,
+      "file": "fixtures/compiled/vanilla/dresser_low.litematic",
+      "sha256": "90275b645f8047cfcfeae9861a95b159e8273483bf08f3c2b197190ad4627f13",
+      "source": "fixtures/sources/vanilla/dresser_low.json",
+      "preview": "fixtures/previews/vanilla/dresser_low.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "dining_table_long",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "size": [
+        13,
+        4,
+        5
+      ],
+      "blocks": 113,
+      "file": "fixtures/compiled/vanilla/dining_table_long.litematic",
+      "sha256": "dbb36e9c46b86f267c6395e035151d9c27ab83db864e6755d502b564a60865ed",
+      "source": "fixtures/sources/vanilla/dining_table_long.json",
+      "preview": "fixtures/previews/vanilla/dining_table_long.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "dining_chair",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "blocks": 33,
+      "file": "fixtures/compiled/vanilla/dining_chair.litematic",
+      "sha256": "b5c253e92de4bffbc73ad8bb820f6e6733312d0aa0cd7b15896315edd8b98294",
+      "source": "fixtures/sources/vanilla/dining_chair.json",
+      "preview": "fixtures/previews/vanilla/dining_chair.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "lounge_sofa",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        9,
+        5,
+        4
+      ],
+      "blocks": 135,
+      "file": "fixtures/compiled/vanilla/lounge_sofa.litematic",
+      "sha256": "99b87aac65aa22c36cc4f8563293257c74ad64c6924d6344530c9dd56cf05c63",
+      "source": "fixtures/sources/vanilla/lounge_sofa.json",
+      "preview": "fixtures/previews/vanilla/lounge_sofa.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "lounge_chair",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        5,
+        5,
+        4
+      ],
+      "blocks": 75,
+      "file": "fixtures/compiled/vanilla/lounge_chair.litematic",
+      "sha256": "fb84390f5c924e397c012efce3b9b6216dc4a36344fb96c45d3ad452ba633e47",
+      "source": "fixtures/sources/vanilla/lounge_chair.json",
+      "preview": "fixtures/previews/vanilla/lounge_chair.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "coffee_table",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "size": [
+        7,
+        3,
+        5
+      ],
+      "blocks": 67,
+      "file": "fixtures/compiled/vanilla/coffee_table.litematic",
+      "sha256": "7c599a7d9795b94e34e2a3bb921af82f6728d74d1624d944248399fc95d2f07c",
+      "source": "fixtures/sources/vanilla/coffee_table.json",
+      "preview": "fixtures/previews/vanilla/coffee_table.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "kitchen_counter",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "kitchen",
+      "size": [
+        9,
+        4,
+        3
+      ],
+      "blocks": 108,
+      "file": "fixtures/compiled/vanilla/kitchen_counter.litematic",
+      "sha256": "4f604bea67d7ef815f0748811767335bf7c9401166606590741484f6b2f63271",
+      "source": "fixtures/sources/vanilla/kitchen_counter.json",
+      "preview": "fixtures/previews/vanilla/kitchen_counter.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "kitchen_island",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "kitchen",
+      "size": [
+        9,
+        4,
+        5
+      ],
+      "blocks": 180,
+      "file": "fixtures/compiled/vanilla/kitchen_island.litematic",
+      "sha256": "5b0aec35ddb0b41b48827fd278ab08aefd89a547cdbc9c7079cb378ccd8b7bf3",
+      "source": "fixtures/sources/vanilla/kitchen_island.json",
+      "preview": "fixtures/previews/vanilla/kitchen_island.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "workshop_bench",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "workshop",
+      "size": [
+        11,
+        5,
+        4
+      ],
+      "blocks": 187,
+      "file": "fixtures/compiled/vanilla/workshop_bench.litematic",
+      "sha256": "b19f2cf71e01f1f38d6ce14ff341415a5ecbb742f102dbd95e70b642de8713e1",
+      "source": "fixtures/sources/vanilla/workshop_bench.json",
+      "preview": "fixtures/previews/vanilla/workshop_bench.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "storage_crates_stack",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "size": [
+        5,
+        5,
+        4
+      ],
+      "blocks": 100,
+      "file": "fixtures/compiled/vanilla/storage_crates_stack.litematic",
+      "sha256": "80f2f8d7663a3d8be1bc4af80fbe2d528c3e84917ed866df4575be640c423564",
+      "source": "fixtures/sources/vanilla/storage_crates_stack.json",
+      "preview": "fixtures/previews/vanilla/storage_crates_stack.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "barrel_rack",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "storage",
+      "size": [
+        7,
+        4,
+        3
+      ],
+      "blocks": 84,
+      "file": "fixtures/compiled/vanilla/barrel_rack.litematic",
+      "sha256": "39ce25d9aeca990baeb304183d45e1cef9c0e2b61de9fd8df599265ceb9520a6",
+      "source": "fixtures/sources/vanilla/barrel_rack.json",
+      "preview": "fixtures/previews/vanilla/barrel_rack.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "tavern_table",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "tables",
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "blocks": 97,
+      "file": "fixtures/compiled/vanilla/tavern_table.litematic",
+      "sha256": "188478e42a6e0a8dbb72cda90e20bafb55895579ef56192cde0cf1a05e59fc6f",
+      "source": "fixtures/sources/vanilla/tavern_table.json",
+      "preview": "fixtures/previews/vanilla/tavern_table.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "stool",
+      "stage": "vanilla",
+      "category": "furniture",
+      "family": "seating",
+      "size": [
+        3,
+        3,
+        3
+      ],
+      "blocks": 27,
+      "file": "fixtures/compiled/vanilla/stool.litematic",
+      "sha256": "fb26c101dae35e4c039effc82df37e648e59afaa9b4114b1fb01b6ce1ceb841b",
+      "source": "fixtures/sources/vanilla/stool.json",
+      "preview": "fixtures/previews/vanilla/stool.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "wall_banner_pair",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "banners",
+      "size": [
+        7,
+        7,
+        1
+      ],
+      "blocks": 19,
+      "file": "fixtures/compiled/vanilla/wall_banner_pair.litematic",
+      "sha256": "16224e6998e3255139b65d636bdc6ae0f87d74b883a1393828e370c8d2b34837",
+      "source": "fixtures/sources/vanilla/wall_banner_pair.json",
+      "preview": "fixtures/previews/vanilla/wall_banner_pair.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "painting_group",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "art",
+      "size": [
+        9,
+        5,
+        1
+      ],
+      "blocks": 40,
+      "file": "fixtures/compiled/vanilla/painting_group.litematic",
+      "sha256": "fc805173217656b99e59680d546e85b0dcbd810e7f5b891bf9b219336a1cf03d",
+      "source": "fixtures/sources/vanilla/painting_group.json",
+      "preview": "fixtures/previews/vanilla/painting_group.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "trophy_pedestal",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "displays",
+      "size": [
+        3,
+        6,
+        3
+      ],
+      "blocks": 30,
+      "file": "fixtures/compiled/vanilla/trophy_pedestal.litematic",
+      "sha256": "b3a5dcf6a6fc941c9af0baf704eab9a38fccf1e4e364dc86d38747ecd3e4b35f",
+      "source": "fixtures/sources/vanilla/trophy_pedestal.json",
+      "preview": "fixtures/previews/vanilla/trophy_pedestal.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "book_clutter_tabletop",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "books",
+      "size": [
+        5,
+        2,
+        3
+      ],
+      "blocks": 17,
+      "file": "fixtures/compiled/vanilla/book_clutter_tabletop.litematic",
+      "sha256": "602373cbcdb89ceb4c3a1f7115c2a9a70dde44708991500789ad54cb03350119",
+      "source": "fixtures/sources/vanilla/book_clutter_tabletop.json",
+      "preview": "fixtures/previews/vanilla/book_clutter_tabletop.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "pottery_cluster",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "pottery",
+      "size": [
+        5,
+        3,
+        4
+      ],
+      "blocks": 24,
+      "file": "fixtures/compiled/vanilla/pottery_cluster.litematic",
+      "sha256": "6275a712cbea4f61811aff35b34161ab7126c1054daed6b6529b89f1e185a496",
+      "source": "fixtures/sources/vanilla/pottery_cluster.json",
+      "preview": "fixtures/previews/vanilla/pottery_cluster.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "rug_small",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "rugs",
+      "size": [
+        7,
+        1,
+        5
+      ],
+      "blocks": 35,
+      "file": "fixtures/compiled/vanilla/rug_small.litematic",
+      "sha256": "74c35f76248cd8d8d424f3dd18fd032cdf4a4b7149f00253791902e1a4920555",
+      "source": "fixtures/sources/vanilla/rug_small.json",
+      "preview": "fixtures/previews/vanilla/rug_small.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "rug_large",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "rugs",
+      "size": [
+        13,
+        1,
+        9
+      ],
+      "blocks": 117,
+      "file": "fixtures/compiled/vanilla/rug_large.litematic",
+      "sha256": "74eb22822229c4ca03276cde30f3243eeebdedf27e9154b75529d62aa2784599",
+      "source": "fixtures/sources/vanilla/rug_large.json",
+      "preview": "fixtures/previews/vanilla/rug_large.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "candle_cluster",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        4,
+        1,
+        3
+      ],
+      "blocks": 4,
+      "file": "fixtures/compiled/vanilla/candle_cluster.litematic",
+      "sha256": "bc36d90b73ea4b31b91fba520d97c70103b1d47e3b1f441ef0c6663d955ebce4",
+      "source": "fixtures/sources/vanilla/candle_cluster.json",
+      "preview": "fixtures/previews/vanilla/candle_cluster.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "wall_sconce_pair",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        7,
+        5,
+        1
+      ],
+      "blocks": 11,
+      "file": "fixtures/compiled/vanilla/wall_sconce_pair.litematic",
+      "sha256": "5cacba658d37a1397e1770037559047bc0854c4c74cb25bcf26a82b93e4ba7d9",
+      "source": "fixtures/sources/vanilla/wall_sconce_pair.json",
+      "preview": "fixtures/previews/vanilla/wall_sconce_pair.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "hanging_lantern_row",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        9,
+        7,
+        3
+      ],
+      "blocks": 21,
+      "file": "fixtures/compiled/vanilla/hanging_lantern_row.litematic",
+      "sha256": "0872636ce62ff99933d19b358057f1a47a7534f23f534dcc27e01ebedba3a4fb",
+      "source": "fixtures/sources/vanilla/hanging_lantern_row.json",
+      "preview": "fixtures/previews/vanilla/hanging_lantern_row.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "table_lamp_small",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        3,
+        4,
+        3
+      ],
+      "blocks": 3,
+      "file": "fixtures/compiled/vanilla/table_lamp_small.litematic",
+      "sha256": "0ff1be16426caafd5c19af493a3a198f421683b135665cab1dfb627af14cefb0",
+      "source": "fixtures/sources/vanilla/table_lamp_small.json",
+      "preview": "fixtures/previews/vanilla/table_lamp_small.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "floor_lamp",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        3,
+        7,
+        3
+      ],
+      "blocks": 14,
+      "file": "fixtures/compiled/vanilla/floor_lamp.litematic",
+      "sha256": "3c4b90f0d2db3228ae95fd5deee2e1f93eb86edc8b46eef39efca79f0cad7f94",
+      "source": "fixtures/sources/vanilla/floor_lamp.json",
+      "preview": "fixtures/previews/vanilla/floor_lamp.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "recessed_light_strip",
+      "stage": "vanilla",
+      "category": "decor",
+      "family": "lighting",
+      "size": [
+        9,
+        1,
+        3
+      ],
+      "blocks": 27,
+      "file": "fixtures/compiled/vanilla/recessed_light_strip.litematic",
+      "sha256": "a8898b03da0d9f2b07449e39f35ff1fb5c21352d49b3269c41ab260088fd153d",
+      "source": "fixtures/sources/vanilla/recessed_light_strip.json",
+      "preview": "fixtures/previews/vanilla/recessed_light_strip.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "shrub_cluster",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "shrubs",
+      "size": [
+        7,
+        4,
+        7
+      ],
+      "blocks": 106,
+      "file": "fixtures/compiled/vanilla/shrub_cluster.litematic",
+      "sha256": "4cc902cf037afb013d0acd252f47418ad5b55c7421da0b3b641b7b4dd64261c6",
+      "source": "fixtures/sources/vanilla/shrub_cluster.json",
+      "preview": "fixtures/previews/vanilla/shrub_cluster.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "flower_bed",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "flower_beds",
+      "size": [
+        9,
+        2,
+        5
+      ],
+      "blocks": 53,
+      "file": "fixtures/compiled/vanilla/flower_bed.litematic",
+      "sha256": "41f007c791a321c7a40601f6a6a8998db8cb4be220cbc084e2069173b289f9ee",
+      "source": "fixtures/sources/vanilla/flower_bed.json",
+      "preview": "fixtures/previews/vanilla/flower_bed.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "indoor_plant_small",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "indoor_plants",
+      "size": [
+        3,
+        5,
+        3
+      ],
+      "blocks": 21,
+      "file": "fixtures/compiled/vanilla/indoor_plant_small.litematic",
+      "sha256": "90a8fa2390f15f8a10646326102a5f32a38100f48093afaf44bb6ad682d39285",
+      "source": "fixtures/sources/vanilla/indoor_plant_small.json",
+      "preview": "fixtures/previews/vanilla/indoor_plant_small.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "planter_long",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "planters",
+      "size": [
+        9,
+        4,
+        3
+      ],
+      "blocks": 62,
+      "file": "fixtures/compiled/vanilla/planter_long.litematic",
+      "sha256": "93cc24a20e41f794682d3c0b26df586c244dd6d7f36816b7ee06da09a28ea5c5",
+      "source": "fixtures/sources/vanilla/planter_long.json",
+      "preview": "fixtures/previews/vanilla/planter_long.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "vine_column",
+      "stage": "vanilla",
+      "category": "vegetation",
+      "family": "vines",
+      "size": [
+        1,
+        8,
+        1
+      ],
+      "blocks": 8,
+      "file": "fixtures/compiled/vanilla/vine_column.litematic",
+      "sha256": "c2308349704736663c1e8e82b465ed7d7317a6469922b3414aaa26b0abd12e9c",
+      "source": "fixtures/sources/vanilla/vine_column.json",
+      "preview": "fixtures/previews/vanilla/vine_column.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "utility_shelving",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "storage",
+      "size": [
+        9,
+        7,
+        3
+      ],
+      "blocks": 117,
+      "file": "fixtures/compiled/vanilla/utility_shelving.litematic",
+      "sha256": "8a1a9618b0b21fcaec5e0c2ebc8db0f1212439545c3a695e6a99e3cd5ca70338",
+      "source": "fixtures/sources/vanilla/utility_shelving.json",
+      "preview": "fixtures/previews/vanilla/utility_shelving.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "tool_wall",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "tools",
+      "size": [
+        9,
+        6,
+        2
+      ],
+      "blocks": 58,
+      "file": "fixtures/compiled/vanilla/tool_wall.litematic",
+      "sha256": "b94fd605c4c7557488656cbadf7450035eac1d30ed7d66bd533b3587a29ce7d3",
+      "source": "fixtures/sources/vanilla/tool_wall.json",
+      "preview": "fixtures/previews/vanilla/tool_wall.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "pipe_valve_bank",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "pipes",
+      "size": [
+        7,
+        6,
+        3
+      ],
+      "blocks": 14,
+      "file": "fixtures/compiled/vanilla/pipe_valve_bank.litematic",
+      "sha256": "4feeeba821678f4debda82e3561bce3ebc2ac2b381a0b3800b73a62dcee97e97",
+      "source": "fixtures/sources/vanilla/pipe_valve_bank.json",
+      "preview": "fixtures/previews/vanilla/pipe_valve_bank.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "crate_pallet",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "storage",
+      "size": [
+        7,
+        3,
+        5
+      ],
+      "blocks": 71,
+      "file": "fixtures/compiled/vanilla/crate_pallet.litematic",
+      "sha256": "e8aaaeea1e5a9d62a54b94b0542c1bd7439a54b41b18d96cea75ca3d4bfd8e1b",
+      "source": "fixtures/sources/vanilla/crate_pallet.json",
+      "preview": "fixtures/previews/vanilla/crate_pallet.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "cable_drop",
+      "stage": "vanilla",
+      "category": "mechanical",
+      "family": "cables",
+      "size": [
+        3,
+        7,
+        3
+      ],
+      "blocks": 7,
+      "file": "fixtures/compiled/vanilla/cable_drop.litematic",
+      "sha256": "8338d607f3c11f8396dbe5f7ce3bf6a55ebdb5a515c55e220438b05454bb39d0",
+      "source": "fixtures/sources/vanilla/cable_drop.json",
+      "preview": "fixtures/previews/vanilla/cable_drop.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "wainscot_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "wall_paneling",
+      "size": [
+        11,
+        5,
+        1
+      ],
+      "blocks": 55,
+      "file": "fixtures/compiled/vanilla/wainscot_bay.litematic",
+      "sha256": "9947f272a03404187f7d73179b0e7db1b7d77584e41a192a0a308d1792250697",
+      "source": "fixtures/sources/vanilla/wainscot_bay.json",
+      "preview": "fixtures/previews/vanilla/wainscot_bay.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "wall_panel_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "wall_paneling",
+      "size": [
+        11,
+        8,
+        2
+      ],
+      "blocks": 136,
+      "file": "fixtures/compiled/vanilla/wall_panel_bay.litematic",
+      "sha256": "44a798bb282b00d2c06e665a6e387a19441efc3820abab3898d4f3b5573049d5",
+      "source": "fixtures/sources/vanilla/wall_panel_bay.json",
+      "preview": "fixtures/previews/vanilla/wall_panel_bay.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "ceiling_beam_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "ceilings",
+      "size": [
+        11,
+        2,
+        11
+      ],
+      "blocks": 154,
+      "file": "fixtures/compiled/vanilla/ceiling_beam_bay.litematic",
+      "sha256": "74534469241ad1d7fe23903dfd26aa3529f0343f6a6a5104b621e6cc199cd0da",
+      "source": "fixtures/sources/vanilla/ceiling_beam_bay.json",
+      "preview": "fixtures/previews/vanilla/ceiling_beam_bay.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "doorway_trim_simple",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "door_surrounds",
+      "size": [
+        7,
+        9,
+        2
+      ],
+      "blocks": 60,
+      "file": "fixtures/compiled/vanilla/doorway_trim_simple.litematic",
+      "sha256": "56b36bfd33a4be962805ef9bb64929e6fd47e9586f9876e42324efed92eb04b8",
+      "source": "fixtures/sources/vanilla/doorway_trim_simple.json",
+      "preview": "fixtures/previews/vanilla/doorway_trim_simple.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "window_seat_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "interior_bays",
+      "size": [
+        9,
+        4,
+        3
+      ],
+      "blocks": 95,
+      "file": "fixtures/compiled/vanilla/window_seat_bay.litematic",
+      "sha256": "ee9032c5046871a4d84823f56e35fabbe3e932cebf40f0a5cc9a5fdc5819158b",
+      "source": "fixtures/sources/vanilla/window_seat_bay.json",
+      "preview": "fixtures/previews/vanilla/window_seat_bay.png",
+      "detail_fixture": true
+    },
+    {
+      "id": "picture_rail_bay",
+      "stage": "vanilla",
+      "category": "architecture",
+      "family": "trim",
+      "size": [
+        11,
+        2,
+        1
+      ],
+      "blocks": 22,
+      "file": "fixtures/compiled/vanilla/picture_rail_bay.litematic",
+      "sha256": "5939a567327298c34c6455908521553967e15ea65cef7bf77f433fec31b3a880",
+      "source": "fixtures/sources/vanilla/picture_rail_bay.json",
+      "preview": "fixtures/previews/vanilla/picture_rail_bay.png",
+      "detail_fixture": true
     }
   ],
   "fixture_groups": {
@@ -1293,11 +2076,15 @@
       "stepped_buttress"
     ],
     "vanilla:architecture:ceilings": [
-      "coffered_ceiling_bay"
+      "coffered_ceiling_bay",
+      "ceiling_beam_bay"
     ],
     "vanilla:architecture:columns_piers": [
       "clustered_pier_compact",
       "clustered_pier_monumental"
+    ],
+    "vanilla:architecture:door_surrounds": [
+      "doorway_trim_simple"
     ],
     "vanilla:architecture:dormers": [
       "gothic_dormer"
@@ -1311,6 +2098,9 @@
     ],
     "vanilla:architecture:galleries": [
       "gothic_gallery_bay"
+    ],
+    "vanilla:architecture:interior_bays": [
+      "window_seat_bay"
     ],
     "vanilla:architecture:portals": [
       "gothic_portal_deep"
@@ -1326,19 +2116,52 @@
     "vanilla:architecture:stairs": [
       "grand_split_stair_connector"
     ],
+    "vanilla:architecture:trim": [
+      "picture_rail_bay"
+    ],
     "vanilla:architecture:wall_bays": [
       "gothic_wall_bay"
+    ],
+    "vanilla:architecture:wall_paneling": [
+      "wainscot_bay",
+      "wall_panel_bay"
     ],
     "vanilla:architecture:windows": [
       "lancet_window_single",
       "lancet_window_pair",
       "rose_window_bay"
     ],
+    "vanilla:decor:art": [
+      "painting_group"
+    ],
+    "vanilla:decor:banners": [
+      "wall_banner_pair"
+    ],
+    "vanilla:decor:books": [
+      "book_clutter_tabletop"
+    ],
     "vanilla:decor:displays": [
-      "armor_niche"
+      "armor_niche",
+      "trophy_pedestal"
     ],
     "vanilla:decor:lighting": [
-      "grand_chandelier"
+      "grand_chandelier",
+      "candle_cluster",
+      "wall_sconce_pair",
+      "hanging_lantern_row",
+      "table_lamp_small",
+      "floor_lamp",
+      "recessed_light_strip"
+    ],
+    "vanilla:decor:pottery": [
+      "pottery_cluster"
+    ],
+    "vanilla:decor:rugs": [
+      "rug_small",
+      "rug_large"
+    ],
+    "vanilla:furniture:bedroom": [
+      "nightstand"
     ],
     "vanilla:furniture:beds": [
       "canopy_bed"
@@ -1346,18 +2169,38 @@
     "vanilla:furniture:desks": [
       "writing_desk"
     ],
+    "vanilla:furniture:kitchen": [
+      "kitchen_counter",
+      "kitchen_island"
+    ],
     "vanilla:furniture:seating": [
       "gothic_armchair",
-      "highback_bench"
+      "highback_bench",
+      "dining_chair",
+      "lounge_sofa",
+      "lounge_chair",
+      "stool"
     ],
     "vanilla:furniture:storage": [
-      "bookcase_wall"
+      "bookcase_wall",
+      "wardrobe_tall",
+      "dresser_low",
+      "storage_crates_stack",
+      "barrel_rack"
     ],
     "vanilla:furniture:tables": [
-      "library_table"
+      "library_table",
+      "side_table_small",
+      "dining_table_long",
+      "coffee_table",
+      "tavern_table"
+    ],
+    "vanilla:furniture:workshop": [
+      "workshop_bench"
     ],
     "vanilla:mechanical:cables": [
-      "hanging_cable_tray"
+      "hanging_cable_tray",
+      "cable_drop"
     ],
     "vanilla:mechanical:consoles": [
       "console_bank"
@@ -1366,16 +2209,34 @@
       "lab_workstation"
     ],
     "vanilla:mechanical:pipes": [
-      "industrial_pipe_rack"
+      "industrial_pipe_rack",
+      "pipe_valve_bank"
+    ],
+    "vanilla:mechanical:storage": [
+      "utility_shelving",
+      "crate_pallet"
+    ],
+    "vanilla:mechanical:tools": [
+      "tool_wall"
+    ],
+    "vanilla:vegetation:flower_beds": [
+      "flower_bed"
     ],
     "vanilla:vegetation:hedges": [
       "formal_hedge_corner"
+    ],
+    "vanilla:vegetation:indoor_plants": [
+      "indoor_plant_small"
     ],
     "vanilla:vegetation:ivy": [
       "ivy_wall_patch"
     ],
     "vanilla:vegetation:planters": [
-      "indoor_planter"
+      "indoor_planter",
+      "planter_long"
+    ],
+    "vanilla:vegetation:shrubs": [
+      "shrub_cluster"
     ],
     "vanilla:vegetation:topiary": [
       "topiary_urn"
@@ -1383,6 +2244,9 @@
     "vanilla:vegetation:trees": [
       "manor_oak_small",
       "cypress_tree"
+    ],
+    "vanilla:vegetation:vines": [
+      "vine_column"
     ]
   },
   "style_profiles": [
@@ -1822,6 +2686,128 @@
       "litematic": "hybrid_gothic_detail_demo.litematic"
     }
   ],
+  "vanilla_detail_examples": [
+    {
+      "id": "bedroom_detail_complete",
+      "size": null,
+      "blocks": 3897,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/bedroom_detail_complete.manifest.json",
+      "litematic": "bedroom_detail_complete.litematic"
+    },
+    {
+      "id": "formal_dining_detail_complete",
+      "size": null,
+      "blocks": 6269,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/formal_dining_detail_complete.manifest.json",
+      "litematic": "formal_dining_detail_complete.litematic"
+    },
+    {
+      "id": "gallery_detail_complete",
+      "size": null,
+      "blocks": 4067,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/gallery_detail_complete.manifest.json",
+      "litematic": "gallery_detail_complete.litematic"
+    },
+    {
+      "id": "garden_detail_complete",
+      "size": null,
+      "blocks": 3166,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/garden_detail_complete.manifest.json",
+      "litematic": "garden_detail_complete.litematic"
+    },
+    {
+      "id": "grand_hall_detail_complete",
+      "size": null,
+      "blocks": 9899,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/grand_hall_detail_complete.manifest.json",
+      "litematic": "grand_hall_detail_complete.litematic"
+    },
+    {
+      "id": "industrial_lab_detail_complete",
+      "size": null,
+      "blocks": 7154,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/industrial_lab_detail_complete.manifest.json",
+      "litematic": "industrial_lab_detail_complete.litematic"
+    },
+    {
+      "id": "library_detail_complete",
+      "size": null,
+      "blocks": 7635,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/library_detail_complete.manifest.json",
+      "litematic": "library_detail_complete.litematic"
+    },
+    {
+      "id": "operations_bay_detail_complete",
+      "size": null,
+      "blocks": 8051,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/operations_bay_detail_complete.manifest.json",
+      "litematic": "operations_bay_detail_complete.litematic"
+    },
+    {
+      "id": "tavern_detail_complete",
+      "size": null,
+      "blocks": 5175,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/tavern_detail_complete.manifest.json",
+      "litematic": "tavern_detail_complete.litematic"
+    },
+    {
+      "id": "workshop_detail_complete",
+      "size": null,
+      "blocks": 5911,
+      "modules": null,
+      "connections": null,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "composition/detailed_examples/workshop_detail_complete.manifest.json",
+      "litematic": "workshop_detail_complete.litematic"
+    }
+  ],
   "whole_building_examples": [
     {
       "id": "industrial_campus",
@@ -1870,6 +2856,56 @@
       "microblock_hosts": 0,
       "manifest": "project_graph/compiled_examples/wayne_manor_phase_a.manifest.json",
       "litematic": "wayne_manor_phase_a.litematic"
+    }
+  ],
+  "vanilla_detail_projects": [
+    {
+      "id": "industrial_campus_vanilla_detail",
+      "size": [
+        130,
+        20,
+        51
+      ],
+      "blocks": 27222,
+      "modules": 2,
+      "connections": 1,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/detailed_examples/industrial_campus_vanilla_detail.manifest.json",
+      "litematic": "industrial_campus_vanilla_detail.litematic"
+    },
+    {
+      "id": "two_floor_manor_vanilla_detail",
+      "size": [
+        65,
+        44,
+        54
+      ],
+      "blocks": 17551,
+      "modules": 2,
+      "connections": 1,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/detailed_examples/two_floor_manor_vanilla_detail.manifest.json",
+      "litematic": "two_floor_manor_vanilla_detail.litematic"
+    },
+    {
+      "id": "wayne_manor_phase_a_vanilla_detail",
+      "size": [
+        155,
+        38,
+        125
+      ],
+      "blocks": 55656,
+      "modules": 4,
+      "connections": 3,
+      "maturity": "OFFLINE_COMPILED",
+      "live_game_status": "PENDING",
+      "microblock_hosts": 0,
+      "manifest": "project_graph/detailed_examples/wayne_manor_phase_a_vanilla_detail.manifest.json",
+      "litematic": "wayne_manor_phase_a_vanilla_detail.litematic"
     }
   ],
   "style_showcases": [
@@ -2524,6 +3560,7 @@
     "build_microblock_index.py",
     "build_pack_index.py",
     "build_style_registry.py",
+    "build_vanilla_detail_fixtures.py",
     "build_visual_catalog.py",
     "compile_composition_examples.py",
     "compile_fixtures.py",
@@ -2531,6 +3568,8 @@
     "compile_project.py",
     "compile_project_examples.py",
     "compile_style_showcases.py",
+    "compile_vanilla_detail_examples.py",
+    "compile_vanilla_detail_projects.py",
     "composition_stats.py",
     "estimate_microblock_budget.py",
     "fixture_stats.py",
@@ -2616,6 +3655,7 @@
     "VALIDATION.md",
     "VANILLA_ASSET_CONTRACT.md",
     "VANILLA_BUILD_LANGUAGE.md",
+    "VANILLA_DETAIL_LAYER.md",
     "VANILLA_QA_CHECKLIST.md",
     "VANILLA_TO_MICROBLOCK_MAPPING.md",
     "VARIATION_AND_ANTI_REPETITION.md",

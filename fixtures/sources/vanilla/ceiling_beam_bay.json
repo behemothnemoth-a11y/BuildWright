@@ -1,0 +1,1413 @@
+{
+  "schema_version": 1,
+  "id": "ceiling_beam_bay",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "ceilings",
+  "size": [
+    11,
+    2,
+    11
+  ],
+  "anchor": [
+    5,
+    1,
+    5
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        4
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        5
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        6
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        7
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        8
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        9
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        10
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        5
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        7
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        8
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        9
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        10
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        0
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        1
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        2
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        3
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        4
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        5
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        6
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        7
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        8
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        9
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        10
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        0
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        1
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        2
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        3
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        4
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        5
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        6
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        7
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        8
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        9
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        10
+      ],
+      "state": "minecraft:spruce_planks",
+      "role": "furniture_wood"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/ceiling_beam_bay.litematic",
+  "preview": "fixtures/previews/vanilla/ceiling_beam_bay.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

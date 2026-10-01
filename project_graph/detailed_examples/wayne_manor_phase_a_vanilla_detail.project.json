@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "id": "wayne_manor_phase_a_vanilla_detail",
+  "brief": {
+    "schema_version": 1,
+    "id": "wayne_manor_phase_a_vanilla_detail",
+    "name": "Wayne Manor Phase A ? Vanilla Detail Complete",
+    "facade_profile": "massive_gothic_manor",
+    "modules": [
+      {
+        "id": "grand_hall",
+        "source": "composition/detailed_examples/grand_hall_detail_complete.source.json",
+        "origin": [
+          60,
+          0,
+          60
+        ],
+        "ports": [
+          {
+            "id": "east_wing",
+            "side": "east",
+            "pos": [
+              60,
+              1,
+              24
+            ],
+            "width": 5,
+            "height": 5
+          },
+          {
+            "id": "west_wing",
+            "side": "west",
+            "pos": [
+              0,
+              1,
+              24
+            ],
+            "width": 5,
+            "height": 5
+          },
+          {
+            "id": "north_garden",
+            "side": "north",
+            "pos": [
+              30,
+              1,
+              0
+            ],
+            "width": 7,
+            "height": 5
+          }
+        ]
+      },
+      {
+        "id": "library",
+        "source": "composition/detailed_examples/library_detail_complete.source.json",
+        "ports": [
+          {
+            "id": "west",
+            "side": "west",
+            "pos": [
+              0,
+              1,
+              16
+            ],
+            "width": 5,
+            "height": 4
+          }
+        ]
+      },
+      {
+        "id": "suite",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "ports": [
+          {
+            "id": "east",
+            "side": "east",
+            "pos": [
+              30,
+              1,
+              13
+            ],
+            "width": 3,
+            "height": 4
+          }
+        ]
+      },
+      {
+        "id": "garden",
+        "source": "composition/detailed_examples/garden_detail_complete.source.json"
+      }
+    ],
+    "connections": [
+      {
+        "from": [
+          "grand_hall",
+          "east_wing"
+        ],
+        "to": [
+          "library",
+          "west"
+        ],
+        "mode": "attach"
+      },
+      {
+        "from": [
+          "grand_hall",
+          "west_wing"
+        ],
+        "to": [
+          "suite",
+          "east"
+        ],
+        "mode": "attach"
+      },
+      {
+        "from": [
+          "grand_hall",
+          "north_garden"
+        ],
+        "to": [
+          "garden",
+          "gate_s"
+        ],
+        "mode": "corridor",
+        "gap": 7,
+        "width": 7,
+        "height": 5
+      }
+    ],
+    "roof": {
+      "enabled": true,
+      "style": "gable",
+      "state": "minecraft:dark_oak_planks",
+      "gable_state": "minecraft:tuff_bricks",
+      "step_run": 2,
+      "overhang": 1,
+      "module_overrides": {
+        "garden": {
+          "style": "none"
+        }
+      }
+    },
+    "site": {
+      "enabled": true,
+      "margin": 10,
+      "ground_state": "minecraft:grass_block",
+      "path_state": "minecraft:gravel"
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 19002
+    }
+  },
+  "modules": [
+    {
+      "id": "grand_hall",
+      "source": "composition/detailed_examples/grand_hall_detail_complete.source.json",
+      "origin": [
+        60,
+        0,
+        60
+      ],
+      "normalized_origin": [
+        40,
+        1,
+        66
+      ],
+      "size": [
+        61,
+        24,
+        49
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "east_wing",
+        "main_entry",
+        "north_garden",
+        "west_wing"
+      ]
+    },
+    {
+      "id": "library",
+      "source": "composition/detailed_examples/library_detail_complete.source.json",
+      "origin": [
+        120,
+        0,
+        68
+      ],
+      "normalized_origin": [
+        100,
+        1,
+        74
+      ],
+      "size": [
+        45,
+        15,
+        33
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry",
+        "west"
+      ]
+    },
+    {
+      "id": "suite",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        30,
+        0,
+        71
+      ],
+      "normalized_origin": [
+        10,
+        1,
+        77
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "east",
+        "entry"
+      ]
+    },
+    {
+      "id": "garden",
+      "source": "composition/detailed_examples/garden_detail_complete.source.json",
+      "origin": [
+        66,
+        0,
+        4
+      ],
+      "normalized_origin": [
+        46,
+        1,
+        10
+      ],
+      "size": [
+        49,
+        12,
+        49
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "gate_n",
+        "gate_s"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    -20,
+    1,
+    6
+  ],
+  "pre_normalized_bounds": [
+    20,
+    -1,
+    -6,
+    174,
+    36,
+    118
+  ],
+  "exterior_sides": {
+    "grand_hall": [
+      "north",
+      "south"
+    ],
+    "library": [
+      "north",
+      "south",
+      "east"
+    ],
+    "suite": [
+      "north",
+      "south",
+      "west"
+    ],
+    "garden": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19002,
+    "astra_microblocks": false,
+    "entrances": 4,
+    "entrance_blocks": 30,
+    "lighting_blocks": 22,
+    "vegetation_blocks": 69,
+    "roof_detail_blocks": 18,
+    "service_blocks": 0
+  }
+}

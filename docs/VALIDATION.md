@@ -84,3 +84,18 @@ The visual catalogue is a browsing aid, not an approval gate. A generated previe
 DROP 0008C adds a hard vanilla-baseline gate. Every artifact classified as a vanilla room baseline, whole-building baseline, or style baseline is read back and scanned for the `astra_microblocks:` namespace in both block-state palettes and block entities. Any match fails repository validation.
 
 The main visual catalogue must also contain only vanilla fixtures and vanilla-classified room/project/style entries. Optional Astra fixtures and hybrid proof artifacts are retained in `MICROBLOCK_CATALOG.md` and are intentionally downstream of vanilla completion.
+
+## Complete vanilla detail validation
+
+DROP 0009 adds a deterministic completion gate above the vanilla architectural baseline:
+
+- all 45 detail fixtures must compile from canonical vanilla-only sources;
+- all 10 room-role detail profiles must exist and remain deterministic;
+- all 10 VANILLA_DETAIL_COMPLETE room regressions must reproduce byte-for-byte;
+- all 3 VANILLA_DETAIL_COMPLETE whole-building regressions must reproduce byte-for-byte;
+- detail-complete artifacts must record their finishing statistics and detail maturity;
+- every baseline and detail-complete vanilla Litematic is scanned for the `astra_microblocks:` namespace;
+- visual-catalog coverage must include both BASELINE and VANILLA_DETAIL_COMPLETE examples;
+- fixture/detail placement may skip conflicting optional content, but must never break authoritative connector/circulation keepouts.
+
+`VANILLA_DETAIL_COMPLETE` is an offline finishing milestone, not APPROVED. Minecraft/player-eye review remains required.

@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "brief_id": "library_detail_complete",
+  "template": "library",
+  "room_size": [
+    45,
+    15,
+    33
+  ],
+  "style_profile": "style.massive_gothic_manor",
+  "palette": "composition.massive_gothic_manor",
+  "seed": 9107,
+  "placements": [
+    {
+      "slot_id": "books_nw",
+      "fixture_id": "bookcase_wall",
+      "stage": "vanilla",
+      "target": [
+        12,
+        1,
+        2
+      ],
+      "origin": [
+        5,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        15,
+        9,
+        3
+      ],
+      "box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 19,
+        "max_y": 9,
+        "max_z": 3
+      },
+      "declared_box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 19,
+        "max_y": 9,
+        "max_z": 3
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "books_ne",
+      "fixture_id": "bookcase_wall",
+      "stage": "vanilla",
+      "target": [
+        32,
+        1,
+        2
+      ],
+      "origin": [
+        25,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        15,
+        9,
+        3
+      ],
+      "box": {
+        "min_x": 25,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 39,
+        "max_y": 9,
+        "max_z": 3
+      },
+      "declared_box": {
+        "min_x": 25,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 39,
+        "max_y": 9,
+        "max_z": 3
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "books_w",
+      "fixture_id": "bookcase_wall",
+      "stage": "vanilla",
+      "target": [
+        2,
+        1,
+        22
+      ],
+      "origin": [
+        1,
+        1,
+        15
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        3,
+        9,
+        15
+      ],
+      "box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 3,
+        "max_y": 9,
+        "max_z": 29
+      },
+      "declared_box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 3,
+        "max_y": 9,
+        "max_z": 29
+      },
+      "placement_mode": "carve_and_place",
+      "required": false
+    },
+    {
+      "slot_id": "fireplace_e",
+      "fixture_id": "gothic_fireplace",
+      "stage": "vanilla",
+      "target": [
+        41,
+        1,
+        16
+      ],
+      "origin": [
+        39,
+        1,
+        11
+      ],
+      "rotation": 3,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        11
+      ],
+      "box": {
+        "min_x": 39,
+        "min_y": 1,
+        "min_z": 11,
+        "max_x": 43,
+        "max_y": 10,
+        "max_z": 21
+      },
+      "declared_box": {
+        "min_x": 39,
+        "min_y": 1,
+        "min_z": 11,
+        "max_x": 43,
+        "max_y": 10,
+        "max_z": 21
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "table_left",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        15,
+        1,
+        18
+      ],
+      "origin": [
+        10,
+        1,
+        15
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 20,
+        "max_y": 4,
+        "max_z": 21
+      },
+      "declared_box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 20,
+        "max_y": 5,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "table_right",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        29,
+        1,
+        18
+      ],
+      "origin": [
+        24,
+        1,
+        15
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 24,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 34,
+        "max_y": 4,
+        "max_z": 21
+      },
+      "declared_box": {
+        "min_x": 24,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 34,
+        "max_y": 5,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "desk",
+      "fixture_id": "writing_desk",
+      "stage": "vanilla",
+      "target": [
+        22,
+        1,
+        7
+      ],
+      "origin": [
+        18,
+        1,
+        5
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        5,
+        5
+      ],
+      "box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 5,
+        "max_x": 26,
+        "max_y": 5,
+        "max_z": 9
+      },
+      "declared_box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 5,
+        "max_x": 26,
+        "max_y": 5,
+        "max_z": 9
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chair_sw",
+      "fixture_id": "gothic_armchair",
+      "stage": "vanilla",
+      "target": [
+        8,
+        1,
+        25
+      ],
+      "origin": [
+        6,
+        1,
+        23
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        7,
+        5
+      ],
+      "box": {
+        "min_x": 6,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 10,
+        "max_y": 7,
+        "max_z": 26
+      },
+      "declared_box": {
+        "min_x": 6,
+        "min_y": 1,
+        "min_z": 23,
+        "max_x": 10,
+        "max_y": 7,
+        "max_z": 27
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chair_se",
+      "fixture_id": "gothic_armchair",
+      "stage": "vanilla",
+      "target": [
+        36,
+        1,
+        25
+      ],
+      "origin": [
+        34,
+        1,
+        23
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        7,
+        5
+      ],
+      "box": {
+        "min_x": 34,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 38,
+        "max_y": 7,
+        "max_z": 26
+      },
+      "declared_box": {
+        "min_x": 34,
+        "min_y": 1,
+        "min_z": 23,
+        "max_x": 38,
+        "max_y": 7,
+        "max_z": 27
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chandelier",
+      "fixture_id": "grand_chandelier",
+      "stage": "vanilla",
+      "target": [
+        22,
+        3,
+        16
+      ],
+      "origin": [
+        17,
+        3,
+        11
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "box": {
+        "min_x": 19,
+        "min_y": 7,
+        "min_z": 13,
+        "max_x": 25,
+        "max_y": 14,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 17,
+        "min_y": 3,
+        "min_z": 11,
+        "max_x": 27,
+        "max_y": 14,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "planter",
+      "fixture_id": "indoor_planter",
+      "stage": "vanilla",
+      "target": [
+        6,
+        1,
+        7
+      ],
+      "origin": [
+        3,
+        1,
+        4
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "box": {
+        "min_x": 4,
+        "min_y": 1,
+        "min_z": 5,
+        "max_x": 8,
+        "max_y": 6,
+        "max_z": 9
+      },
+      "declared_box": {
+        "min_x": 3,
+        "min_y": 1,
+        "min_z": 4,
+        "max_x": 9,
+        "max_y": 10,
+        "max_z": 10
+      },
+      "placement_mode": "overlay",
+      "required": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "block_count": 7635,
+  "microblock_hosts": 0,
+  "source": "library_detail_complete.source.json",
+  "litematic": "library_detail_complete.litematic",
+  "litematic_sha256": "f7b5e897d65a474a8a7762f948c9239f2299dea09ae3e43b1262e6396640305b",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "library_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 219,
+    "fixtures_attempted": 85,
+    "fixtures_placed": 6,
+    "fixtures_skipped": 79,
+    "fixture_ids": [
+      "lounge_sofa",
+      "lounge_chair",
+      "lounge_chair",
+      "coffee_table",
+      "book_clutter_tabletop",
+      "hanging_lantern_row"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "library",
+    "density": 0.828,
+    "seed": 18116,
+    "style_profile": "style.massive_gothic_manor",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 7635,
+    "volume": 22275,
+    "palette": 17
+  }
+}

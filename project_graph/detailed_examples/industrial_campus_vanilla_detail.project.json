@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "industrial_campus_vanilla_detail",
+  "brief": {
+    "schema_version": 1,
+    "id": "industrial_campus_vanilla_detail",
+    "name": "Industrial Campus ? Vanilla Detail Complete",
+    "facade_profile": "industrial",
+    "modules": [
+      {
+        "id": "operations",
+        "source": "composition/detailed_examples/operations_bay_detail_complete.source.json",
+        "origin": [
+          20,
+          0,
+          20
+        ],
+        "ports": [
+          {
+            "id": "east",
+            "side": "east",
+            "pos": [
+              54,
+              1,
+              17
+            ],
+            "width": 5,
+            "height": 4
+          }
+        ]
+      },
+      {
+        "id": "lab",
+        "source": "composition/detailed_examples/industrial_lab_detail_complete.source.json",
+        "ports": [
+          {
+            "id": "west",
+            "side": "west",
+            "pos": [
+              0,
+              1,
+              15
+            ],
+            "width": 5,
+            "height": 4
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": [
+          "operations",
+          "east"
+        ],
+        "to": [
+          "lab",
+          "west"
+        ],
+        "mode": "corridor",
+        "gap": 10,
+        "width": 5,
+        "height": 4
+      }
+    ],
+    "roof": {
+      "enabled": true,
+      "style": "flat",
+      "state": "minecraft:polished_deepslate",
+      "overhang": 1
+    },
+    "site": {
+      "enabled": true,
+      "margin": 8,
+      "ground_state": "minecraft:stone",
+      "path_state": "minecraft:smooth_stone"
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 19000
+    }
+  },
+  "modules": [
+    {
+      "id": "operations",
+      "source": "composition/detailed_examples/operations_bay_detail_complete.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "normalized_origin": [
+        8,
+        1,
+        8
+      ],
+      "size": [
+        55,
+        16,
+        35
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "east",
+        "entry"
+      ]
+    },
+    {
+      "id": "lab",
+      "source": "composition/detailed_examples/industrial_lab_detail_complete.source.json",
+      "origin": [
+        85,
+        0,
+        22
+      ],
+      "normalized_origin": [
+        73,
+        1,
+        10
+      ],
+      "size": [
+        49,
+        16,
+        33
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "entry",
+        "west"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    -12,
+    1,
+    -12
+  ],
+  "pre_normalized_bounds": [
+    12,
+    -1,
+    12,
+    141,
+    18,
+    62
+  ],
+  "exterior_sides": {
+    "operations": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "lab": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19000,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 28,
+    "lighting_blocks": 8,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 8,
+    "service_blocks": 12
+  }
+}

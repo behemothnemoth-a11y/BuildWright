@@ -143,6 +143,22 @@
         "vanilla-first pipeline explicitly locked",
         "vanilla baseline Astra-leak validation"
       ]
+    },
+    {
+      "drop": "0009",
+      "version": "0.9.0",
+      "name": "Complete Vanilla Detail Layer",
+      "status": "complete",
+      "highlights": [
+        "45 new vanilla detail fixtures / 85 vanilla fixtures total",
+        "10 deterministic room-role finishing profiles",
+        "secondary architecture, furnishing, decor, lighting, vegetation and service passes",
+        "10 VANILLA_DETAIL_COMPLETE room-role regressions",
+        "whole-building vanilla finishing engine",
+        "3 VANILLA_DETAIL_COMPLETE whole-building regressions",
+        "hard Astra namespace exclusion from vanilla outputs",
+        "BASELINE vs VANILLA_DETAIL_COMPLETE visual catalogue separation"
+      ]
     }
   ]
 }

@@ -14,7 +14,7 @@ def astra_be(words,material):
 def compile_one(src,out):
  d=json.loads(src.read_text())
  if d['stage']=='vanilla':
-  blocks={tuple(x['pos']):x['state'] for x in d['blocks']};name='BuildWright '+d['id'].replace('_',' ').title();make(out,name,tuple(d['size']),blocks,desc=f"BuildWright compiled vanilla fixture: {d['category']}/{d['family']}")
+  blocks={tuple(x['pos']):x['state'] for x in d['blocks']};name='BuildWright '+d['id'].replace('_',' ').title();desc=(f"BuildWright vanilla detail fixture: {d['category']}/{d['family']}" if d.get('detail_fixture') else f"BuildWright compiled vanilla fixture: {d['category']}/{d['family']}");make(out,name,tuple(d['size']),blocks,desc=desc)
  else:
   words=[as_signed(x) for x in d['occupancy_words_hex']];material=d['host_material'];host='astra_microblocks:oak_host' if material=='oak' else 'astra_microblocks:test_host';blocks={(0,0,0):host+'[orientation=0]'};make(out,'BuildWright MB '+d['id'].replace('_',' ').title(),(1,1,1),blocks,[astra_be(words,material)],desc='Astra Microblocks compiled fixture')
 def main():

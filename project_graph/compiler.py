@@ -10,6 +10,7 @@ from .model import ProjectPlan, load_project
 from .preview import render_project_svg
 from .roof import apply_roofs
 from .site import apply_site
+from .vanilla_finish import apply_vanilla_finish
 from .solver import project_bounds, solve_project
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -75,6 +76,7 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
     facade_stats = apply_facades(plan, placed, blocks)
     roof_stats = apply_roofs(plan, placed, blocks)
     site_stats = apply_site(plan, placed, blocks)
+    finish_stats = apply_vanilla_finish(plan, placed, blocks, brief)
 
     normalized, entities, size, delta, min_pos, max_pos = _normalize(blocks, block_entities)
     output_dir = Path(output_dir) if output_dir else root / "project_graph" / "compiled_examples"
@@ -107,6 +109,7 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "normalization_offset": list(delta),
         "pre_normalized_bounds": [*min_pos, *max_pos],
         "exterior_sides": exterior_sides(plan),
+        "vanilla_finish": finish_stats,
     }
     _write_lf(source_path, json.dumps(canonical, indent=2) + "\n")
 
@@ -141,6 +144,8 @@ def compile_project(root: Path, brief: dict | Path, output_dir: Path | None = No
         "facade": facade_stats,
         "roof": roof_stats,
         "site": site_stats,
+        "vanilla_finish": finish_stats,
+        "detail_status": finish_stats.get("status","BASELINE"),
         "warnings": warnings + plan.warnings,
     }
     _write_lf(manifest_path, json.dumps(manifest, indent=2) + "\n")

@@ -51845,5 +51845,15 @@
       "depth": 1,
       "clearance": 5
     }
-  ]
+  ],
+  "vanilla_detail": {
+    "enabled": false,
+    "status": "BASELINE",
+    "role": "garden",
+    "surface_blocks": 0,
+    "fixtures_attempted": 0,
+    "fixtures_placed": 0,
+    "fixtures_skipped": 0,
+    "fixture_ids": []
+  }
 }

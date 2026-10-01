@@ -31,11 +31,16 @@ def encode(data):
 
 def sync_index(data, check=False):
     index=json.loads(INDEX.read_text(encoding="utf-8")) if INDEX.is_file() else {"schema_version":1}
+    detail_projects=[]
+    for p in sorted((ROOT/"examples/projects_detail").glob("*.json")):
+        detail_projects.append(json.loads(p.read_text(encoding="utf-8"))["id"])
     desired={
         "facade_profiles":[p["id"] for p in data["profiles"]],
         "style_registry":"style_registry.json",
         "style_profiles":data["count"],
         "style_families":len(data["families"]),
+        "vanilla_detail_projects":detail_projects,
+        "vanilla_finish_engine":True,
     }
     if check:
         for key,value in desired.items():

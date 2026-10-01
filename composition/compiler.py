@@ -7,6 +7,7 @@ from .transforms import transform_fixture_blocks,transform_grid_words
 from .geometry import box_for_connector
 from .manifest import write_manifest
 from .preview import render_plan_svg
+from .detail import apply_vanilla_detail
 
 ROOT=Path(__file__).resolve().parents[1]
 if str(ROOT/'tools') not in sys.path:sys.path.insert(0,str(ROOT/'tools'))
@@ -108,7 +109,10 @@ def compile_brief(root:Path, brief:dict|Path, output_dir:Path|None=None):
             fblocks={k:v for k,v in fblocks.items() if k not in blocks}
         blocks.update(fblocks);block_entities.extend(fbe)
         if msrc:micro_sources.append(msrc)
-    # Connector clearance is authoritative and is re-carved after all fixtures.
+
+    detail_result=apply_vanilla_detail(root,blocks,plan,palette,brief)
+
+    # Connector clearance is authoritative and is re-carved after all fixtures/detail.
     for c in plan.connectors:
         for p in box_for_connector(c,plan.room_size,keepout=False).cells():blocks.pop(p,None)
     _validate_bounds(blocks,plan.room_size)
@@ -116,7 +120,8 @@ def compile_brief(root:Path, brief:dict|Path, output_dir:Path|None=None):
     source={
       'schema_version':1,'id':module_id,'stage':brief.get('stage','vanilla'),'size':list(plan.room_size),
       'blocks':[{'pos':list(pos),'state':state} for pos,state in sorted(blocks.items(),key=lambda x:(x[0][1],x[0][2],x[0][0]))],
-      'microblock_hosts':micro_sources,'connectors':plan.connectors
+      'microblock_hosts':micro_sources,'connectors':plan.connectors,
+      'vanilla_detail':detail_result
     }
     _write_text_lf(source_path,json.dumps(source,indent=2)+'\n')
     make(lit_path,'BuildWright '+brief.get('name',module_id),plan.room_size,blocks,block_entities,desc=f'BuildWright composed module: {module_id}',dataversion=int(brief.get('data_version',4903)))
@@ -127,6 +132,8 @@ def compile_brief(root:Path, brief:dict|Path, output_dir:Path|None=None):
     manifest['litematic']=lit_path.name
     manifest['source']=source_path.name
     manifest['preview']=svg_path.name
+    manifest['vanilla_detail']=detail_result
+    manifest['detail_status']=detail_result.get('status','BASELINE')
     manifest['litematic_sha256']=hashlib.sha256(lit_path.read_bytes()).hexdigest();manifest['readback']=readback
     _write_text_lf(manifest_path,json.dumps(manifest,indent=2)+'\n')
     return {'plan':plan,'litematic':lit_path,'source':source_path,'manifest':manifest_path,'preview':svg_path,'readback':readback}

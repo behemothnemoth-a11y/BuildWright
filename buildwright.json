@@ -1,6 +1,6 @@
 {
   "name": "BuildWright",
-  "version": "0.8.2",
+  "version": "0.9.0",
   "minecraft": {
     "primary_target": "26.2",
     "wayne_manor_data_version": 4903
@@ -14,6 +14,14 @@
     "vanilla_fixture_selection",
     "module_compile",
     "vanilla_review_gate",
+    "vanilla_detail_profile",
+    "vanilla_secondary_architecture",
+    "vanilla_furnishing",
+    "vanilla_decor_storytelling",
+    "vanilla_lighting",
+    "vanilla_vegetation_landscape",
+    "vanilla_service_detail",
+    "vanilla_detail_complete_gate",
     "microblock_candidate_analysis",
     "microblock_detail_profile",
     "microblock_translation_plan",
@@ -46,12 +54,13 @@
   },
   "fixture_system": {
     "registry": "fixtures/registry.json",
-    "vanilla_fixtures": 40,
+    "vanilla_fixtures": 85,
     "microblock_fixtures": 24,
     "transform_cases": 32,
     "provider": "astra_microblocks",
     "source_of_truth": "fixtures/sources",
-    "compiled_artifacts": "fixtures/compiled"
+    "compiled_artifacts": "fixtures/compiled",
+    "vanilla_detail_fixtures": 45
   },
   "composition_system": {
     "index": "composition/index.json",
@@ -63,13 +72,17 @@
     "connector_keepouts": true,
     "deterministic_seeds": true,
     "hybrid_astra_hosts": true,
-    "cross_platform_deterministic_text": true
+    "cross_platform_deterministic_text": true,
+    "vanilla_detail_profiles": 10,
+    "vanilla_detail_examples": 10,
+    "vanilla_detail_engine": true
   },
   "maturity_states": [
     "CONCEPT",
     "BLOCKOUT",
     "ARCHITECTURE",
     "DETAILING",
+    "VANILLA_DETAIL_COMPLETE",
     "OFFLINE_COMPILED",
     "SERIALIZATION_VALIDATED",
     "LIVE_GAME_PENDING",
@@ -117,13 +130,15 @@
     "facade_zoning": true,
     "window_languages": true,
     "semantic_material_roles": true,
-    "site_character_system": true
+    "site_character_system": true,
+    "vanilla_finish_engine": true,
+    "vanilla_detail_projects": 3
   },
   "visual_catalog": {
     "entry": "VISUAL_CATALOG.md",
     "microblock_entry": "MICROBLOCK_CATALOG.md",
     "manifest": "catalog/visual/visual_manifest.json",
-    "vanilla_fixture_previews": 40,
+    "vanilla_fixture_previews": 85,
     "vanilla_room_renders": 6,
     "vanilla_project_renders": 3,
     "vanilla_style_baselines": 37,
@@ -132,6 +147,8 @@
     "isometric_renderer": "tools/render_litematic_iso.py",
     "builder": "tools/build_visual_catalog.py",
     "base_policy": "vanilla_only",
-    "microblock_policy": "optional_post_vanilla_refinement"
+    "microblock_policy": "optional_post_vanilla_refinement",
+    "vanilla_detail_room_renders": 10,
+    "vanilla_detail_project_renders": 3
   }
 }

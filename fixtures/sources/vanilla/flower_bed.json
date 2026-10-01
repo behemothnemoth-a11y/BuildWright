@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "id": "flower_bed",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "flower_beds",
+  "size": [
+    9,
+    2,
+    5
+  ],
+  "anchor": [
+    4,
+    0,
+    2
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "state": "minecraft:dirt",
+      "role": "ground"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:cornflower",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "state": "minecraft:poppy",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:poppy",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "state": "minecraft:cornflower",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        1
+      ],
+      "state": "minecraft:cornflower",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        3
+      ],
+      "state": "minecraft:poppy",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        1
+      ],
+      "state": "minecraft:poppy",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        3
+      ],
+      "state": "minecraft:cornflower",
+      "role": "plant"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/flower_bed.litematic",
+  "preview": "fixtures/previews/vanilla/flower_bed.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

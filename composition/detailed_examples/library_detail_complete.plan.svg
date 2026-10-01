@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="506" height="386" viewBox="0 0 506 386">
+<rect width="100%" height="100%" fill="#16181c"/>
+<rect x="28" y="28" width="450" height="330" fill="#292d33" stroke="#d8d8d8" stroke-width="2"/>
+<rect x="228" y="298" width="50" height="60" fill="#3d5961" opacity="0.38" stroke="#6fb3c3"/>
+<rect x="78" y="38" width="150" height="30" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="81" y="50" font-family="monospace" font-size="9" fill="white">bookcase_wall</text>
+<rect x="278" y="38" width="150" height="30" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="281" y="50" font-family="monospace" font-size="9" fill="white">bookcase_wall</text>
+<rect x="38" y="178" width="30" height="150" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="41" y="190" font-family="monospace" font-size="9" fill="white">bookcase_wall</text>
+<rect x="418" y="138" width="50" height="110" fill="#826c44" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="421" y="150" font-family="monospace" font-size="9" fill="white">gothic_fireplace</text>
+<rect x="128" y="178" width="110" height="70" fill="#526f8a" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="131" y="190" font-family="monospace" font-size="9" fill="white">library_table</text>
+<rect x="268" y="178" width="110" height="70" fill="#8a5b72" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="271" y="190" font-family="monospace" font-size="9" fill="white">library_table</text>
+<rect x="208" y="78" width="90" height="50" fill="#6c6c87" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="211" y="90" font-family="monospace" font-size="9" fill="white">writing_desk</text>
+<rect x="88" y="268" width="50" height="30" fill="#77714e" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="91" y="280" font-family="monospace" font-size="9" fill="white">gothic_armchair</text>
+<rect x="368" y="268" width="50" height="30" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="371" y="280" font-family="monospace" font-size="9" fill="white">gothic_armchair</text>
+<rect x="218" y="158" width="70" height="70" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="221" y="170" font-family="monospace" font-size="9" fill="white">grand_chandelier</text>
+<rect x="68" y="78" width="50" height="50" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="71" y="90" font-family="monospace" font-size="9" fill="white">indoor_planter</text>
+<text x="28" y="18" font-family="sans-serif" font-size="13" fill="white">library_detail_complete — top-down composition plan</text>
+</svg>

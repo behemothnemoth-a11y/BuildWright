@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "industrial_campus_vanilla_detail",
+  "name": "Industrial Campus ? Vanilla Detail Complete",
+  "facade_profile": "industrial",
+  "modules": [
+    {
+      "id": "operations",
+      "source": "composition/detailed_examples/operations_bay_detail_complete.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "ports": [
+        {
+          "id": "east",
+          "side": "east",
+          "pos": [
+            54,
+            1,
+            17
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "source": "composition/detailed_examples/industrial_lab_detail_complete.source.json",
+      "ports": [
+        {
+          "id": "west",
+          "side": "west",
+          "pos": [
+            0,
+            1,
+            15
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": [
+        "operations",
+        "east"
+      ],
+      "to": [
+        "lab",
+        "west"
+      ],
+      "mode": "corridor",
+      "gap": 10,
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "roof": {
+    "enabled": true,
+    "style": "flat",
+    "state": "minecraft:polished_deepslate",
+    "overhang": 1
+  },
+  "site": {
+    "enabled": true,
+    "margin": 8,
+    "ground_state": "minecraft:stone",
+    "path_state": "minecraft:smooth_stone"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "seed": 19000
+  }
+}

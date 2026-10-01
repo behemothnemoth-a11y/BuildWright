@@ -76,5 +76,10 @@
       "east",
       "west"
     ]
+  },
+  "vanilla_finish": {
+    "enabled": false,
+    "status": "BASELINE",
+    "astra_microblocks": false
   }
 }

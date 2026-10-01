@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "brief_id": "tavern_detail_complete",
+  "template": "tavern_common_room",
+  "room_size": [
+    39,
+    14,
+    31
+  ],
+  "style_profile": "style.rustic_tavern",
+  "palette": "composition.rustic_tavern",
+  "seed": 9109,
+  "placements": [
+    {
+      "slot_id": "fireplace",
+      "fixture_id": "manor_fireplace",
+      "stage": "vanilla",
+      "target": [
+        19,
+        1,
+        3
+      ],
+      "origin": [
+        15,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        8,
+        5
+      ],
+      "box": {
+        "min_x": 15,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 23,
+        "max_y": 8,
+        "max_z": 5
+      },
+      "declared_box": {
+        "min_x": 15,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 23,
+        "max_y": 8,
+        "max_z": 5
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "table_l",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        12,
+        1,
+        16
+      ],
+      "origin": [
+        7,
+        1,
+        13
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 7,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 17,
+        "max_y": 4,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 7,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 17,
+        "max_y": 5,
+        "max_z": 19
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "table_r",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        26,
+        1,
+        16
+      ],
+      "origin": [
+        21,
+        1,
+        13
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 21,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 31,
+        "max_y": 4,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 21,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 31,
+        "max_y": 5,
+        "max_z": 19
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "bench_l",
+      "fixture_id": "highback_bench",
+      "stage": "vanilla",
+      "target": [
+        10,
+        1,
+        23
+      ],
+      "origin": [
+        6,
+        1,
+        21
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        6,
+        4
+      ],
+      "box": {
+        "min_x": 7,
+        "min_y": 1,
+        "min_z": 21,
+        "max_x": 13,
+        "max_y": 6,
+        "max_z": 24
+      },
+      "declared_box": {
+        "min_x": 6,
+        "min_y": 1,
+        "min_z": 21,
+        "max_x": 14,
+        "max_y": 6,
+        "max_z": 24
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chandelier",
+      "fixture_id": "grand_chandelier",
+      "stage": "vanilla",
+      "target": [
+        19,
+        2,
+        15
+      ],
+      "origin": [
+        14,
+        2,
+        10
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "box": {
+        "min_x": 16,
+        "min_y": 6,
+        "min_z": 12,
+        "max_x": 22,
+        "max_y": 13,
+        "max_z": 18
+      },
+      "declared_box": {
+        "min_x": 14,
+        "min_y": 2,
+        "min_z": 10,
+        "max_x": 24,
+        "max_y": 13,
+        "max_z": 20
+      },
+      "placement_mode": "overlay",
+      "required": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "block_count": 5175,
+  "microblock_hosts": 0,
+  "source": "tavern_detail_complete.source.json",
+  "litematic": "tavern_detail_complete.litematic",
+  "litematic_sha256": "ce65267858505b3a1ae2af113341292ea746f7c0b4211cbc0a60abe282393502",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "tavern_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 215,
+    "fixtures_attempted": 20,
+    "fixtures_placed": 7,
+    "fixtures_skipped": 13,
+    "fixture_ids": [
+      "tavern_table",
+      "tavern_table",
+      "stool",
+      "stool",
+      "barrel_rack",
+      "pottery_cluster",
+      "hanging_lantern_row"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "tavern",
+    "density": 1.0,
+    "seed": 18118,
+    "style_profile": "style.rustic_tavern",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 5175,
+    "volume": 16926,
+    "palette": 14
+  }
+}

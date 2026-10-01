@@ -73,3 +73,24 @@ The universal style showcase compiler produces a **vanilla baseline**. That base
 It is not allowed to jump directly from that baseline to the microblock stage. Before Stage B, the vanilla build must receive its complete vanilla finishing passes: secondary architecture, trim, furniture, decor, lighting, vegetation/landscape, functional/service detail and controlled storytelling/clutter, followed by player-eye review.
 
 Astra/microblock work is optional and downstream. If a build does not read correctly in its completed vanilla edition, microblocks are not the fix.
+
+## DROP 0009 — vanilla completion gate
+
+The vanilla stage now has an explicit completion boundary between architectural baseline and microblock analysis:
+
+```text
+BASELINE
+→ secondary architecture
+→ furnishing
+→ decor / storytelling
+→ lighting
+→ vegetation / landscape
+→ service / functional detail
+→ VANILLA_DETAIL_COMPLETE
+→ Minecraft / player-eye review
+→ optional microblock candidate analysis
+```
+
+Room/module completion is driven by deterministic role profiles in `composition/detail_profiles.json`. Whole-building completion is handled by the project-level vanilla finishing pass after facade, roof and site assembly.
+
+No optional microblock stage may be used to compensate for an incomplete vanilla build.

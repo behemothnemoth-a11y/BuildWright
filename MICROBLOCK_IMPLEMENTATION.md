@@ -55,3 +55,7 @@ primary mass
 If microblocks obscure that hierarchy, simplify.
 
 See `docs/MICROBLOCK_TRANSLATION_PIPELINE.md` and `packs/microblock/registry.json`.
+
+## DROP 0009 gate
+
+Microblock candidate analysis is downstream of `VANILLA_DETAIL_COMPLETE` and player-eye review. Astra Microblocks may refine localized contour, thinness or hero sculptural detail; they are not permitted to compensate for incomplete vanilla furnishing, lighting, landscaping, service detail or storytelling.

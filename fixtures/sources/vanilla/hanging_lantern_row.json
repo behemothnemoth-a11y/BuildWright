@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "id": "hanging_lantern_row",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "lighting",
+  "size": [
+    9,
+    7,
+    3
+  ],
+  "anchor": [
+    4,
+    6,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "role": "light"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "role": "light"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "role": "light"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        1
+      ],
+      "state": "minecraft:chain[axis=y,waterlogged=false]",
+      "role": "metal"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/hanging_lantern_row.litematic",
+  "preview": "fixtures/previews/vanilla/hanging_lantern_row.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

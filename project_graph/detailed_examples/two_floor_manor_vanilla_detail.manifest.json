@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "two_floor_manor_vanilla_detail",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    65,
+    44,
+    54
+  ],
+  "blocks": 17551,
+  "block_entities": 0,
+  "litematic": "two_floor_manor_vanilla_detail.litematic",
+  "project_source": "two_floor_manor_vanilla_detail.project.json",
+  "preview": "two_floor_manor_vanilla_detail.plan.svg",
+  "litematic_sha256": "349a8c525358d7755c0970ca03262b0e5d4ec774d38f6a18302e76e3927c13be",
+  "readback": {
+    "regions": 1,
+    "nonair": 17551,
+    "volume": 154440,
+    "palette": 28,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 44,
+    "piers": 55,
+    "bands": 640,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 1,
+    "max_rise": 9,
+    "styles": {
+      "gable": 1
+    }
+  },
+  "site": {
+    "ground_blocks": 0,
+    "path_blocks": 0,
+    "edge_blocks": 0,
+    "character": "formal"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19001,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 20,
+    "lighting_blocks": 22,
+    "vegetation_blocks": 44,
+    "roof_detail_blocks": 9,
+    "service_blocks": 0
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": [
+    "1 overlapping module block-state conflicts reconciled by graph order"
+  ]
+}

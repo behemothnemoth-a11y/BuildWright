@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "two_floor_manor_vanilla_detail",
+  "brief": {
+    "schema_version": 1,
+    "id": "two_floor_manor_vanilla_detail",
+    "name": "Two Floor Manor ? Vanilla Detail Complete",
+    "facade_profile": "classic_manor",
+    "modules": [
+      {
+        "id": "hall",
+        "source": "composition/detailed_examples/grand_hall_detail_complete.source.json",
+        "origin": [
+          20,
+          0,
+          20
+        ],
+        "ports": [
+          {
+            "id": "upper",
+            "side": "up",
+            "pos": [
+              30,
+              23,
+              24
+            ],
+            "width": 5,
+            "height": 1,
+            "depth": 5
+          }
+        ]
+      },
+      {
+        "id": "upper_suite",
+        "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+        "ports": [
+          {
+            "id": "down",
+            "side": "down",
+            "pos": [
+              15,
+              0,
+              13
+            ],
+            "width": 5,
+            "height": 1,
+            "depth": 5
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": [
+          "hall",
+          "upper"
+        ],
+        "to": [
+          "upper_suite",
+          "down"
+        ],
+        "mode": "attach",
+        "width": 5,
+        "height": 1
+      }
+    ],
+    "roof": {
+      "enabled": true,
+      "style": "gable",
+      "state": "minecraft:spruce_planks",
+      "gable_state": "minecraft:stone_bricks",
+      "step_run": 2,
+      "overhang": 1,
+      "module_overrides": {
+        "hall": {
+          "style": "none"
+        }
+      }
+    },
+    "site": {
+      "enabled": false
+    },
+    "vanilla_finish": {
+      "enabled": true,
+      "seed": 19001
+    }
+  },
+  "modules": [
+    {
+      "id": "hall",
+      "source": "composition/detailed_examples/grand_hall_detail_complete.source.json",
+      "origin": [
+        20,
+        0,
+        20
+      ],
+      "normalized_origin": [
+        2,
+        0,
+        3
+      ],
+      "size": [
+        61,
+        24,
+        49
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "main_entry",
+        "upper"
+      ]
+    },
+    {
+      "id": "upper_suite",
+      "source": "composition/detailed_examples/bedroom_detail_complete.source.json",
+      "origin": [
+        35,
+        23,
+        31
+      ],
+      "normalized_origin": [
+        17,
+        23,
+        14
+      ],
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "ports": [
+        "down",
+        "entry"
+      ]
+    }
+  ],
+  "normalization_offset": [
+    -18,
+    0,
+    -17
+  ],
+  "pre_normalized_bounds": [
+    18,
+    0,
+    17,
+    82,
+    43,
+    70
+  ],
+  "exterior_sides": {
+    "hall": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "upper_suite": [
+      "north",
+      "south",
+      "east",
+      "west"
+    ]
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19001,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 20,
+    "lighting_blocks": 22,
+    "vegetation_blocks": 44,
+    "roof_detail_blocks": 9,
+    "service_blocks": 0
+  }
+}

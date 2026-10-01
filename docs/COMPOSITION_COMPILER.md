@@ -69,3 +69,11 @@ Every compiled module remains `LIVE_GAME_PENDING` until it is actually loaded an
 
 Committed composition example JSON and SVG files are canonical UTF-8 with LF line endings.
 Compiler code writes those artifacts as bytes rather than platform-translated text, and `.gitattributes` pins the committed example outputs to LF. Byte-for-byte recompilation remains a required validation gate on Windows and Linux.
+
+## Vanilla detail completion
+
+BuildWright 0.9 can continue a vanilla composition through the reusable finishing layer by adding `vanilla_detail.enabled=true` to the brief. The detail pass runs after the primary fixture plan and before connector re-carve/readback.
+
+The pass is deterministic and role-aware. It can add secondary architecture, supporting furniture, decor/storytelling, lighting, vegetation and service detail while respecting connector keepouts and existing geometry. If a detail fixture cannot fit safely, it disappears rather than forcing a collision.
+
+Detailed regression outputs live under `composition/detailed_examples/`; baseline examples remain under `composition/compiled_examples/` so the two maturity levels are easy to compare.

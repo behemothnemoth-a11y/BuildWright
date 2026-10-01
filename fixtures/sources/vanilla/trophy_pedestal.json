@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "id": "trophy_pedestal",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "displays",
+  "size": [
+    3,
+    6,
+    3
+  ],
+  "anchor": [
+    1,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "accent"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "accent"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "accent"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/trophy_pedestal.litematic",
+  "preview": "fixtures/previews/vanilla/trophy_pedestal.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

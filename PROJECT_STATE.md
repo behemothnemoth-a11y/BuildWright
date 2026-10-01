@@ -9,12 +9,13 @@
 - Selective microblock second pass: LOCKED
 - In-game player-eye review required for approval: YES
 
-## System maturity after DROP 0008C
+## System maturity after DROP 0009
 
 - Vanilla pack foundation: IMPLEMENTED — 68 families / 567 variants
 - Microblock pack foundation: IMPLEMENTED — 75 families / 606 variants
 - Microblock shape primitives: IMPLEMENTED — 40
-- Compiled vanilla fixture library: IMPLEMENTED — 40 fixtures
+- Compiled vanilla fixture library: IMPLEMENTED — 85 fixtures
+- Vanilla finishing/detail fixtures: IMPLEMENTED — 45 fixtures
 - Compiled Astra microblock fixture library: IMPLEMENTED — 24 fixtures
 - Rotation/mirror corpus: IMPLEMENTED — 32 cases
 - Composition templates: IMPLEMENTED — 11
@@ -36,13 +37,16 @@
 - Living inventory catalogue: IMPLEMENTED — CATALOG.md + catalog/catalog.json
 - Main picture-first catalogue: IMPLEMENTED — VISUAL_CATALOG.md — VANILLA ONLY
 - Optional refinement catalogue: IMPLEMENTED — MICROBLOCK_CATALOG.md
-- Vanilla visual assets: IMPLEMENTED — 40 fixtures + 6 room baselines + 3 project baselines + 37 style baselines
+- Vanilla room-role detail profiles: IMPLEMENTED — 10
+- VANILLA_DETAIL_COMPLETE room regressions: IMPLEMENTED — 10
+- Whole-building vanilla finishing engine: IMPLEMENTED
+- VANILLA_DETAIL_COMPLETE project regressions: IMPLEMENTED — 3
+- Vanilla visual assets: IMPLEMENTED — 85 fixtures + 6 room baselines + 10 detailed rooms + 3 project baselines + 3 detailed projects + 37 style baselines
 - Optional Astra visual assets: RETAINED SEPARATELY — 24 fixtures + 1 hybrid proof room
 - Automatic room cutaway rendering: IMPLEMENTED
-- Vanilla-baseline Astra namespace validation: IMPLEMENTED
-- Deterministic project/style/catalog validation gates: IMPLEMENTED
+- Vanilla-output Astra namespace validation: IMPLEMENTED
+- Deterministic project/style/detail/catalog validation gates: IMPLEMENTED
 - Visual catalogue coverage validation: IMPLEMENTED
-- Complete vanilla detail/furnishing layer across style baselines: NOT YET SYSTEMATIZED
 - Real Minecraft/Fabric/Litematica whole-building/style smoke gate: PENDING
 
 ## Universal engine rule
@@ -71,6 +75,12 @@ The required order is now explicit:
 4. player-eye / in-game review;
 5. optional localized Astra Microblocks refinement.
 
+## DROP 0009 status
+
+The reusable **complete vanilla detail layer is implemented**. Ten room-role profiles now cover secondary architecture, furnishing, decor/storytelling, lighting, vegetation and service detail. Whole-building finishing adds restrained entrances, exterior lighting, planting, roof/service details and context cues.
+
+`VANILLA_DETAIL_COMPLETE` is an offline compiler maturity state, not automatic approval. In-game/player-eye review is still mandatory.
+
 ## Next major priority
 
-Build the **complete vanilla detail layer** before expanding microblock usage: project-scale vanilla trim, furniture/decor population, lighting, landscape fixtures, service/detail zones, controlled clutter/storytelling, and style-specific finishing passes. Microblocks remain available, but they are downstream and optional.
+Deepen structural/project intelligence on top of the completed vanilla pipeline: tower/dormer/buttress/balcony/porch graph nodes, non-straight circulation, terrain-aware foundations, urban frontage rules, project-scale road/plaza/infrastructure networks, and more style-specific finishing profiles. Microblocks remain downstream and optional.

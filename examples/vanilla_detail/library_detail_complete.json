@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "library_detail_complete",
+  "name": "Library Detail Complete",
+  "stage": "vanilla",
+  "template": "library",
+  "size": [
+    45,
+    15,
+    33
+  ],
+  "seed": 9107,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

@@ -92,3 +92,16 @@ Never call a preview or structural readback proof of final in-game appearance.
 - Style showcase renders are baseline architectural-language tests, not finished vanilla-detail builds.
 - A hybrid/microblock proof may be retained for testing, but it must never be presented as a base example.
 - Validation must fail if an Astra namespace block or block entity leaks into any artifact classified as a vanilla baseline.
+
+## DROP 0009 complete-vanilla-detail rules
+
+- BASELINE and VANILLA_DETAIL_COMPLETE are different maturity levels. Never present a style/massing baseline as a finished vanilla build.
+- A VANILLA_DETAIL_COMPLETE room must execute its role profile and add meaningful secondary/detail geometry while preserving circulation keepouts.
+- Detail placement is optional when geometry conflicts. Skipping a decorative fixture is preferable to blocking a door, corridor, stair, sightline or hero-space clearance.
+- Use deterministic detail seeds and anti-repetition. The same brief/version must reproduce byte-for-byte.
+- Secondary architecture should reinforce hierarchy: restrained perimeter/crown trim, a few readable beams/panels, not continuous surface noise.
+- Furnishing must support room function. Decor/storytelling comes after functional furniture and circulation.
+- Lighting and vegetation are part of vanilla completion, not postponed automatically to the microblock stage.
+- Whole-building finishing must stay project-neutral and style-aware; no Wayne-specific logic belongs in the reusable engine.
+- Every VANILLA_DETAIL_COMPLETE artifact must remain free of the `astra_microblocks:` namespace.
+- Microblock candidate analysis may begin only after the vanilla detail-complete artifact has passed the vanilla review gate.

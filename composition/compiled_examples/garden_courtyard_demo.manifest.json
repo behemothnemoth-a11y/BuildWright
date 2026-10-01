@@ -361,6 +361,17 @@
   "maturity": "OFFLINE_COMPILED",
   "live_game_status": "PENDING",
   "preview": "garden_courtyard_demo.plan.svg",
+  "vanilla_detail": {
+    "enabled": false,
+    "status": "BASELINE",
+    "role": "garden",
+    "surface_blocks": 0,
+    "fixtures_attempted": 0,
+    "fixtures_placed": 0,
+    "fixtures_skipped": 0,
+    "fixture_ids": []
+  },
+  "detail_status": "BASELINE",
   "readback": {
     "regions": 1,
     "nonair": 6477,

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="366" height="326" viewBox="0 0 366 326">
+<rect width="100%" height="100%" fill="#16181c"/>
+<rect x="28" y="28" width="310" height="270" fill="#292d33" stroke="#d8d8d8" stroke-width="2"/>
+<rect x="98" y="248" width="30" height="50" fill="#3d5961" opacity="0.38" stroke="#6fb3c3"/>
+<rect x="138" y="48" width="90" height="130" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="141" y="60" font-family="monospace" font-size="9" fill="white">canopy_bed</text>
+<rect x="208" y="198" width="90" height="50" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="211" y="210" font-family="monospace" font-size="9" fill="white">writing_desk</text>
+<rect x="78" y="208" width="50" height="30" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="81" y="220" font-family="monospace" font-size="9" fill="white">gothic_armchair</text>
+<text x="28" y="18" font-family="sans-serif" font-size="13" fill="white">bedroom_detail_complete — top-down composition plan</text>
+</svg>

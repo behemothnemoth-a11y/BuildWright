@@ -44,5 +44,11 @@
     "character": "service_yard",
     "vegetation_profile": "temperate_manor"
   },
+  "vanilla_finish": {
+    "enabled": false,
+    "status": "BASELINE",
+    "astra_microblocks": false
+  },
+  "detail_status": "BASELINE",
   "warnings": []
 }

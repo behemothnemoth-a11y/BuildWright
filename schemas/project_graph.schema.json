@@ -21,7 +21,20 @@
       "items": {"$ref": "#/$defs/connection"}
     },
     "roof": {"type": "object"},
-    "site": {"type": "object"}
+    "site": {"type": "object"},
+    "vanilla_finish": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "seed": {"type": "integer"},
+        "light_spacing": {"type": "integer", "minimum": 4},
+        "entrance_state": {"type": "string"},
+        "entrance_accent_state": {"type": "string"},
+        "plant_state": {"type": "string"},
+        "chimney_state": {"type": "string"},
+        "vent_state": {"type": "string"}
+      }
+    }
   },
   "$defs": {
     "module": {

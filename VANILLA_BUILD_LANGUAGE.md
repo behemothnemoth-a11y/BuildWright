@@ -33,3 +33,9 @@ A build may be monumental while still respecting player scale. Detail should con
 - Preserve quiet surfaces around focal detail.
 
 See `docs/BUILD_TECHNIQUE_LIBRARY.md`, `docs/ASSET_SELECTION.md`, `docs/MATERIAL_GRADIENT_SYSTEM.md`, and `docs/VANILLA_QA_CHECKLIST.md`.
+
+## DROP 0009 — completion contract
+
+The vanilla build language now has an explicit completion stage. A structural/style baseline is not enough: secondary architecture, furnishing, decor/storytelling, lighting, vegetation/landscape and functional/service detail must be resolved in vanilla before the build can become `VANILLA_DETAIL_COMPLETE`.
+
+The compiled vanilla fixture library now contains 85 fixtures, including 45 fixtures reserved for the finishing layer. Detail fixtures are excluded from primary composition selection by default so growing the finishing library cannot silently change old architectural baselines.

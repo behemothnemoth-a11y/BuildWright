@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "pipe_valve_bank",
+  "stage": "vanilla",
+  "category": "mechanical",
+  "family": "pipes",
+  "size": [
+    7,
+    6,
+    3
+  ],
+  "anchor": [
+    3,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "state": "minecraft:copper_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_button[face=wall,facing=south,powered=false]",
+      "role": "control"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        0
+      ],
+      "state": "minecraft:polished_blackstone_button[face=wall,facing=south,powered=false]",
+      "role": "control"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/pipe_valve_bank.litematic",
+  "preview": "fixtures/previews/vanilla/pipe_valve_bank.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

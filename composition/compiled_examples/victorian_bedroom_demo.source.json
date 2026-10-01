@@ -29724,5 +29724,15 @@
       "depth": 2,
       "clearance": 3
     }
-  ]
+  ],
+  "vanilla_detail": {
+    "enabled": false,
+    "status": "BASELINE",
+    "role": "bedroom",
+    "surface_blocks": 0,
+    "fixtures_attempted": 0,
+    "fixtures_placed": 0,
+    "fixtures_skipped": 0,
+    "fixture_ids": []
+  }
 }

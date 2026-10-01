@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "wayne_manor_phase_a_vanilla_detail",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 4,
+  "connections": 3,
+  "size": [
+    155,
+    38,
+    125
+  ],
+  "blocks": 55656,
+  "block_entities": 0,
+  "litematic": "wayne_manor_phase_a_vanilla_detail.litematic",
+  "project_source": "wayne_manor_phase_a_vanilla_detail.project.json",
+  "preview": "wayne_manor_phase_a_vanilla_detail.plan.svg",
+  "litematic_sha256": "6efa8a32d063fd7aa11113e87a67e4fa2fb6f203cdceea9fbc6815131d6d7a7f",
+  "readback": {
+    "regions": 1,
+    "nonair": 55656,
+    "volume": 736250,
+    "palette": 40,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 12,
+    "windows": 57,
+    "piers": 75,
+    "bands": 1449,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 3,
+    "max_rise": 14,
+    "styles": {
+      "gable": 3
+    }
+  },
+  "site": {
+    "ground_blocks": 19375,
+    "path_blocks": 0,
+    "edge_blocks": 184,
+    "character": "formal",
+    "vegetation_profile": "temperate_manor"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19002,
+    "astra_microblocks": false,
+    "entrances": 4,
+    "entrance_blocks": 30,
+    "lighting_blocks": 22,
+    "vegetation_blocks": 69,
+    "roof_detail_blocks": 18,
+    "service_blocks": 0
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": [
+    "384 overlapping module block-state conflicts reconciled by graph order"
+  ]
+}

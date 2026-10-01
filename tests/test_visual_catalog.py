@@ -20,10 +20,12 @@ class VisualCatalogTests(unittest.TestCase):
 
     def test_expected_counts(self):
         self.assertEqual(self.manifest['counts'],{
-            'vanilla_fixtures':40,
+            'vanilla_fixtures':85,
             'vanilla_rooms':6,
             'vanilla_projects':3,
             'vanilla_style_baselines':37,
+            'vanilla_detail_rooms':10,
+            'vanilla_detail_projects':3,
             'microblock_fixtures':24,
             'hybrid_rooms':1
         })
@@ -34,6 +36,8 @@ class VisualCatalogTests(unittest.TestCase):
             self.manifest['vanilla']['rooms'],
             self.manifest['vanilla']['projects'],
             self.manifest['vanilla']['style_baselines'],
+            self.manifest['vanilla']['detail_complete_rooms'],
+            self.manifest['vanilla']['detail_complete_projects'],
             self.manifest['optional_microblock']['fixtures'],
             self.manifest['optional_microblock']['hybrid_rooms']
         ]
@@ -45,7 +49,7 @@ class VisualCatalogTests(unittest.TestCase):
     def test_main_catalogue_is_vanilla_only(self):
         for row in self.manifest['vanilla']['fixtures']:
             self.assertEqual(row['stage'],'vanilla')
-        for key in ('rooms','projects','style_baselines'):
+        for key in ('rooms','projects','style_baselines','detail_complete_rooms','detail_complete_projects'):
             for row in self.manifest['vanilla'][key]:
                 self.assertFalse(row.get('uses_astra_microblocks',False),row['id'])
 
@@ -73,6 +77,7 @@ class VisualCatalogTests(unittest.TestCase):
         text=(ROOT/'VISUAL_CATALOG.md').read_text(encoding='utf-8')
         self.assertIn('vanilla foundation',text.lower())
         self.assertIn('not the completed vanilla detail layer',text.lower())
+        self.assertIn('vanilla detail complete',text.lower())
         self.assertIn('MICROBLOCK_CATALOG.md',text)
 
 if __name__=='__main__':

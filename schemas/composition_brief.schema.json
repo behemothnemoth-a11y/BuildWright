@@ -90,6 +90,16 @@
         "$ref": "#/$defs/connector"
       }
     },
+    "vanilla_detail": {
+      "type": "object",
+      "properties": {
+        "enabled": {"type": "boolean"},
+        "role": {"type": "string"},
+        "density": {"type": "number", "minimum": 0, "maximum": 1},
+        "seed": {"type": "integer"},
+        "states": {"type": "object", "additionalProperties": {"type": "string"}}
+      }
+    },
     "keepouts": {
       "type": "array",
       "items": {

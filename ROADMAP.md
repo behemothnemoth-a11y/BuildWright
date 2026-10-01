@@ -109,21 +109,27 @@ Complete in this corrective follow-up:
 
 ## DROP 0009 — Complete Vanilla Detail Layer
 
-Next major priority:
+Complete:
 
-- style-specific vanilla exterior trim and secondary architecture;
-- project-scale furniture and furnishing passes;
+- 45 new compiled vanilla detail fixtures; 85 vanilla fixtures total;
+- 10 deterministic room-role detail profiles;
+- secondary architecture passes: perimeter/crown trim, restrained beams and floor accents;
+- functional furniture and furnishing passes;
 - decor and storytelling population;
-- vanilla lighting fixture placement and hidden ambient strategy;
-- vegetation, gardens and landscape-fixture placement;
-- service spaces and functional detail;
-- controlled clutter and anti-repetition rules;
-- room-role/detail-density profiles;
-- whole-building vanilla finishing pass;
-- player-eye QA before any microblock conversion;
-- catalogue labels that distinguish BASELINE from VANILLA_DETAIL_COMPLETE.
+- vanilla lighting fixtures and whole-building exterior lighting rhythm;
+- vegetation / garden / planter detail;
+- industrial and workshop service-detail passes;
+- deterministic collision-aware fallback placement and anti-repetition density control;
+- 10 committed VANILLA_DETAIL_COMPLETE room-role regressions;
+- whole-building vanilla finishing engine for entrances, planting, roof/service detail and context cues;
+- 3 committed VANILLA_DETAIL_COMPLETE whole-building regressions;
+- catalogue/visual separation between BASELINE and VANILLA_DETAIL_COMPLETE;
+- hard Astra-namespace scan across both vanilla baselines and detail-complete outputs;
+- microblock work remains downstream and optional.
 
-## Later
+## DROP 0010 — Structural & Site Intelligence
+
+Next major priority:
 
 - tower, dormer, buttress, balcony and porch graph nodes;
 - non-straight corridor pathfinding;
@@ -131,8 +137,13 @@ Next major priority:
 - facade zoning by story/elevation and urban frontage context;
 - terrain-aware foundations, basements and retaining walls;
 - roads, plazas, walls, fences and infrastructure networks;
+- richer project-scale vegetation/landscape graphs;
+- style-family-specific vanilla finishing profiles beyond room-role defaults;
 - real-world/reconstruction facade fitting from measured references;
-- reference/image → structured project graph assistance;
+- reference/image → structured project graph assistance.
+
+## Later
+
 - Fabric-side automated whole-building smoke tests;
 - Axiom-assisted placement workflows;
 - Build Studio adapter;

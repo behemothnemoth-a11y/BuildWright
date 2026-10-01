@@ -8,6 +8,16 @@ Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing →
 
 > Isometric images are deterministic renders of the actual compiled Litematic geometry using simplified material colors. They are not Minecraft screenshots or concept art.
 
+## Vanilla Detail Complete
+
+### 10 completed room-role examples + 3 completed whole-building regressions
+
+![Vanilla detail rooms](catalog/visual/detail_room_overview.png)
+
+![Vanilla detail projects](catalog/visual/detail_project_overview.png)
+
+[Browse VANILLA_DETAIL_COMPLETE examples](catalog/visual/vanilla_detail.md)
+
 ## Vanilla style baselines
 
 ### 37 compiled baselines — 35 core styles + 2 style-blend demonstrations
@@ -18,7 +28,7 @@ Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing →
 
 ## Vanilla fixture library
 
-### 40 compiled vanilla fixtures
+### 85 compiled vanilla fixtures
 
 ![Vanilla fixture overview](catalog/visual/fixture_overview_vanilla.png)
 

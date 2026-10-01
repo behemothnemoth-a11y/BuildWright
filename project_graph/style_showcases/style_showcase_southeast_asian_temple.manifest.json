@@ -43,5 +43,11 @@
     "edge_blocks": 0,
     "character": "temple_garden"
   },
+  "vanilla_finish": {
+    "enabled": false,
+    "status": "BASELINE",
+    "astra_microblocks": false
+  },
+  "detail_status": "BASELINE",
   "warnings": []
 }

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "gallery_detail_complete",
+  "name": "Gallery Detail Complete",
+  "stage": "vanilla",
+  "template": "gallery_corridor",
+  "size": [
+    51,
+    13,
+    19
+  ],
+  "seed": 9103,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "bedroom_detail_complete",
+  "name": "Bedroom Detail Complete",
+  "stage": "vanilla",
+  "template": "bedroom_suite",
+  "size": [
+    31,
+    13,
+    27
+  ],
+  "seed": 9101,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

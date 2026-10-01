@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "brief_id": "gallery_detail_complete",
+  "template": "gallery_corridor",
+  "room_size": [
+    51,
+    13,
+    19
+  ],
+  "style_profile": "style.massive_gothic_manor",
+  "palette": "composition.massive_gothic_manor",
+  "seed": 9103,
+  "placements": [
+    {
+      "slot_id": "armor_n3",
+      "fixture_id": "armor_niche",
+      "stage": "vanilla",
+      "target": [
+        38,
+        1,
+        3
+      ],
+      "origin": [
+        35,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 35,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 41,
+        "max_y": 10,
+        "max_z": 5
+      },
+      "declared_box": {
+        "min_x": 35,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 41,
+        "max_y": 10,
+        "max_z": 5
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "bench_s1",
+      "fixture_id": "highback_bench",
+      "stage": "vanilla",
+      "target": [
+        16,
+        1,
+        15
+      ],
+      "origin": [
+        12,
+        1,
+        14
+      ],
+      "rotation": 2,
+      "mirror": "none",
+      "size": [
+        9,
+        6,
+        4
+      ],
+      "box": {
+        "min_x": 13,
+        "min_y": 1,
+        "min_z": 14,
+        "max_x": 19,
+        "max_y": 6,
+        "max_z": 17
+      },
+      "declared_box": {
+        "min_x": 12,
+        "min_y": 1,
+        "min_z": 14,
+        "max_x": 20,
+        "max_y": 6,
+        "max_z": 17
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "bench_s2",
+      "fixture_id": "highback_bench",
+      "stage": "vanilla",
+      "target": [
+        34,
+        1,
+        15
+      ],
+      "origin": [
+        30,
+        1,
+        14
+      ],
+      "rotation": 2,
+      "mirror": "none",
+      "size": [
+        9,
+        6,
+        4
+      ],
+      "box": {
+        "min_x": 31,
+        "min_y": 1,
+        "min_z": 14,
+        "max_x": 37,
+        "max_y": 6,
+        "max_z": 17
+      },
+      "declared_box": {
+        "min_x": 30,
+        "min_y": 1,
+        "min_z": 14,
+        "max_x": 38,
+        "max_y": 6,
+        "max_z": 17
+      },
+      "placement_mode": "overlay",
+      "required": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "west",
+      "side": "west",
+      "center": "center",
+      "width": 5,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    },
+    {
+      "id": "east",
+      "side": "east",
+      "center": "center",
+      "width": 5,
+      "height": 5,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "block_count": 4067,
+  "microblock_hosts": 0,
+  "source": "gallery_detail_complete.source.json",
+  "litematic": "gallery_detail_complete.litematic",
+  "litematic_sha256": "e45a1d7e85aff3502667c2646e9066a4d2deb994ab14ae74a0cf4b524e4ed6fc",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "gallery_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 268,
+    "fixtures_attempted": 49,
+    "fixtures_placed": 3,
+    "fixtures_skipped": 46,
+    "fixture_ids": [
+      "trophy_pedestal",
+      "painting_group",
+      "wall_sconce_pair"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "gallery",
+    "density": 0.828,
+    "seed": 18112,
+    "style_profile": "style.massive_gothic_manor",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 4067,
+    "volume": 12597,
+    "palette": 13
+  }
+}

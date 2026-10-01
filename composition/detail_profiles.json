@@ -1,0 +1,691 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "default": {
+      "density": 0.7,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      },
+      "recipes": []
+    },
+    "bedroom": {
+      "density": 0.9,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "rug_large",
+          "x": "center",
+          "z": "center",
+          "probability": 1.0
+        },
+        {
+          "fixture": "nightstand",
+          "x": "q1",
+          "z": "q3",
+          "probability": 0.9
+        },
+        {
+          "fixture": "nightstand",
+          "x": "q3",
+          "z": "q3",
+          "probability": 0.9
+        },
+        {
+          "fixture": "dresser_low",
+          "x": "q1",
+          "z": "front",
+          "rotation": 0,
+          "probability": 0.8
+        },
+        {
+          "fixture": "wardrobe_tall",
+          "x": "right",
+          "z": "q1",
+          "rotation": 3,
+          "probability": 0.75
+        },
+        {
+          "fixture": "lounge_chair",
+          "x": "q3",
+          "z": "q1",
+          "rotation": 2,
+          "probability": 0.65
+        },
+        {
+          "fixture": "side_table_small",
+          "x": "q3",
+          "z": "q1",
+          "offset": [
+            -4,
+            0,
+            0
+          ],
+          "probability": 0.6
+        },
+        {
+          "fixture": "table_lamp_small",
+          "x": "q1",
+          "z": "q3",
+          "offset": [
+            0,
+            3,
+            0
+          ],
+          "probability": 0.45
+        },
+        {
+          "fixture": "painting_group",
+          "x": "center",
+          "z": "front",
+          "y": "wall",
+          "rotation": 0,
+          "probability": 0.75
+        },
+        {
+          "fixture": "indoor_plant_small",
+          "x": "left",
+          "z": "back",
+          "probability": 0.6
+        },
+        {
+          "fixture": "candle_cluster",
+          "x": "q3",
+          "z": "q1",
+          "offset": [
+            -4,
+            4,
+            0
+          ],
+          "probability": 0.35
+        }
+      ]
+    },
+    "dining": {
+      "density": 0.95,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "rug_large",
+          "x": "center",
+          "z": "center",
+          "probability": 0.85
+        },
+        {
+          "fixture": "dining_table_long",
+          "x": "center",
+          "z": "center",
+          "rotation": 0,
+          "probability": 1.0
+        },
+        {
+          "fixture": "dining_chair",
+          "x": "q1",
+          "z": "center",
+          "rotation": 1,
+          "probability": 1.0
+        },
+        {
+          "fixture": "dining_chair",
+          "x": "q3",
+          "z": "center",
+          "rotation": 3,
+          "probability": 1.0
+        },
+        {
+          "fixture": "dining_chair",
+          "x": "center",
+          "z": "q1",
+          "rotation": 0,
+          "probability": 1.0
+        },
+        {
+          "fixture": "dining_chair",
+          "x": "center",
+          "z": "q3",
+          "rotation": 2,
+          "probability": 1.0
+        },
+        {
+          "fixture": "hanging_lantern_row",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "rotation": 0,
+          "probability": 0.9
+        },
+        {
+          "fixture": "wall_sconce_pair",
+          "x": "center",
+          "z": "front",
+          "y": "wall",
+          "rotation": 0,
+          "probability": 0.8
+        },
+        {
+          "fixture": "wall_sconce_pair",
+          "x": "center",
+          "z": "back",
+          "y": "wall",
+          "rotation": 2,
+          "probability": 0.8
+        },
+        {
+          "fixture": "pottery_cluster",
+          "x": "q3",
+          "z": "front",
+          "probability": 0.5
+        },
+        {
+          "fixture": "indoor_plant_small",
+          "x": "right",
+          "z": "back",
+          "probability": 0.55
+        }
+      ]
+    },
+    "library": {
+      "density": 0.9,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "rug_large",
+          "x": "center",
+          "z": "center",
+          "probability": 0.8
+        },
+        {
+          "fixture": "lounge_sofa",
+          "x": "center",
+          "z": "q3",
+          "rotation": 2,
+          "probability": 0.7
+        },
+        {
+          "fixture": "lounge_chair",
+          "x": "q1",
+          "z": "center",
+          "rotation": 1,
+          "probability": 0.75
+        },
+        {
+          "fixture": "lounge_chair",
+          "x": "q3",
+          "z": "center",
+          "rotation": 3,
+          "probability": 0.75
+        },
+        {
+          "fixture": "coffee_table",
+          "x": "center",
+          "z": "center",
+          "probability": 0.65
+        },
+        {
+          "fixture": "writing_desk",
+          "x": "q1",
+          "z": "front",
+          "rotation": 0,
+          "probability": 0.7
+        },
+        {
+          "fixture": "book_clutter_tabletop",
+          "x": "center",
+          "z": "center",
+          "offset": [
+            0,
+            4,
+            0
+          ],
+          "probability": 0.35
+        },
+        {
+          "fixture": "hanging_lantern_row",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.85
+        },
+        {
+          "fixture": "painting_group",
+          "x": "q3",
+          "z": "front",
+          "y": "wall",
+          "rotation": 0,
+          "probability": 0.65
+        },
+        {
+          "fixture": "indoor_plant_small",
+          "x": "right",
+          "z": "back",
+          "probability": 0.55
+        }
+      ]
+    },
+    "hall": {
+      "density": 0.78,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": true
+      },
+      "recipes": [
+        {
+          "fixture": "rug_large",
+          "x": "center",
+          "z": "center",
+          "probability": 0.7
+        },
+        {
+          "fixture": "trophy_pedestal",
+          "x": "q1",
+          "z": "q1",
+          "probability": 0.6
+        },
+        {
+          "fixture": "trophy_pedestal",
+          "x": "q3",
+          "z": "q1",
+          "probability": 0.6
+        },
+        {
+          "fixture": "highback_bench",
+          "x": "q1",
+          "z": "back",
+          "rotation": 2,
+          "probability": 0.65
+        },
+        {
+          "fixture": "highback_bench",
+          "x": "q3",
+          "z": "back",
+          "rotation": 2,
+          "probability": 0.65
+        },
+        {
+          "fixture": "hanging_lantern_row",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.9
+        },
+        {
+          "fixture": "wall_sconce_pair",
+          "x": "q1",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.7
+        },
+        {
+          "fixture": "wall_sconce_pair",
+          "x": "q3",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.7
+        },
+        {
+          "fixture": "indoor_plant_small",
+          "x": "left",
+          "z": "back",
+          "probability": 0.4
+        },
+        {
+          "fixture": "indoor_plant_small",
+          "x": "right",
+          "z": "back",
+          "probability": 0.4
+        }
+      ]
+    },
+    "gallery": {
+      "density": 0.72,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": false,
+        "floor_inlay": true
+      },
+      "recipes": [
+        {
+          "fixture": "rug_large",
+          "x": "center",
+          "z": "center",
+          "probability": 0.5
+        },
+        {
+          "fixture": "trophy_pedestal",
+          "x": "q1",
+          "z": "center",
+          "probability": 0.75
+        },
+        {
+          "fixture": "trophy_pedestal",
+          "x": "q3",
+          "z": "center",
+          "probability": 0.75
+        },
+        {
+          "fixture": "painting_group",
+          "x": "q1",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.85
+        },
+        {
+          "fixture": "painting_group",
+          "x": "q3",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.85
+        },
+        {
+          "fixture": "highback_bench",
+          "x": "center",
+          "z": "back",
+          "rotation": 2,
+          "probability": 0.65
+        },
+        {
+          "fixture": "wall_sconce_pair",
+          "x": "center",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.8
+        }
+      ]
+    },
+    "garden": {
+      "density": 0.85,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "shrub_cluster",
+          "x": "q1",
+          "z": "q1",
+          "probability": 0.9
+        },
+        {
+          "fixture": "shrub_cluster",
+          "x": "q3",
+          "z": "q3",
+          "probability": 0.9
+        },
+        {
+          "fixture": "flower_bed",
+          "x": "q3",
+          "z": "q1",
+          "rotation": 1,
+          "probability": 0.85
+        },
+        {
+          "fixture": "flower_bed",
+          "x": "q1",
+          "z": "q3",
+          "rotation": 1,
+          "probability": 0.85
+        },
+        {
+          "fixture": "planter_long",
+          "x": "center",
+          "z": "front",
+          "probability": 0.7
+        },
+        {
+          "fixture": "planter_long",
+          "x": "center",
+          "z": "back",
+          "rotation": 2,
+          "probability": 0.7
+        }
+      ]
+    },
+    "industrial": {
+      "density": 0.88,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "utility_shelving",
+          "x": "left",
+          "z": "q1",
+          "rotation": 1,
+          "probability": 0.85
+        },
+        {
+          "fixture": "utility_shelving",
+          "x": "right",
+          "z": "q3",
+          "rotation": 3,
+          "probability": 0.85
+        },
+        {
+          "fixture": "tool_wall",
+          "x": "q1",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.75
+        },
+        {
+          "fixture": "pipe_valve_bank",
+          "x": "q3",
+          "z": "front",
+          "y": "floor",
+          "probability": 0.75
+        },
+        {
+          "fixture": "crate_pallet",
+          "x": "q1",
+          "z": "back",
+          "probability": 0.7
+        },
+        {
+          "fixture": "cable_drop",
+          "x": "q3",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.65
+        },
+        {
+          "fixture": "recessed_light_strip",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.85
+        }
+      ]
+    },
+    "tavern": {
+      "density": 0.92,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": false,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "tavern_table",
+          "x": "q1",
+          "z": "q1",
+          "probability": 0.9
+        },
+        {
+          "fixture": "tavern_table",
+          "x": "q3",
+          "z": "q3",
+          "probability": 0.9
+        },
+        {
+          "fixture": "stool",
+          "x": "q1",
+          "z": "q1",
+          "offset": [
+            -5,
+            0,
+            0
+          ],
+          "probability": 0.9
+        },
+        {
+          "fixture": "stool",
+          "x": "q3",
+          "z": "q3",
+          "offset": [
+            5,
+            0,
+            0
+          ],
+          "probability": 0.9
+        },
+        {
+          "fixture": "barrel_rack",
+          "x": "right",
+          "z": "q1",
+          "rotation": 3,
+          "probability": 0.8
+        },
+        {
+          "fixture": "pottery_cluster",
+          "x": "left",
+          "z": "back",
+          "probability": 0.6
+        },
+        {
+          "fixture": "candle_cluster",
+          "x": "q1",
+          "z": "q1",
+          "offset": [
+            0,
+            4,
+            0
+          ],
+          "probability": 0.45
+        },
+        {
+          "fixture": "hanging_lantern_row",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.75
+        }
+      ]
+    },
+    "workshop": {
+      "density": 0.9,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      },
+      "recipes": [
+        {
+          "fixture": "workshop_bench",
+          "x": "center",
+          "z": "front",
+          "probability": 0.95
+        },
+        {
+          "fixture": "utility_shelving",
+          "x": "left",
+          "z": "q3",
+          "rotation": 1,
+          "probability": 0.85
+        },
+        {
+          "fixture": "tool_wall",
+          "x": "q3",
+          "z": "front",
+          "y": "wall",
+          "probability": 0.85
+        },
+        {
+          "fixture": "crate_pallet",
+          "x": "q1",
+          "z": "back",
+          "probability": 0.75
+        },
+        {
+          "fixture": "storage_crates_stack",
+          "x": "right",
+          "z": "back",
+          "probability": 0.65
+        },
+        {
+          "fixture": "hanging_lantern_row",
+          "x": "center",
+          "z": "center",
+          "y": "ceiling",
+          "probability": 0.75
+        }
+      ]
+    }
+  },
+  "style_overrides": {
+    "modern_luxury": {
+      "density_multiplier": 0.72,
+      "disable_surfaces": [
+        "ceiling_beams",
+        "crown_trim"
+      ]
+    },
+    "industrial_steampunk": {
+      "density_multiplier": 1.05,
+      "disable_surfaces": [
+        "crown_trim"
+      ]
+    },
+    "massive_gothic_manor": {
+      "density_multiplier": 0.9
+    },
+    "victorian_estate": {
+      "density_multiplier": 1.05
+    },
+    "garden_estate": {
+      "density_multiplier": 1.05
+    },
+    "rustic_tavern": {
+      "density_multiplier": 1.1
+    },
+    "japanese_traditional": {
+      "density_multiplier": 0.7,
+      "disable_surfaces": [
+        "crown_trim"
+      ]
+    },
+    "ancient_ruin": {
+      "density_multiplier": 0.45,
+      "disable_surfaces": [
+        "crown_trim",
+        "perimeter_trim"
+      ]
+    }
+  }
+}

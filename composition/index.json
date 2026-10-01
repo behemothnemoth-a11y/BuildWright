@@ -1,10 +1,12 @@
 {
-  "schema_version": 1,
-  "buildwright_version": "0.5.0",
+  "schema_version": 2,
+  "buildwright_version": "0.9.0",
   "counts": {
     "templates": 11,
     "palettes": 8,
-    "examples": 7
+    "examples": 7,
+    "vanilla_detail_profiles": 10,
+    "vanilla_detail_examples": 10
   },
   "templates": [
     {
@@ -144,49 +146,250 @@
       "template": "garden_courtyard",
       "brief": "examples/composition/garden_courtyard_demo.json",
       "compiled": "composition/compiled_examples/garden_courtyard_demo.litematic",
-      "sha256": "cc5000688fd4252ff6d93f27beb2d146d9e1863d53eeac286da72fab9d707404"
+      "sha256": "cc5000688fd4252ff6d93f27beb2d146d9e1863d53eeac286da72fab9d707404",
+      "detail_status": "BASELINE"
     },
     {
       "id": "gothic_grand_hall_demo",
       "template": "grand_hall",
       "brief": "examples/composition/gothic_grand_hall_demo.json",
       "compiled": "composition/compiled_examples/gothic_grand_hall_demo.litematic",
-      "sha256": "5d9a50940f49e9a8a93b13d1b67d0b274c691be8b93f6d2e342b9feb1a8908a8"
+      "sha256": "5d9a50940f49e9a8a93b13d1b67d0b274c691be8b93f6d2e342b9feb1a8908a8",
+      "detail_status": "BASELINE"
     },
     {
       "id": "gothic_library_demo",
       "template": "library",
       "brief": "examples/composition/gothic_library_demo.json",
       "compiled": "composition/compiled_examples/gothic_library_demo.litematic",
-      "sha256": "f4fc56235ad083700f8f229ef4b70406c6d68d9723e16c892a92653131421aec"
+      "sha256": "f4fc56235ad083700f8f229ef4b70406c6d68d9723e16c892a92653131421aec",
+      "detail_status": "BASELINE"
     },
     {
       "id": "hybrid_gothic_detail_demo",
       "template": "library",
       "brief": "examples/composition/hybrid_gothic_detail_demo.json",
       "compiled": "composition/compiled_examples/hybrid_gothic_detail_demo.litematic",
-      "sha256": "a760e0cd8ed6716066832cf9a5ebda8560e40f7121aa95ef35c1e44a296ec9d7"
+      "sha256": "a760e0cd8ed6716066832cf9a5ebda8560e40f7121aa95ef35c1e44a296ec9d7",
+      "detail_status": "BASELINE"
     },
     {
       "id": "industrial_lab_demo",
       "template": "industrial_lab",
       "brief": "examples/composition/industrial_lab_demo.json",
       "compiled": "composition/compiled_examples/industrial_lab_demo.litematic",
-      "sha256": "8fc8996c742a308fac851fa091f0432dda8b0622e27de39e87733350ba1dfef9"
+      "sha256": "8fc8996c742a308fac851fa091f0432dda8b0622e27de39e87733350ba1dfef9",
+      "detail_status": "BASELINE"
     },
     {
       "id": "operations_bay_demo",
       "template": "operations_bay",
       "brief": "examples/composition/operations_bay_demo.json",
       "compiled": "composition/compiled_examples/operations_bay_demo.litematic",
-      "sha256": "b48bb67e6d8f9b91c62e72dba48d640041d595a88293c5b75f62ccc98baf5537"
+      "sha256": "b48bb67e6d8f9b91c62e72dba48d640041d595a88293c5b75f62ccc98baf5537",
+      "detail_status": "BASELINE"
     },
     {
       "id": "victorian_bedroom_demo",
       "template": "bedroom_suite",
       "brief": "examples/composition/victorian_bedroom_demo.json",
       "compiled": "composition/compiled_examples/victorian_bedroom_demo.litematic",
-      "sha256": "f1b315cab4935a525b5e25b97d9e4027bd4b18fb680d3b503de22bfe3d4986ae"
+      "sha256": "f1b315cab4935a525b5e25b97d9e4027bd4b18fb680d3b503de22bfe3d4986ae",
+      "detail_status": "BASELINE"
+    }
+  ],
+  "vanilla_detail_profiles": [
+    {
+      "id": "bedroom",
+      "density": 0.9,
+      "recipes": 11,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "default",
+      "density": 0.7,
+      "recipes": 0,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "dining",
+      "density": 0.95,
+      "recipes": 11,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "gallery",
+      "density": 0.72,
+      "recipes": 7,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": false,
+        "floor_inlay": true
+      }
+    },
+    {
+      "id": "garden",
+      "density": 0.85,
+      "recipes": 6,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "hall",
+      "density": 0.78,
+      "recipes": 10,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": true
+      }
+    },
+    {
+      "id": "industrial",
+      "density": 0.88,
+      "recipes": 7,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": false,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "library",
+      "density": 0.9,
+      "recipes": 10,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": true,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "tavern",
+      "density": 0.92,
+      "recipes": 8,
+      "surfaces": {
+        "perimeter_trim": true,
+        "crown_trim": false,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      }
+    },
+    {
+      "id": "workshop",
+      "density": 0.9,
+      "recipes": 6,
+      "surfaces": {
+        "perimeter_trim": false,
+        "crown_trim": false,
+        "ceiling_beams": true,
+        "floor_inlay": false
+      }
+    }
+  ],
+  "vanilla_detail_examples": [
+    {
+      "id": "bedroom_detail_complete",
+      "template": "bedroom_suite",
+      "brief": "examples/vanilla_detail/bedroom_detail_complete.json",
+      "compiled": "composition/detailed_examples/bedroom_detail_complete.litematic",
+      "sha256": "07f914dbbd9a679818b3adf8784628cbcc3eab91be6a9a021e0ad60d1c9972b4",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "formal_dining_detail_complete",
+      "template": "formal_dining",
+      "brief": "examples/vanilla_detail/formal_dining_detail_complete.json",
+      "compiled": "composition/detailed_examples/formal_dining_detail_complete.litematic",
+      "sha256": "9a06b1392204764fcdd50d6d90e326bb84dd2762e6c31c3d86f5a26cab50ea66",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "gallery_detail_complete",
+      "template": "gallery_corridor",
+      "brief": "examples/vanilla_detail/gallery_detail_complete.json",
+      "compiled": "composition/detailed_examples/gallery_detail_complete.litematic",
+      "sha256": "e45a1d7e85aff3502667c2646e9066a4d2deb994ab14ae74a0cf4b524e4ed6fc",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "garden_detail_complete",
+      "template": "garden_courtyard",
+      "brief": "examples/vanilla_detail/garden_detail_complete.json",
+      "compiled": "composition/detailed_examples/garden_detail_complete.litematic",
+      "sha256": "003118167d045a38243d7e32958d9f94e6c233b953fa63c549af223e9b3f8c5b",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "grand_hall_detail_complete",
+      "template": "grand_hall",
+      "brief": "examples/vanilla_detail/grand_hall_detail_complete.json",
+      "compiled": "composition/detailed_examples/grand_hall_detail_complete.litematic",
+      "sha256": "b36ef20ab5597d5cde31978211cd495f7219612a21fe310647de95ab854ffd19",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "industrial_lab_detail_complete",
+      "template": "industrial_lab",
+      "brief": "examples/vanilla_detail/industrial_lab_detail_complete.json",
+      "compiled": "composition/detailed_examples/industrial_lab_detail_complete.litematic",
+      "sha256": "7f0dd2db93a3c62971d83c16bc7af42f60f091182f9ad7b8008e5db846813735",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "library_detail_complete",
+      "template": "library",
+      "brief": "examples/vanilla_detail/library_detail_complete.json",
+      "compiled": "composition/detailed_examples/library_detail_complete.litematic",
+      "sha256": "f7b5e897d65a474a8a7762f948c9239f2299dea09ae3e43b1262e6396640305b",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "operations_bay_detail_complete",
+      "template": "operations_bay",
+      "brief": "examples/vanilla_detail/operations_bay_detail_complete.json",
+      "compiled": "composition/detailed_examples/operations_bay_detail_complete.litematic",
+      "sha256": "7c5b778e9e48fbbf882e1c131e844a758064b23fe90a768323e7b075e5ea98c6",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "tavern_detail_complete",
+      "template": "tavern_common_room",
+      "brief": "examples/vanilla_detail/tavern_detail_complete.json",
+      "compiled": "composition/detailed_examples/tavern_detail_complete.litematic",
+      "sha256": "ce65267858505b3a1ae2af113341292ea746f7c0b4211cbc0a60abe282393502",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
+    },
+    {
+      "id": "workshop_detail_complete",
+      "template": "workshop",
+      "brief": "examples/vanilla_detail/workshop_detail_complete.json",
+      "compiled": "composition/detailed_examples/workshop_detail_complete.litematic",
+      "sha256": "640a1b5de9c85b70e37ab0e3935890dca3f8b52bbefad739a5e61e3a505e35ed",
+      "detail_status": "VANILLA_DETAIL_COMPLETE"
     }
   ]
 }

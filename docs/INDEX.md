@@ -12,6 +12,9 @@
 - [Room Brief Contract](ROOM_BRIEF_CONTRACT.md)
 - [Connectors and Keepouts](CONNECTORS_AND_KEEPOUTS.md)
 
+## Vanilla completion
+- [Complete Vanilla Detail Layer](VANILLA_DETAIL_LAYER.md)
+
 ## Whole-building compiler
 - [Universal Style & Exterior System](UNIVERSAL_STYLE_SYSTEM.md)
 - [Project Graph Compiler](PROJECT_GRAPH_COMPILER.md)

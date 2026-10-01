@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "industrial_campus_vanilla_detail",
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "modules": 2,
+  "connections": 1,
+  "size": [
+    130,
+    20,
+    51
+  ],
+  "blocks": 27222,
+  "block_entities": 0,
+  "litematic": "industrial_campus_vanilla_detail.litematic",
+  "project_source": "industrial_campus_vanilla_detail.project.json",
+  "preview": "industrial_campus_vanilla_detail.plan.svg",
+  "litematic_sha256": "7167de0b67dee7bc1c1b61f0bffcb4ba48fb63f6f687da65c62542d5127ba326",
+  "readback": {
+    "regions": 1,
+    "nonair": 27222,
+    "volume": 132600,
+    "palette": 27,
+    "block_entities": 0
+  },
+  "facade": {
+    "sides": 8,
+    "windows": 0,
+    "piers": 60,
+    "bands": 0,
+    "balconies": 0
+  },
+  "roof": {
+    "modules": 2,
+    "max_rise": 1,
+    "styles": {
+      "flat": 2
+    }
+  },
+  "site": {
+    "ground_blocks": 6630,
+    "path_blocks": 0,
+    "edge_blocks": 116,
+    "character": "service_yard",
+    "vegetation_profile": "temperate_manor"
+  },
+  "vanilla_finish": {
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "seed": 19000,
+    "astra_microblocks": false,
+    "entrances": 2,
+    "entrance_blocks": 28,
+    "lighting_blocks": 8,
+    "vegetation_blocks": 0,
+    "roof_detail_blocks": 8,
+    "service_blocks": 12
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "warnings": []
+}

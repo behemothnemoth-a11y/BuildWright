@@ -113,7 +113,7 @@ def card_table(rows,image_prefix="",meta_fn=None,cols=3):
 def size_text(v):
     return " × ".join(str(x) for x in v) if v else "—"
 
-def build_pages(fixtures,rooms,projects,styles):
+def build_pages(fixtures,rooms,projects,styles,detailed_rooms,detailed_projects):
     registry=load(ROOT/"project_graph/style_registry.json")
     style_meta={x["id"]:x for x in registry["profiles"]}
     style_briefs={p.stem:load(p) for p in (ROOT/"examples/style_showcases").glob("*.json")}
@@ -149,11 +149,19 @@ def build_pages(fixtures,rooms,projects,styles):
     for row in projects:
         row["detail_level"]="VANILLA_BASELINE"
         row["uses_astra_microblocks"]=False
+    for row in detailed_rooms:
+        row["detail_level"]="VANILLA_DETAIL_COMPLETE"
+        row["uses_astra_microblocks"]=False
+    for row in detailed_projects:
+        row["detail_level"]="VANILLA_DETAIL_COMPLETE"
+        row["uses_astra_microblocks"]=False
 
     contact_sheet(vanilla_fixtures,VIS/"fixture_overview_vanilla.png",cols=4)
     contact_sheet(micro_fixtures,VIS/"fixture_overview_microblock.png",cols=4)
     contact_sheet(vanilla_rooms,VIS/"room_overview.png",cols=3)
     contact_sheet(projects,VIS/"project_overview.png",cols=3)
+    contact_sheet(detailed_rooms,VIS/"detail_room_overview.png",cols=3)
+    contact_sheet(detailed_projects,VIS/"detail_project_overview.png",cols=3)
     contact_sheet(styles,VIS/"style_overview.png",cols=4)
 
     main=[
@@ -162,6 +170,11 @@ def build_pages(fixtures,rooms,projects,styles):
       "The style cards are **style-language baselines**: massing, materials, facade rhythm, windows, and roof language. They are not the completed vanilla detail layer and should not be read as finished builds.","",
       "Pipeline: **vanilla base → complete vanilla architecture/detail/furnishing → in-game review → optional Astra Microblocks refinement**.","",
       "> Isometric images are deterministic renders of the actual compiled Litematic geometry using simplified material colors. They are not Minecraft screenshots or concept art.","",
+      "## Vanilla Detail Complete","",
+      f"### {len(detailed_rooms)} completed room-role examples + {len(detailed_projects)} completed whole-building regressions","",
+      "![Vanilla detail rooms](catalog/visual/detail_room_overview.png)","",
+      "![Vanilla detail projects](catalog/visual/detail_project_overview.png)","",
+      "[Browse VANILLA_DETAIL_COMPLETE examples](catalog/visual/vanilla_detail.md)","",
       "## Vanilla style baselines","",
       f"### {len(styles)} compiled baselines — 35 core styles + 2 style-blend demonstrations","",
       "![Style overview](catalog/visual/style_overview.png)","",
@@ -203,6 +216,18 @@ def build_pages(fixtures,rooms,projects,styles):
       card_table(projects,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · VANILLA BASELINE")
     ]
     lf(VIS/"projects.md","\n".join(project_page))
+
+    detail_page=[
+      "# Vanilla Detail Complete","",
+      "[← Vanilla Visual Catalogue](../../VISUAL_CATALOG.md)","",
+      "**These examples have passed the automated vanilla finishing pipeline.** They include secondary architecture, furnishing, lighting, vegetation/service detail, and controlled storytelling without Astra Microblocks.","",
+      "> VANILLA_DETAIL_COMPLETE is still an offline compiler maturity label. It does not replace in-game player-eye review.","",
+      "## Detailed rooms / role regressions","",
+      card_table(detailed_rooms,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · VANILLA_DETAIL_COMPLETE"),"",
+      "## Detailed whole-building regressions","",
+      card_table(detailed_projects,"../../",lambda r:f"{size_text(r.get('size'))} · {r.get('blocks') or '—'} blocks · VANILLA_DETAIL_COMPLETE"),""
+    ]
+    lf(VIS/"vanilla_detail.md","\n".join(detail_page))
 
     style_page=[
       "# Vanilla Style Baselines","",
@@ -250,18 +275,20 @@ def build_pages(fixtures,rooms,projects,styles):
     ]
     lf(ROOT/"MICROBLOCK_CATALOG.md","\n".join(micro_root))
 
-    return vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms
+    return vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms,detailed_rooms,detailed_projects
 
-def build_manifest(fixtures,rooms,projects,styles):
-    vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms=build_pages(fixtures,rooms,projects,styles)
+def build_manifest(fixtures,rooms,projects,styles,detailed_rooms,detailed_projects):
+    vanilla_fixtures,micro_fixtures,vanilla_rooms,hybrid_rooms,detailed_rooms,detailed_projects=build_pages(fixtures,rooms,projects,styles,detailed_rooms,detailed_projects)
     return {
-      "schema_version":2,
+      "schema_version":3,
       "generator":"tools/build_visual_catalog.py",
       "vanilla":{
         "fixtures":vanilla_fixtures,
         "rooms":vanilla_rooms,
         "projects":projects,
-        "style_baselines":styles
+        "style_baselines":styles,
+        "detail_complete_rooms":detailed_rooms,
+        "detail_complete_projects":detailed_projects
       },
       "optional_microblock":{
         "fixtures":micro_fixtures,
@@ -272,6 +299,8 @@ def build_manifest(fixtures,rooms,projects,styles):
         "vanilla_rooms":len(vanilla_rooms),
         "vanilla_projects":len(projects),
         "vanilla_style_baselines":len(styles),
+        "vanilla_detail_rooms":len(detailed_rooms),
+        "vanilla_detail_projects":len(detailed_projects),
         "microblock_fixtures":len(micro_fixtures),
         "hybrid_rooms":len(hybrid_rooms)
       }
@@ -281,15 +310,16 @@ def validate_manifest(data):
     missing=[]
     groups=[
       data["vanilla"]["fixtures"],data["vanilla"]["rooms"],data["vanilla"]["projects"],data["vanilla"]["style_baselines"],
+      data["vanilla"]["detail_complete_rooms"],data["vanilla"]["detail_complete_projects"],
       data["optional_microblock"]["fixtures"],data["optional_microblock"]["hybrid_rooms"]
     ]
     for rows in groups:
         for row in rows:
             if not (ROOT/row["image"]).is_file(): missing.append(row["image"])
             if not (ROOT/row["source"]).is_file(): missing.append(row["source"])
-    for p in (MAIN,ROOT/"MICROBLOCK_CATALOG.md",VIS/"fixtures.md",VIS/"rooms.md",VIS/"projects.md",VIS/"styles.md",VIS/"microblocks.md",
+    for p in (MAIN,ROOT/"MICROBLOCK_CATALOG.md",VIS/"fixtures.md",VIS/"rooms.md",VIS/"projects.md",VIS/"styles.md",VIS/"microblocks.md",VIS/"vanilla_detail.md",
               VIS/"fixture_overview_vanilla.png",VIS/"fixture_overview_microblock.png",
-              VIS/"room_overview.png",VIS/"project_overview.png",VIS/"style_overview.png"):
+              VIS/"room_overview.png",VIS/"project_overview.png",VIS/"detail_room_overview.png",VIS/"detail_project_overview.png",VIS/"style_overview.png"):
         if not p.is_file(): missing.append(str(p.relative_to(ROOT)))
     return missing
 
@@ -311,13 +341,17 @@ def main():
           "vanilla_rooms":expected.get("vanilla_room_renders"),
           "vanilla_projects":expected.get("vanilla_project_renders"),
           "vanilla_style_baselines":expected.get("vanilla_style_baselines"),
+          "vanilla_detail_rooms":expected.get("vanilla_detail_room_renders"),
+          "vanilla_detail_projects":expected.get("vanilla_detail_project_renders"),
           "microblock_fixtures":expected.get("microblock_fixture_previews"),
           "hybrid_rooms":expected.get("hybrid_room_renders")
         }
         if data.get("counts")!=want:
             print("VISUAL CATALOG: COUNT MISMATCH",data.get("counts"),want);raise SystemExit(1)
-        if any(x.get("uses_astra_microblocks") for x in data["vanilla"]["rooms"]+data["vanilla"]["projects"]+data["vanilla"]["style_baselines"]):
-            print("VISUAL CATALOG: ASTRA LEAKED INTO VANILLA BASELINE");raise SystemExit(1)
+        vanilla_rows=(data["vanilla"]["rooms"]+data["vanilla"]["projects"]+data["vanilla"]["style_baselines"]+
+                      data["vanilla"]["detail_complete_rooms"]+data["vanilla"]["detail_complete_projects"])
+        if any(x.get("uses_astra_microblocks") for x in vanilla_rows):
+            print("VISUAL CATALOG: ASTRA LEAKED INTO VANILLA OUTPUT");raise SystemExit(1)
         core=set(x["id"] for x in load(ROOT/"project_graph/style_registry.json")["profiles"])
         rendered={x["id"].removeprefix("style_showcase_") for x in data["vanilla"]["style_baselines"]}
         absent=sorted(core-rendered)
@@ -329,7 +363,9 @@ def main():
     rooms=render_group(ROOT/"composition/compiled_examples",IMAGES/"rooms",cutaway=True)
     projects=render_group(ROOT/"project_graph/compiled_examples",IMAGES/"projects")
     styles=render_group(ROOT/"project_graph/style_showcases",IMAGES/"styles")
-    data=build_manifest(fixtures,rooms,projects,styles)
+    detailed_rooms=render_group(ROOT/"composition/detailed_examples",IMAGES/"detailed_rooms",cutaway=True)
+    detailed_projects=render_group(ROOT/"project_graph/detailed_examples",IMAGES/"detailed_projects")
+    data=build_manifest(fixtures,rooms,projects,styles,detailed_rooms,detailed_projects)
     lf(MANIFEST,json.dumps(data,indent=2))
     print("VISUAL CATALOG: WROTE",data["counts"])
 

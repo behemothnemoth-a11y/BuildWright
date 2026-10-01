@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "table_lamp_small",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "lighting",
+  "size": [
+    3,
+    4,
+    3
+  ],
+  "anchor": [
+    1,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:iron_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:iron_block",
+      "role": "metal"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "role": "light"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/table_lamp_small.litematic",
+  "preview": "fixtures/previews/vanilla/table_lamp_small.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

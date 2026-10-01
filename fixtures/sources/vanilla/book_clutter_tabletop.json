@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "book_clutter_tabletop",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "books",
+  "size": [
+    5,
+    2,
+    3
+  ],
+  "anchor": [
+    2,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:bookshelf",
+      "role": "books"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/book_clutter_tabletop.litematic",
+  "preview": "fixtures/previews/vanilla/book_clutter_tabletop.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

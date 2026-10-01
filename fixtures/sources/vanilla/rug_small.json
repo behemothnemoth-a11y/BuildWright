@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "id": "rug_small",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "rugs",
+  "size": [
+    7,
+    1,
+    5
+  ],
+  "anchor": [
+    3,
+    0,
+    2
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "state": "minecraft:red_carpet",
+      "role": "textile"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/rug_small.litematic",
+  "preview": "fixtures/previews/vanilla/rug_small.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

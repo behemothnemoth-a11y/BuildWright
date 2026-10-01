@@ -13,6 +13,9 @@ class Fixture:
     def tags(self):
         toks=set(self.id.replace('-','_').split('_'))|{self.category,self.family,self.stage}
         return toks
+    @property
+    def detail_fixture(self):
+        return bool(self.data.get('detail_fixture',False))
     def occupied_local_box(self,rotation=0,mirror='none'):
         from .geometry import Box
         from .transforms import transform_pos
@@ -31,10 +34,11 @@ class FixtureLibrary:
             src=root/x['source'];d=json.loads(src.read_text(encoding='utf-8'))
             self.items[x['id']]=Fixture(x['id'],x['stage'],x['category'],x['family'],tuple(x['size']),src,d)
     def get(self,id):return self.items[id]
-    def search(self,*,stage=None,category=None,families=None,preferred_ids=None,max_size=None,rotation=0):
+    def search(self,*,stage=None,category=None,families=None,preferred_ids=None,max_size=None,rotation=0,include_detail_fixtures=False):
         families=set(families or []); preferred=set(preferred_ids or [])
         out=[]
         for f in self.items.values():
+            if f.detail_fixture and not include_detail_fixtures:continue
             if stage and f.stage!=stage:continue
             if category and f.category!=category:continue
             if families and f.family not in families:continue
@@ -44,7 +48,7 @@ class FixtureLibrary:
             out.append(f)
         return out
     def rank(self,selector:dict,*,style:dict|None,rng:random.Random,usage:dict[str,int],rotation:int=0,max_size=None):
-        c=self.search(stage=selector.get('stage'),category=selector.get('category'),families=selector.get('families'),preferred_ids=selector.get('preferred_ids'),max_size=max_size,rotation=rotation)
+        c=self.search(stage=selector.get('stage'),category=selector.get('category'),families=selector.get('families'),preferred_ids=selector.get('preferred_ids'),max_size=max_size,rotation=rotation,include_detail_fixtures=bool(selector.get('include_detail_fixtures',False)))
         preferred=set(selector.get('preferred_ids',[])); style_tags=set((style or {}).get('selection_tags',[])); pref_families=set((style or {}).get('preferred_architecture_families',[]))
         max_repeats=int(selector.get('max_repeats',999));scored=[]
         for f in c:

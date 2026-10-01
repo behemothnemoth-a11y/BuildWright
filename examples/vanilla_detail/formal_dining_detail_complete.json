@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "formal_dining_detail_complete",
+  "name": "Formal Dining Detail Complete",
+  "stage": "vanilla",
+  "template": "formal_dining",
+  "size": [
+    45,
+    15,
+    33
+  ],
+  "seed": 9102,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

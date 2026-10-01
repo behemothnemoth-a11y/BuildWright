@@ -1,0 +1,585 @@
+{
+  "schema_version": 1,
+  "id": "planter_long",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "planters",
+  "size": [
+    9,
+    4,
+    3
+  ],
+  "anchor": [
+    4,
+    0,
+    1
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        0
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        1
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        2
+      ],
+      "state": "minecraft:bricks",
+      "role": "pottery"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        5,
+        3,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        1
+      ],
+      "state": "minecraft:oak_leaves[persistent=true,distance=1,waterlogged=false]",
+      "role": "plant"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/planter_long.litematic",
+  "preview": "fixtures/previews/vanilla/planter_long.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

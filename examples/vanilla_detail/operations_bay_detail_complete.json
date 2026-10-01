@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "operations_bay_detail_complete",
+  "name": "Operations Bay Detail Complete",
+  "stage": "vanilla",
+  "template": "operations_bay",
+  "size": [
+    55,
+    16,
+    35
+  ],
+  "seed": 9108,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

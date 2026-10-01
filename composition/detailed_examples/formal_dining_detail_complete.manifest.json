@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "brief_id": "formal_dining_detail_complete",
+  "template": "formal_dining",
+  "room_size": [
+    45,
+    15,
+    33
+  ],
+  "style_profile": "style.victorian_estate",
+  "palette": "composition.victorian_estate",
+  "seed": 9102,
+  "placements": [
+    {
+      "slot_id": "fireplace",
+      "fixture_id": "manor_fireplace",
+      "stage": "vanilla",
+      "target": [
+        22,
+        1,
+        3
+      ],
+      "origin": [
+        18,
+        1,
+        1
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        8,
+        5
+      ],
+      "box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 26,
+        "max_y": 8,
+        "max_z": 5
+      },
+      "declared_box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 1,
+        "max_x": 26,
+        "max_y": 8,
+        "max_z": 5
+      },
+      "placement_mode": "carve_and_place",
+      "required": true
+    },
+    {
+      "slot_id": "table_a",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        15,
+        1,
+        16
+      ],
+      "origin": [
+        10,
+        1,
+        13
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 20,
+        "max_y": 4,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 10,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 20,
+        "max_y": 5,
+        "max_z": 19
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "table_b",
+      "fixture_id": "library_table",
+      "stage": "vanilla",
+      "target": [
+        29,
+        1,
+        16
+      ],
+      "origin": [
+        24,
+        1,
+        13
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        7
+      ],
+      "box": {
+        "min_x": 24,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 34,
+        "max_y": 4,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 24,
+        "min_y": 1,
+        "min_z": 13,
+        "max_x": 34,
+        "max_y": 5,
+        "max_z": 19
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "bench_e",
+      "fixture_id": "highback_bench",
+      "stage": "vanilla",
+      "target": [
+        37,
+        1,
+        22
+      ],
+      "origin": [
+        35,
+        1,
+        18
+      ],
+      "rotation": 3,
+      "mirror": "none",
+      "size": [
+        4,
+        6,
+        9
+      ],
+      "box": {
+        "min_x": 35,
+        "min_y": 1,
+        "min_z": 19,
+        "max_x": 38,
+        "max_y": 6,
+        "max_z": 25
+      },
+      "declared_box": {
+        "min_x": 35,
+        "min_y": 1,
+        "min_z": 18,
+        "max_x": 38,
+        "max_y": 6,
+        "max_z": 26
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chandelier",
+      "fixture_id": "grand_chandelier",
+      "stage": "vanilla",
+      "target": [
+        22,
+        3,
+        16
+      ],
+      "origin": [
+        17,
+        3,
+        11
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "box": {
+        "min_x": 19,
+        "min_y": 7,
+        "min_z": 13,
+        "max_x": 25,
+        "max_y": 14,
+        "max_z": 19
+      },
+      "declared_box": {
+        "min_x": 17,
+        "min_y": 3,
+        "min_z": 11,
+        "max_x": 27,
+        "max_y": 14,
+        "max_z": 21
+      },
+      "placement_mode": "overlay",
+      "required": true
+    }
+  ],
+  "connectors": [
+    {
+      "id": "entry",
+      "side": "south",
+      "center": "center",
+      "width": 5,
+      "height": 4,
+      "depth": 2,
+      "clearance": 4
+    }
+  ],
+  "block_count": 6269,
+  "microblock_hosts": 0,
+  "source": "formal_dining_detail_complete.source.json",
+  "litematic": "formal_dining_detail_complete.litematic",
+  "litematic_sha256": "9a06b1392204764fcdd50d6d90e326bb84dd2762e6c31c3d86f5a26cab50ea66",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "formal_dining_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 389,
+    "fixtures_attempted": 104,
+    "fixtures_placed": 9,
+    "fixtures_skipped": 95,
+    "fixture_ids": [
+      "rug_large",
+      "dining_table_long",
+      "dining_chair",
+      "dining_chair",
+      "dining_chair",
+      "dining_chair",
+      "hanging_lantern_row",
+      "wall_sconce_pair",
+      "wall_sconce_pair"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "dining",
+    "density": 0.966,
+    "seed": 18111,
+    "style_profile": "style.victorian_estate",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 6269,
+    "volume": 22275,
+    "palette": 12
+  }
+}

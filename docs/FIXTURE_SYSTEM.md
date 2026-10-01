@@ -30,3 +30,9 @@ Fixtures in DROP 0004 are **SERIALIZATION_VALIDATED / LIVE_GAME_PENDING** unless
 ## Do not confuse fixtures with finished compositions
 
 A fixture is a reusable construction unit. BuildWright still expects composition, scale, palette adaptation, negative space and player-eye QA at project level.
+
+## Vanilla finishing fixtures
+
+DROP 0009 expands the compiled vanilla fixture library to 85 fixtures. Forty-five are tagged `detail_fixture: true` and are reserved for the vanilla finishing layer by default.
+
+Primary composition searches exclude detail fixtures unless a selector explicitly requests `include_detail_fixtures`. This keeps architectural baselines stable as the finishing library grows. The finishing compiler may place detail fixtures directly from their canonical vanilla sources after primary architecture is established.

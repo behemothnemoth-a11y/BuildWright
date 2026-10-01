@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "garden_detail_complete",
+  "name": "Garden Detail Complete",
+  "stage": "vanilla",
+  "template": "garden_courtyard",
+  "size": [
+    49,
+    12,
+    49
+  ],
+  "seed": 9104,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}

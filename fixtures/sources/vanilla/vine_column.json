@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "vine_column",
+  "stage": "vanilla",
+  "category": "vegetation",
+  "family": "vines",
+  "size": [
+    1,
+    8,
+    1
+  ],
+  "anchor": [
+    0,
+    0,
+    0
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        0
+      ],
+      "state": "minecraft:vine[north=false,east=false,south=true,west=false,up=false]",
+      "role": "plant"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/vine_column.litematic",
+  "preview": "fixtures/previews/vanilla/vine_column.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

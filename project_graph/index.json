@@ -79,5 +79,11 @@
   "style_registry": "style_registry.json",
   "style_profiles": 35,
   "style_families": 14,
-  "style_showcases": 37
+  "style_showcases": 37,
+  "vanilla_detail_projects": [
+    "industrial_campus_vanilla_detail",
+    "two_floor_manor_vanilla_detail",
+    "wayne_manor_phase_a_vanilla_detail"
+  ],
+  "vanilla_finish_engine": true
 }

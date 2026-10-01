@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "id": "picture_rail_bay",
+  "stage": "vanilla",
+  "category": "architecture",
+  "family": "trim",
+  "size": [
+    11,
+    2,
+    1
+  ],
+  "anchor": [
+    5,
+    0,
+    0
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "state": "minecraft:polished_andesite",
+      "role": "stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        0
+      ],
+      "state": "minecraft:dark_oak_planks",
+      "role": "furniture_wood"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/picture_rail_bay.litematic",
+  "preview": "fixtures/previews/vanilla/picture_rail_bay.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

@@ -1,0 +1,1080 @@
+{
+  "schema_version": 1,
+  "id": "rug_large",
+  "stage": "vanilla",
+  "category": "decor",
+  "family": "rugs",
+  "size": [
+    13,
+    1,
+    9
+  ],
+  "anchor": [
+    6,
+    0,
+    4
+  ],
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        0
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        1
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        2
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        3
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        4
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        5
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        6
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        7
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        8
+      ],
+      "state": "minecraft:blue_carpet",
+      "role": "textile"
+    }
+  ],
+  "compiled": "fixtures/compiled/vanilla/rug_large.litematic",
+  "preview": "fixtures/previews/vanilla/rug_large.png",
+  "detail_fixture": true,
+  "qa": [
+    "player_clearance",
+    "rotation_review",
+    "material_readability"
+  ]
+}

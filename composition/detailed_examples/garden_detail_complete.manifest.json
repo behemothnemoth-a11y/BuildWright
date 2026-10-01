@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "brief_id": "garden_detail_complete",
+  "template": "garden_courtyard",
+  "room_size": [
+    49,
+    12,
+    49
+  ],
+  "style_profile": "style.garden_estate",
+  "palette": "composition.garden_estate",
+  "seed": 9104,
+  "placements": [
+    {
+      "slot_id": "hedge_ne",
+      "fixture_id": "formal_hedge_corner",
+      "stage": "vanilla",
+      "target": [
+        39,
+        1,
+        24
+      ],
+      "origin": [
+        34,
+        1,
+        19
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        11,
+        5,
+        11
+      ],
+      "box": {
+        "min_x": 34,
+        "min_y": 1,
+        "min_z": 19,
+        "max_x": 44,
+        "max_y": 5,
+        "max_z": 29
+      },
+      "declared_box": {
+        "min_x": 34,
+        "min_y": 1,
+        "min_z": 19,
+        "max_x": 44,
+        "max_y": 5,
+        "max_z": 29
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "topiary_w",
+      "fixture_id": "topiary_urn",
+      "stage": "vanilla",
+      "target": [
+        18,
+        1,
+        24
+      ],
+      "origin": [
+        15,
+        1,
+        21
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "box": {
+        "min_x": 16,
+        "min_y": 1,
+        "min_z": 22,
+        "max_x": 20,
+        "max_y": 10,
+        "max_z": 26
+      },
+      "declared_box": {
+        "min_x": 15,
+        "min_y": 1,
+        "min_z": 21,
+        "max_x": 21,
+        "max_y": 10,
+        "max_z": 27
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "topiary_e",
+      "fixture_id": "topiary_urn",
+      "stage": "vanilla",
+      "target": [
+        30,
+        1,
+        24
+      ],
+      "origin": [
+        27,
+        1,
+        21
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "box": {
+        "min_x": 28,
+        "min_y": 1,
+        "min_z": 22,
+        "max_x": 32,
+        "max_y": 10,
+        "max_z": 26
+      },
+      "declared_box": {
+        "min_x": 27,
+        "min_y": 1,
+        "min_z": 21,
+        "max_x": 33,
+        "max_y": 10,
+        "max_z": 27
+      },
+      "placement_mode": "overlay",
+      "required": true
+    }
+  ],
+  "connectors": [
+    {
+      "id": "gate_s",
+      "side": "south",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    },
+    {
+      "id": "gate_n",
+      "side": "north",
+      "center": "center",
+      "width": 7,
+      "height": 5,
+      "depth": 1,
+      "clearance": 5
+    }
+  ],
+  "block_count": 3166,
+  "microblock_hosts": 0,
+  "source": "garden_detail_complete.source.json",
+  "litematic": "garden_detail_complete.litematic",
+  "litematic_sha256": "003118167d045a38243d7e32958d9f94e6c233b953fa63c549af223e9b3f8c5b",
+  "warnings": [
+    "REQUIRED: No fixture placement for slot tree_nw",
+    "REQUIRED: No fixture placement for slot tree_ne"
+  ],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "garden_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 0,
+    "fixtures_attempted": 20,
+    "fixtures_placed": 3,
+    "fixtures_skipped": 17,
+    "fixture_ids": [
+      "shrub_cluster",
+      "flower_bed",
+      "planter_long"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "garden",
+    "density": 0.966,
+    "seed": 18113,
+    "style_profile": "style.garden_estate",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 3166,
+    "volume": 28812,
+    "palette": 11
+  }
+}

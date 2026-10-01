@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "brief_id": "grand_hall_detail_complete",
+  "template": "grand_hall",
+  "room_size": [
+    61,
+    24,
+    49
+  ],
+  "style_profile": "style.massive_gothic_manor",
+  "palette": "composition.massive_gothic_manor",
+  "seed": 9105,
+  "placements": [
+    {
+      "slot_id": "grand_stair",
+      "fixture_id": "grand_split_stair_connector",
+      "stage": "vanilla",
+      "target": [
+        30,
+        1,
+        37
+      ],
+      "origin": [
+        18,
+        1,
+        27
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        25,
+        12,
+        21
+      ],
+      "box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 29,
+        "max_x": 42,
+        "max_y": 11,
+        "max_z": 47
+      },
+      "declared_box": {
+        "min_x": 18,
+        "min_y": 1,
+        "min_z": 27,
+        "max_x": 42,
+        "max_y": 12,
+        "max_z": 47
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "pier_front_left",
+      "fixture_id": "clustered_pier_monumental",
+      "stage": "vanilla",
+      "target": [
+        15,
+        1,
+        13
+      ],
+      "origin": [
+        12,
+        1,
+        10
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        16,
+        7
+      ],
+      "box": {
+        "min_x": 13,
+        "min_y": 1,
+        "min_z": 11,
+        "max_x": 17,
+        "max_y": 16,
+        "max_z": 15
+      },
+      "declared_box": {
+        "min_x": 12,
+        "min_y": 1,
+        "min_z": 10,
+        "max_x": 18,
+        "max_y": 16,
+        "max_z": 16
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "pier_front_right",
+      "fixture_id": "clustered_pier_compact",
+      "stage": "vanilla",
+      "target": [
+        45,
+        1,
+        13
+      ],
+      "origin": [
+        43,
+        1,
+        11
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 43,
+        "min_y": 1,
+        "min_z": 11,
+        "max_x": 47,
+        "max_y": 10,
+        "max_z": 15
+      },
+      "declared_box": {
+        "min_x": 43,
+        "min_y": 1,
+        "min_z": 11,
+        "max_x": 47,
+        "max_y": 10,
+        "max_z": 15
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "pier_mid_left",
+      "fixture_id": "clustered_pier_compact",
+      "stage": "vanilla",
+      "target": [
+        11,
+        1,
+        26
+      ],
+      "origin": [
+        9,
+        1,
+        24
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 9,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 13,
+        "max_y": 10,
+        "max_z": 28
+      },
+      "declared_box": {
+        "min_x": 9,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 13,
+        "max_y": 10,
+        "max_z": 28
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "pier_mid_right",
+      "fixture_id": "clustered_pier_compact",
+      "stage": "vanilla",
+      "target": [
+        49,
+        1,
+        26
+      ],
+      "origin": [
+        47,
+        1,
+        24
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 47,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 51,
+        "max_y": 10,
+        "max_z": 28
+      },
+      "declared_box": {
+        "min_x": 47,
+        "min_y": 1,
+        "min_z": 24,
+        "max_x": 51,
+        "max_y": 10,
+        "max_z": 28
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "fireplace_west",
+      "fixture_id": "gothic_fireplace",
+      "stage": "vanilla",
+      "target": [
+        3,
+        1,
+        20
+      ],
+      "origin": [
+        1,
+        1,
+        15
+      ],
+      "rotation": 1,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        11
+      ],
+      "box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 5,
+        "max_y": 10,
+        "max_z": 25
+      },
+      "declared_box": {
+        "min_x": 1,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 5,
+        "max_y": 10,
+        "max_z": 25
+      },
+      "placement_mode": "carve_and_place",
+      "required": false
+    },
+    {
+      "slot_id": "fireplace_east",
+      "fixture_id": "gothic_fireplace",
+      "stage": "vanilla",
+      "target": [
+        57,
+        1,
+        20
+      ],
+      "origin": [
+        55,
+        1,
+        15
+      ],
+      "rotation": 3,
+      "mirror": "none",
+      "size": [
+        5,
+        10,
+        11
+      ],
+      "box": {
+        "min_x": 55,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 59,
+        "max_y": 10,
+        "max_z": 25
+      },
+      "declared_box": {
+        "min_x": 55,
+        "min_y": 1,
+        "min_z": 15,
+        "max_x": 59,
+        "max_y": 10,
+        "max_z": 25
+      },
+      "placement_mode": "carve_and_place",
+      "required": false
+    },
+    {
+      "slot_id": "armor_left",
+      "fixture_id": "armor_niche",
+      "stage": "vanilla",
+      "target": [
+        8,
+        1,
+        34
+      ],
+      "origin": [
+        5,
+        1,
+        32
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 32,
+        "max_x": 11,
+        "max_y": 10,
+        "max_z": 36
+      },
+      "declared_box": {
+        "min_x": 5,
+        "min_y": 1,
+        "min_z": 32,
+        "max_x": 11,
+        "max_y": 10,
+        "max_z": 36
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "armor_right",
+      "fixture_id": "armor_niche",
+      "stage": "vanilla",
+      "target": [
+        52,
+        1,
+        34
+      ],
+      "origin": [
+        49,
+        1,
+        32
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        7,
+        10,
+        5
+      ],
+      "box": {
+        "min_x": 49,
+        "min_y": 1,
+        "min_z": 32,
+        "max_x": 55,
+        "max_y": 10,
+        "max_z": 36
+      },
+      "declared_box": {
+        "min_x": 49,
+        "min_y": 1,
+        "min_z": 32,
+        "max_x": 55,
+        "max_y": 10,
+        "max_z": 36
+      },
+      "placement_mode": "overlay",
+      "required": false
+    },
+    {
+      "slot_id": "chandelier",
+      "fixture_id": "grand_chandelier",
+      "stage": "vanilla",
+      "target": [
+        30,
+        12,
+        20
+      ],
+      "origin": [
+        25,
+        12,
+        15
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        11,
+        12,
+        11
+      ],
+      "box": {
+        "min_x": 27,
+        "min_y": 16,
+        "min_z": 17,
+        "max_x": 33,
+        "max_y": 23,
+        "max_z": 23
+      },
+      "declared_box": {
+        "min_x": 25,
+        "min_y": 12,
+        "min_z": 15,
+        "max_x": 35,
+        "max_y": 23,
+        "max_z": 25
+      },
+      "placement_mode": "overlay",
+      "required": true
+    },
+    {
+      "slot_id": "bench_right",
+      "fixture_id": "highback_bench",
+      "stage": "vanilla",
+      "target": [
+        47,
+        1,
+        9
+      ],
+      "origin": [
+        43,
+        1,
+        7
+      ],
+      "rotation": 0,
+      "mirror": "none",
+      "size": [
+        9,
+        6,
+        4
+      ],
+      "box": {
+        "min_x": 44,
+        "min_y": 1,
+        "min_z": 7,
+        "max_x": 50,
+        "max_y": 6,
+        "max_z": 10
+      },
+      "declared_box": {
+        "min_x": 43,
+        "min_y": 1,
+        "min_z": 7,
+        "max_x": 51,
+        "max_y": 6,
+        "max_z": 10
+      },
+      "placement_mode": "overlay",
+      "required": false
+    }
+  ],
+  "connectors": [
+    {
+      "id": "main_entry",
+      "side": "north",
+      "center": "center",
+      "width": 7,
+      "height": 6,
+      "depth": 2,
+      "clearance": 5
+    }
+  ],
+  "block_count": 9899,
+  "microblock_hosts": 0,
+  "source": "grand_hall_detail_complete.source.json",
+  "litematic": "grand_hall_detail_complete.litematic",
+  "litematic_sha256": "b36ef20ab5597d5cde31978211cd495f7219612a21fe310647de95ab854ffd19",
+  "warnings": [],
+  "maturity": "OFFLINE_COMPILED",
+  "live_game_status": "PENDING",
+  "preview": "grand_hall_detail_complete.plan.svg",
+  "vanilla_detail": {
+    "surface_blocks": 646,
+    "fixtures_attempted": 24,
+    "fixtures_placed": 4,
+    "fixtures_skipped": 20,
+    "fixture_ids": [
+      "rug_large",
+      "highback_bench",
+      "wall_sconce_pair",
+      "indoor_plant_small"
+    ],
+    "enabled": true,
+    "status": "VANILLA_DETAIL_COMPLETE",
+    "role": "hall",
+    "density": 0.828,
+    "seed": 18114,
+    "style_profile": "style.massive_gothic_manor",
+    "astra_microblocks": false
+  },
+  "detail_status": "VANILLA_DETAIL_COMPLETE",
+  "readback": {
+    "regions": 1,
+    "nonair": 9899,
+    "volume": 71736,
+    "palette": 17
+  }
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="666" height="546" viewBox="0 0 666 546">
+<rect width="100%" height="100%" fill="#16181c"/>
+<rect x="28" y="28" width="610" height="490" fill="#292d33" stroke="#d8d8d8" stroke-width="2"/>
+<rect x="298" y="28" width="70" height="70" fill="#3d5961" opacity="0.38" stroke="#6fb3c3"/>
+<rect x="208" y="318" width="250" height="190" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="211" y="330" font-family="monospace" font-size="9" fill="white">grand_split_stair_connector</text>
+<rect x="158" y="138" width="50" height="50" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="161" y="150" font-family="monospace" font-size="9" fill="white">clustered_pier_monumental</text>
+<rect x="458" y="138" width="50" height="50" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="461" y="150" font-family="monospace" font-size="9" fill="white">clustered_pier_compact</text>
+<rect x="118" y="268" width="50" height="50" fill="#826c44" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="121" y="280" font-family="monospace" font-size="9" fill="white">clustered_pier_compact</text>
+<rect x="498" y="268" width="50" height="50" fill="#526f8a" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="501" y="280" font-family="monospace" font-size="9" fill="white">clustered_pier_compact</text>
+<rect x="38" y="178" width="50" height="110" fill="#8a5b72" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="41" y="190" font-family="monospace" font-size="9" fill="white">gothic_fireplace</text>
+<rect x="578" y="178" width="50" height="110" fill="#6c6c87" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="581" y="190" font-family="monospace" font-size="9" fill="white">gothic_fireplace</text>
+<rect x="78" y="348" width="70" height="50" fill="#77714e" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="81" y="360" font-family="monospace" font-size="9" fill="white">armor_niche</text>
+<rect x="518" y="348" width="70" height="50" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="521" y="360" font-family="monospace" font-size="9" fill="white">armor_niche</text>
+<rect x="298" y="198" width="70" height="70" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="301" y="210" font-family="monospace" font-size="9" fill="white">grand_chandelier</text>
+<rect x="468" y="98" width="70" height="40" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="471" y="110" font-family="monospace" font-size="9" fill="white">highback_bench</text>
+<text x="28" y="18" font-family="sans-serif" font-size="13" fill="white">grand_hall_detail_complete — top-down composition plan</text>
+</svg>

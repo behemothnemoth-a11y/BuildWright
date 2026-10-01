@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="486" height="366" viewBox="0 0 486 366">
+<rect width="100%" height="100%" fill="#16181c"/>
+<rect x="28" y="28" width="430" height="310" fill="#292d33" stroke="#d8d8d8" stroke-width="2"/>
+<rect x="218" y="278" width="50" height="60" fill="#3d5961" opacity="0.38" stroke="#6fb3c3"/>
+<rect x="98" y="98" width="130" height="70" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="101" y="110" font-family="monospace" font-size="9" fill="white">lab_workstation</text>
+<rect x="258" y="98" width="130" height="70" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="261" y="110" font-family="monospace" font-size="9" fill="white">lab_workstation</text>
+<rect x="178" y="38" width="130" height="50" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="181" y="50" font-family="monospace" font-size="9" fill="white">console_bank</text>
+<rect x="38" y="158" width="50" height="150" fill="#826c44" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="41" y="170" font-family="monospace" font-size="9" fill="white">industrial_pipe_rack</text>
+<text x="28" y="18" font-family="sans-serif" font-size="13" fill="white">workshop_detail_complete — top-down composition plan</text>
+</svg>

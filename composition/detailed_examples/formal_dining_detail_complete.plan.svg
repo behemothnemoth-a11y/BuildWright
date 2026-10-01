@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="506" height="386" viewBox="0 0 506 386">
+<rect width="100%" height="100%" fill="#16181c"/>
+<rect x="28" y="28" width="450" height="330" fill="#292d33" stroke="#d8d8d8" stroke-width="2"/>
+<rect x="228" y="298" width="50" height="60" fill="#3d5961" opacity="0.38" stroke="#6fb3c3"/>
+<rect x="208" y="38" width="90" height="50" fill="#745f8f" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="211" y="50" font-family="monospace" font-size="9" fill="white">manor_fireplace</text>
+<rect x="128" y="158" width="110" height="70" fill="#8b6652" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="131" y="170" font-family="monospace" font-size="9" fill="white">library_table</text>
+<rect x="268" y="158" width="110" height="70" fill="#5d7c66" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="271" y="170" font-family="monospace" font-size="9" fill="white">library_table</text>
+<rect x="378" y="218" width="40" height="70" fill="#826c44" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="381" y="230" font-family="monospace" font-size="9" fill="white">highback_bench</text>
+<rect x="218" y="158" width="70" height="70" fill="#526f8a" opacity="0.72" stroke="#e5e5e5" stroke-width="1"/>
+<text x="221" y="170" font-family="monospace" font-size="9" fill="white">grand_chandelier</text>
+<text x="28" y="18" font-family="sans-serif" font-size="13" fill="white">formal_dining_detail_complete — top-down composition plan</text>
+</svg>

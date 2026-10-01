@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "tavern_detail_complete",
+  "name": "Tavern Detail Complete",
+  "stage": "vanilla",
+  "template": "tavern_common_room",
+  "size": [
+    39,
+    14,
+    31
+  ],
+  "seed": 9109,
+  "fixture_policy": {
+    "density": 0.9,
+    "max_repeats": 4
+  },
+  "vanilla_detail": {
+    "enabled": true,
+    "density": 0.92
+  }
+}
